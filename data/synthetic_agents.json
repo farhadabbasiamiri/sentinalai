@@ -1,0 +1,986 @@
+[
+  {
+    "agent_id": "SA-1001",
+    "name": "Atlas Assistant",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Research Ops",
+    "status": "active",
+    "created_at": "2026-09-07T02:27:41.604662",
+    "last_activity": "2026-10-17T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "internal_metrics"
+    ],
+    "sensitivity": "moderate",
+    "approval_required": true,
+    "risk_score": 0,
+    "risk_level": "low",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1002",
+    "name": "Beacon Router",
+    "description": "Routes routine service requests to the correct team",
+    "owner": "Platform Assurance",
+    "status": "active",
+    "created_at": "2026-09-06T02:27:41.604662",
+    "last_activity": "2026-10-16T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "*"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 32,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1003",
+    "name": "Cedar Analyst",
+    "description": "Classifies synthetic documents for retention review",
+    "owner": null,
+    "status": "active",
+    "created_at": "2026-09-05T02:27:41.604662",
+    "last_activity": "2026-10-15T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 12,
+    "risk_level": "low",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1004",
+    "name": "Delta Assistant",
+    "description": "Prepares draft status updates for human review",
+    "owner": "Service Design",
+    "status": "active",
+    "created_at": "2026-09-04T02:27:41.604662",
+    "last_activity": "2026-10-14T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "planning:read"
+    ],
+    "data_categories": [
+      "confidential_planning"
+    ],
+    "sensitivity": "restricted",
+    "approval_required": false,
+    "risk_score": 32,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1005",
+    "name": "Ember Router",
+    "description": "Finds duplicate records in a limited synthetic dataset",
+    "owner": "Data Stewardship",
+    "status": "active",
+    "created_at": "2026-09-03T02:27:41.604662",
+    "last_activity": "2026-10-13T02:27:41.604662",
+    "tools": [
+      "file_reader",
+      "external_http"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "internal_metrics"
+    ],
+    "sensitivity": "moderate",
+    "approval_required": true,
+    "risk_score": 22,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1006",
+    "name": "Fathom Analyst",
+    "description": "Extracts non-sensitive metadata from approved files",
+    "owner": "Automation Lab",
+    "status": "inactive",
+    "created_at": "2026-09-02T02:27:41.604662",
+    "last_activity": "2026-05-15T02:27:41.604662",
+    "tools": [
+      "knowledge_search",
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 22,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1007",
+    "name": "Glacier Assistant",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Research Ops",
+    "status": "active",
+    "created_at": "2026-09-01T02:27:41.604662",
+    "last_activity": "2026-10-11T02:27:41.604662",
+    "tools": [
+      "identity_admin"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 54,
+    "risk_level": "high",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1008",
+    "name": "Harbor Router",
+    "description": "Routes routine service requests to the correct team",
+    "owner": "Platform Assurance",
+    "status": "active",
+    "created_at": "2026-08-31T02:27:41.604662",
+    "last_activity": "2026-10-10T02:27:41.604662",
+    "tools": [
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 54,
+    "risk_level": "high",
+    "events": [
+      {
+        "action": "send_external_notice",
+        "sensitive": true,
+        "approved": false,
+        "timestamp": "2026-10-17T00:27:41.604662+00:00"
+      }
+    ]
+  },
+  {
+    "agent_id": "SA-1009",
+    "name": "Ion Analyst",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Knowledge Systems",
+    "status": "active",
+    "created_at": "2026-08-30T02:27:41.604662",
+    "last_activity": "2026-10-09T02:27:41.604662",
+    "tools": [
+      "payment_tool",
+      "vendor_manager"
+    ],
+    "permissions": [
+      "read_metadata",
+      "delete_records",
+      "approve_payment"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "internal_metrics"
+    ],
+    "sensitivity": "moderate",
+    "approval_required": true,
+    "risk_score": 22,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1010",
+    "name": "Juniper Assistant",
+    "description": "Prepares draft status updates for human review",
+    "owner": "Service Design",
+    "status": "active",
+    "created_at": "2026-08-29T02:27:41.604662",
+    "last_activity": "2026-10-08T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 0,
+    "risk_level": "low",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1011",
+    "name": "Keystone Router",
+    "description": "Finds duplicate records in a limited synthetic dataset",
+    "owner": "Data Stewardship",
+    "status": "active",
+    "created_at": "2026-08-28T02:27:41.604662",
+    "last_activity": "2026-10-07T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "*"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 32,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1012",
+    "name": "Lumen Analyst",
+    "description": "Extracts non-sensitive metadata from approved files",
+    "owner": null,
+    "status": "active",
+    "created_at": "2026-08-27T02:27:41.604662",
+    "last_activity": "2026-10-06T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 12,
+    "risk_level": "low",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1013",
+    "name": "Mosaic Assistant",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Research Ops",
+    "status": "active",
+    "created_at": "2026-08-26T02:27:41.604662",
+    "last_activity": "2026-10-05T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "planning:read"
+    ],
+    "data_categories": [
+      "confidential_planning"
+    ],
+    "sensitivity": "restricted",
+    "approval_required": false,
+    "risk_score": 32,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1014",
+    "name": "Northstar Router",
+    "description": "Routes routine service requests to the correct team",
+    "owner": "Platform Assurance",
+    "status": "active",
+    "created_at": "2026-08-25T02:27:41.604662",
+    "last_activity": "2026-10-04T02:27:41.604662",
+    "tools": [
+      "file_reader",
+      "external_http"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 22,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1015",
+    "name": "Orbit Analyst",
+    "description": "Classifies synthetic documents for retention review",
+    "owner": "Knowledge Systems",
+    "status": "inactive",
+    "created_at": "2026-08-24T02:27:41.604662",
+    "last_activity": "2026-05-06T02:27:41.604662",
+    "tools": [
+      "knowledge_search",
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 22,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1016",
+    "name": "Pioneer Assistant",
+    "description": "Prepares draft status updates for human review",
+    "owner": "Service Design",
+    "status": "active",
+    "created_at": "2026-08-23T02:27:41.604662",
+    "last_activity": "2026-10-02T02:27:41.604662",
+    "tools": [
+      "identity_admin"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 54,
+    "risk_level": "high",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1017",
+    "name": "Quartz Router",
+    "description": "Finds duplicate records in a limited synthetic dataset",
+    "owner": "Data Stewardship",
+    "status": "active",
+    "created_at": "2026-08-22T02:27:41.604662",
+    "last_activity": "2026-10-01T02:27:41.604662",
+    "tools": [
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "internal_metrics"
+    ],
+    "sensitivity": "moderate",
+    "approval_required": true,
+    "risk_score": 32,
+    "risk_level": "medium",
+    "events": [
+      {
+        "action": "send_external_notice",
+        "sensitive": true,
+        "approved": false,
+        "timestamp": "2026-10-17T00:27:41.604662+00:00"
+      }
+    ]
+  },
+  {
+    "agent_id": "SA-1018",
+    "name": "Relay Analyst",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Automation Lab",
+    "status": "active",
+    "created_at": "2026-08-21T02:27:41.604662",
+    "last_activity": "2026-09-30T02:27:41.604662",
+    "tools": [
+      "payment_tool",
+      "vendor_manager"
+    ],
+    "permissions": [
+      "read_metadata",
+      "delete_records",
+      "approve_payment"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 44,
+    "risk_level": "high",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1019",
+    "name": "Summit Assistant",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Research Ops",
+    "status": "active",
+    "created_at": "2026-08-20T02:27:41.604662",
+    "last_activity": "2026-09-29T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 0,
+    "risk_level": "low",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1020",
+    "name": "Tandem Router",
+    "description": "Routes routine service requests to the correct team",
+    "owner": "Platform Assurance",
+    "status": "active",
+    "created_at": "2026-08-19T02:27:41.604662",
+    "last_activity": "2026-09-28T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "*"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 32,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1021",
+    "name": "Umber Analyst",
+    "description": "Classifies synthetic documents for retention review",
+    "owner": null,
+    "status": "active",
+    "created_at": "2026-08-18T02:27:41.604662",
+    "last_activity": "2026-10-17T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "internal_metrics"
+    ],
+    "sensitivity": "moderate",
+    "approval_required": true,
+    "risk_score": 12,
+    "risk_level": "low",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1022",
+    "name": "Vector Assistant",
+    "description": "Prepares draft status updates for human review",
+    "owner": "Service Design",
+    "status": "active",
+    "created_at": "2026-08-17T02:27:41.604662",
+    "last_activity": "2026-10-16T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "planning:read"
+    ],
+    "data_categories": [
+      "confidential_planning"
+    ],
+    "sensitivity": "restricted",
+    "approval_required": false,
+    "risk_score": 32,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1023",
+    "name": "Waypoint Router",
+    "description": "Finds duplicate records in a limited synthetic dataset",
+    "owner": "Data Stewardship",
+    "status": "active",
+    "created_at": "2026-08-16T02:27:41.604662",
+    "last_activity": "2026-10-15T02:27:41.604662",
+    "tools": [
+      "file_reader",
+      "external_http"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 22,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1024",
+    "name": "Xenon Analyst",
+    "description": "Extracts non-sensitive metadata from approved files",
+    "owner": "Automation Lab",
+    "status": "inactive",
+    "created_at": "2026-08-15T02:27:41.604662",
+    "last_activity": "2026-04-27T02:27:41.604662",
+    "tools": [
+      "knowledge_search",
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 22,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1025",
+    "name": "Yarrow Assistant",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Research Ops",
+    "status": "active",
+    "created_at": "2026-08-14T02:27:41.604662",
+    "last_activity": "2026-10-13T02:27:41.604662",
+    "tools": [
+      "identity_admin"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 54,
+    "risk_level": "high",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1026",
+    "name": "Zephyr Router",
+    "description": "Routes routine service requests to the correct team",
+    "owner": "Platform Assurance",
+    "status": "active",
+    "created_at": "2026-08-13T02:27:41.604662",
+    "last_activity": "2026-10-12T02:27:41.604662",
+    "tools": [
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 54,
+    "risk_level": "high",
+    "events": [
+      {
+        "action": "send_external_notice",
+        "sensitive": true,
+        "approved": false,
+        "timestamp": "2026-10-17T00:27:41.604662+00:00"
+      }
+    ]
+  },
+  {
+    "agent_id": "SA-1027",
+    "name": "Atlas Analyst",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Knowledge Systems",
+    "status": "active",
+    "created_at": "2026-08-12T02:27:41.604662",
+    "last_activity": "2026-10-11T02:27:41.604662",
+    "tools": [
+      "payment_tool",
+      "vendor_manager"
+    ],
+    "permissions": [
+      "read_metadata",
+      "delete_records",
+      "approve_payment"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 44,
+    "risk_level": "high",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1028",
+    "name": "Beacon Assistant",
+    "description": "Prepares draft status updates for human review",
+    "owner": "Service Design",
+    "status": "active",
+    "created_at": "2026-08-11T02:27:41.604662",
+    "last_activity": "2026-10-10T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 0,
+    "risk_level": "low",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1029",
+    "name": "Cedar Router",
+    "description": "Finds duplicate records in a limited synthetic dataset",
+    "owner": "Data Stewardship",
+    "status": "active",
+    "created_at": "2026-08-10T02:27:41.604662",
+    "last_activity": "2026-10-09T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "*"
+    ],
+    "data_categories": [
+      "internal_metrics"
+    ],
+    "sensitivity": "moderate",
+    "approval_required": true,
+    "risk_score": 32,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1030",
+    "name": "Delta Analyst",
+    "description": "Extracts non-sensitive metadata from approved files",
+    "owner": null,
+    "status": "active",
+    "created_at": "2026-08-09T02:27:41.604662",
+    "last_activity": "2026-10-08T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 12,
+    "risk_level": "low",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1031",
+    "name": "Ember Assistant",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Research Ops",
+    "status": "active",
+    "created_at": "2026-08-08T02:27:41.604662",
+    "last_activity": "2026-10-07T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "planning:read"
+    ],
+    "data_categories": [
+      "confidential_planning"
+    ],
+    "sensitivity": "restricted",
+    "approval_required": false,
+    "risk_score": 32,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1032",
+    "name": "Fathom Router",
+    "description": "Routes routine service requests to the correct team",
+    "owner": "Platform Assurance",
+    "status": "active",
+    "created_at": "2026-08-07T02:27:41.604662",
+    "last_activity": "2026-10-06T02:27:41.604662",
+    "tools": [
+      "file_reader",
+      "external_http"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 22,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1033",
+    "name": "Glacier Analyst",
+    "description": "Classifies synthetic documents for retention review",
+    "owner": "Knowledge Systems",
+    "status": "inactive",
+    "created_at": "2026-08-06T02:27:41.604662",
+    "last_activity": "2026-04-18T02:27:41.604662",
+    "tools": [
+      "knowledge_search",
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "internal_metrics"
+    ],
+    "sensitivity": "moderate",
+    "approval_required": true,
+    "risk_score": 0,
+    "risk_level": "low",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1034",
+    "name": "Harbor Assistant",
+    "description": "Prepares draft status updates for human review",
+    "owner": "Service Design",
+    "status": "active",
+    "created_at": "2026-08-05T02:27:41.604662",
+    "last_activity": "2026-10-04T02:27:41.604662",
+    "tools": [
+      "identity_admin"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 54,
+    "risk_level": "high",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1035",
+    "name": "Ion Router",
+    "description": "Finds duplicate records in a limited synthetic dataset",
+    "owner": "Data Stewardship",
+    "status": "active",
+    "created_at": "2026-08-04T02:27:41.604662",
+    "last_activity": "2026-10-03T02:27:41.604662",
+    "tools": [
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 54,
+    "risk_level": "high",
+    "events": [
+      {
+        "action": "send_external_notice",
+        "sensitive": true,
+        "approved": false,
+        "timestamp": "2026-10-17T00:27:41.604662+00:00"
+      }
+    ]
+  },
+  {
+    "agent_id": "SA-1036",
+    "name": "Juniper Analyst",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Automation Lab",
+    "status": "active",
+    "created_at": "2026-08-03T02:27:41.604662",
+    "last_activity": "2026-10-02T02:27:41.604662",
+    "tools": [
+      "payment_tool",
+      "vendor_manager"
+    ],
+    "permissions": [
+      "read_metadata",
+      "delete_records",
+      "approve_payment"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 44,
+    "risk_level": "high",
+    "events": []
+  }
+]

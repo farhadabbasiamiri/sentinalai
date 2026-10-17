@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-10-17T02:54:46.050762+00:00",
+  "dataset_cases": 20,
+  "profile_cases_scored": 14,
+  "workflow_cases": 6,
+  "metrics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "true_positives": 14,
+    "end_to_end_test_pass_rate": 1.0,
+    "test_cases_passed": 10,
+    "test_cases_failed": 0,
+    "tool_call_success_rate": 1.0,
+    "response_latency_ms": 12.77,
+    "human_approval_enforcement_rate": 1.0,
+    "evidence_grounding_quality": 1.0
+  },
+  "rule_level": {
+    "GOV-002": {
+      "expected": 2,
+      "detected": 2,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "GOV-005": {
+      "expected": 1,
+      "detected": 1,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "GOV-006": {
+      "expected": 1,
+      "detected": 1,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "GOV-003": {
+      "expected": 2,
+      "detected": 2,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "GOV-004": {
+      "expected": 1,
+      "detected": 1,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "GOV-007": {
+      "expected": 1,
+      "detected": 1,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "GOV-008": {
+      "expected": 3,
+      "detected": 3,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "GOV-009": {
+      "expected": 1,
+      "detected": 1,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "GOV-010": {
+      "expected": 1,
+      "detected": 1,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "GOV-001": {
+      "expected": 1,
+      "detected": 1,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  "workflow_checks": {
+    "invalid_agent_id": true,
+    "malformed_payload": true,
+    "missing_llm_fallback": true,
+    "policy_retrieval_failure": true,
+    "tool_failure": true,
+    "approval_rejection": true,
+    "unauthorized_simulated_change": true,
+    "evidence_grounding_sample": true
+  },
+  "false_positive_cases": [],
+  "false_negative_cases": [],
+  "methodology": "Rule metrics use exact per-case expected rule labels. Workflow metrics exercise local FastAPI/TestClient routes. Grounding checks require evidence, remediation, and known rule IDs. Thresholds are project-specific.",
+  "limitations": "Synthetic profiles and workflow tests do not represent production traffic and do not establish production readiness."
+}
