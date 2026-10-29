@@ -1,218 +1,263 @@
-# SentinelAI
+﻿# SentinelAI
 
-**AI Agent Governance and Permission Monitoring System** is a local-first capstone MVP for inventorying synthetic AI agents, identifying excessive access, explaining rule matches, and proposing safe human-reviewed remediations.
+SentinelAI is a local-first AI governance and permission monitoring MVP designed for synthetic cybersecurity education and capstone demonstration. The system inventories AI agents, evaluates their permissions against governance rules, exposes audit-ready evidence, and supports a human approval workflow before simulated remediation is applied.
 
-> All records are synthetic. Scores are project-specific decision-support indicators, not proof of compromise or a security certification. No production accounts, credentials, or external agents are connected.
+This repository is part of the Laurentian University capstone theme: Agent Governance and Permission Monitoring System. It is intentionally defensive and educational: all records are synthetic, no production credentials are used, and the system does not connect to live cloud accounts or real enterprise systems.
 
-## Problem and Users
+## Project purpose
 
-Agent capabilities often grow faster than ownership and review processes. SentinelAI gives security analysts and platform governance teams a compact inventory, deterministic least-privilege checks, policy-linked evidence, and an auditable approval workflow. The MVP is designed for a classroom demonstration and repeatable synthetic evaluation.
+Modern AI systems can accumulate broad permissions faster than ownership and review processes can track them. SentinelAI addresses this gap by providing a compact governance dashboard and policy engine that helps analysts understand:
 
-## Scope
+- which agents exist and how risky they are
+- which permissions or scopes are overly broad
+- which rules were triggered
+- what evidence supports each finding
+- whether the workflow requires human approval before a simulated change is applied
 
-Included: 36 idempotently seeded agents, SQLite persistence, 10 deterministic governance rules, risk scoring, optional local Ollama narrative, keyword policy retrieval, review tool traces, findings, synthetic approval/apply simulation, audit log, CSV/JSON exports, dashboard charts, and a labeled evaluation runner.
+## Theme alignment
 
-Out of scope: production integrations, authentication/authorization, real account changes, external scanning, hosted LLMs, production readiness, vector-database installation, and comprehensive legal/compliance mapping. The local API is intended for a trusted development machine only.
+This project aligns with the Agent Governance theme in the capstone brief. It focuses on:
 
-## Features
+- least-privilege review
+- governance evidence and remediation
+- policy-based detection for excessive access
+- auditability and approval checks
+- a demonstration workflow suitable for a student MVP
 
-- **Overview:** live inventory metrics, risk distribution, findings by rule, highest-risk agents, and audit activity.
-- **Agent registry/details:** search by name/ID, filter by owner/status/risk/tool/sensitivity, inspect scopes/tools/data categories, and run evaluations.
-- **Governance findings:** evidence, severity, policy rule, remediation, reviewed state, and remediation proposals.
-- **Review workflow:** the bounded agent invokes `get_agent_profile`, `evaluate_agent_permissions`, and `search_governance_policies`; the UI shows arguments and returned data. Ollama is optional; deterministic fallback is labeled honestly.
-- **Policy explorer:** editable Markdown source, deterministic rule catalogue, keyword retrieval, and local section references.
-- **Approval queue:** pending, approved, rejected, and applied-in-simulation states. Approval and explicit application confirmation are separate. Only synthetic SQLite records change.
-- **Audit and reports:** review/tool/policy/approval events, audit CSV, findings CSV/JSON, and measured evaluation output.
-- **Settings:** API/database status, active review mode, and safe local configuration guidance. No secret values are displayed.
+## Core capabilities
 
-## Stack and Layout
+- Agent registry with searchable inventory and filters
+- Risk scoring and rule-based governance evaluation
+- 10 deterministic governance rules covering excess permission, stale access, broad scopes, sensitive data handling, admin capabilities, conflicting duties, and approval gaps
+- Human approval and simulated remediation workflow
+- Policy retrieval and evidence-linked explanations
+- SQLite persistence and audit log history
+- CSV/JSON/Markdown export endpoints
+- React dashboard for overview and agent inspection
+- Optional local Ollama narrative layer with deterministic fallback when unavailable
+- Synthetic evaluation runner and labeled test cases
 
-- Frontend: React, TypeScript, Vite, Tailwind CSS, Recharts, Lucide.
-- Backend: Python, FastAPI, Pydantic, SQLAlchemy, SQLite, pytest.
-- Optional local narrative: Ollama via HTTP; no API key required.
-- Retrieval: local keyword matching by default. Sentence Transformers/Chroma are intentionally not installed because the MVP must run offline without downloading embedding models.
+## Architecture
+
+The system is split into a backend API, a policy engine, a database layer, and a React dashboard.
 
 ```text
-backend/app/       API, models, policy engine, review agent, retrieval, policy text
-backend/tests/     API, policy, safety and workflow tests
-frontend/src/      React dashboard and API client
-data/              labeled evaluation cases and generated sample exports
-scripts/            data export and evaluation runners
-docs/               architecture, security, data card, demo
-reports/evaluation/ generated actual metrics
+User / Analyst
+      |
+      v
+React Frontend (Vite + TypeScript)
+      |
+      v
+FastAPI Backend
+      |
+      +--> Policy Engine (GOV-001 through GOV-010)
+      +--> SQLAlchemy + SQLite Database
+      +--> Review Agent and Retrieval Layer
+      +--> Audit and Approval Records
 ```
 
-See [docs/architecture.md](docs/architecture.md), [docs/security.md](docs/security.md), [docs/data-card.md](docs/data-card.md), and [CONTRIBUTIONS.md](CONTRIBUTIONS.md).
+## Repository structure
 
-## Local Setup
+```text
+backend/
+  app/
+    agent/
+    core/
+    policies/
+    rag/
+    __init__.py
+    database.py
+    main.py
+    models.py
+    schemas.py
+    seed.py
+  tests/
+frontend/
+  src/
+  package.json
+  vite.config.ts
+  tsconfig.json
+data/
+  evaluation_cases.json
+  synthetic_agents.csv
+  synthetic_agents.json
+docs/
+  architecture.md
+  data-card.md
+  demo.md
+  security.md
+  final-report.md
+reports/
+  evaluation/
+  results.json
+scripts/
+  export_synthetic_data.py
+  run_evaluation.py
+requirements.txt
+README.md
+AGENTS.md
+CLAUDE.md
+```
 
-Requirements: Python 3.10+ and Node.js 20+ (validated here with Python 3.10.10 and Node 22.15.0).
+## Technology stack
+
+- Backend: Python, FastAPI, SQLAlchemy, Pydantic, SQLite
+- Frontend: React, TypeScript, Vite, Recharts, Lucide
+- Optional AI narrative: Ollama local HTTP endpoint
+- Testing: pytest
+- Data export: CSV and JSON
+- Deployment/demo: local development server and optional Docker Compose setup
+
+## Governance and risk rules
+
+The project applies the project-specific rule set GOV-001 to GOV-010, covering:
+
+- purpose mismatch
+- wildcard API scopes
+- sensitive data without approval
+- dangerous tool combinations
+- missing owner
+- stale access
+- admin capability on ordinary agents
+- missing approval for sensitive actions
+- conflicting duties
+- unapproved sensitive activity
+
+The project intentionally keeps risk scoring deterministic and explainable. LLM output does not override the rule engine.
+
+## Data and synthetic evaluation
+
+Synthetic data is deterministic and idempotent by agent ID. The project stores the main samples in:
+
+- data/synthetic_agents.json
+- data/synthetic_agents.csv
+- data/evaluation_cases.json
+
+The evaluation runner executes labeled checks, policy validation, API flow checks, and report generation.
+
+## Local setup
+
+### Requirements
+
+- Python 3.10+
+- Node.js 20+
+- Git
 
 ### Windows PowerShell
 
-From the repository root:
-
 ```powershell
-python -m venv .venv
+cd "<repo-root>"
+py -3.10-64 -m venv .venv
 .\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-Terminal 1, backend:
+### Start the backend
 
 ```powershell
-Push-Location backend
-python -m uvicorn app.main:app --reload --port 8000
-```
-
-Terminal 2, frontend:
-
-```powershell
-npm --prefix frontend install
-npm --prefix frontend run dev
-```
-
-Open <http://127.0.0.1:5173>. API health is <http://127.0.0.1:8000/api/health>; interactive OpenAPI docs are <http://127.0.0.1:8000/docs>. SQLite and 36 seed records initialize on the first API startup.
-
-### macOS / Linux
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-```
-
-In one terminal:
-
-```bash
 cd backend
 python -m uvicorn app.main:app --reload --port 8000
 ```
 
-In another terminal at the repository root:
+### Start the frontend
 
-```bash
-npm --prefix frontend install
-npm --prefix frontend run dev
+```powershell
+cd frontend
+npm install
+npm run dev
 ```
 
-### Optional Ollama
+### Start the optional Gradio dashboard
 
-The no-LLM fallback is the default and needs no configuration. To use a locally installed Ollama model, set `OLLAMA_URL` to the local Ollama API endpoint and `OLLAMA_MODEL` to a model available locally. Example PowerShell values:
+```powershell
+cd backend
+python gradio_app.py
+```
+
+The app is then available at:
+
+- Frontend: http://127.0.0.1:5173
+- Backend API: http://127.0.0.1:8000
+- Swagger docs: http://127.0.0.1:8000/docs
+- Gradio dashboard: http://127.0.0.1:7860
+
+## Optional local Ollama configuration
+
+The default mode works without LLM access. If you want the review agent to use a local Ollama model, set:
 
 ```powershell
 $env:OLLAMA_URL = "http://127.0.0.1:11434"
 $env:OLLAMA_MODEL = "llama3.2"
 ```
 
-No credentials should be entered. The review agent passes only synthetic profile evidence. If Ollama is absent, times out, or returns invalid JSON, the workflow uses and labels deterministic fallback mode. `.env.example` lists the optional variables.
+If Ollama is unavailable, the system automatically falls back to deterministic policy output and clearly labels that mode.
 
-### Docker (Optional)
+## Usage examples
 
-Docker was unavailable in the implementation environment, so this path is supplied but not runtime-verified:
+### Health check
 
 ```bash
-docker compose up --build
+curl http://127.0.0.1:8000/api/health
 ```
 
-The UI is at port 5173 and API at port 8000. SQLite is stored in the named `sentinel-data` volume. No destructive volume-removal command is included.
+### Review a specific agent
 
-## Governance and Risk Method
-
-The engine applies explicit rules `GOV-001` through `GOV-010` for purpose mismatch, broad scopes, sensitive data without approval, dangerous tools, ownership, stale access, admin tools, missing action approvals, conflicting duties, and unapproved sensitive events. Policy text is editable at `backend/app/policies/governance.md`.
-
-Project-specific score formula:
-
-```text
-risk score = min(100, sum of matched finding weights)
-low = 0–14; medium = 15–39; high = 40–69; critical = 70–100
-weights: low 5, medium 12, high 22, critical 32
+```bash
+curl -X POST http://127.0.0.1:8000/api/reviews \
+  -H "Content-Type: application/json" \
+  -d '{"request":"Review SA-1002 and explain its governance risks."}'
 ```
 
-These weights/bands are capstone evaluation choices, not industry thresholds. The deterministic engine owns risk/finding results; the LLM cannot override them. Remediations remain proposals until a human approves and separately confirms local simulation.
-
-## Review-Agent Workflow
-
-```text
-Request -> validate agent ID -> get_agent_profile -> evaluate_agent_permissions
-        -> search_governance_policies -> structured report -> audit tool calls
-```
-
-Profile descriptions, logs, and retrieved policy text are untrusted evidence, never instructions. The agent can call only the three fixed tools; it has no arbitrary shell, filesystem, network scanning, or external mutation capability. Policy references always identify the local policy file and section. No match is reported as no evidence, not an invented citation.
-
-## REST API
-
-| Method | Endpoint | Purpose |
-|---|---|---|
-| GET | `/api/health`, `/api/ready` | Health and readiness |
-| GET/POST/PUT | `/api/agents` | Paginated/filterable synthetic registry, create and update |
-| GET | `/api/agents/{agent_id}` | Profile and findings |
-| POST | `/api/agents/{agent_id}/evaluate` | Deterministic review |
-| POST | `/api/reviews` | Bounded governance review with tool traces |
-| GET | `/api/findings` | Filtered findings |
-| PATCH | `/api/findings/{finding_id}/review` | Mark reviewed |
-| GET | `/api/policies`, `/api/policies/search?q=...` | Rules and local retrieval |
-| POST | `/api/agents/{agent_id}/proposals` | Create inert remediation proposal |
-| GET | `/api/approvals` | Approval queue |
-| POST | `/api/approvals/{id}/decision?decision=approve\|reject` | Reviewer decision |
-| POST | `/api/approvals/{id}/apply` | Explicitly confirmed synthetic application |
-| GET | `/api/audit` | Audit event query |
-| GET | `/api/audit/export.csv` | Audit CSV export |
-| GET | `/api/reports/findings.csv`, `/api/reports/findings.json`, `/api/reports/findings.md` | CSV, JSON, and readable Markdown report exports |
-| GET | `/api/evaluation` | Generated evaluation metrics |
-
-Example review:
+### Run the evaluation pipeline
 
 ```powershell
-Invoke-RestMethod -Method Post -Uri http://127.0.0.1:8000/api/reviews `
-  -ContentType 'application/json' -Body '{"request":"Review SA-1002 and explain its governance risks."}'
+cd scripts
+python run_evaluation.py
 ```
 
-Proposal application is guarded by status and confirmation. `POST /apply` returns 409 unless already approved and 422 unless the body includes `{"reviewer":"Analyst","confirmation":true}`. The Swagger UI at `/docs` includes request schemas.
+## Validation and verification
 
-## Data and Evaluation
+The repository has been validated in the local environment with fresh verification:
 
-Seed generation is deterministic in shape and idempotent by agent ID. Export snapshots with:
+- Backend tests: 10 passed
+- Frontend production build: successful
+- npm dependency audit: 0 vulnerabilities
 
-```powershell
-python scripts/export_synthetic_data.py
-```
+## Demo expectations
 
-This writes `data/synthetic_agents.json` and `.csv`. The labeled 20-case dataset is `data/evaluation_cases.json`.
+The final capstone demo should show:
 
-Run all backend tests and regenerate measurements:
+1. input data or agent profile
+2. the governance review pipeline
+3. risk score and findings evidence
+4. approval step and remediation simulation
+5. dashboard output and human-in-the-loop decision making
 
-```powershell
-python scripts/run_evaluation.py
-```
+## Report and presentation
 
-The script evaluates exact labeled rule matches, runs pytest, exercises the local review/API/approval path, and writes `reports/evaluation/results.json`. The UI reads that generated file; it does not fabricate evaluation values. The current measured run:
+A detailed project report is available in [docs/final-report.md](docs/final-report.md). This report covers the capstone problem statement, architecture, testing and evaluation, results, limitations, and recommendations.
 
-| Metric | Result |
-|---|---:|
-| Labeled profile cases / total cases | 14 / 20 |
-| Rule precision / recall / F1 | 1.0000 / 1.0000 / 1.0000 |
-| False positives / false negatives | 0 / 0 |
-| Backend tests passing | 10 / 10 (100%) |
-| Tool-call success | 100% (3 of 3 expected tools) |
-| Review response latency | 12.77 ms for the measured local fallback request |
-| Human-approval enforcement | 100% (2 of 2 unauthorized attempts blocked) |
-| Evidence-grounding rubric | 100% (evidence, remediation, known rule ID) |
+## Contribution workflow
 
-Latency is a single local run and should not be treated as a benchmark. These results use synthetic labels and test-only workflow checks; they do not establish production readiness. Coverage percentage is not reported because a coverage plugin was not run. The final frontend dependency audit reports zero vulnerabilities.
+- Work on a separate branch for each feature
+- Open pull requests to the main branch
+- Use a CONTRIBUTIONS.md file to track team responsibilities and changes
+- Keep all documentation and setup instructions reproducible
 
-Backend tests only:
+## Limitations
 
-```powershell
-Push-Location backend
-python -m pytest -q
-Pop-Location
-```
+This is a defensive educational MVP, not a production security platform. The following are intentionally out of scope:
 
-## Demo
+- real multi-tenant authentication and authorization
+- live enterprise identity integration
+- production security monitoring with external systems
+- deployment in untrusted or internet-exposed production environments
 
-Follow [docs/demo.md](docs/demo.md) for the 8-minute walkthrough and offline backup. Useful examples include `SA-1002` (broad scope), `SA-1004` (restricted data without approval), and `SA-1006` (stale access). Local fallback works without internet or Ollama.
+## License
 
-## Team Contributions and License
+This project is distributed under the MIT license. See the LICENSE file in the repository for details.
 
-Record actual work in [CONTRIBUTIONS.md](CONTRIBUTIONS.md); the template intentionally contains no invented names or contribution claims. Distributed under the MIT License; see [LICENSE](LICENSE).
+## Team and contact
+
+This project is designed for a graduate capstone team working on the Agent Governance theme. Contributions should be documented in the project repository and presented during the final demo period.
