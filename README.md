@@ -1,4 +1,4 @@
-﻿# SentinelAI
+﻿# 12 A — SentinelAI: AI Governance and Permission Monitoring System
 
 SentinelAI is a local-first AI governance and permission monitoring MVP designed for synthetic cybersecurity education and capstone demonstration. The system inventories AI agents, evaluates their permissions against governance rules, exposes audit-ready evidence, and supports a human approval workflow before simulated remediation is applied.
 
