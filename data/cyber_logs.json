@@ -1,0 +1,5002 @@
+[
+  {
+    "log_id": "7e53c453-b2f6-43cc-a89e-6e5320689eff",
+    "timestamp": "2026-10-06T06:57:06+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "192.168.50.5",
+    "user_id": "user_8819",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "c9925f5a-cd42-480d-abaf-fa46fe976bac",
+    "timestamp": "2026-10-06T08:16:55+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "10.10.247.222",
+    "user_id": "svc_ldap",
+    "event_type": "Successful Admin Login",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "58fbf45d-9cf5-451b-ab1f-f0897a018e64",
+    "timestamp": "2026-10-06T10:13:33+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "10.10.171.151",
+    "user_id": "svc_backup",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "4f65f8de-d4d7-49bb-a53b-cad85c4c21c2",
+    "timestamp": "2026-10-06T10:14:07+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "10.10.246.11",
+    "user_id": "analyst_6348",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "3784a395-5a42-4cde-9aa4-9739b5cc4c1d",
+    "timestamp": "2026-10-06T12:56:17+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "203.0.113.27",
+    "user_id": "guest_2404",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "83b3ef25-81f8-44ae-86b5-097373dff469",
+    "timestamp": "2026-10-06T13:01:22+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "203.0.113.30",
+    "user_id": "analyst_5866",
+    "event_type": "Phishing Email Reported",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "cf84a66c-5425-4cf9-9304-0cc69ed41658",
+    "timestamp": "2026-10-06T13:03:47+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "192.168.50.107",
+    "user_id": "student_6391",
+    "event_type": "Suspicious API Call",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "dcaeeec1-ee1d-4e67-bce8-cde10d45626f",
+    "timestamp": "2026-10-06T13:19:55+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "10.2.250.25",
+    "user_id": "dev_6214",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "8727fdec-b441-49fb-919c-21b22d435d55",
+    "timestamp": "2026-10-06T15:39:14+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "172.16.176.28",
+    "user_id": "guest_1145",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "ff70ee7a-332f-488e-a8a0-2ea6d956511b",
+    "timestamp": "2026-10-06T17:58:00+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "10.10.163.49",
+    "user_id": "nurse_2340",
+    "event_type": "Port Scan Detected",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "8901a8b1-26dd-44eb-b20a-977cac5d8bb1",
+    "timestamp": "2026-10-06T19:30:42+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "192.168.1.180",
+    "user_id": "guest_8906",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "88b816d2-291d-47ff-ba49-c0ce3775cb0a",
+    "timestamp": "2026-10-06T20:12:39+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "203.0.113.11",
+    "user_id": "user_1430",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "a165929b-e92b-4010-b027-98d5450bbc80",
+    "timestamp": "2026-10-06T21:18:03+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "172.16.228.131",
+    "user_id": "student_7574",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "e58e8ad6-cd9f-4c03-a7a8-ed95ac965b9d",
+    "timestamp": "2026-10-06T22:47:37+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "10.1.49.206",
+    "user_id": "student_7954",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "ad7db0a9-5527-4111-8047-ee16213ec613",
+    "timestamp": "2026-10-06T23:08:37+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "10.2.177.114",
+    "user_id": "analyst_7425",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "071ccf0d-aac7-45a9-a7a4-8b787467528f",
+    "timestamp": "2026-10-07T00:15:39+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.0.135.123",
+    "user_id": "user_5535",
+    "event_type": "Brute Force Login",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "347e2a36-f243-44e1-bac3-d43335a77678",
+    "timestamp": "2026-10-07T01:56:49+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.10.25.7",
+    "user_id": "student_2898",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "f70a60e4-1955-4715-9df6-34d93fe45c10",
+    "timestamp": "2026-10-07T05:31:24+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "10.0.202.86",
+    "user_id": "student_2163",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "1ceb7391-dfb2-46ef-a801-e95562f37a5b",
+    "timestamp": "2026-10-07T05:33:28+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.0.230.208",
+    "user_id": "nurse_1059",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "26de2a63-da68-4d9e-ae76-756abbf4c185",
+    "timestamp": "2026-10-07T05:59:51+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "10.0.162.132",
+    "user_id": "student_2452",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "1bc7d339-6a0d-41f7-8b3c-7ebefc71ccb7",
+    "timestamp": "2026-10-07T06:11:34+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "172.17.187.202",
+    "user_id": "analyst_7249",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "a6e3c3b1-bd76-45bf-8ef8-2fc8bd309b51",
+    "timestamp": "2026-10-07T07:04:29+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "198.51.100.115",
+    "user_id": "analyst_1379",
+    "event_type": "Port Scan Detected",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "68519d5e-073a-41a2-89e4-fd872f51eb27",
+    "timestamp": "2026-10-07T08:43:51+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "172.16.83.155",
+    "user_id": "student_7948",
+    "event_type": "Phishing Email Reported",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "ddee9cfb-4200-46b7-988a-c061215b7b3c",
+    "timestamp": "2026-10-07T09:24:31+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "172.16.9.60",
+    "user_id": "nurse_4732",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "ef7ba8ae-4059-42be-a305-72d10a32452d",
+    "timestamp": "2026-10-07T11:54:24+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "192.168.1.143",
+    "user_id": "guest_868",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "ec5f8ec2-794a-45a4-afbe-b64a8d7e132a",
+    "timestamp": "2026-10-07T14:19:49+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "203.0.113.73",
+    "user_id": "admin_hr",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "f7d0c86e-7e14-4c05-b440-7a02a356d302",
+    "timestamp": "2026-10-07T15:14:03+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "192.168.50.118",
+    "user_id": "svc_backup",
+    "event_type": "Port Scan Detected",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "3c1468d4-631a-4c9d-8b4d-b3805ff9f222",
+    "timestamp": "2026-10-07T15:29:30+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "10.2.89.7",
+    "user_id": "guest_1812",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "f633b022-9b71-40fa-9bf1-7152c467b8a9",
+    "timestamp": "2026-10-07T15:49:10+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "10.10.151.57",
+    "user_id": "user_1263",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "8501079c-0124-434e-967c-0ee7dbf653ea",
+    "timestamp": "2026-10-07T16:15:21+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "10.1.237.28",
+    "user_id": "admin_fin",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "cad45e21-54b7-4fee-a760-3666bc0082c4",
+    "timestamp": "2026-10-07T16:55:14+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "10.0.68.56",
+    "user_id": "user_1090",
+    "event_type": "Port Scan Detected",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "00be125d-f470-4a4a-9777-1758571364af",
+    "timestamp": "2026-10-07T17:32:30+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.10.13.172",
+    "user_id": "student_3914",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "0c9b151f-2578-48ad-a7bc-87b250320ed8",
+    "timestamp": "2026-10-07T19:14:58+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "172.17.98.153",
+    "user_id": "nurse_7533",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "c469abec-043e-45f1-b876-b2089d979f7f",
+    "timestamp": "2026-10-07T20:00:52+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "10.2.28.43",
+    "user_id": "guest_7735",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "92970763-5e72-4bf5-bc70-04363485f7f4",
+    "timestamp": "2026-10-07T20:51:08+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.2.26.64",
+    "user_id": "student_4466",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "f6d3eefd-4bf1-443e-b15f-9596a8507df4",
+    "timestamp": "2026-10-07T21:20:06+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "203.0.113.19",
+    "user_id": "guest_3287",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "bd076ac9-7f55-4d54-8c5d-fb4f44ad9948",
+    "timestamp": "2026-10-07T21:58:37+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "10.10.88.186",
+    "user_id": "student_8859",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "1bb57823-d33a-4678-87d7-417d7fcc6c22",
+    "timestamp": "2026-10-08T02:45:33+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "10.0.159.21",
+    "user_id": "dev_9662",
+    "event_type": "Insider Threat Alert",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "8f782375-5637-4d3c-9926-9727e47d836e",
+    "timestamp": "2026-10-08T03:16:38+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "10.10.185.14",
+    "user_id": "guest_2893",
+    "event_type": "Successful Admin Login",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "d61cbf31-6a9e-4f64-ba4a-80e153b75110",
+    "timestamp": "2026-10-08T04:58:13+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "10.0.39.39",
+    "user_id": "nurse_1495",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "6ddd49f9-e976-440d-af81-4dc1e17138ec",
+    "timestamp": "2026-10-08T05:24:14+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "10.10.251.245",
+    "user_id": "analyst_8604",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "dea2dc8b-499a-4775-b12b-0e065262cbcd",
+    "timestamp": "2026-10-08T08:37:31+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "192.168.1.128",
+    "user_id": "user_6370",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "a273cda8-93a2-4036-aae0-bd141621a846",
+    "timestamp": "2026-10-08T11:56:07+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "192.168.50.63",
+    "user_id": "guest_6769",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "334d7a9b-19d7-4a7b-b008-f9746146cc1d",
+    "timestamp": "2026-10-08T13:19:33+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "192.168.1.87",
+    "user_id": "user_8198",
+    "event_type": "Suspicious API Call",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "cda05b5b-361e-456f-9427-c323bac8b933",
+    "timestamp": "2026-10-08T13:50:44+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "10.2.81.221",
+    "user_id": "svc_ldap",
+    "event_type": "Phishing Email Reported",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "c4d5ce1b-94e6-465c-b377-9b637590efe3",
+    "timestamp": "2026-10-08T14:04:28+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "192.168.50.32",
+    "user_id": "guest_5082",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "ecf3f876-c16b-4c1f-99fb-77dc9c36923e",
+    "timestamp": "2026-10-08T15:02:15+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "172.17.140.175",
+    "user_id": "svc_ldap",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "8f84f06f-749c-43f8-88b8-a970561c6966",
+    "timestamp": "2026-10-08T16:13:48+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "10.1.188.125",
+    "user_id": "admin_db",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "75863ac2-19f0-461f-a602-c60e723c4df9",
+    "timestamp": "2026-10-08T16:53:50+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "172.16.12.237",
+    "user_id": "admin_fin",
+    "event_type": "Insider Threat Alert",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "8324da26-a9f9-4ec7-8653-3735f1ab36b6",
+    "timestamp": "2026-10-08T17:58:41+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "198.51.100.236",
+    "user_id": "user_3864",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "ce168585-c574-40c5-aca1-798a89cec1e5",
+    "timestamp": "2026-10-08T21:02:58+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "192.168.1.248",
+    "user_id": "analyst_7152",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "30c87d31-fe85-4ed0-8e1b-a20136fc1c56",
+    "timestamp": "2026-10-08T23:09:42+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "203.0.113.57",
+    "user_id": "admin_infra",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "3cd40977-c007-4f06-a493-77b71f5e6ef9",
+    "timestamp": "2026-10-09T03:49:26+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.1.117.35",
+    "user_id": "guest_8802",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "635d5ed1-d679-4aa3-8956-f69002510730",
+    "timestamp": "2026-10-09T05:43:54+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.2.49.76",
+    "user_id": "student_1058",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "d936e156-b5bd-44a5-bfc2-b5122be2ce71",
+    "timestamp": "2026-10-09T07:33:00+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "203.0.113.56",
+    "user_id": "student_5483",
+    "event_type": "Suspicious API Call",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "75505dea-1c0b-453e-9328-3e30df07c032",
+    "timestamp": "2026-10-09T08:24:22+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "172.17.109.191",
+    "user_id": "analyst_5864",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "9706b7f6-2cf6-4993-99b5-97b4f24f31ea",
+    "timestamp": "2026-10-09T08:41:36+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "203.0.113.124",
+    "user_id": "svc_api_gw",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "6f18ba21-c82a-484e-bd0d-5a1ded5523b8",
+    "timestamp": "2026-10-09T08:41:47+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "172.16.73.155",
+    "user_id": "student_5717",
+    "event_type": "Brute Force Login",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "93b45a02-b40b-4c0b-a6ec-34444dffa984",
+    "timestamp": "2026-10-09T09:30:37+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "192.168.1.33",
+    "user_id": "user_5150",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "4484c3e6-d508-4ace-a5a5-b65e5a50fc38",
+    "timestamp": "2026-10-09T10:04:29+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "203.0.113.227",
+    "user_id": "analyst_9559",
+    "event_type": "Insider Threat Alert",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "31c4dc6b-f961-4efc-89a3-99edffd58701",
+    "timestamp": "2026-10-09T10:32:01+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "203.0.113.227",
+    "user_id": "admin_net",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "240e9664-0ca6-4e9d-8a81-60bb65a2c0c3",
+    "timestamp": "2026-10-09T10:58:42+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "192.168.1.49",
+    "user_id": "svc_ldap",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "e8c72c53-fa5c-4509-9a13-efa549fbad27",
+    "timestamp": "2026-10-09T11:28:19+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "10.2.161.78",
+    "user_id": "admin_db",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "c6a3ccc5-2f0b-4d82-9c5a-a368278e8fe1",
+    "timestamp": "2026-10-09T12:40:52+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "172.16.136.224",
+    "user_id": "dev_3570",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "c3150d17-e6b5-42ac-87c5-59f5f1fe3c21",
+    "timestamp": "2026-10-09T14:37:15+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.10.177.239",
+    "user_id": "guest_5516",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "7e93f2fd-fadd-4f99-be0a-fc7133305798",
+    "timestamp": "2026-10-09T16:47:40+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "172.16.157.124",
+    "user_id": "student_4138",
+    "event_type": "Insider Threat Alert",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "dac9e33c-878d-49ff-995d-f6b5dd4162c2",
+    "timestamp": "2026-10-09T18:20:45+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "10.10.115.151",
+    "user_id": "nurse_206",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "bed88d79-dc69-4ea2-bf49-b540fdc96ac8",
+    "timestamp": "2026-10-09T20:29:03+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "198.51.100.211",
+    "user_id": "user_7331",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "1db51067-8509-4b6c-81bb-2d1cbd506832",
+    "timestamp": "2026-10-09T22:24:54+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "203.0.113.59",
+    "user_id": "user_6442",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "1c5035b2-30dd-437d-adb5-d6500be5493c",
+    "timestamp": "2026-10-09T23:57:25+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "172.16.77.61",
+    "user_id": "admin_sec",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "3f412fc0-1c13-43c0-a78a-92e07c4f7c71",
+    "timestamp": "2026-10-10T00:55:06+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "172.17.31.46",
+    "user_id": "dev_8764",
+    "event_type": "Failed MFA Verification",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "2ad0bceb-c998-4613-a21c-078888034a95",
+    "timestamp": "2026-10-10T02:53:22+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "10.2.200.118",
+    "user_id": "guest_9106",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "6f9e1b5b-5ba5-44d9-a7fe-c3eec415e51f",
+    "timestamp": "2026-10-10T03:42:29+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "10.1.28.197",
+    "user_id": "student_5916",
+    "event_type": "Port Scan Detected",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "9f2d377f-2547-4f5a-9ed5-e9a2677da297",
+    "timestamp": "2026-10-10T04:30:44+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "10.0.30.225",
+    "user_id": "nurse_3025",
+    "event_type": "Failed MFA Verification",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "11bd7f33-81e1-49f4-85f5-25c7e39fce69",
+    "timestamp": "2026-10-10T06:56:59+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "192.168.1.152",
+    "user_id": "user_1475",
+    "event_type": "Insider Threat Alert",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "c0441591-c129-4e32-926e-ecdedfb1e40a",
+    "timestamp": "2026-10-10T08:44:43+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "198.51.100.144",
+    "user_id": "analyst_1280",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "8f25391c-fc69-4800-9050-a9f73b40666e",
+    "timestamp": "2026-10-10T09:01:40+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "203.0.113.77",
+    "user_id": "guest_372",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "0c8e1fe5-a558-4dfd-9983-566c2cd2641e",
+    "timestamp": "2026-10-10T10:23:42+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "203.0.113.175",
+    "user_id": "svc_erp",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "66f985c0-4db0-4c5e-abc6-1d34eb719f5a",
+    "timestamp": "2026-10-10T11:10:22+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "198.51.100.211",
+    "user_id": "user_1979",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "33118aee-824d-4534-8b2f-23e91679f189",
+    "timestamp": "2026-10-10T11:56:32+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "192.168.1.14",
+    "user_id": "svc_erp",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "a85b224b-52ea-468b-bc91-56a5acb90b13",
+    "timestamp": "2026-10-10T12:25:57+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "198.51.100.251",
+    "user_id": "nurse_380",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "bfc1d897-f9bd-4322-97d1-9871244d7cb2",
+    "timestamp": "2026-10-10T12:59:17+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "198.51.100.77",
+    "user_id": "admin_db",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "98d8e547-fb0b-4a7a-bdef-a3fc308810a3",
+    "timestamp": "2026-10-10T14:42:49+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "10.2.210.52",
+    "user_id": "svc_ldap",
+    "event_type": "Port Scan Detected",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "693fc1ea-8791-4aca-8dbd-8ace90719de9",
+    "timestamp": "2026-10-10T18:12:18+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "192.168.1.105",
+    "user_id": "svc_vpn",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "4606240a-acd5-43e1-88b6-d810a94b6705",
+    "timestamp": "2026-10-11T03:06:46+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "203.0.113.38",
+    "user_id": "admin_infra",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "0e6611c1-41c6-4c13-8f84-c1d8bde54102",
+    "timestamp": "2026-10-11T07:16:59+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "10.1.116.129",
+    "user_id": "student_810",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "439f4a1d-1aa7-421b-9c27-35954e802d0b",
+    "timestamp": "2026-10-11T07:27:37+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "10.0.37.218",
+    "user_id": "guest_670",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "b8c67898-c642-4d68-82e5-7990a1cbfa23",
+    "timestamp": "2026-10-11T09:41:16+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.2.169.22",
+    "user_id": "nurse_8545",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "8c026424-9310-40ce-b6b8-78abd7e0b1ef",
+    "timestamp": "2026-10-11T11:36:43+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "192.168.1.76",
+    "user_id": "user_4021",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "0773ea2d-b79a-4e75-8aba-efd40876a94a",
+    "timestamp": "2026-10-11T13:46:43+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "10.10.40.96",
+    "user_id": "svc_monitor",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "7df0dfb5-be2c-4402-92fd-eb6a32ef2c44",
+    "timestamp": "2026-10-11T14:24:30+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "192.168.1.84",
+    "user_id": "dev_4944",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "0b81a7c1-0b46-4a1d-b864-eea22956d360",
+    "timestamp": "2026-10-11T16:18:49+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "203.0.113.138",
+    "user_id": "svc_erp",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "a09c6015-bdad-45e9-a0d0-3799b7c8d065",
+    "timestamp": "2026-10-11T16:44:02+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "10.1.175.8",
+    "user_id": "student_6202",
+    "event_type": "Phishing Email Reported",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "6004c864-174e-4743-98e9-6ded1c7d17f4",
+    "timestamp": "2026-10-11T21:29:04+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "192.168.1.180",
+    "user_id": "dev_1450",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "8fdfe8fe-9ea0-4055-a693-bc6e34702f38",
+    "timestamp": "2026-10-11T22:09:23+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "192.168.50.113",
+    "user_id": "admin_sec",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "4ae7a0d2-5f90-4633-a2fc-786a904a3fdd",
+    "timestamp": "2026-10-11T23:09:39+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "10.2.95.41",
+    "user_id": "nurse_1785",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "ace66f36-7647-444b-848c-3dc6595c0e12",
+    "timestamp": "2026-10-11T23:11:34+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "203.0.113.19",
+    "user_id": "user_6016",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "98fac80d-b36e-4598-b0ca-fcfc15001654",
+    "timestamp": "2026-10-12T00:27:44+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "192.168.50.195",
+    "user_id": "user_3435",
+    "event_type": "Phishing Email Reported",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "8e2eccf0-5cde-484e-b4aa-f0f44f016e1f",
+    "timestamp": "2026-10-12T01:46:00+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "10.0.27.104",
+    "user_id": "dev_687",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "33f24ee2-a582-48d6-9487-6f4a5a768b71",
+    "timestamp": "2026-10-12T04:39:19+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "192.168.50.74",
+    "user_id": "user_1861",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "cc5260a1-adb1-485a-b6bd-b7ca5e8202b3",
+    "timestamp": "2026-10-12T06:26:31+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "198.51.100.195",
+    "user_id": "student_2566",
+    "event_type": "Phishing Email Reported",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "b607c143-a154-4f08-b4b7-bc8f986cbb49",
+    "timestamp": "2026-10-12T08:20:48+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "192.168.50.90",
+    "user_id": "dev_5560",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "07bbcbf8-c1df-4ad6-9e65-1d262cf31744",
+    "timestamp": "2026-10-12T09:15:09+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "10.0.93.1",
+    "user_id": "dev_1535",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "f1d07193-c0b6-4214-bd8d-d8cd472407eb",
+    "timestamp": "2026-10-12T09:39:48+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "10.2.188.204",
+    "user_id": "analyst_2873",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "c9f94dfb-46c5-4a4b-8588-da81a8ce7df8",
+    "timestamp": "2026-10-12T10:46:35+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "192.168.50.138",
+    "user_id": "guest_5754",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "e74c0b24-8255-420f-9eea-8014c3258f52",
+    "timestamp": "2026-10-12T10:51:00+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "10.2.158.112",
+    "user_id": "dev_6709",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "98485708-54f5-4728-acc6-1643ed593e40",
+    "timestamp": "2026-10-12T15:47:21+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "10.0.12.26",
+    "user_id": "guest_366",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "e476f580-e806-4e92-a969-1c74ef9793e8",
+    "timestamp": "2026-10-12T16:33:22+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "203.0.113.129",
+    "user_id": "analyst_6463",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "c95c3130-2980-4568-971d-017e768a71b3",
+    "timestamp": "2026-10-12T17:04:42+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "172.17.65.242",
+    "user_id": "student_8223",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "060f92e1-ccc2-4d96-8772-5009c0bdc53c",
+    "timestamp": "2026-10-12T19:27:27+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.1.90.217",
+    "user_id": "analyst_1982",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "236f9f46-046c-4b7b-a2eb-8d3abb960221",
+    "timestamp": "2026-10-12T19:51:19+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "172.17.206.30",
+    "user_id": "guest_1333",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "70b0e33a-5c9c-45cb-a788-ce0b1bd56f6c",
+    "timestamp": "2026-10-12T22:36:12+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "10.10.42.116",
+    "user_id": "admin_sec",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "6873ac0d-1af0-42ab-a733-ba2267fe7612",
+    "timestamp": "2026-10-12T22:53:59+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "192.168.1.137",
+    "user_id": "dev_9007",
+    "event_type": "Firewall Rule Violation",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "e8f0ac7b-6843-41d2-b176-7d6ed3383a53",
+    "timestamp": "2026-10-12T23:04:51+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "10.10.212.138",
+    "user_id": "nurse_9308",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "36b2dc53-0188-4448-87ba-6cc721c4b498",
+    "timestamp": "2026-10-12T23:33:49+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "192.168.1.197",
+    "user_id": "dev_9519",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "4df3dfb2-1208-447f-ad76-e28d2c19ddca",
+    "timestamp": "2026-10-13T02:28:45+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "192.168.50.185",
+    "user_id": "guest_5325",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "4c272363-2a17-4d68-b49b-640f315f8979",
+    "timestamp": "2026-10-13T02:39:45+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "10.0.180.44",
+    "user_id": "admin_infra",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "ecda94c5-133b-42f5-8b4e-e4688b018a54",
+    "timestamp": "2026-10-13T03:01:07+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.10.194.247",
+    "user_id": "nurse_5362",
+    "event_type": "Insider Threat Alert",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "7e59a319-9321-4ed7-88f4-8ed13d282c16",
+    "timestamp": "2026-10-13T04:02:18+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "10.10.122.77",
+    "user_id": "admin_dev",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "b49513e8-ad97-4e97-9c02-8460b3a7ab2e",
+    "timestamp": "2026-10-13T04:19:13+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "198.51.100.90",
+    "user_id": "analyst_2779",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "80d3ec41-7e86-4207-8dc3-784ac5402098",
+    "timestamp": "2026-10-13T05:29:56+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "172.16.201.102",
+    "user_id": "guest_8113",
+    "event_type": "Successful Admin Login",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "80a23b86-c3e5-4771-9f46-7d3c41e3dd6b",
+    "timestamp": "2026-10-13T05:33:34+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.10.77.220",
+    "user_id": "svc_ldap",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "b0932518-867e-4ddb-b1c7-8f3f619130d0",
+    "timestamp": "2026-10-13T06:47:56+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "192.168.50.115",
+    "user_id": "user_1398",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "c66ae9af-fdc0-47e4-9c1a-c744521dbb60",
+    "timestamp": "2026-10-13T06:51:30+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "10.2.2.247",
+    "user_id": "svc_backup",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "e3b2438d-b362-415e-9f0a-b9d57c0fa104",
+    "timestamp": "2026-10-13T10:15:10+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "10.10.95.81",
+    "user_id": "dev_849",
+    "event_type": "Port Scan Detected",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "852bb8a1-787c-4e05-83a1-a8ff82fd3bc2",
+    "timestamp": "2026-10-13T10:48:21+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "172.17.174.243",
+    "user_id": "guest_7664",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "dce0a2bb-3071-46dc-9538-ee06bbae2b0d",
+    "timestamp": "2026-10-13T15:25:01+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "10.10.215.69",
+    "user_id": "user_2576",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "36f99cd3-f928-4eb5-8848-0d2382d2b296",
+    "timestamp": "2026-10-13T15:55:26+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.2.208.35",
+    "user_id": "admin_infra",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "40e39aac-c10e-4ba6-b24e-3388615f4538",
+    "timestamp": "2026-10-13T20:34:53+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "10.2.71.49",
+    "user_id": "admin_sec",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "43cec96f-acad-4870-8ebe-e9819a14d8db",
+    "timestamp": "2026-10-13T22:38:51+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "172.16.36.64",
+    "user_id": "nurse_9677",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "845301b7-dd87-43f1-9146-dc866aa273c8",
+    "timestamp": "2026-10-13T23:06:23+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "203.0.113.25",
+    "user_id": "svc_api_gw",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "0b9bd03a-b835-476a-b903-251eaf4bff46",
+    "timestamp": "2026-10-13T23:27:25+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "203.0.113.151",
+    "user_id": "dev_1943",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "07398356-fb48-4e35-a312-f288d2d64b0d",
+    "timestamp": "2026-10-14T00:53:20+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "10.2.105.223",
+    "user_id": "svc_portal",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "c66fbcbe-1e00-4553-8887-003521439aaa",
+    "timestamp": "2026-10-14T04:37:20+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "172.16.249.129",
+    "user_id": "svc_monitor",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "1ac30ecc-e693-43c2-9ec4-8e1dbc591e11",
+    "timestamp": "2026-10-14T06:23:46+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "198.51.100.64",
+    "user_id": "admin_infra",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "db6db7db-9f53-4c2c-920c-5cb64d877df5",
+    "timestamp": "2026-10-14T06:34:51+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "192.168.50.23",
+    "user_id": "analyst_5792",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "8795278f-b744-4599-ba57-7e1ea1cd76c7",
+    "timestamp": "2026-10-14T08:19:11+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.10.92.142",
+    "user_id": "dev_7175",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "ac925f16-421c-4ecb-b3a2-0792b436a802",
+    "timestamp": "2026-10-14T09:45:14+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "10.2.213.112",
+    "user_id": "admin_hr",
+    "event_type": "Port Scan Detected",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "68e75990-ac2c-4c5a-86d5-2ddc8057459e",
+    "timestamp": "2026-10-14T13:18:10+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "203.0.113.74",
+    "user_id": "guest_3379",
+    "event_type": "Successful Admin Login",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "7079d12a-de70-4880-8278-b1cc1275c9c2",
+    "timestamp": "2026-10-14T16:07:26+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.2.22.145",
+    "user_id": "user_3713",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "693ff987-e84f-4db2-a111-708ec4ea4376",
+    "timestamp": "2026-10-14T16:27:40+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "10.1.83.156",
+    "user_id": "svc_portal",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "fe6de562-6ebb-404a-8c81-9c4eadf28818",
+    "timestamp": "2026-10-14T16:36:50+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "10.1.232.217",
+    "user_id": "analyst_2107",
+    "event_type": "Suspicious API Call",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "d135c87d-b79f-42b5-8397-57d94046df92",
+    "timestamp": "2026-10-14T16:40:12+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "10.10.219.93",
+    "user_id": "admin_ops",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "9bab6adc-743a-4319-897d-c85176cb1a7e",
+    "timestamp": "2026-10-14T16:59:15+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "172.16.187.107",
+    "user_id": "admin_hr",
+    "event_type": "Successful Admin Login",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "0d19bf00-bd20-485a-ace0-12c3a5eecefb",
+    "timestamp": "2026-10-14T17:36:48+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "198.51.100.110",
+    "user_id": "guest_2707",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "b33f5aba-d949-4412-9fe1-36ae509d6b0b",
+    "timestamp": "2026-10-14T19:06:48+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "10.0.254.246",
+    "user_id": "dev_3414",
+    "event_type": "Insider Threat Alert",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "c5fc09be-9294-4750-b21e-303f1738ea7a",
+    "timestamp": "2026-10-14T19:48:37+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "10.1.67.168",
+    "user_id": "analyst_302",
+    "event_type": "Brute Force Login",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "ed4df056-ae20-438d-8027-6b6f73fce9f2",
+    "timestamp": "2026-10-15T00:09:49+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "192.168.50.230",
+    "user_id": "dev_5654",
+    "event_type": "Brute Force Login",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "594d076f-5179-46be-9251-f0935b473d2f",
+    "timestamp": "2026-10-15T01:00:58+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "192.168.50.236",
+    "user_id": "admin_ops",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "ccf4e862-0d64-4942-b67e-820c5e29e2bf",
+    "timestamp": "2026-10-15T01:27:47+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.0.100.87",
+    "user_id": "dev_2804",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "17500fbb-6f15-4391-9728-5a0ca9065148",
+    "timestamp": "2026-10-15T03:22:07+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "10.0.26.85",
+    "user_id": "student_3212",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "838f8698-e313-4774-9fd7-b678a906a6e1",
+    "timestamp": "2026-10-15T04:09:27+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "192.168.50.182",
+    "user_id": "svc_backup",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "dde2abd5-8662-4114-bd15-ac10cfcde89c",
+    "timestamp": "2026-10-15T05:46:32+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "10.0.189.158",
+    "user_id": "student_7465",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "53ca88dc-1a61-4811-866c-9189d88012bf",
+    "timestamp": "2026-10-15T07:02:16+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "192.168.1.106",
+    "user_id": "guest_987",
+    "event_type": "Brute Force Login",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "79c10e08-cd04-4a83-8306-44515feb45c2",
+    "timestamp": "2026-10-15T07:35:41+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "10.1.236.25",
+    "user_id": "svc_erp",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "f960a6c9-915d-4eff-880d-53210367e5de",
+    "timestamp": "2026-10-15T09:17:48+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "203.0.113.158",
+    "user_id": "user_4481",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "efa6acd6-2c8f-4870-a66b-c1c239805d52",
+    "timestamp": "2026-10-15T10:57:27+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "10.0.29.20",
+    "user_id": "svc_monitor",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "db05e3aa-a1f2-4c7d-810e-b1baca613776",
+    "timestamp": "2026-10-15T16:29:30+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "172.16.154.80",
+    "user_id": "analyst_1797",
+    "event_type": "Phishing Email Reported",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "e3079c32-cf6a-4fbf-934e-9e68ea77df87",
+    "timestamp": "2026-10-15T17:23:48+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "10.1.99.98",
+    "user_id": "guest_8769",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "a2d8a0d3-1137-4118-acd9-6b458df67324",
+    "timestamp": "2026-10-15T19:29:30+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "192.168.1.115",
+    "user_id": "dev_6254",
+    "event_type": "Port Scan Detected",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "fa53546f-7869-4032-8a8f-d687c08cd8d2",
+    "timestamp": "2026-10-15T19:44:46+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "203.0.113.243",
+    "user_id": "user_9532",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "b347ec35-16c3-45ab-a12b-e3f9ff24d993",
+    "timestamp": "2026-10-15T20:19:02+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "192.168.1.127",
+    "user_id": "dev_5854",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "1a063a63-6e94-49c1-931d-2cdc157ea8dd",
+    "timestamp": "2026-10-15T20:48:17+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "198.51.100.64",
+    "user_id": "user_6366",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "807c5034-e14e-46dd-8554-909531186995",
+    "timestamp": "2026-10-15T22:36:00+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "10.1.104.6",
+    "user_id": "analyst_2915",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "52cfe576-c259-4f5a-9a93-d64b74daece3",
+    "timestamp": "2026-10-15T23:56:39+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "172.16.204.231",
+    "user_id": "user_9879",
+    "event_type": "Phishing Email Reported",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "e421ab1d-ee81-47ec-8630-f2735914a4da",
+    "timestamp": "2026-10-16T00:22:15+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "203.0.113.203",
+    "user_id": "student_8661",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "870bc26d-4eef-41fc-94b5-d6ca2d4029b4",
+    "timestamp": "2026-10-16T01:09:09+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "10.10.34.202",
+    "user_id": "analyst_8797",
+    "event_type": "Insider Threat Alert",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "6126d7c5-1a0e-404d-93a9-d28fd64a8a28",
+    "timestamp": "2026-10-16T01:14:39+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "203.0.113.15",
+    "user_id": "guest_5149",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "53280d6b-88e1-44ff-98b9-c0fa435fd904",
+    "timestamp": "2026-10-16T01:48:21+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "198.51.100.69",
+    "user_id": "user_4734",
+    "event_type": "Successful Admin Login",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "e3e1815e-970f-4245-9125-482f23b3fb42",
+    "timestamp": "2026-10-16T01:52:24+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "10.1.214.126",
+    "user_id": "dev_4683",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "ea8f734f-87ef-4082-8dcf-cd1b48dd3dbf",
+    "timestamp": "2026-10-16T04:21:56+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "198.51.100.77",
+    "user_id": "analyst_9169",
+    "event_type": "Port Scan Detected",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "19d4f7f9-bced-49c9-a8a7-9fd4ae95ff3b",
+    "timestamp": "2026-10-16T04:26:41+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "198.51.100.136",
+    "user_id": "svc_backup",
+    "event_type": "Insider Threat Alert",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "df058efa-db89-4e45-a87d-1fd0eab1801e",
+    "timestamp": "2026-10-16T06:31:38+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "192.168.1.168",
+    "user_id": "guest_9472",
+    "event_type": "Insider Threat Alert",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "68eab805-2e98-4c96-9600-80fdd1fd1cf1",
+    "timestamp": "2026-10-16T06:39:40+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "172.17.191.122",
+    "user_id": "dev_6425",
+    "event_type": "Suspicious API Call",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "1614a69e-1c3c-41ae-b703-3c5db31973b8",
+    "timestamp": "2026-10-16T08:59:52+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "203.0.113.14",
+    "user_id": "analyst_1179",
+    "event_type": "Insider Threat Alert",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "a14bdf2f-3694-47c9-8f7f-54895fc0e15f",
+    "timestamp": "2026-10-16T10:51:39+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "198.51.100.223",
+    "user_id": "analyst_1020",
+    "event_type": "Suspicious API Call",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "5e9231b0-1fd1-44c3-91b9-5ccb8b32e31a",
+    "timestamp": "2026-10-16T15:23:49+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.1.118.114",
+    "user_id": "guest_1542",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "c52b4ba8-747d-41a8-a9f4-786e38994c30",
+    "timestamp": "2026-10-16T22:13:51+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "172.17.24.203",
+    "user_id": "dev_328",
+    "event_type": "Port Scan Detected",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "a3c92fd2-9fe4-4706-8d04-c5c863c18df7",
+    "timestamp": "2026-10-17T00:06:06+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "10.0.145.222",
+    "user_id": "user_8238",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "655472b5-4780-4f1c-ad00-c7222f7a0d89",
+    "timestamp": "2026-10-17T03:05:18+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "192.168.50.248",
+    "user_id": "student_3624",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "b7e4ab9c-27b2-45f5-96fe-64d771d4c5ae",
+    "timestamp": "2026-10-17T03:26:46+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "10.1.239.145",
+    "user_id": "student_9803",
+    "event_type": "Successful Admin Login",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "461c4a67-97e8-4a95-92d1-7bbcd1ca768d",
+    "timestamp": "2026-10-17T08:26:37+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "172.17.172.244",
+    "user_id": "dev_9722",
+    "event_type": "Insider Threat Alert",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "e2856530-61ed-4e94-a24d-637a5613baf9",
+    "timestamp": "2026-10-17T09:44:49+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "172.17.227.98",
+    "user_id": "analyst_3156",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "d53a3822-ce74-4bf7-8451-e22a275abb4d",
+    "timestamp": "2026-10-17T10:52:08+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "172.16.186.219",
+    "user_id": "svc_vpn",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "649f5c4c-995c-4de0-9097-7cb15d5e56a7",
+    "timestamp": "2026-10-17T13:02:55+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.1.61.98",
+    "user_id": "analyst_9517",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "3181c172-83d0-4cd4-b76a-7c6ea152003d",
+    "timestamp": "2026-10-17T13:55:17+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "198.51.100.168",
+    "user_id": "guest_6803",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "8ff9fb2a-52bd-4cbf-aaea-8c40c66c2eea",
+    "timestamp": "2026-10-17T15:33:08+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "10.10.128.234",
+    "user_id": "svc_erp",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "9783d77c-8d3c-4ca7-8559-6140ecafdc5e",
+    "timestamp": "2026-10-17T18:25:55+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "203.0.113.76",
+    "user_id": "student_1304",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "0d1df7bf-1585-496c-ba7e-1e4bf2742217",
+    "timestamp": "2026-10-17T18:42:12+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "10.10.128.141",
+    "user_id": "analyst_4316",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "3f2a926a-45ee-4d6e-80d5-c00f7cec4c83",
+    "timestamp": "2026-10-17T18:48:25+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "203.0.113.8",
+    "user_id": "svc_backup",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "ddfe243c-abde-4656-96d8-e06d3fb406d0",
+    "timestamp": "2026-10-17T19:30:45+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "203.0.113.146",
+    "user_id": "nurse_6753",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "4b1dc907-1754-4cb0-9dfb-39d55ca25a82",
+    "timestamp": "2026-10-17T19:32:05+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "192.168.1.65",
+    "user_id": "admin_infra",
+    "event_type": "Phishing Email Reported",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "6baa5277-1dbc-402e-a37c-8a3bea92fbbf",
+    "timestamp": "2026-10-17T19:42:47+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "192.168.1.68",
+    "user_id": "guest_4773",
+    "event_type": "Insider Threat Alert",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "d1c7f937-7010-4887-8952-024c770cb337",
+    "timestamp": "2026-10-17T21:46:02+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "172.17.223.49",
+    "user_id": "student_9468",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "d6acff3d-eaf0-45ad-bc1c-493400d05289",
+    "timestamp": "2026-10-17T21:46:51+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "192.168.1.72",
+    "user_id": "nurse_2231",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "83a8776c-125b-401f-8081-3387cb7c3483",
+    "timestamp": "2026-10-18T01:09:23+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "192.168.50.18",
+    "user_id": "admin_net",
+    "event_type": "Phishing Email Reported",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "5eaf4135-5a8d-4ce9-aa90-7ef9a6fdfab7",
+    "timestamp": "2026-10-18T02:10:56+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "198.51.100.116",
+    "user_id": "admin_hr",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "0f5c696f-17db-4e2f-b4b0-78acda5580b8",
+    "timestamp": "2026-10-18T02:19:12+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "10.0.92.202",
+    "user_id": "admin_ops",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "b9ae5b0e-1ef1-4f60-8e8f-62e941596cc3",
+    "timestamp": "2026-10-18T03:05:01+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "198.51.100.16",
+    "user_id": "analyst_2102",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "9f9612a6-d5e0-4c21-9746-3bf5190b7807",
+    "timestamp": "2026-10-18T03:49:18+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "10.1.147.36",
+    "user_id": "analyst_6621",
+    "event_type": "Firewall Rule Violation",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "1e4cad19-39b4-4d27-baf8-d2b3b3de190a",
+    "timestamp": "2026-10-18T04:45:19+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "10.1.183.217",
+    "user_id": "admin_fin",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "71dd71d8-f0a9-46f0-bd1f-de23d8333d8e",
+    "timestamp": "2026-10-18T05:30:09+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "198.51.100.166",
+    "user_id": "analyst_307",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "6d1cfe81-fe00-4eec-be42-07c68c3f5422",
+    "timestamp": "2026-10-18T07:27:17+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "203.0.113.156",
+    "user_id": "admin_db",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "c90143e0-8576-4653-97db-5aa89d94a885",
+    "timestamp": "2026-10-18T07:38:18+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "10.1.166.222",
+    "user_id": "admin_dev",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "82009a9a-9e05-4b13-ab67-d9918e46d599",
+    "timestamp": "2026-10-18T07:48:55+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "203.0.113.98",
+    "user_id": "analyst_1875",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "bc0f9900-9d9d-46fb-a685-3bf52dc01de5",
+    "timestamp": "2026-10-18T09:15:31+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "172.16.206.22",
+    "user_id": "dev_1393",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "ea538af1-67d0-4a05-816d-d8b01e0ad277",
+    "timestamp": "2026-10-18T10:26:43+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "192.168.1.244",
+    "user_id": "user_2613",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "b97fb6c2-3535-4f2a-9ba2-c45af8692862",
+    "timestamp": "2026-10-18T11:05:13+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "172.17.12.103",
+    "user_id": "user_9443",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "906184a9-24c2-4f82-a8c7-ebfaa043c934",
+    "timestamp": "2026-10-18T12:07:17+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "172.17.181.242",
+    "user_id": "dev_9701",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "fcb2fb2c-6c99-4514-a0da-a1a9f8552017",
+    "timestamp": "2026-10-18T12:11:18+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "172.17.91.54",
+    "user_id": "nurse_1269",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "5c9d2d0f-0ed2-46b7-9b29-147822974814",
+    "timestamp": "2026-10-18T15:29:32+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.2.131.127",
+    "user_id": "admin_sec",
+    "event_type": "Insider Threat Alert",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "e4832954-327c-4194-8aa1-129ff206bdd5",
+    "timestamp": "2026-10-18T15:39:35+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "192.168.1.217",
+    "user_id": "admin_hr",
+    "event_type": "Firewall Rule Violation",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "fd940c30-0445-4ba5-8aae-b872b58e9819",
+    "timestamp": "2026-10-18T17:06:54+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "198.51.100.140",
+    "user_id": "user_6497",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "d0bba29b-d662-474d-b110-48940183b439",
+    "timestamp": "2026-10-18T19:21:12+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "10.1.158.223",
+    "user_id": "student_9295",
+    "event_type": "Port Scan Detected",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "37456e20-0393-4dd1-a48b-5bb5c0bee8b1",
+    "timestamp": "2026-10-18T19:21:48+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "192.168.1.71",
+    "user_id": "student_2101",
+    "event_type": "Insider Threat Alert",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "e9d6a2bd-6cf5-4e54-820c-b0341a1bd9b2",
+    "timestamp": "2026-10-18T19:34:10+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "172.16.217.44",
+    "user_id": "svc_vpn",
+    "event_type": "Port Scan Detected",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "8bd012ae-0f3c-4854-b9b9-496493f3ce2b",
+    "timestamp": "2026-10-18T19:48:49+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "192.168.50.79",
+    "user_id": "guest_4441",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "320d080d-f75b-4ce5-825c-9e2e9b44da97",
+    "timestamp": "2026-10-18T22:46:42+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "198.51.100.13",
+    "user_id": "nurse_4362",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "ac2a8929-bef7-44fb-b422-ffe3889424a8",
+    "timestamp": "2026-10-18T23:50:52+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "172.17.72.226",
+    "user_id": "nurse_9206",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "0a7697a5-3036-48d9-b43c-c49b87ed8db0",
+    "timestamp": "2026-10-19T00:17:42+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "192.168.1.21",
+    "user_id": "analyst_6752",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "4f1ea541-2fdf-4a10-8aa6-fd199560ea9c",
+    "timestamp": "2026-10-19T00:54:31+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "10.1.153.154",
+    "user_id": "analyst_6411",
+    "event_type": "Brute Force Login",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "3f451409-05c8-4fb7-ae4d-efc9ef305f0c",
+    "timestamp": "2026-10-19T02:11:18+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "203.0.113.107",
+    "user_id": "svc_api_gw",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "0033550c-85e6-4b0e-ab9a-00f955ceb734",
+    "timestamp": "2026-10-19T02:29:15+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "192.168.1.71",
+    "user_id": "user_1329",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "be992c7d-5c10-4844-82ad-39d30017083d",
+    "timestamp": "2026-10-19T02:51:43+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "192.168.50.150",
+    "user_id": "dev_8847",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "26aa03ea-8836-4e6d-a87d-47a162f352e4",
+    "timestamp": "2026-10-19T03:25:12+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "192.168.1.219",
+    "user_id": "dev_8918",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "b54d9db7-7166-4f4a-a623-576a3ab6b565",
+    "timestamp": "2026-10-19T05:30:55+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.1.200.246",
+    "user_id": "user_608",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "8eb59a2e-8b35-40be-8bd0-12d1f541b7fe",
+    "timestamp": "2026-10-19T05:40:41+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "192.168.1.34",
+    "user_id": "admin_fin",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "527d51fb-651e-4a10-b2ec-2b429ebba44f",
+    "timestamp": "2026-10-19T06:37:26+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "10.10.95.73",
+    "user_id": "svc_backup",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "13769866-b28f-4ece-a7b0-89863330e23c",
+    "timestamp": "2026-10-19T09:11:08+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "10.2.163.227",
+    "user_id": "admin_ops",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "7a7a3ebf-5237-4976-8736-6aa9873cf99d",
+    "timestamp": "2026-10-19T10:38:08+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "172.16.164.247",
+    "user_id": "dev_4197",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "d17b4dbe-3efb-4a18-9e77-c3ab7b707915",
+    "timestamp": "2026-10-19T12:30:41+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "172.16.207.12",
+    "user_id": "guest_8885",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "960a12f5-491f-46e6-92a6-92faede72bfe",
+    "timestamp": "2026-10-19T16:17:51+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "10.0.65.241",
+    "user_id": "guest_1969",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "4b90a1e2-c613-4a69-a772-8796a0f14d32",
+    "timestamp": "2026-10-19T17:55:57+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "10.10.50.49",
+    "user_id": "guest_2396",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "e1cfda5e-bc78-4ee2-be9f-4be9821d5afa",
+    "timestamp": "2026-10-19T18:21:53+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "192.168.1.107",
+    "user_id": "admin_ops",
+    "event_type": "Insider Threat Alert",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "625ac2fb-046f-472f-b6fc-6816c13b60a8",
+    "timestamp": "2026-10-19T18:47:47+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "192.168.1.167",
+    "user_id": "admin_ops",
+    "event_type": "Port Scan Detected",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "6ddfb90a-7361-4e46-a9d3-1262533b0354",
+    "timestamp": "2026-10-20T01:13:42+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "198.51.100.117",
+    "user_id": "svc_monitor",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "afd613ab-8ff0-4e69-8235-625337c5ae34",
+    "timestamp": "2026-10-20T02:13:29+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "10.10.69.41",
+    "user_id": "admin_dev",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "e7014130-2422-4e07-9abe-a789eec6810e",
+    "timestamp": "2026-10-20T06:32:45+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "198.51.100.24",
+    "user_id": "dev_8431",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "ae81bdda-1052-4269-b88c-2781db7afbe1",
+    "timestamp": "2026-10-20T06:47:45+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "10.1.248.198",
+    "user_id": "nurse_5853",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "f659392c-f170-44f9-96d2-367bea057b70",
+    "timestamp": "2026-10-20T09:08:17+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "192.168.50.70",
+    "user_id": "student_1323",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "acee9213-3488-4f24-b428-cbc045a373d9",
+    "timestamp": "2026-10-20T10:32:19+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "198.51.100.97",
+    "user_id": "analyst_2937",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "e8eeddab-8c71-47e7-91ec-48758c60af1a",
+    "timestamp": "2026-10-20T11:34:46+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.0.29.238",
+    "user_id": "analyst_5138",
+    "event_type": "Insider Threat Alert",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "abbf22aa-7c44-429a-93ef-1162750c179b",
+    "timestamp": "2026-10-20T12:41:02+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "172.17.39.113",
+    "user_id": "admin_infra",
+    "event_type": "Failed MFA Verification",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "06c9e1a2-ed00-4f56-bcf6-1e230bd687d0",
+    "timestamp": "2026-10-20T13:19:18+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "172.17.243.241",
+    "user_id": "nurse_1392",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "19fc32d2-1fc9-40d3-886d-f52fbc51f493",
+    "timestamp": "2026-10-20T15:38:49+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "172.16.225.37",
+    "user_id": "student_6875",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "ec58291a-9075-475d-8abb-e67bd0d3b61b",
+    "timestamp": "2026-10-20T15:41:00+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "172.17.249.72",
+    "user_id": "user_8405",
+    "event_type": "Brute Force Login",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "9a2a3bdd-0909-45b8-9546-52d53754ac2c",
+    "timestamp": "2026-10-20T16:29:50+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "10.1.147.96",
+    "user_id": "admin_sec",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "374e6089-36b5-41d4-9cc1-6dfed88262ec",
+    "timestamp": "2026-10-20T17:13:05+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "192.168.1.34",
+    "user_id": "analyst_8537",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "8e46f9d5-21a5-40d7-8952-4bc0e903285f",
+    "timestamp": "2026-10-20T17:25:35+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "192.168.50.248",
+    "user_id": "student_5439",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "b58fe158-7898-4dd1-bbee-10f160cff94c",
+    "timestamp": "2026-10-20T18:08:04+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "192.168.1.254",
+    "user_id": "nurse_9827",
+    "event_type": "Phishing Email Reported",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "751680e9-d137-413c-8a18-8a30ef16f8d2",
+    "timestamp": "2026-10-20T18:44:49+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "203.0.113.8",
+    "user_id": "analyst_9400",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "fdc5142b-d64a-433c-923a-3650adc2a20c",
+    "timestamp": "2026-10-20T18:54:58+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "10.10.245.48",
+    "user_id": "admin_db",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "780f44d8-b828-4e54-a49e-57fbdd97292b",
+    "timestamp": "2026-10-20T20:18:42+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "192.168.50.224",
+    "user_id": "user_1221",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "d9e61d76-f799-4cc4-9b9b-e62b2dd48724",
+    "timestamp": "2026-10-20T20:52:32+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "10.0.118.160",
+    "user_id": "admin_net",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "1d09f514-8685-4bab-8dec-19ad4536bf60",
+    "timestamp": "2026-10-20T21:43:10+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "172.16.17.55",
+    "user_id": "analyst_3583",
+    "event_type": "Suspicious API Call",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "7e593b06-3c21-4479-92eb-d7bec58f977e",
+    "timestamp": "2026-10-20T23:52:22+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "10.0.150.123",
+    "user_id": "svc_portal",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "194fd851-3a45-4486-a9ef-67c02f608227",
+    "timestamp": "2026-10-21T00:54:34+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "10.2.128.132",
+    "user_id": "guest_8271",
+    "event_type": "Insider Threat Alert",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "7d9aca18-5fc7-4606-bce7-92e8c5cc87d8",
+    "timestamp": "2026-10-21T01:47:32+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "192.168.1.102",
+    "user_id": "student_1345",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "c065b919-202f-458d-9eef-5edb987a2f78",
+    "timestamp": "2026-10-21T02:09:54+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "203.0.113.153",
+    "user_id": "admin_sec",
+    "event_type": "Phishing Email Reported",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "beb68cdb-6fc5-450a-84f4-5defe4b9c127",
+    "timestamp": "2026-10-21T02:45:51+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "192.168.1.35",
+    "user_id": "user_2946",
+    "event_type": "Port Scan Detected",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "911acb7f-dac9-4a91-aa1a-30bde87e26a8",
+    "timestamp": "2026-10-21T02:55:59+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "172.16.95.158",
+    "user_id": "student_3690",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "35af52e4-679f-4d46-8aad-2957edd2dd57",
+    "timestamp": "2026-10-21T05:15:20+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "172.17.2.47",
+    "user_id": "svc_monitor",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "1a5acd1b-ec73-434b-b992-d398ed845c47",
+    "timestamp": "2026-10-21T05:54:39+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "172.17.132.226",
+    "user_id": "guest_7735",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "c7a03a0f-b63a-4451-aeef-de417e1e4cea",
+    "timestamp": "2026-10-21T06:58:22+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "10.10.136.252",
+    "user_id": "student_6978",
+    "event_type": "Port Scan Detected",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "354ad1cc-68d3-49e5-a11c-be893565a033",
+    "timestamp": "2026-10-21T07:28:07+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "172.17.96.67",
+    "user_id": "nurse_7698",
+    "event_type": "Phishing Email Reported",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "7fbff234-02ba-491e-9fbf-d70c5aeca2c1",
+    "timestamp": "2026-10-21T09:21:45+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "172.16.109.230",
+    "user_id": "dev_5813",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "b288b209-94da-4b97-9295-ca184a2c8be9",
+    "timestamp": "2026-10-21T10:17:47+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "192.168.1.86",
+    "user_id": "dev_5499",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "b23323bb-c02c-4cde-bbf6-d53c897d52a8",
+    "timestamp": "2026-10-21T10:48:45+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "10.0.56.214",
+    "user_id": "analyst_2530",
+    "event_type": "Brute Force Login",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "ea58845c-9a4d-4beb-b683-26933ef4c8fb",
+    "timestamp": "2026-10-21T12:00:33+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "10.10.240.49",
+    "user_id": "admin_infra",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "79b09915-c8ee-4c93-bfed-3c1c9a41e294",
+    "timestamp": "2026-10-21T12:09:51+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "172.16.216.126",
+    "user_id": "admin_hr",
+    "event_type": "Phishing Email Reported",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "b3ff2214-ad03-4da0-8648-3f4857610b86",
+    "timestamp": "2026-10-21T12:25:23+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "172.16.169.40",
+    "user_id": "dev_6276",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "3a0c9dab-7568-4943-90d3-a8d5d46a3b37",
+    "timestamp": "2026-10-21T13:04:53+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "198.51.100.33",
+    "user_id": "nurse_845",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "865d11aa-39b9-4fce-8924-b2324d37635b",
+    "timestamp": "2026-10-21T13:13:27+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "203.0.113.102",
+    "user_id": "admin_sec",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "c1d1a9cc-7b76-44cd-a957-1697f9b7465d",
+    "timestamp": "2026-10-21T13:33:00+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "172.16.24.168",
+    "user_id": "analyst_4202",
+    "event_type": "Insider Threat Alert",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "0819f98f-3afe-42f8-bf34-8b98eea4b13b",
+    "timestamp": "2026-10-21T14:24:19+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "192.168.50.38",
+    "user_id": "admin_db",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "00774ac3-9fee-4ff6-a861-4c04c2b48a06",
+    "timestamp": "2026-10-21T18:30:10+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "10.10.177.181",
+    "user_id": "guest_5294",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "1af4403c-bb4c-4d50-b49d-e442b20d66d1",
+    "timestamp": "2026-10-21T18:42:01+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "203.0.113.22",
+    "user_id": "svc_vpn",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "83b41b60-bd57-4b34-9924-860963727283",
+    "timestamp": "2026-10-21T18:48:26+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "192.168.1.79",
+    "user_id": "user_1725",
+    "event_type": "Firewall Rule Violation",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "d76bf6a5-7d77-4f0d-856b-58a3f11e48a4",
+    "timestamp": "2026-10-21T20:37:34+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "198.51.100.198",
+    "user_id": "user_5617",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "fdf60f44-4cae-4b8b-966b-d9edea4cba61",
+    "timestamp": "2026-10-21T21:25:35+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "192.168.1.226",
+    "user_id": "guest_1099",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "fd73084b-029b-4e2a-ba4e-e115c755b8af",
+    "timestamp": "2026-10-21T21:31:14+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "10.10.45.157",
+    "user_id": "dev_7107",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "bf8afadb-df3a-4d91-aab0-a7fb3c7bfedc",
+    "timestamp": "2026-10-22T00:18:17+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "203.0.113.69",
+    "user_id": "admin_db",
+    "event_type": "Phishing Email Reported",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "d7b6ad7a-2c15-4f31-b9ef-cc6df6303dee",
+    "timestamp": "2026-10-22T02:41:57+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "10.2.252.182",
+    "user_id": "svc_monitor",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "231f6bbd-e41d-40f4-8b51-1f2992a9e2f8",
+    "timestamp": "2026-10-22T02:50:49+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "172.16.245.183",
+    "user_id": "admin_ops",
+    "event_type": "Port Scan Detected",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "616bf3b9-1ae1-485f-9aa5-b53b9ba839b2",
+    "timestamp": "2026-10-22T02:57:08+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "10.2.183.182",
+    "user_id": "svc_ldap",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "ec64169b-7fbf-4380-8184-42c88fa54849",
+    "timestamp": "2026-10-22T03:45:25+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "172.16.124.63",
+    "user_id": "dev_4973",
+    "event_type": "Insider Threat Alert",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "ea3f924f-0c11-4e52-a86f-05ddb64a662a",
+    "timestamp": "2026-10-22T05:00:12+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "192.168.1.130",
+    "user_id": "guest_9108",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "eb556503-fa6d-4978-8b1f-03633dfe9019",
+    "timestamp": "2026-10-22T05:40:14+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "192.168.50.32",
+    "user_id": "user_4020",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "98b9c26b-c587-416e-8681-42f2042ea233",
+    "timestamp": "2026-10-22T06:07:32+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "192.168.1.100",
+    "user_id": "dev_5222",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "19709a6e-1db0-41b8-8c29-6e97702d3f23",
+    "timestamp": "2026-10-22T06:25:41+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.1.112.251",
+    "user_id": "admin_net",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "0630b130-c0d2-493d-928a-f6f4d4233829",
+    "timestamp": "2026-10-22T06:58:12+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "192.168.1.202",
+    "user_id": "analyst_7718",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "47d72aed-d0e8-4cfd-8814-1cd32ac2f6fb",
+    "timestamp": "2026-10-22T08:21:05+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "172.16.86.82",
+    "user_id": "admin_db",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "e5be6d9b-6271-46d5-9a06-f060ee1957fc",
+    "timestamp": "2026-10-22T11:43:45+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "198.51.100.211",
+    "user_id": "analyst_8526",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "237201bb-b202-4ddd-be12-9a5d953856d5",
+    "timestamp": "2026-10-22T17:30:19+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "10.10.246.196",
+    "user_id": "analyst_1774",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "a36a23a3-c4a4-4334-a0c5-4becc6c46533",
+    "timestamp": "2026-10-22T18:08:36+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "10.2.180.222",
+    "user_id": "svc_erp",
+    "event_type": "Insider Threat Alert",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "d0eb1be6-07bf-4f7c-9560-dcdd6b6c491c",
+    "timestamp": "2026-10-22T18:39:16+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "172.16.49.39",
+    "user_id": "student_1030",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "e01ed8ac-ee74-43f0-90a6-e9d158b25806",
+    "timestamp": "2026-10-22T20:22:05+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "10.2.159.156",
+    "user_id": "dev_735",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "e52ad77a-8ae7-41f5-8f81-a49daae34e5f",
+    "timestamp": "2026-10-22T20:48:59+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.10.36.189",
+    "user_id": "admin_net",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "90a3aa26-0b8e-45fe-92b0-67869aa04a7c",
+    "timestamp": "2026-10-22T21:13:51+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "10.0.91.130",
+    "user_id": "admin_fin",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "9825198a-abf7-413a-beed-ef872e59b899",
+    "timestamp": "2026-10-22T22:38:51+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "10.1.147.174",
+    "user_id": "dev_6564",
+    "event_type": "Phishing Email Reported",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "5abb375c-f615-44a0-9546-dc78b3336ea2",
+    "timestamp": "2026-10-23T00:22:06+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "10.1.68.183",
+    "user_id": "admin_infra",
+    "event_type": "Phishing Email Reported",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "aeeb8950-c60e-42d6-8a8e-aedaf6adb0c3",
+    "timestamp": "2026-10-23T00:32:25+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "192.168.50.205",
+    "user_id": "dev_2832",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "3961096a-68e1-4da4-83ad-bf95eaf7f56c",
+    "timestamp": "2026-10-23T02:34:48+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "198.51.100.199",
+    "user_id": "guest_7716",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "085d8c5c-f324-4ecd-acd6-7dd4bed17342",
+    "timestamp": "2026-10-23T02:56:53+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "10.2.23.48",
+    "user_id": "dev_7453",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "3cb92e1d-b029-41c6-b808-b3171c591c30",
+    "timestamp": "2026-10-23T04:32:43+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "10.10.213.240",
+    "user_id": "admin_fin",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "cf3d4d11-76ab-40a1-bb20-cfbd987e771d",
+    "timestamp": "2026-10-23T04:38:44+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "172.17.209.88",
+    "user_id": "svc_portal",
+    "event_type": "Insider Threat Alert",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "e1263f85-d3e4-4fdf-a168-91bcce5eee94",
+    "timestamp": "2026-10-23T06:10:40+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "172.16.150.186",
+    "user_id": "user_4385",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "17d7eea1-2da3-4907-998a-e7b8602d4a5c",
+    "timestamp": "2026-10-23T08:54:08+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "10.10.197.147",
+    "user_id": "dev_596",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "977abf4c-84d7-4620-9f2e-7fd2c0dc3077",
+    "timestamp": "2026-10-23T09:41:07+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "192.168.50.65",
+    "user_id": "user_1612",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "14effe9f-7b58-4a1a-ba75-00957b60e104",
+    "timestamp": "2026-10-23T13:26:05+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "172.17.62.68",
+    "user_id": "dev_2244",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "76d10e7e-aff4-428e-b594-7805a8c209aa",
+    "timestamp": "2026-10-23T15:12:15+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "172.17.33.192",
+    "user_id": "nurse_2034",
+    "event_type": "Phishing Email Reported",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "e0699cda-6820-434f-841e-19467106cf47",
+    "timestamp": "2026-10-23T15:53:51+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "10.2.243.175",
+    "user_id": "analyst_1563",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "77f7e372-de10-492a-a573-840ccaacd76f",
+    "timestamp": "2026-10-23T16:47:22+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "10.1.23.100",
+    "user_id": "dev_9144",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "f047a011-99e0-47c4-bef2-a9786e5e0bab",
+    "timestamp": "2026-10-23T19:46:18+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "192.168.50.231",
+    "user_id": "nurse_9055",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "3d51b267-b50d-4b09-8c3d-849d69237815",
+    "timestamp": "2026-10-24T01:32:56+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "10.1.59.247",
+    "user_id": "user_4515",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "3ee2a909-d4b8-40de-a82f-f5190ebd4b02",
+    "timestamp": "2026-10-24T02:12:11+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "192.168.50.207",
+    "user_id": "admin_sec",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "7a9cbe67-dd77-4eb8-9d8a-aec4ea5f78d2",
+    "timestamp": "2026-10-24T02:30:45+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "172.17.66.202",
+    "user_id": "admin_sec",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "76903154-8135-4457-a616-17cf7681e71a",
+    "timestamp": "2026-10-24T03:20:56+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "172.17.80.34",
+    "user_id": "admin_dev",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "2bae8134-b81e-4b5a-b398-ff64dc8a847a",
+    "timestamp": "2026-10-24T04:01:47+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "192.168.1.247",
+    "user_id": "analyst_4919",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "5fe24e6b-7bb9-48d9-bc6b-41ffc7fc30e3",
+    "timestamp": "2026-10-24T04:36:23+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "192.168.50.135",
+    "user_id": "svc_vpn",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "20546dfc-a674-405d-a33b-58306c68b695",
+    "timestamp": "2026-10-24T04:49:36+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "192.168.50.37",
+    "user_id": "nurse_6886",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "c1095d3f-30a8-480e-99aa-76fcc1a558e1",
+    "timestamp": "2026-10-24T04:51:13+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "10.0.116.68",
+    "user_id": "analyst_1525",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "53f1ea39-8964-4914-a502-9de5eb23ae20",
+    "timestamp": "2026-10-24T05:11:37+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "172.16.197.200",
+    "user_id": "guest_4019",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "e9b645ca-c3b1-4101-93d5-0b18feb4f437",
+    "timestamp": "2026-10-24T10:18:31+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "172.16.218.176",
+    "user_id": "admin_sec",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "f276eb5e-a129-4eab-a882-7efd13c5ed07",
+    "timestamp": "2026-10-24T11:04:09+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "203.0.113.243",
+    "user_id": "admin_hr",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "555bea00-fa5f-41fb-8b8f-01d4f5604eaa",
+    "timestamp": "2026-10-24T16:26:56+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "192.168.50.236",
+    "user_id": "nurse_6202",
+    "event_type": "Insider Threat Alert",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "259932ee-996f-41ab-9d3e-5304d1e8fe26",
+    "timestamp": "2026-10-24T16:30:22+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "203.0.113.73",
+    "user_id": "guest_3933",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "7f777440-6f72-4828-9e30-f10b4c198e42",
+    "timestamp": "2026-10-24T17:11:12+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "203.0.113.177",
+    "user_id": "analyst_7115",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "1b52eb41-029d-453b-b9f0-7e1fb30ebb7c",
+    "timestamp": "2026-10-24T19:36:25+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "10.10.207.51",
+    "user_id": "svc_portal",
+    "event_type": "Brute Force Login",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "43a4de9f-afb3-46fd-8773-4e3716b2b27f",
+    "timestamp": "2026-10-24T21:17:25+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "203.0.113.170",
+    "user_id": "student_7065",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "bdb0d0de-38b7-46ce-965f-6406cb19efe0",
+    "timestamp": "2026-10-24T21:47:12+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "172.17.163.215",
+    "user_id": "user_5588",
+    "event_type": "Insider Threat Alert",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "a5f85bd3-27e4-4746-be60-f9d44d5c06ea",
+    "timestamp": "2026-10-24T23:36:33+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "10.2.3.56",
+    "user_id": "guest_6214",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "90e2e12a-a3aa-405a-93e7-4cee7f4c43fd",
+    "timestamp": "2026-10-25T00:39:09+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "10.10.81.31",
+    "user_id": "svc_erp",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "eb8c03b6-4d9b-40d9-b63c-a578a0940095",
+    "timestamp": "2026-10-25T03:08:18+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "10.0.12.220",
+    "user_id": "user_4106",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "107345b9-f254-42f4-abe3-42792197d0de",
+    "timestamp": "2026-10-25T03:43:41+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "10.1.219.60",
+    "user_id": "admin_dev",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "d0746eb7-0f6c-4400-96eb-2a776be1b874",
+    "timestamp": "2026-10-25T06:06:22+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "10.1.168.254",
+    "user_id": "user_1631",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "4e764ec8-85f9-4111-bf4d-9c8455b9a2a9",
+    "timestamp": "2026-10-25T09:31:49+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "172.17.144.197",
+    "user_id": "guest_6052",
+    "event_type": "Phishing Email Reported",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "f8b0ed8d-6563-4483-b993-fb81a4aa92c8",
+    "timestamp": "2026-10-25T10:35:55+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "198.51.100.143",
+    "user_id": "student_7403",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "592f7753-01c9-4b9f-b829-e270d0a79eb8",
+    "timestamp": "2026-10-25T10:53:41+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "172.17.91.213",
+    "user_id": "nurse_9073",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "493a265e-bef7-45cc-bf47-0a3818f979fb",
+    "timestamp": "2026-10-25T11:21:22+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "10.10.174.53",
+    "user_id": "nurse_6809",
+    "event_type": "Port Scan Detected",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "ed2d65b6-0ddb-40e8-8231-b6399e2d9769",
+    "timestamp": "2026-10-25T14:31:01+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "198.51.100.155",
+    "user_id": "user_9295",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "59047b14-a0bb-489c-8e00-a2bce955ed72",
+    "timestamp": "2026-10-25T18:05:34+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "10.1.89.111",
+    "user_id": "admin_fin",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "04a7df99-2e1e-4ad0-b623-eac128d4bc43",
+    "timestamp": "2026-10-25T18:59:35+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "172.16.193.181",
+    "user_id": "admin_net",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "7b76d7c8-7f64-47ed-a78b-681c48887c40",
+    "timestamp": "2026-10-25T22:25:26+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "172.16.83.213",
+    "user_id": "nurse_5633",
+    "event_type": "Suspicious API Call",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "c29ad43b-6e0d-4918-a20d-72d48ba7d5fb",
+    "timestamp": "2026-10-26T04:31:10+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "10.0.146.90",
+    "user_id": "nurse_9878",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "dd76ac43-54a4-4093-a0a5-b356cd72c0ee",
+    "timestamp": "2026-10-26T05:49:47+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "10.0.78.108",
+    "user_id": "admin_fin",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "267e0387-aa2e-45e7-aba1-f9431bf4b2b4",
+    "timestamp": "2026-10-26T06:58:25+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "10.10.142.83",
+    "user_id": "nurse_6336",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "f67fd623-8e50-44a6-a029-bbb0bb6f04cb",
+    "timestamp": "2026-10-26T08:38:06+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "192.168.50.213",
+    "user_id": "student_6125",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "b573f7c5-d549-45d9-a085-a6b531da1342",
+    "timestamp": "2026-10-26T11:05:23+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "10.10.203.127",
+    "user_id": "user_6012",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "226cae43-f105-4a19-bc45-6c7f6def9910",
+    "timestamp": "2026-10-26T12:31:26+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "198.51.100.250",
+    "user_id": "student_5964",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "f89508a8-4415-46b9-903c-c6fb0aba4430",
+    "timestamp": "2026-10-26T12:43:46+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "172.17.79.211",
+    "user_id": "student_3752",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "2954b581-ea5e-4544-b423-5d74330d188f",
+    "timestamp": "2026-10-26T12:50:58+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "172.17.239.80",
+    "user_id": "dev_8997",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "8b792ea1-e109-4e35-a94f-80fb03f418d6",
+    "timestamp": "2026-10-26T15:38:26+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "10.1.68.172",
+    "user_id": "guest_8746",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "40af782a-f5f1-44c1-8cfe-1cbeb2b20ad6",
+    "timestamp": "2026-10-26T15:41:10+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "192.168.1.18",
+    "user_id": "analyst_5243",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "3cc56df8-5112-4e8f-8e22-662827d2a60d",
+    "timestamp": "2026-10-26T16:20:44+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "172.16.115.46",
+    "user_id": "admin_db",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "072906e9-ba3f-48bd-b8b2-47924490934d",
+    "timestamp": "2026-10-26T20:42:24+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "10.0.109.21",
+    "user_id": "dev_3408",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "1b0da90f-e4dc-4605-aba0-df344952eeb0",
+    "timestamp": "2026-10-26T22:35:50+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "172.17.221.200",
+    "user_id": "user_5538",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "e215371d-044d-4ab5-afbd-a907c9d9dedb",
+    "timestamp": "2026-10-26T23:47:27+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "10.0.182.112",
+    "user_id": "user_8618",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "65b167ad-7dea-48b3-8150-a8913121e6c1",
+    "timestamp": "2026-10-27T01:56:26+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "198.51.100.80",
+    "user_id": "svc_backup",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "0b629514-6fe3-454e-869b-d58b379284f0",
+    "timestamp": "2026-10-27T03:12:07+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "172.16.115.227",
+    "user_id": "svc_portal",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "ad87c3fc-511d-44d8-ad94-8c033f70a73a",
+    "timestamp": "2026-10-27T03:15:47+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "192.168.50.159",
+    "user_id": "user_5982",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "d909dcae-c261-48df-ae4d-2bbb1170a55f",
+    "timestamp": "2026-10-27T04:49:48+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "198.51.100.178",
+    "user_id": "svc_monitor",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "78a54a2d-9d0f-4d6f-bafd-7cd59b844a2f",
+    "timestamp": "2026-10-27T06:49:03+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "10.0.135.9",
+    "user_id": "admin_sec",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "63006f9d-fa69-4b2c-a860-2efd3116f407",
+    "timestamp": "2026-10-27T07:59:11+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "10.2.131.100",
+    "user_id": "dev_9871",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "2a09fa28-f09e-443f-acc8-2383ba8548db",
+    "timestamp": "2026-10-27T09:31:09+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "172.16.98.84",
+    "user_id": "student_7549",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "e56f8497-ee97-48ac-8919-6542ddaff5f3",
+    "timestamp": "2026-10-27T11:00:06+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "172.16.83.27",
+    "user_id": "admin_ops",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "8925a66e-78a6-4fe2-a71c-fcb5a266bc8a",
+    "timestamp": "2026-10-27T11:13:38+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "172.17.243.197",
+    "user_id": "guest_3245",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "7e014626-fab3-4e44-9eb0-b4af86475a26",
+    "timestamp": "2026-10-27T12:17:08+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "10.0.247.54",
+    "user_id": "svc_ldap",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "c1c27ebd-b9c0-4937-aa97-58c74fecc968",
+    "timestamp": "2026-10-27T14:29:35+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "10.0.6.38",
+    "user_id": "svc_ldap",
+    "event_type": "Port Scan Detected",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "18a3630b-4c5b-45cc-bec8-869e1f918b37",
+    "timestamp": "2026-10-27T15:14:01+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "10.0.2.116",
+    "user_id": "nurse_3530",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "ad1c8d2b-d777-4792-bc31-d2aca28464ca",
+    "timestamp": "2026-10-27T16:36:23+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "10.0.182.36",
+    "user_id": "user_2784",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "e5f483eb-d21a-41d4-95df-b87c7e6421df",
+    "timestamp": "2026-10-27T17:08:12+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "198.51.100.167",
+    "user_id": "guest_4657",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "572d4e48-1a18-46b9-80ae-caee13523be2",
+    "timestamp": "2026-10-27T17:42:23+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "172.16.93.206",
+    "user_id": "analyst_7079",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "9358eb5d-de4d-4153-b02a-bb604ef9a023",
+    "timestamp": "2026-10-28T04:23:53+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "192.168.1.161",
+    "user_id": "nurse_3936",
+    "event_type": "Phishing Email Reported",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "4673acc2-082f-44ad-a679-c6914b1500b8",
+    "timestamp": "2026-10-28T05:59:38+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.2.211.184",
+    "user_id": "dev_1852",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "0a414556-3d67-4b01-ac09-4c3353a1e9c3",
+    "timestamp": "2026-10-28T06:52:16+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "192.168.1.70",
+    "user_id": "student_5413",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "48dc6448-1c4b-4240-a6f2-96397401a36e",
+    "timestamp": "2026-10-28T09:44:44+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "172.16.38.215",
+    "user_id": "user_4935",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "0dbb6cd4-d921-475e-aa1b-379b9bde500b",
+    "timestamp": "2026-10-28T09:52:27+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "192.168.1.178",
+    "user_id": "guest_4822",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "b4a49f35-98c8-4d0d-a04f-399767914c94",
+    "timestamp": "2026-10-28T10:40:38+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "198.51.100.110",
+    "user_id": "guest_3898",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "50aa25a0-e661-4ef4-b244-5db1fb027a5b",
+    "timestamp": "2026-10-28T13:04:18+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "192.168.1.124",
+    "user_id": "guest_3442",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "50eba990-2d5f-4444-90aa-57eeeb985c4e",
+    "timestamp": "2026-10-28T17:10:52+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.2.250.205",
+    "user_id": "svc_backup",
+    "event_type": "Insider Threat Alert",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "7043e31d-f288-402c-8ae9-480c2f9f49f5",
+    "timestamp": "2026-10-28T17:30:11+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "172.17.93.28",
+    "user_id": "admin_sec",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "92a7b87d-fa40-4f93-8a93-b9e49985e476",
+    "timestamp": "2026-10-28T17:31:53+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "10.2.213.178",
+    "user_id": "svc_api_gw",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "b7d5ff0f-3e70-49b7-8cd3-dd2ba43fa8f5",
+    "timestamp": "2026-10-28T17:51:34+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "172.16.131.181",
+    "user_id": "nurse_6907",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "05167a96-2829-4573-a3b9-952376e83317",
+    "timestamp": "2026-10-28T19:13:04+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "10.1.107.105",
+    "user_id": "analyst_8990",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "ca4019bd-be4f-43db-bf5f-1c7bfb4fad7d",
+    "timestamp": "2026-10-28T19:21:47+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "10.1.80.21",
+    "user_id": "student_2645",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "6b7a4c39-054c-4839-9f55-073e835349d2",
+    "timestamp": "2026-10-28T19:42:38+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.2.122.172",
+    "user_id": "admin_hr",
+    "event_type": "Suspicious API Call",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "d03d07d3-6f7f-41f9-bec5-4a7fbf8c0ee6",
+    "timestamp": "2026-10-28T20:02:00+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.0.33.129",
+    "user_id": "analyst_1744",
+    "event_type": "Port Scan Detected",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "fc56dbb3-75b2-499a-863f-fc2c9e112f34",
+    "timestamp": "2026-10-28T20:49:07+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "10.10.106.129",
+    "user_id": "guest_1120",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "00712585-205a-4818-baa7-91aa286035b9",
+    "timestamp": "2026-10-28T20:53:06+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "203.0.113.176",
+    "user_id": "guest_3659",
+    "event_type": "Phishing Email Reported",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "5bd8c76d-41a7-459c-a49b-7da9b2f7abd5",
+    "timestamp": "2026-10-28T22:23:15+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "10.0.142.206",
+    "user_id": "dev_3778",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "be1c498e-75fa-45b2-9533-9842aae9a310",
+    "timestamp": "2026-10-28T23:02:45+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "203.0.113.136",
+    "user_id": "dev_1921",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "0dc82955-b523-463e-a417-00e533733225",
+    "timestamp": "2026-10-28T23:39:49+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "10.2.19.16",
+    "user_id": "svc_ldap",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "409b2b99-1fe4-450a-af33-cb7ea8560352",
+    "timestamp": "2026-10-29T01:10:39+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.1.38.66",
+    "user_id": "student_2942",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "ecfa0ccb-0e71-4ccb-bcc6-c470e9ca54d2",
+    "timestamp": "2026-10-29T03:14:11+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "172.16.142.240",
+    "user_id": "dev_4936",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "d16235a3-fe9a-4a29-a3a4-b79546e3d934",
+    "timestamp": "2026-10-29T05:09:54+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "203.0.113.131",
+    "user_id": "dev_8293",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "0c7faca6-14b4-4c0a-96d0-089f629b50c2",
+    "timestamp": "2026-10-29T07:22:18+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "10.1.12.236",
+    "user_id": "student_8615",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "020c964c-1a69-4dd6-ad97-bf908263ad05",
+    "timestamp": "2026-10-29T10:11:40+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "198.51.100.191",
+    "user_id": "analyst_979",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "50203444-08ca-4230-b990-8f6cf57581ce",
+    "timestamp": "2026-10-29T10:13:09+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "192.168.50.76",
+    "user_id": "nurse_6957",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "1826dc08-6479-4fed-b9b4-0b81166beeed",
+    "timestamp": "2026-10-29T10:23:48+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "10.0.78.127",
+    "user_id": "admin_net",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "09fac29a-2c4f-49d3-8845-37402619aa2c",
+    "timestamp": "2026-10-29T13:21:31+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "172.16.84.31",
+    "user_id": "user_8249",
+    "event_type": "Successful Admin Login",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "a6b81ba8-6f3d-4243-b8af-c675af04d341",
+    "timestamp": "2026-10-29T14:16:16+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "192.168.1.203",
+    "user_id": "guest_5298",
+    "event_type": "Phishing Email Reported",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "08022096-cf04-41e9-bd3c-35b1c3b8cbc9",
+    "timestamp": "2026-10-29T17:22:22+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "192.168.50.92",
+    "user_id": "student_2801",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "f3d4f72c-c58a-4b8e-8949-7ae0c67211af",
+    "timestamp": "2026-10-29T18:07:20+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "10.2.18.136",
+    "user_id": "user_2788",
+    "event_type": "Port Scan Detected",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "e2fbd108-2803-417c-8024-104621bc31b8",
+    "timestamp": "2026-10-29T19:41:13+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "172.17.203.202",
+    "user_id": "student_9747",
+    "event_type": "Failed MFA Verification",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "43243d50-a38d-4e70-90de-e9507efa858e",
+    "timestamp": "2026-10-29T20:22:59+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "10.0.151.130",
+    "user_id": "svc_portal",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "504daee0-eb5e-453e-a56d-966edcc1adaa",
+    "timestamp": "2026-10-29T22:54:52+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "198.51.100.234",
+    "user_id": "user_2134",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "42dff39d-99f1-44d7-b70e-f5f04b59235a",
+    "timestamp": "2026-10-29T23:40:23+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "192.168.1.169",
+    "user_id": "analyst_8359",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "80544523-eff2-4319-ab61-43ea609f158d",
+    "timestamp": "2026-10-30T00:52:38+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "10.0.243.180",
+    "user_id": "dev_9397",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "fa2b5737-4420-42be-ad8c-538c6606ef00",
+    "timestamp": "2026-10-30T02:07:21+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "192.168.50.27",
+    "user_id": "user_9505",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "aa75d921-a040-4e72-911a-0c01dbfe6a98",
+    "timestamp": "2026-10-30T05:45:37+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "192.168.1.90",
+    "user_id": "dev_5252",
+    "event_type": "Insider Threat Alert",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "c78ca11e-ff0f-4eb4-b79c-6b4717f83f2c",
+    "timestamp": "2026-10-30T06:30:01+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "192.168.50.64",
+    "user_id": "svc_portal",
+    "event_type": "Phishing Email Reported",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "051531f4-40b3-412a-8f2b-7fe959fd4288",
+    "timestamp": "2026-10-30T07:44:44+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "10.0.213.200",
+    "user_id": "student_2241",
+    "event_type": "Port Scan Detected",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "547af24e-bb17-4eee-b19e-d8b98af190ec",
+    "timestamp": "2026-10-30T08:34:11+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "10.10.118.212",
+    "user_id": "student_5636",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "0702cc44-6772-4b1f-85a5-21e997a9b7de",
+    "timestamp": "2026-10-30T13:49:10+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "203.0.113.126",
+    "user_id": "admin_infra",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "573345ed-9484-42b6-b3cf-6f4acecfded7",
+    "timestamp": "2026-10-30T14:06:53+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "203.0.113.156",
+    "user_id": "user_5167",
+    "event_type": "Brute Force Login",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "79a4563f-81d0-4d38-9d8f-e1ade508aa69",
+    "timestamp": "2026-10-30T15:09:53+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "172.17.166.28",
+    "user_id": "svc_api_gw",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "0fae7b1d-2bb2-4de2-b9cc-5cfbd821adec",
+    "timestamp": "2026-10-30T15:56:48+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "198.51.100.185",
+    "user_id": "student_7146",
+    "event_type": "Brute Force Login",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "d24032fa-1855-4012-b8c8-fd17ad58cfd8",
+    "timestamp": "2026-10-30T16:23:53+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "198.51.100.50",
+    "user_id": "analyst_5852",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "1b14cd47-88c0-49c3-86b5-b86184c7205d",
+    "timestamp": "2026-10-30T17:04:18+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "10.2.128.133",
+    "user_id": "dev_9302",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "6c4d485a-5656-4ba1-bddb-6bfa1c828425",
+    "timestamp": "2026-10-30T18:00:21+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "10.2.188.118",
+    "user_id": "nurse_3150",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "722fb289-5a55-47fd-9857-3df277297afa",
+    "timestamp": "2026-10-31T00:14:04+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "172.16.117.254",
+    "user_id": "guest_2298",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "f4fda38c-6ecd-4ceb-ad2a-432c657ecacd",
+    "timestamp": "2026-10-31T03:00:53+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "203.0.113.31",
+    "user_id": "nurse_1967",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "7dde7b1f-3d2e-4362-bf33-7a973109650c",
+    "timestamp": "2026-10-31T03:14:07+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "172.17.44.228",
+    "user_id": "dev_2736",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "4d0158f8-04a9-455c-bd1f-d7b8a6807e55",
+    "timestamp": "2026-10-31T04:28:18+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "172.17.35.12",
+    "user_id": "analyst_9045",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "dbb60533-c12a-4576-bf6e-dd747913cce4",
+    "timestamp": "2026-10-31T07:14:12+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "10.10.117.254",
+    "user_id": "nurse_4427",
+    "event_type": "Port Scan Detected",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "f14f8371-1968-49fc-a16f-be5d39c79195",
+    "timestamp": "2026-10-31T14:07:01+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "10.2.123.83",
+    "user_id": "student_211",
+    "event_type": "Phishing Email Reported",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "cb6eae5f-4638-4a44-89f3-082901115333",
+    "timestamp": "2026-10-31T14:17:01+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "10.10.124.89",
+    "user_id": "dev_2535",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "e61c6b41-2539-4907-abcd-9c8ff44c365e",
+    "timestamp": "2026-10-31T14:21:06+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "10.10.123.20",
+    "user_id": "svc_monitor",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "c1a97215-4dd0-4330-8066-0c9e37d89318",
+    "timestamp": "2026-10-31T16:35:23+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.2.105.125",
+    "user_id": "guest_3602",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "c35ad595-f4b6-4b2e-8a63-e8cccb881b5d",
+    "timestamp": "2026-10-31T16:46:26+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "203.0.113.253",
+    "user_id": "guest_607",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "7c57de59-9bae-4ad4-b63e-fbd6ee299539",
+    "timestamp": "2026-10-31T16:47:08+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "198.51.100.192",
+    "user_id": "nurse_6146",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "3590def5-52e4-4d6a-af6e-b55f4a0e2870",
+    "timestamp": "2026-10-31T18:07:28+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "10.10.227.55",
+    "user_id": "analyst_5524",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "357ea74e-0eb2-4e63-bfe9-e60c536c16e8",
+    "timestamp": "2026-10-31T19:56:04+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "10.0.99.13",
+    "user_id": "svc_ldap",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "6b4c4d7d-38c5-4e4a-b087-93a2cb65f4e5",
+    "timestamp": "2026-10-31T21:01:10+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "203.0.113.60",
+    "user_id": "user_2968",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "118844f6-25a3-4256-9d8b-2cf33eabfd4b",
+    "timestamp": "2026-10-31T21:10:14+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "10.1.81.95",
+    "user_id": "nurse_2346",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "d2d222f9-ce7b-43a2-8ea8-e9bfcc567025",
+    "timestamp": "2026-10-31T21:33:11+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "203.0.113.172",
+    "user_id": "guest_2543",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "667ea251-590f-42fc-9eb5-ca3b881ea1f3",
+    "timestamp": "2026-11-01T01:13:14+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "10.2.90.80",
+    "user_id": "analyst_7560",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "67b98382-30fc-4bd2-a0f3-ce73dc08c48f",
+    "timestamp": "2026-11-01T01:30:09+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "192.168.1.126",
+    "user_id": "student_7900",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "e87d6363-dcc4-4727-a1ea-8bf1496b66d7",
+    "timestamp": "2026-11-01T02:34:00+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "10.10.147.134",
+    "user_id": "svc_api_gw",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "1ac6a79b-92fb-4fcd-ba85-7febe3e434f9",
+    "timestamp": "2026-11-01T03:05:31+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "198.51.100.154",
+    "user_id": "nurse_539",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "62fcbaab-ae7c-42b3-86db-b04ff9e27039",
+    "timestamp": "2026-11-01T03:20:09+00:00",
+    "organization_name": "Sudbury Hydro IT Division",
+    "source_ip": "203.0.113.67",
+    "user_id": "admin_sec",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "634d2e61-a513-4653-bef0-fe38979628d4",
+    "timestamp": "2026-11-01T06:39:31+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "10.10.45.142",
+    "user_id": "admin_db",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "8093426e-949e-4ba7-a65a-c5e3deb2e317",
+    "timestamp": "2026-11-01T09:07:30+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "172.17.24.138",
+    "user_id": "student_944",
+    "event_type": "Successful Admin Login",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "e45e2d19-7e24-4762-b672-995e54211a05",
+    "timestamp": "2026-11-01T09:37:06+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "172.16.191.87",
+    "user_id": "student_5556",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "7be71828-0af5-41cf-b251-2e73b94e5c47",
+    "timestamp": "2026-11-01T11:36:36+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "10.2.145.62",
+    "user_id": "dev_8956",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "76a0bc57-a2d5-4fc3-9ccc-c08b9eacf020",
+    "timestamp": "2026-11-01T12:40:52+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "203.0.113.197",
+    "user_id": "dev_5447",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "34c00893-89cc-445a-ab26-e6648362f0e0",
+    "timestamp": "2026-11-01T13:27:21+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "192.168.50.119",
+    "user_id": "guest_9348",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "d5bde4e6-b317-4998-b51b-ee0d8b954076",
+    "timestamp": "2026-11-01T14:50:25+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "192.168.50.175",
+    "user_id": "analyst_2202",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "38f85de7-5124-4316-a6dc-446249b82857",
+    "timestamp": "2026-11-01T21:24:56+00:00",
+    "organization_name": "City of Greater Sudbury – IT Services",
+    "source_ip": "10.1.173.221",
+    "user_id": "student_6715",
+    "event_type": "Brute Force Login",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "09fbd7c0-c10f-4b7b-944a-58e5e40a0422",
+    "timestamp": "2026-11-01T22:43:18+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "172.17.19.132",
+    "user_id": "student_4662",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "7120e24d-bd70-4ef8-b429-96033f061b7a",
+    "timestamp": "2026-11-02T00:13:09+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "192.168.1.187",
+    "user_id": "student_1048",
+    "event_type": "Phishing Email Reported",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "300cc6d1-67f1-462a-86f1-ee4a76628bc2",
+    "timestamp": "2026-11-02T01:11:02+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "172.16.243.75",
+    "user_id": "guest_8624",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "bda329ce-0a5c-40a6-8442-2ee5da9da6bc",
+    "timestamp": "2026-11-02T04:41:02+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "10.2.61.75",
+    "user_id": "nurse_5261",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "2c7a6d69-81c9-4b4c-b952-b24a137b9c80",
+    "timestamp": "2026-11-02T04:52:07+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "192.168.50.79",
+    "user_id": "svc_backup",
+    "event_type": "Phishing Email Reported",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "be8b0e5b-e4cd-4ce2-900d-b17d4fcdf669",
+    "timestamp": "2026-11-02T05:09:38+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "10.1.208.231",
+    "user_id": "analyst_1481",
+    "event_type": "Privilege Escalation",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "186571cd-871c-4518-9cf0-ee40fb5805bf",
+    "timestamp": "2026-11-02T07:02:45+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "192.168.50.9",
+    "user_id": "nurse_6798",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "2dc69772-a75b-4532-8322-f8b8b289d732",
+    "timestamp": "2026-11-02T08:55:15+00:00",
+    "organization_name": "Lasalle Secondary School",
+    "source_ip": "10.1.107.234",
+    "user_id": "guest_9421",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "5527d779-86ea-4501-a7bc-8e63f651b5dd",
+    "timestamp": "2026-11-02T10:06:28+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.0.117.13",
+    "user_id": "analyst_3362",
+    "event_type": "Insider Threat Alert",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "fce658b9-860d-472f-bbab-44eeb5161124",
+    "timestamp": "2026-11-02T11:29:12+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "198.51.100.75",
+    "user_id": "student_9538",
+    "event_type": "Port Scan Detected",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "eed916f1-60f6-43b1-8fcb-dfd71d7ddf90",
+    "timestamp": "2026-11-02T12:06:38+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "203.0.113.217",
+    "user_id": "dev_5913",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "104e41dc-fd1e-4b07-8f46-7e32a8e3211b",
+    "timestamp": "2026-11-02T13:40:29+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "10.2.130.218",
+    "user_id": "guest_8223",
+    "event_type": "Insider Threat Alert",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "f6bd4b35-dfbe-4102-857f-bc0250b1c32e",
+    "timestamp": "2026-11-02T16:11:58+00:00",
+    "organization_name": "Lo-Ellen Park Secondary School",
+    "source_ip": "192.168.1.135",
+    "user_id": "admin_net",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "ded6ac3b-fe9c-4cc8-befc-bda67e111027",
+    "timestamp": "2026-11-02T17:59:52+00:00",
+    "organization_name": "Dynamic Earth – Science North",
+    "source_ip": "203.0.113.216",
+    "user_id": "nurse_8137",
+    "event_type": "Insider Threat Alert",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "ca258b0e-32a5-4850-9089-7c6777ccc871",
+    "timestamp": "2026-11-02T19:16:16+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "172.16.114.170",
+    "user_id": "dev_8057",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "bc139ca6-946a-48bb-97f7-5fd541c9160b",
+    "timestamp": "2026-11-02T20:32:12+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.0.103.113",
+    "user_id": "student_8943",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "44281bc7-3895-402b-b7eb-4ea1fa1ce621",
+    "timestamp": "2026-11-02T21:37:00+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "192.168.1.164",
+    "user_id": "guest_1129",
+    "event_type": "Suspicious API Call",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "8bfca7ea-ab60-4731-9731-541078d36072",
+    "timestamp": "2026-11-02T23:44:17+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "10.1.225.120",
+    "user_id": "nurse_5190",
+    "event_type": "Suspicious API Call",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "13709921-172c-498a-ab6e-b16578772624",
+    "timestamp": "2026-11-02T23:47:03+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "10.2.170.166",
+    "user_id": "svc_vpn",
+    "event_type": "Brute Force Login",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "e03f75dc-c787-4569-b3e8-2edbe2c26999",
+    "timestamp": "2026-11-03T00:20:01+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "192.168.1.253",
+    "user_id": "user_225",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "c968ea93-d931-4316-8711-c963f04c8741",
+    "timestamp": "2026-11-03T05:27:14+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "203.0.113.167",
+    "user_id": "student_5367",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "6f627cd8-351c-474c-ab42-28d305e070a1",
+    "timestamp": "2026-11-03T06:46:04+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "10.10.175.64",
+    "user_id": "admin_ops",
+    "event_type": "Insider Threat Alert",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "b5970c0e-d4b3-4f7f-aaa6-e95bdb7bf3b6",
+    "timestamp": "2026-11-03T07:19:05+00:00",
+    "organization_name": "Manitoulin Health Centre",
+    "source_ip": "192.168.50.9",
+    "user_id": "analyst_2253",
+    "event_type": "Insider Threat Alert",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "5cb1af08-e488-4df0-b5a9-5d84e081f6d7",
+    "timestamp": "2026-11-03T09:17:44+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "10.10.188.96",
+    "user_id": "user_5379",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "7f213b45-e361-4801-9158-d256c6eedba8",
+    "timestamp": "2026-11-03T09:43:02+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "172.16.198.137",
+    "user_id": "user_9830",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "26577918-a0aa-4c16-9f7b-4cbbc023655d",
+    "timestamp": "2026-11-03T10:29:37+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "10.1.81.65",
+    "user_id": "analyst_1999",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "971e6c60-643d-4ea0-8674-84719533187b",
+    "timestamp": "2026-11-03T10:54:35+00:00",
+    "organization_name": "Northern Savings Bank",
+    "source_ip": "192.168.50.48",
+    "user_id": "nurse_713",
+    "event_type": "Insider Threat Alert",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "c8696848-9634-44f7-9a02-18b6fd55fa75",
+    "timestamp": "2026-11-03T16:57:20+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "192.168.50.217",
+    "user_id": "dev_7084",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "dd90cd2b-95a3-415c-b9ba-83d4e15d2680",
+    "timestamp": "2026-11-03T17:31:50+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "198.51.100.56",
+    "user_id": "dev_6978",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "190e6ba7-46db-4163-89db-abc5338a1262",
+    "timestamp": "2026-11-03T19:31:22+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "172.17.204.15",
+    "user_id": "nurse_5973",
+    "event_type": "Malware Detected",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "50f42f35-3695-4ba1-b9bc-3c7937e2c23f",
+    "timestamp": "2026-11-03T20:24:28+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "10.1.215.183",
+    "user_id": "analyst_2492",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "98c3be45-9c3e-43e6-94e2-036cd0d0b7d5",
+    "timestamp": "2026-11-03T21:53:21+00:00",
+    "organization_name": "Cambrian Financial Services",
+    "source_ip": "10.10.113.205",
+    "user_id": "nurse_1233",
+    "event_type": "Failed MFA Verification",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "766dbba2-6330-4e6c-877d-8610c8ef218d",
+    "timestamp": "2026-11-03T22:10:33+00:00",
+    "organization_name": "Greater Sudbury Municipal Finance",
+    "source_ip": "10.0.102.129",
+    "user_id": "analyst_3962",
+    "event_type": "Insider Threat Alert",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "cc837b43-31b9-4285-92bc-7c661c5da08d",
+    "timestamp": "2026-11-04T06:14:53+00:00",
+    "organization_name": "Collège Boréal",
+    "source_ip": "10.1.107.114",
+    "user_id": "dev_2124",
+    "event_type": "Failed MFA Verification",
+    "severity": "Low",
+    "action_taken": "Logged"
+  },
+  {
+    "log_id": "e7d60d4a-8600-4e2f-9f8f-cb150cc7cbc3",
+    "timestamp": "2026-11-04T09:09:32+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "172.16.57.104",
+    "user_id": "student_5116",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "f2acccf8-a8f1-43ee-b904-b096d78dc5b1",
+    "timestamp": "2026-11-04T11:01:12+00:00",
+    "organization_name": "Sudbury Community Health Centre",
+    "source_ip": "10.10.18.26",
+    "user_id": "user_7414",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "9c51fb00-68aa-4835-9b70-35286a9c6ffb",
+    "timestamp": "2026-11-04T13:19:01+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "192.168.1.24",
+    "user_id": "student_1958",
+    "event_type": "Malware Detected",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "8e35ef38-c196-4165-b492-c2a1758d32af",
+    "timestamp": "2026-11-04T14:22:12+00:00",
+    "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+    "source_ip": "10.1.7.98",
+    "user_id": "svc_portal",
+    "event_type": "Insider Threat Alert",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "e4faded2-cf1a-42f2-bd1f-cde60e953400",
+    "timestamp": "2026-11-04T15:52:21+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "198.51.100.193",
+    "user_id": "nurse_5673",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "e2ffc491-d3f7-4847-9f43-499025b59f8e",
+    "timestamp": "2026-11-04T18:25:43+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "172.17.210.31",
+    "user_id": "dev_2265",
+    "event_type": "Privilege Escalation",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "b74b05b7-3422-441e-a2fc-e90044cb204b",
+    "timestamp": "2026-11-04T18:52:55+00:00",
+    "organization_name": "Vale Canada – Sudbury Operations",
+    "source_ip": "10.2.166.45",
+    "user_id": "user_3766",
+    "event_type": "Unauthorized Access Attempt",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "04ecb89d-fa5e-489c-bf86-8fa0ac5df1a7",
+    "timestamp": "2026-11-04T19:57:50+00:00",
+    "organization_name": "Sudbury Credit Union",
+    "source_ip": "10.10.75.145",
+    "user_id": "nurse_4074",
+    "event_type": "Brute Force Login",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "5017c218-771a-4e25-83c3-33a1673e8ec8",
+    "timestamp": "2026-11-04T22:40:18+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "192.168.50.182",
+    "user_id": "svc_portal",
+    "event_type": "Anomalous Network Traffic",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "08b18f35-2d49-43ec-8cda-474731263288",
+    "timestamp": "2026-11-04T22:47:19+00:00",
+    "organization_name": "Cambrian College",
+    "source_ip": "192.168.1.57",
+    "user_id": "svc_ldap",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "21aa9913-8ddd-4177-b2ef-28af39ac5f4a",
+    "timestamp": "2026-11-05T01:07:04+00:00",
+    "organization_name": "Sudbury District Nurse Practitioner Clinics",
+    "source_ip": "10.2.164.251",
+    "user_id": "nurse_2747",
+    "event_type": "SQL Injection Attempt",
+    "severity": "High",
+    "action_taken": "Escalated"
+  },
+  {
+    "log_id": "f09126a2-74fc-41a5-89c4-9c5d736db787",
+    "timestamp": "2026-11-05T01:12:07+00:00",
+    "organization_name": "Laurentian University",
+    "source_ip": "172.16.119.173",
+    "user_id": "dev_8815",
+    "event_type": "Ransomware Indicator",
+    "severity": "Critical",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "94119f7f-2ff4-411a-9e65-5d98196aecb2",
+    "timestamp": "2026-11-05T01:44:08+00:00",
+    "organization_name": "Health Sciences North",
+    "source_ip": "203.0.113.19",
+    "user_id": "user_7041",
+    "event_type": "Data Exfiltration Attempt",
+    "severity": "High",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "cb2a6ede-cf6e-431c-9521-d1818c02eafa",
+    "timestamp": "2026-11-05T01:56:42+00:00",
+    "organization_name": "Northern Ontario School of Medicine",
+    "source_ip": "10.2.253.34",
+    "user_id": "nurse_2958",
+    "event_type": "Port Scan Detected",
+    "severity": "High",
+    "action_taken": "Blocked"
+  },
+  {
+    "log_id": "20f69c58-1652-4e4c-b876-7a53dd64a5b7",
+    "timestamp": "2026-11-05T02:22:03+00:00",
+    "organization_name": "Sudbury Secondary School",
+    "source_ip": "192.168.50.163",
+    "user_id": "analyst_1137",
+    "event_type": "Firewall Rule Violation",
+    "severity": "Medium",
+    "action_taken": "Alert Sent"
+  },
+  {
+    "log_id": "a9cad493-7c1a-4fe4-ad70-0da2b21e6972",
+    "timestamp": "2026-11-05T03:54:28+00:00",
+    "organization_name": "KGHM International – Sudbury",
+    "source_ip": "192.168.50.106",
+    "user_id": "user_3173",
+    "event_type": "SQL Injection Attempt",
+    "severity": "Critical",
+    "action_taken": "Escalated"
+  }
+]

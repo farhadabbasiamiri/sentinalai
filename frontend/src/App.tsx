@@ -44,6 +44,8 @@ import {
   type AuditEvent,
   type Finding,
   type Summary,
+  type CyberLog,
+  type LogStats,
 } from "./api";
 
 type PageName =
@@ -55,6 +57,7 @@ type PageName =
   | "Activity & audit"
   | "Approval queue"
   | "Reports & evaluation"
+  | "Cyber logs"
   | "Settings";
 const navigation: { name: PageName; icon: typeof Gauge }[] = [
   { name: "Overview", icon: LayoutDashboard },
@@ -65,6 +68,7 @@ const navigation: { name: PageName; icon: typeof Gauge }[] = [
   { name: "Activity & audit", icon: Activity },
   { name: "Approval queue", icon: ClipboardCheck },
   { name: "Reports & evaluation", icon: ArrowDownToLine },
+  { name: "Cyber logs", icon: Database },
   { name: "Settings", icon: Settings },
 ];
 const riskColors: Record<string, string> = {
@@ -155,6 +159,14 @@ export default function App() {
     null,
   );
   const [auditFilter, setAuditFilter] = useState("");
+  const [cyberLogs, setCyberLogs] = useState<CyberLog[]>([]);
+  const [logStats, setLogStats] = useState<LogStats | null>(null);
+  const [logTotal, setLogTotal] = useState(0);
+  const [logPage, setLogPage] = useState(1);
+  const [logQuery, setLogQuery] = useState("");
+  const [logOrg, setLogOrg] = useState("");
+  const [logSeverity, setLogSeverity] = useState("");
+  const [logAction, setLogAction] = useState("");
 
   async function loadBase() {
     setLoading(true);
@@ -184,6 +196,17 @@ export default function App() {
       setFindings(findingPage.items);
       setApprovals(approvalResponse.items);
       setAudits(auditPage.items);
+      try {
+        const [logPageRes, statsRes] = await Promise.all([
+          api.logs(new URLSearchParams({ page: "1", page_size: "20" })),
+          api.logStats(),
+        ]);
+        setCyberLogs(logPageRes.items);
+        setLogTotal(logPageRes.total);
+        setLogStats(statsRes);
+      } catch {
+        // Logs endpoint optional fallback
+      }
     } catch (reason) {
       setError(
         reason instanceof Error
@@ -365,6 +388,24 @@ export default function App() {
       setError(String(reason));
     }
   }
+  async function loadLogs(targetPage = 1) {
+    const params = new URLSearchParams({ page: String(targetPage), page_size: "20" });
+    if (logQuery) params.set("q", logQuery);
+    if (logOrg) params.set("organization", logOrg);
+    if (logSeverity) params.set("severity", logSeverity);
+    if (logAction) params.set("action_taken", logAction);
+    setBusy(true);
+    try {
+      const res = await api.logs(params);
+      setCyberLogs(res.items);
+      setLogTotal(res.total);
+      setLogPage(targetPage);
+    } catch (reason) {
+      setError(reason instanceof Error ? reason.message : "Failed to load cyber logs");
+    } finally {
+      setBusy(false);
+    }
+  }
 
   const nav = (
     <div className="nav-list">
@@ -394,6 +435,8 @@ export default function App() {
     "Approval queue": "Review proposed changes before they are simulated.",
     "Reports & evaluation":
       "Export findings and inspect measured evaluation results.",
+    "Cyber logs":
+      "Synthetic security telemetry from Sudbury education, healthcare, banking, and industry.",
     Settings: "Local service health and safe configuration status.",
   };
   const headingAction =
@@ -585,6 +628,26 @@ export default function App() {
                 <ReportsView
                   findings={findings}
                   evaluation={evaluation}
+                  onDownload={download}
+                />
+              )}
+              {page === "Cyber logs" && (
+                <CyberLogsView
+                  logs={cyberLogs}
+                  stats={logStats}
+                  total={logTotal}
+                  page={logPage}
+                  busy={busy}
+                  query={logQuery}
+                  setQuery={setLogQuery}
+                  org={logOrg}
+                  setOrg={setLogOrg}
+                  severity={logSeverity}
+                  setSeverity={setLogSeverity}
+                  action={logAction}
+                  setAction={setLogAction}
+                  onSearch={() => void loadLogs(1)}
+                  onPageChange={(p) => void loadLogs(p)}
                   onDownload={download}
                 />
               )}
@@ -1959,7 +2022,13 @@ function ReportsView({
                 className="btn"
                 onClick={() => onDownload("/reports/findings.csv")}
               >
-                <ArrowDownToLine size={14} /> Export CSV
+                <ArrowDownToLine size={14} /> Findings CSV
+              </button>
+              <button
+                className="btn"
+                onClick={() => onDownload("/reports/logs.csv")}
+              >
+                <ArrowDownToLine size={14} /> Cyber Logs CSV
               </button>
               <button
                 className="btn"
@@ -2138,6 +2207,285 @@ function SettingsView() {
       <div className="notice">
         Health checks expose status only. No secret values are stored or
         displayed.
+      </div>
+    </div>
+  );
+}
+
+
+function CyberLogsView({
+  logs,
+  stats,
+  total,
+  page,
+  busy,
+  query,
+  setQuery,
+  org,
+  setOrg,
+  severity,
+  setSeverity,
+  action,
+  setAction,
+  onSearch,
+  onPageChange,
+  onDownload,
+}: {
+  logs: CyberLog[];
+  stats: LogStats | null;
+  total: number;
+  page: number;
+  busy: boolean;
+  query: string;
+  setQuery: (v: string) => void;
+  org: string;
+  setOrg: (v: string) => void;
+  severity: string;
+  setSeverity: (v: string) => void;
+  action: string;
+  setAction: (v: string) => void;
+  onSearch: () => void;
+  onPageChange: (p: number) => void;
+  onDownload: (path: string) => void;
+}) {
+  const pageSize = 20;
+  const pageCount = Math.max(1, Math.ceil(total / pageSize));
+  const criticalHigh = (stats?.severity_distribution?.Critical ?? 0) + (stats?.severity_distribution?.High ?? 0);
+
+  const orgOptions = [
+    "Laurentian University",
+    "Collège Boréal",
+    "Sudbury Secondary School",
+    "Cambrian College",
+    "Health Sciences North",
+    "Northern Ontario School of Medicine",
+    "Sudbury Community Health Centre",
+    "Sudbury Credit Union",
+    "Northern Savings Bank",
+    "Greater Sudbury Municipal Finance",
+    "Vale Canada – Sudbury Operations",
+    "Glencore Sudbury Integrated Nickel Operations",
+    "City of Greater Sudbury – IT Services",
+  ];
+
+  return (
+    <div className="content-grid">
+      <div className="stat-grid">
+        <Stat
+          label="Total telemetry logs"
+          value={stats?.total_logs ?? total}
+          note="Synthetic security events"
+          icon={Database}
+        />
+        <Stat
+          label="High & critical threats"
+          value={criticalHigh}
+          note="High-priority alerts"
+          icon={ShieldAlert}
+          color="#eb7470"
+        />
+        <Stat
+          label="Monitored institutions"
+          value={stats?.top_organizations?.length ? 21 : "21"}
+          note="Sudbury edu, health & corporate"
+          icon={Activity}
+          color="#a5d369"
+        />
+        <Stat
+          label="Active mitigations"
+          value={stats?.action_distribution?.Blocked ?? 0}
+          note="Automatically blocked attacks"
+          icon={LockKeyhole}
+          color="#dfc66d"
+        />
+      </div>
+
+      <div className="grid-two">
+        <div className="panel">
+          <div className="panel-head">
+            <div>
+              <h2>Severity breakdown</h2>
+              <p>Security telemetry categorized by impact tier</p>
+            </div>
+            <Badge value="Area 2 Dataset" />
+          </div>
+          <div className="panel-body">
+            <div className="definition-grid">
+              <div>
+                <small>Critical</small>
+                <strong style={{ color: "#eb7470" }}>{stats?.severity_distribution?.Critical ?? 0}</strong>
+              </div>
+              <div>
+                <small>High</small>
+                <strong style={{ color: "#f09a60" }}>{stats?.severity_distribution?.High ?? 0}</strong>
+              </div>
+              <div>
+                <small>Medium</small>
+                <strong style={{ color: "#dfc66d" }}>{stats?.severity_distribution?.Medium ?? 0}</strong>
+              </div>
+              <div>
+                <small>Low</small>
+                <strong style={{ color: "#a5d369" }}>{stats?.severity_distribution?.Low ?? 0}</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="panel">
+          <div className="panel-head">
+            <div>
+              <h2>Top targeted institutions</h2>
+              <p>Highest event frequency across regional nodes</p>
+            </div>
+          </div>
+          <div className="panel-body" style={{ paddingTop: 6 }}>
+            {stats?.top_organizations?.slice(0, 4).map((item) => (
+              <div className="setting-row" key={item.name}>
+                <span style={{ fontSize: 11 }}>{item.name}</span>
+                <strong style={{ color: "#c4ef5c" }}>{item.count} events</strong>
+              </div>
+            )) ?? <div className="empty-state">No organization stats available</div>}
+          </div>
+        </div>
+      </div>
+
+      <div className="panel">
+        <div className="filters">
+          <input
+            className="input"
+            aria-label="Search cyber logs"
+            placeholder="Search IP, User, Org or Event..."
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && onSearch()}
+          />
+          <select
+            className="select"
+            aria-label="Filter organization"
+            value={org}
+            onChange={(e) => setOrg(e.target.value)}
+          >
+            <option value="">All institutions</option>
+            {orgOptions.map((o) => (
+              <option key={o} value={o}>{o}</option>
+            ))}
+          </select>
+          <select
+            className="select"
+            aria-label="Filter severity"
+            value={severity}
+            onChange={(e) => setSeverity(e.target.value)}
+          >
+            <option value="">All severities</option>
+            {["Critical", "High", "Medium", "Low"].map((s) => (
+              <option key={s} value={s}>{s}</option>
+            ))}
+          </select>
+          <select
+            className="select"
+            aria-label="Filter action taken"
+            value={action}
+            onChange={(e) => setAction(e.target.value)}
+          >
+            <option value="">All actions</option>
+            {["Blocked", "Alert Sent", "Escalated", "Logged"].map((a) => (
+              <option key={a} value={a}>{a}</option>
+            ))}
+          </select>
+          <button className="btn" onClick={onSearch}>
+            <Search size={14} /> Filter
+          </button>
+          <button className="btn" onClick={() => onDownload("/reports/logs.csv")}>
+            <ArrowDownToLine size={14} /> Export CSV
+          </button>
+        </div>
+
+        <div className="result-meta">
+          Showing {logs.length} of {total} synthetic security records
+          {busy && " · Refreshing…"}
+        </div>
+
+        <div className="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Timestamp</th>
+                <th>Institution</th>
+                <th>Source IP</th>
+                <th>User ID</th>
+                <th>Event Type</th>
+                <th>Severity</th>
+                <th>Action Taken</th>
+              </tr>
+            </thead>
+            <tbody>
+              {logs.map((log) => (
+                <tr key={log.log_id}>
+                  <td className="muted" style={{ whiteSpace: "nowrap" }}>
+                    {new Date(log.timestamp).toLocaleString()}
+                  </td>
+                  <td>
+                    <strong>{log.organization_name}</strong>
+                  </td>
+                  <td>
+                    <span className="mono" style={{ color: "#78aabd" }}>{log.source_ip}</span>
+                  </td>
+                  <td>
+                    <span className="mono">{log.user_id}</span>
+                  </td>
+                  <td>{log.event_type}</td>
+                  <td>
+                    <Badge value={log.severity} />
+                  </td>
+                  <td>
+                    <span
+                      className={`badge ${
+                        log.action_taken === "Blocked"
+                          ? "critical"
+                          : log.action_taken === "Alert Sent"
+                          ? "high"
+                          : log.action_taken === "Escalated"
+                          ? "medium"
+                          : "low"
+                      }`}
+                    >
+                      {log.action_taken}
+                    </span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {!logs.length && (
+            <div className="empty-state">No security logs match the current filters.</div>
+          )}
+        </div>
+
+        <div className="panel-body" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid #29383b" }}>
+          <span className="muted" style={{ fontSize: 11 }}>
+            Page {page} of {pageCount} ({total} total entries)
+          </span>
+          <div className="row-actions">
+            <button
+              className="btn small"
+              disabled={page <= 1 || busy}
+              onClick={() => onPageChange(page - 1)}
+            >
+              Previous
+            </button>
+            <button
+              className="btn small"
+              disabled={page >= pageCount || busy}
+              onClick={() => onPageChange(page + 1)}
+            >
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="notice">
+        Synthetic cybersecurity telemetry generated for SentinelAI Capstone Area 2 (Synthetic Data and Database), modeling local Sudbury networks including Laurentian University, Collège Boréal, and local critical infrastructure.
       </div>
     </div>
   );

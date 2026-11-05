@@ -1,0 +1,501 @@
+log_id,timestamp,organization_name,source_ip,user_id,event_type,severity,action_taken
+7e53c453-b2f6-43cc-a89e-6e5320689eff,2026-10-06T06:57:06+00:00,Vale Canada – Sudbury Operations,192.168.50.5,user_8819,Anomalous Network Traffic,High,Escalated
+c9925f5a-cd42-480d-abaf-fa46fe976bac,2026-10-06T08:16:55+00:00,Greater Sudbury Municipal Finance,10.10.247.222,svc_ldap,Successful Admin Login,Medium,Alert Sent
+58fbf45d-9cf5-451b-ab1f-f0897a018e64,2026-10-06T10:13:33+00:00,Sudbury Credit Union,10.10.171.151,svc_backup,Ransomware Indicator,Critical,Alert Sent
+4f65f8de-d4d7-49bb-a53b-cad85c4c21c2,2026-10-06T10:14:07+00:00,City of Greater Sudbury – IT Services,10.10.246.11,analyst_6348,Firewall Rule Violation,Low,Logged
+3784a395-5a42-4cde-9aa4-9739b5cc4c1d,2026-10-06T12:56:17+00:00,Sudbury Community Health Centre,203.0.113.27,guest_2404,Malware Detected,Critical,Alert Sent
+83b3ef25-81f8-44ae-86b5-097373dff469,2026-10-06T13:01:22+00:00,Northern Savings Bank,203.0.113.30,analyst_5866,Phishing Email Reported,High,Alert Sent
+cf84a66c-5425-4cf9-9304-0cc69ed41658,2026-10-06T13:03:47+00:00,Sudbury Secondary School,192.168.50.107,student_6391,Suspicious API Call,High,Alert Sent
+dcaeeec1-ee1d-4e67-bce8-cde10d45626f,2026-10-06T13:19:55+00:00,Cambrian College,10.2.250.25,dev_6214,SQL Injection Attempt,Critical,Alert Sent
+8727fdec-b441-49fb-919c-21b22d435d55,2026-10-06T15:39:14+00:00,Manitoulin Health Centre,172.16.176.28,guest_1145,Privilege Escalation,Critical,Alert Sent
+ff70ee7a-332f-488e-a8a0-2ea6d956511b,2026-10-06T17:58:00+00:00,Sudbury Credit Union,10.10.163.49,nurse_2340,Port Scan Detected,Medium,Logged
+8901a8b1-26dd-44eb-b20a-977cac5d8bb1,2026-10-06T19:30:42+00:00,Sudbury Credit Union,192.168.1.180,guest_8906,Firewall Rule Violation,Low,Logged
+88b816d2-291d-47ff-ba49-c0ce3775cb0a,2026-10-06T20:12:39+00:00,Sudbury District Nurse Practitioner Clinics,203.0.113.11,user_1430,Malware Detected,Critical,Blocked
+a165929b-e92b-4010-b027-98d5450bbc80,2026-10-06T21:18:03+00:00,City of Greater Sudbury – IT Services,172.16.228.131,student_7574,SQL Injection Attempt,High,Alert Sent
+e58e8ad6-cd9f-4c03-a7a8-ed95ac965b9d,2026-10-06T22:47:37+00:00,Collège Boréal,10.1.49.206,student_7954,Data Exfiltration Attempt,Critical,Blocked
+ad7db0a9-5527-4111-8047-ee16213ec613,2026-10-06T23:08:37+00:00,Greater Sudbury Municipal Finance,10.2.177.114,analyst_7425,Successful Admin Login,Low,Logged
+071ccf0d-aac7-45a9-a7a4-8b787467528f,2026-10-07T00:15:39+00:00,Sudbury Community Health Centre,10.0.135.123,user_5535,Brute Force Login,Medium,Logged
+347e2a36-f243-44e1-bac3-d43335a77678,2026-10-07T01:56:49+00:00,Vale Canada – Sudbury Operations,10.10.25.7,student_2898,SQL Injection Attempt,Critical,Escalated
+f70a60e4-1955-4715-9df6-34d93fe45c10,2026-10-07T05:31:24+00:00,Laurentian University,10.0.202.86,student_2163,Brute Force Login,High,Escalated
+1ceb7391-dfb2-46ef-a801-e95562f37a5b,2026-10-07T05:33:28+00:00,Sudbury Community Health Centre,10.0.230.208,nurse_1059,Malware Detected,High,Alert Sent
+26de2a63-da68-4d9e-ae76-756abbf4c185,2026-10-07T05:59:51+00:00,KGHM International – Sudbury,10.0.162.132,student_2452,SQL Injection Attempt,Critical,Alert Sent
+1bc7d339-6a0d-41f7-8b3c-7ebefc71ccb7,2026-10-07T06:11:34+00:00,Greater Sudbury Municipal Finance,172.17.187.202,analyst_7249,Successful Admin Login,Low,Logged
+a6e3c3b1-bd76-45bf-8ef8-2fc8bd309b51,2026-10-07T07:04:29+00:00,Sudbury Secondary School,198.51.100.115,analyst_1379,Port Scan Detected,Low,Logged
+68519d5e-073a-41a2-89e4-fd872f51eb27,2026-10-07T08:43:51+00:00,Lo-Ellen Park Secondary School,172.16.83.155,student_7948,Phishing Email Reported,High,Alert Sent
+ddee9cfb-4200-46b7-988a-c061215b7b3c,2026-10-07T09:24:31+00:00,Vale Canada – Sudbury Operations,172.16.9.60,nurse_4732,Data Exfiltration Attempt,Critical,Escalated
+ef7ba8ae-4059-42be-a305-72d10a32452d,2026-10-07T11:54:24+00:00,Lasalle Secondary School,192.168.1.143,guest_868,Successful Admin Login,Low,Logged
+ec5f8ec2-794a-45a4-afbe-b64a8d7e132a,2026-10-07T14:19:49+00:00,Glencore Sudbury Integrated Nickel Operations,203.0.113.73,admin_hr,Ransomware Indicator,Critical,Alert Sent
+f7d0c86e-7e14-4c05-b440-7a02a356d302,2026-10-07T15:14:03+00:00,Cambrian College,192.168.50.118,svc_backup,Port Scan Detected,Medium,Logged
+3c1468d4-631a-4c9d-8b4d-b3805ff9f222,2026-10-07T15:29:30+00:00,Glencore Sudbury Integrated Nickel Operations,10.2.89.7,guest_1812,Data Exfiltration Attempt,Critical,Alert Sent
+f633b022-9b71-40fa-9bf1-7152c467b8a9,2026-10-07T15:49:10+00:00,KGHM International – Sudbury,10.10.151.57,user_1263,Brute Force Login,High,Escalated
+8501079c-0124-434e-967c-0ee7dbf653ea,2026-10-07T16:15:21+00:00,Sudbury Hydro IT Division,10.1.237.28,admin_fin,Malware Detected,High,Escalated
+cad45e21-54b7-4fee-a760-3666bc0082c4,2026-10-07T16:55:14+00:00,Sudbury Secondary School,10.0.68.56,user_1090,Port Scan Detected,Low,Logged
+00be125d-f470-4a4a-9777-1758571364af,2026-10-07T17:32:30+00:00,Sudbury Community Health Centre,10.10.13.172,student_3914,Malware Detected,High,Blocked
+0c9b151f-2578-48ad-a7bc-87b250320ed8,2026-10-07T19:14:58+00:00,KGHM International – Sudbury,172.17.98.153,nurse_7533,Successful Admin Login,Low,Logged
+c469abec-043e-45f1-b876-b2089d979f7f,2026-10-07T20:00:52+00:00,Cambrian College,10.2.28.43,guest_7735,Malware Detected,Critical,Alert Sent
+92970763-5e72-4bf5-bc70-04363485f7f4,2026-10-07T20:51:08+00:00,Sudbury Community Health Centre,10.2.26.64,student_4466,Privilege Escalation,High,Escalated
+f6d3eefd-4bf1-443e-b15f-9596a8507df4,2026-10-07T21:20:06+00:00,Sudbury Hydro IT Division,203.0.113.19,guest_3287,Firewall Rule Violation,Low,Logged
+bd076ac9-7f55-4d54-8c5d-fb4f44ad9948,2026-10-07T21:58:37+00:00,Sudbury Hydro IT Division,10.10.88.186,student_8859,Data Exfiltration Attempt,Critical,Escalated
+1bb57823-d33a-4678-87d7-417d7fcc6c22,2026-10-08T02:45:33+00:00,City of Greater Sudbury – IT Services,10.0.159.21,dev_9662,Insider Threat Alert,High,Escalated
+8f782375-5637-4d3c-9926-9727e47d836e,2026-10-08T03:16:38+00:00,Sudbury Hydro IT Division,10.10.185.14,guest_2893,Successful Admin Login,Medium,Alert Sent
+d61cbf31-6a9e-4f64-ba4a-80e153b75110,2026-10-08T04:58:13+00:00,Dynamic Earth – Science North,10.0.39.39,nurse_1495,Data Exfiltration Attempt,Critical,Blocked
+6ddd49f9-e976-440d-af81-4dc1e17138ec,2026-10-08T05:24:14+00:00,Sudbury Hydro IT Division,10.10.251.245,analyst_8604,SQL Injection Attempt,Critical,Escalated
+dea2dc8b-499a-4775-b12b-0e065262cbcd,2026-10-08T08:37:31+00:00,Greater Sudbury Municipal Finance,192.168.1.128,user_6370,Firewall Rule Violation,Low,Logged
+a273cda8-93a2-4036-aae0-bd141621a846,2026-10-08T11:56:07+00:00,Sudbury Hydro IT Division,192.168.50.63,guest_6769,Suspicious API Call,Medium,Logged
+334d7a9b-19d7-4a7b-b008-f9746146cc1d,2026-10-08T13:19:33+00:00,City of Greater Sudbury – IT Services,192.168.1.87,user_8198,Suspicious API Call,High,Alert Sent
+cda05b5b-361e-456f-9427-c323bac8b933,2026-10-08T13:50:44+00:00,Cambrian Financial Services,10.2.81.221,svc_ldap,Phishing Email Reported,High,Blocked
+c4d5ce1b-94e6-465c-b377-9b637590efe3,2026-10-08T14:04:28+00:00,Manitoulin Health Centre,192.168.50.32,guest_5082,Anomalous Network Traffic,High,Escalated
+ecf3f876-c16b-4c1f-99fb-77dc9c36923e,2026-10-08T15:02:15+00:00,Greater Sudbury Municipal Finance,172.17.140.175,svc_ldap,Malware Detected,High,Alert Sent
+8f84f06f-749c-43f8-88b8-a970561c6966,2026-10-08T16:13:48+00:00,Sudbury Secondary School,10.1.188.125,admin_db,Unauthorized Access Attempt,Medium,Logged
+75863ac2-19f0-461f-a602-c60e723c4df9,2026-10-08T16:53:50+00:00,Vale Canada – Sudbury Operations,172.16.12.237,admin_fin,Insider Threat Alert,Critical,Escalated
+8324da26-a9f9-4ec7-8653-3735f1ab36b6,2026-10-08T17:58:41+00:00,Cambrian College,198.51.100.236,user_3864,Failed MFA Verification,Medium,Logged
+ce168585-c574-40c5-aca1-798a89cec1e5,2026-10-08T21:02:58+00:00,Dynamic Earth – Science North,192.168.1.248,analyst_7152,Failed MFA Verification,Medium,Logged
+30c87d31-fe85-4ed0-8e1b-a20136fc1c56,2026-10-08T23:09:42+00:00,Sudbury District Nurse Practitioner Clinics,203.0.113.57,admin_infra,Suspicious API Call,Medium,Alert Sent
+3cd40977-c007-4f06-a493-77b71f5e6ef9,2026-10-09T03:49:26+00:00,Sudbury Community Health Centre,10.1.117.35,guest_8802,Privilege Escalation,Critical,Escalated
+635d5ed1-d679-4aa3-8956-f69002510730,2026-10-09T05:43:54+00:00,Vale Canada – Sudbury Operations,10.2.49.76,student_1058,Ransomware Indicator,Critical,Escalated
+d936e156-b5bd-44a5-bfc2-b5122be2ce71,2026-10-09T07:33:00+00:00,Health Sciences North,203.0.113.56,student_5483,Suspicious API Call,Low,Logged
+75505dea-1c0b-453e-9328-3e30df07c032,2026-10-09T08:24:22+00:00,Glencore Sudbury Integrated Nickel Operations,172.17.109.191,analyst_5864,Anomalous Network Traffic,Medium,Alert Sent
+9706b7f6-2cf6-4993-99b5-97b4f24f31ea,2026-10-09T08:41:36+00:00,Greater Sudbury Municipal Finance,203.0.113.124,svc_api_gw,Privilege Escalation,Critical,Escalated
+6f18ba21-c82a-484e-bd0d-5a1ded5523b8,2026-10-09T08:41:47+00:00,Lo-Ellen Park Secondary School,172.16.73.155,student_5717,Brute Force Login,Critical,Blocked
+93b45a02-b40b-4c0b-a6ec-34444dffa984,2026-10-09T09:30:37+00:00,Lo-Ellen Park Secondary School,192.168.1.33,user_5150,SQL Injection Attempt,High,Alert Sent
+4484c3e6-d508-4ace-a5a5-b65e5a50fc38,2026-10-09T10:04:29+00:00,Manitoulin Health Centre,203.0.113.227,analyst_9559,Insider Threat Alert,High,Blocked
+31c4dc6b-f961-4efc-89a3-99edffd58701,2026-10-09T10:32:01+00:00,Lo-Ellen Park Secondary School,203.0.113.227,admin_net,Anomalous Network Traffic,Medium,Alert Sent
+240e9664-0ca6-4e9d-8a81-60bb65a2c0c3,2026-10-09T10:58:42+00:00,Lo-Ellen Park Secondary School,192.168.1.49,svc_ldap,Firewall Rule Violation,Low,Logged
+e8c72c53-fa5c-4509-9a13-efa549fbad27,2026-10-09T11:28:19+00:00,Northern Ontario School of Medicine,10.2.161.78,admin_db,Suspicious API Call,Medium,Logged
+c6a3ccc5-2f0b-4d82-9c5a-a368278e8fe1,2026-10-09T12:40:52+00:00,Lasalle Secondary School,172.16.136.224,dev_3570,Failed MFA Verification,Medium,Logged
+c3150d17-e6b5-42ac-87c5-59f5f1fe3c21,2026-10-09T14:37:15+00:00,Vale Canada – Sudbury Operations,10.10.177.239,guest_5516,Successful Admin Login,Low,Logged
+7e93f2fd-fadd-4f99-be0a-fc7133305798,2026-10-09T16:47:40+00:00,Sudbury Credit Union,172.16.157.124,student_4138,Insider Threat Alert,High,Alert Sent
+dac9e33c-878d-49ff-995d-f6b5dd4162c2,2026-10-09T18:20:45+00:00,Greater Sudbury Municipal Finance,10.10.115.151,nurse_206,Ransomware Indicator,Critical,Blocked
+bed88d79-dc69-4ea2-bf49-b540fdc96ac8,2026-10-09T20:29:03+00:00,Sudbury Credit Union,198.51.100.211,user_7331,Anomalous Network Traffic,Low,Logged
+1db51067-8509-4b6c-81bb-2d1cbd506832,2026-10-09T22:24:54+00:00,Greater Sudbury Municipal Finance,203.0.113.59,user_6442,Brute Force Login,High,Escalated
+1c5035b2-30dd-437d-adb5-d6500be5493c,2026-10-09T23:57:25+00:00,Northern Ontario School of Medicine,172.16.77.61,admin_sec,Ransomware Indicator,Critical,Alert Sent
+3f412fc0-1c13-43c0-a78a-92e07c4f7c71,2026-10-10T00:55:06+00:00,Lo-Ellen Park Secondary School,172.17.31.46,dev_8764,Failed MFA Verification,High,Blocked
+2ad0bceb-c998-4613-a21c-078888034a95,2026-10-10T02:53:22+00:00,Manitoulin Health Centre,10.2.200.118,guest_9106,Unauthorized Access Attempt,Medium,Logged
+6f9e1b5b-5ba5-44d9-a7fe-c3eec415e51f,2026-10-10T03:42:29+00:00,City of Greater Sudbury – IT Services,10.1.28.197,student_5916,Port Scan Detected,High,Blocked
+9f2d377f-2547-4f5a-9ed5-e9a2677da297,2026-10-10T04:30:44+00:00,Sudbury District Nurse Practitioner Clinics,10.0.30.225,nurse_3025,Failed MFA Verification,High,Escalated
+11bd7f33-81e1-49f4-85f5-25c7e39fce69,2026-10-10T06:56:59+00:00,Laurentian University,192.168.1.152,user_1475,Insider Threat Alert,Medium,Alert Sent
+c0441591-c129-4e32-926e-ecdedfb1e40a,2026-10-10T08:44:43+00:00,Sudbury Community Health Centre,198.51.100.144,analyst_1280,Malware Detected,High,Alert Sent
+8f25391c-fc69-4800-9050-a9f73b40666e,2026-10-10T09:01:40+00:00,Vale Canada – Sudbury Operations,203.0.113.77,guest_372,Privilege Escalation,Critical,Alert Sent
+0c8e1fe5-a558-4dfd-9983-566c2cd2641e,2026-10-10T10:23:42+00:00,Greater Sudbury Municipal Finance,203.0.113.175,svc_erp,Data Exfiltration Attempt,High,Blocked
+66f985c0-4db0-4c5e-abc6-1d34eb719f5a,2026-10-10T11:10:22+00:00,Vale Canada – Sudbury Operations,198.51.100.211,user_1979,Successful Admin Login,Low,Logged
+33118aee-824d-4534-8b2f-23e91679f189,2026-10-10T11:56:32+00:00,Manitoulin Health Centre,192.168.1.14,svc_erp,SQL Injection Attempt,Critical,Blocked
+a85b224b-52ea-468b-bc91-56a5acb90b13,2026-10-10T12:25:57+00:00,Northern Ontario School of Medicine,198.51.100.251,nurse_380,Data Exfiltration Attempt,High,Escalated
+bfc1d897-f9bd-4322-97d1-9871244d7cb2,2026-10-10T12:59:17+00:00,Laurentian University,198.51.100.77,admin_db,Ransomware Indicator,Critical,Alert Sent
+98d8e547-fb0b-4a7a-bdef-a3fc308810a3,2026-10-10T14:42:49+00:00,Greater Sudbury Municipal Finance,10.2.210.52,svc_ldap,Port Scan Detected,Low,Logged
+693fc1ea-8791-4aca-8dbd-8ace90719de9,2026-10-10T18:12:18+00:00,Sudbury District Nurse Practitioner Clinics,192.168.1.105,svc_vpn,Failed MFA Verification,Medium,Alert Sent
+4606240a-acd5-43e1-88b6-d810a94b6705,2026-10-11T03:06:46+00:00,Sudbury Hydro IT Division,203.0.113.38,admin_infra,Unauthorized Access Attempt,High,Blocked
+0e6611c1-41c6-4c13-8f84-c1d8bde54102,2026-10-11T07:16:59+00:00,Sudbury Hydro IT Division,10.1.116.129,student_810,Firewall Rule Violation,Medium,Alert Sent
+439f4a1d-1aa7-421b-9c27-35954e802d0b,2026-10-11T07:27:37+00:00,Lasalle Secondary School,10.0.37.218,guest_670,Failed MFA Verification,Medium,Logged
+b8c67898-c642-4d68-82e5-7990a1cbfa23,2026-10-11T09:41:16+00:00,Vale Canada – Sudbury Operations,10.2.169.22,nurse_8545,Firewall Rule Violation,Medium,Alert Sent
+8c026424-9310-40ce-b6b8-78abd7e0b1ef,2026-10-11T11:36:43+00:00,Health Sciences North,192.168.1.76,user_4021,Suspicious API Call,Medium,Alert Sent
+0773ea2d-b79a-4e75-8aba-efd40876a94a,2026-10-11T13:46:43+00:00,City of Greater Sudbury – IT Services,10.10.40.96,svc_monitor,SQL Injection Attempt,Critical,Escalated
+7df0dfb5-be2c-4402-92fd-eb6a32ef2c44,2026-10-11T14:24:30+00:00,Manitoulin Health Centre,192.168.1.84,dev_4944,Ransomware Indicator,Critical,Escalated
+0b81a7c1-0b46-4a1d-b864-eea22956d360,2026-10-11T16:18:49+00:00,Health Sciences North,203.0.113.138,svc_erp,Unauthorized Access Attempt,Critical,Alert Sent
+a09c6015-bdad-45e9-a0d0-3799b7c8d065,2026-10-11T16:44:02+00:00,Northern Savings Bank,10.1.175.8,student_6202,Phishing Email Reported,Critical,Alert Sent
+6004c864-174e-4743-98e9-6ded1c7d17f4,2026-10-11T21:29:04+00:00,Greater Sudbury Municipal Finance,192.168.1.180,dev_1450,Privilege Escalation,High,Escalated
+8fdfe8fe-9ea0-4055-a693-bc6e34702f38,2026-10-11T22:09:23+00:00,KGHM International – Sudbury,192.168.50.113,admin_sec,Data Exfiltration Attempt,Critical,Alert Sent
+4ae7a0d2-5f90-4633-a2fc-786a904a3fdd,2026-10-11T23:09:39+00:00,Sudbury Hydro IT Division,10.2.95.41,nurse_1785,Privilege Escalation,High,Escalated
+ace66f36-7647-444b-848c-3dc6595c0e12,2026-10-11T23:11:34+00:00,Dynamic Earth – Science North,203.0.113.19,user_6016,Data Exfiltration Attempt,High,Alert Sent
+98fac80d-b36e-4598-b0ca-fcfc15001654,2026-10-12T00:27:44+00:00,Dynamic Earth – Science North,192.168.50.195,user_3435,Phishing Email Reported,High,Alert Sent
+8e2eccf0-5cde-484e-b4aa-f0f44f016e1f,2026-10-12T01:46:00+00:00,Dynamic Earth – Science North,10.0.27.104,dev_687,Firewall Rule Violation,Medium,Logged
+33f24ee2-a582-48d6-9487-6f4a5a768b71,2026-10-12T04:39:19+00:00,City of Greater Sudbury – IT Services,192.168.50.74,user_1861,Unauthorized Access Attempt,Medium,Alert Sent
+cc5260a1-adb1-485a-b6bd-b7ca5e8202b3,2026-10-12T06:26:31+00:00,Health Sciences North,198.51.100.195,student_2566,Phishing Email Reported,High,Blocked
+b607c143-a154-4f08-b4b7-bc8f986cbb49,2026-10-12T08:20:48+00:00,Sudbury Secondary School,192.168.50.90,dev_5560,Anomalous Network Traffic,Medium,Alert Sent
+07bbcbf8-c1df-4ad6-9e65-1d262cf31744,2026-10-12T09:15:09+00:00,Lo-Ellen Park Secondary School,10.0.93.1,dev_1535,Anomalous Network Traffic,Medium,Alert Sent
+f1d07193-c0b6-4214-bd8d-d8cd472407eb,2026-10-12T09:39:48+00:00,Cambrian Financial Services,10.2.188.204,analyst_2873,Ransomware Indicator,Critical,Blocked
+c9f94dfb-46c5-4a4b-8588-da81a8ce7df8,2026-10-12T10:46:35+00:00,Lo-Ellen Park Secondary School,192.168.50.138,guest_5754,SQL Injection Attempt,Critical,Alert Sent
+e74c0b24-8255-420f-9eea-8014c3258f52,2026-10-12T10:51:00+00:00,Sudbury Secondary School,10.2.158.112,dev_6709,Anomalous Network Traffic,High,Alert Sent
+98485708-54f5-4728-acc6-1643ed593e40,2026-10-12T15:47:21+00:00,Sudbury District Nurse Practitioner Clinics,10.0.12.26,guest_366,Anomalous Network Traffic,Low,Logged
+e476f580-e806-4e92-a969-1c74ef9793e8,2026-10-12T16:33:22+00:00,Sudbury Credit Union,203.0.113.129,analyst_6463,Firewall Rule Violation,Medium,Alert Sent
+c95c3130-2980-4568-971d-017e768a71b3,2026-10-12T17:04:42+00:00,Sudbury Secondary School,172.17.65.242,student_8223,Successful Admin Login,Low,Logged
+060f92e1-ccc2-4d96-8772-5009c0bdc53c,2026-10-12T19:27:27+00:00,Sudbury Community Health Centre,10.1.90.217,analyst_1982,Privilege Escalation,High,Alert Sent
+236f9f46-046c-4b7b-a2eb-8d3abb960221,2026-10-12T19:51:19+00:00,Manitoulin Health Centre,172.17.206.30,guest_1333,SQL Injection Attempt,High,Blocked
+70b0e33a-5c9c-45cb-a788-ce0b1bd56f6c,2026-10-12T22:36:12+00:00,Sudbury Hydro IT Division,10.10.42.116,admin_sec,Data Exfiltration Attempt,High,Alert Sent
+6873ac0d-1af0-42ab-a733-ba2267fe7612,2026-10-12T22:53:59+00:00,Sudbury Hydro IT Division,192.168.1.137,dev_9007,Firewall Rule Violation,High,Blocked
+e8f0ac7b-6843-41d2-b176-7d6ed3383a53,2026-10-12T23:04:51+00:00,Health Sciences North,10.10.212.138,nurse_9308,Failed MFA Verification,Low,Logged
+36b2dc53-0188-4448-87ba-6cc721c4b498,2026-10-12T23:33:49+00:00,Glencore Sudbury Integrated Nickel Operations,192.168.1.197,dev_9519,Data Exfiltration Attempt,Critical,Blocked
+4df3dfb2-1208-447f-ad76-e28d2c19ddca,2026-10-13T02:28:45+00:00,Cambrian College,192.168.50.185,guest_5325,Privilege Escalation,Critical,Blocked
+4c272363-2a17-4d68-b49b-640f315f8979,2026-10-13T02:39:45+00:00,Collège Boréal,10.0.180.44,admin_infra,Data Exfiltration Attempt,Critical,Alert Sent
+ecda94c5-133b-42f5-8b4e-e4688b018a54,2026-10-13T03:01:07+00:00,Vale Canada – Sudbury Operations,10.10.194.247,nurse_5362,Insider Threat Alert,Critical,Alert Sent
+7e59a319-9321-4ed7-88f4-8ed13d282c16,2026-10-13T04:02:18+00:00,Sudbury Hydro IT Division,10.10.122.77,admin_dev,Data Exfiltration Attempt,Critical,Escalated
+b49513e8-ad97-4e97-9c02-8460b3a7ab2e,2026-10-13T04:19:13+00:00,Sudbury Hydro IT Division,198.51.100.90,analyst_2779,Anomalous Network Traffic,Medium,Alert Sent
+80d3ec41-7e86-4207-8dc3-784ac5402098,2026-10-13T05:29:56+00:00,Cambrian College,172.16.201.102,guest_8113,Successful Admin Login,Medium,Alert Sent
+80a23b86-c3e5-4771-9f46-7d3c41e3dd6b,2026-10-13T05:33:34+00:00,Sudbury Community Health Centre,10.10.77.220,svc_ldap,Malware Detected,Critical,Alert Sent
+b0932518-867e-4ddb-b1c7-8f3f619130d0,2026-10-13T06:47:56+00:00,Lo-Ellen Park Secondary School,192.168.50.115,user_1398,Unauthorized Access Attempt,Medium,Logged
+c66ae9af-fdc0-47e4-9c1a-c744521dbb60,2026-10-13T06:51:30+00:00,Cambrian College,10.2.2.247,svc_backup,Brute Force Login,High,Escalated
+e3b2438d-b362-415e-9f0a-b9d57c0fa104,2026-10-13T10:15:10+00:00,Sudbury District Nurse Practitioner Clinics,10.10.95.81,dev_849,Port Scan Detected,High,Escalated
+852bb8a1-787c-4e05-83a1-a8ff82fd3bc2,2026-10-13T10:48:21+00:00,Health Sciences North,172.17.174.243,guest_7664,Suspicious API Call,Medium,Alert Sent
+dce0a2bb-3071-46dc-9538-ee06bbae2b0d,2026-10-13T15:25:01+00:00,Northern Ontario School of Medicine,10.10.215.69,user_2576,Unauthorized Access Attempt,Medium,Logged
+36f99cd3-f928-4eb5-8848-0d2382d2b296,2026-10-13T15:55:26+00:00,Vale Canada – Sudbury Operations,10.2.208.35,admin_infra,SQL Injection Attempt,Critical,Blocked
+40e39aac-c10e-4ba6-b24e-3388615f4538,2026-10-13T20:34:53+00:00,Sudbury Credit Union,10.2.71.49,admin_sec,SQL Injection Attempt,High,Escalated
+43cec96f-acad-4870-8ebe-e9819a14d8db,2026-10-13T22:38:51+00:00,Lo-Ellen Park Secondary School,172.16.36.64,nurse_9677,Firewall Rule Violation,Medium,Alert Sent
+845301b7-dd87-43f1-9146-dc866aa273c8,2026-10-13T23:06:23+00:00,Sudbury Secondary School,203.0.113.25,svc_api_gw,Ransomware Indicator,Critical,Alert Sent
+0b9bd03a-b835-476a-b903-251eaf4bff46,2026-10-13T23:27:25+00:00,Laurentian University,203.0.113.151,dev_1943,SQL Injection Attempt,High,Alert Sent
+07398356-fb48-4e35-a312-f288d2d64b0d,2026-10-14T00:53:20+00:00,Laurentian University,10.2.105.223,svc_portal,Brute Force Login,High,Alert Sent
+c66fbcbe-1e00-4553-8887-003521439aaa,2026-10-14T04:37:20+00:00,Laurentian University,172.16.249.129,svc_monitor,Successful Admin Login,Low,Logged
+1ac30ecc-e693-43c2-9ec4-8e1dbc591e11,2026-10-14T06:23:46+00:00,KGHM International – Sudbury,198.51.100.64,admin_infra,Unauthorized Access Attempt,Critical,Blocked
+db6db7db-9f53-4c2c-920c-5cb64d877df5,2026-10-14T06:34:51+00:00,Lasalle Secondary School,192.168.50.23,analyst_5792,Malware Detected,Critical,Escalated
+8795278f-b744-4599-ba57-7e1ea1cd76c7,2026-10-14T08:19:11+00:00,Vale Canada – Sudbury Operations,10.10.92.142,dev_7175,Failed MFA Verification,Low,Logged
+ac925f16-421c-4ecb-b3a2-0792b436a802,2026-10-14T09:45:14+00:00,Glencore Sudbury Integrated Nickel Operations,10.2.213.112,admin_hr,Port Scan Detected,Low,Logged
+68e75990-ac2c-4c5a-86d5-2ddc8057459e,2026-10-14T13:18:10+00:00,Health Sciences North,203.0.113.74,guest_3379,Successful Admin Login,Medium,Logged
+7079d12a-de70-4880-8278-b1cc1275c9c2,2026-10-14T16:07:26+00:00,Vale Canada – Sudbury Operations,10.2.22.145,user_3713,Data Exfiltration Attempt,Critical,Alert Sent
+693ff987-e84f-4db2-a111-708ec4ea4376,2026-10-14T16:27:40+00:00,Sudbury Secondary School,10.1.83.156,svc_portal,Firewall Rule Violation,Medium,Logged
+fe6de562-6ebb-404a-8c81-9c4eadf28818,2026-10-14T16:36:50+00:00,Lo-Ellen Park Secondary School,10.1.232.217,analyst_2107,Suspicious API Call,High,Blocked
+d135c87d-b79f-42b5-8397-57d94046df92,2026-10-14T16:40:12+00:00,Cambrian Financial Services,10.10.219.93,admin_ops,Ransomware Indicator,Critical,Escalated
+9bab6adc-743a-4319-897d-c85176cb1a7e,2026-10-14T16:59:15+00:00,Sudbury District Nurse Practitioner Clinics,172.16.187.107,admin_hr,Successful Admin Login,Medium,Alert Sent
+0d19bf00-bd20-485a-ace0-12c3a5eecefb,2026-10-14T17:36:48+00:00,City of Greater Sudbury – IT Services,198.51.100.110,guest_2707,Anomalous Network Traffic,Medium,Alert Sent
+b33f5aba-d949-4412-9fe1-36ae509d6b0b,2026-10-14T19:06:48+00:00,Cambrian Financial Services,10.0.254.246,dev_3414,Insider Threat Alert,Critical,Escalated
+c5fc09be-9294-4750-b21e-303f1738ea7a,2026-10-14T19:48:37+00:00,Collège Boréal,10.1.67.168,analyst_302,Brute Force Login,Critical,Escalated
+ed4df056-ae20-438d-8027-6b6f73fce9f2,2026-10-15T00:09:49+00:00,Northern Savings Bank,192.168.50.230,dev_5654,Brute Force Login,Critical,Blocked
+594d076f-5179-46be-9251-f0935b473d2f,2026-10-15T01:00:58+00:00,Laurentian University,192.168.50.236,admin_ops,SQL Injection Attempt,Critical,Escalated
+ccf4e862-0d64-4942-b67e-820c5e29e2bf,2026-10-15T01:27:47+00:00,Vale Canada – Sudbury Operations,10.0.100.87,dev_2804,Firewall Rule Violation,Low,Logged
+17500fbb-6f15-4391-9728-5a0ca9065148,2026-10-15T03:22:07+00:00,Lasalle Secondary School,10.0.26.85,student_3212,Failed MFA Verification,Low,Logged
+838f8698-e313-4774-9fd7-b678a906a6e1,2026-10-15T04:09:27+00:00,Sudbury Credit Union,192.168.50.182,svc_backup,SQL Injection Attempt,High,Blocked
+dde2abd5-8662-4114-bd15-ac10cfcde89c,2026-10-15T05:46:32+00:00,Northern Savings Bank,10.0.189.158,student_7465,Failed MFA Verification,Low,Logged
+53ca88dc-1a61-4811-866c-9189d88012bf,2026-10-15T07:02:16+00:00,Sudbury Credit Union,192.168.1.106,guest_987,Brute Force Login,Medium,Logged
+79c10e08-cd04-4a83-8306-44515feb45c2,2026-10-15T07:35:41+00:00,Lasalle Secondary School,10.1.236.25,svc_erp,SQL Injection Attempt,Critical,Blocked
+f960a6c9-915d-4eff-880d-53210367e5de,2026-10-15T09:17:48+00:00,KGHM International – Sudbury,203.0.113.158,user_4481,Anomalous Network Traffic,Medium,Logged
+efa6acd6-2c8f-4870-a66b-c1c239805d52,2026-10-15T10:57:27+00:00,KGHM International – Sudbury,10.0.29.20,svc_monitor,Firewall Rule Violation,Medium,Logged
+db05e3aa-a1f2-4c7d-810e-b1baca613776,2026-10-15T16:29:30+00:00,Collège Boréal,172.16.154.80,analyst_1797,Phishing Email Reported,Critical,Escalated
+e3079c32-cf6a-4fbf-934e-9e68ea77df87,2026-10-15T17:23:48+00:00,City of Greater Sudbury – IT Services,10.1.99.98,guest_8769,Malware Detected,Critical,Alert Sent
+a2d8a0d3-1137-4118-acd9-6b458df67324,2026-10-15T19:29:30+00:00,Sudbury Credit Union,192.168.1.115,dev_6254,Port Scan Detected,Low,Logged
+fa53546f-7869-4032-8a8f-d687c08cd8d2,2026-10-15T19:44:46+00:00,Northern Savings Bank,203.0.113.243,user_9532,Data Exfiltration Attempt,High,Alert Sent
+b347ec35-16c3-45ab-a12b-e3f9ff24d993,2026-10-15T20:19:02+00:00,Lasalle Secondary School,192.168.1.127,dev_5854,Data Exfiltration Attempt,Critical,Escalated
+1a063a63-6e94-49c1-931d-2cdc157ea8dd,2026-10-15T20:48:17+00:00,Health Sciences North,198.51.100.64,user_6366,Successful Admin Login,Low,Logged
+807c5034-e14e-46dd-8554-909531186995,2026-10-15T22:36:00+00:00,Manitoulin Health Centre,10.1.104.6,analyst_2915,Data Exfiltration Attempt,Critical,Escalated
+52cfe576-c259-4f5a-9a93-d64b74daece3,2026-10-15T23:56:39+00:00,Sudbury Hydro IT Division,172.16.204.231,user_9879,Phishing Email Reported,High,Alert Sent
+e421ab1d-ee81-47ec-8630-f2735914a4da,2026-10-16T00:22:15+00:00,City of Greater Sudbury – IT Services,203.0.113.203,student_8661,Brute Force Login,High,Alert Sent
+870bc26d-4eef-41fc-94b5-d6ca2d4029b4,2026-10-16T01:09:09+00:00,Lasalle Secondary School,10.10.34.202,analyst_8797,Insider Threat Alert,Medium,Alert Sent
+6126d7c5-1a0e-404d-93a9-d28fd64a8a28,2026-10-16T01:14:39+00:00,Cambrian Financial Services,203.0.113.15,guest_5149,Firewall Rule Violation,Low,Logged
+53280d6b-88e1-44ff-98b9-c0fa435fd904,2026-10-16T01:48:21+00:00,Sudbury District Nurse Practitioner Clinics,198.51.100.69,user_4734,Successful Admin Login,Medium,Alert Sent
+e3e1815e-970f-4245-9125-482f23b3fb42,2026-10-16T01:52:24+00:00,Dynamic Earth – Science North,10.1.214.126,dev_4683,Ransomware Indicator,Critical,Blocked
+ea8f734f-87ef-4082-8dcf-cd1b48dd3dbf,2026-10-16T04:21:56+00:00,City of Greater Sudbury – IT Services,198.51.100.77,analyst_9169,Port Scan Detected,Low,Logged
+19d4f7f9-bced-49c9-a8a7-9fd4ae95ff3b,2026-10-16T04:26:41+00:00,Greater Sudbury Municipal Finance,198.51.100.136,svc_backup,Insider Threat Alert,Medium,Logged
+df058efa-db89-4e45-a87d-1fd0eab1801e,2026-10-16T06:31:38+00:00,Northern Ontario School of Medicine,192.168.1.168,guest_9472,Insider Threat Alert,High,Escalated
+68eab805-2e98-4c96-9600-80fdd1fd1cf1,2026-10-16T06:39:40+00:00,Collège Boréal,172.17.191.122,dev_6425,Suspicious API Call,High,Escalated
+1614a69e-1c3c-41ae-b703-3c5db31973b8,2026-10-16T08:59:52+00:00,Sudbury District Nurse Practitioner Clinics,203.0.113.14,analyst_1179,Insider Threat Alert,Medium,Alert Sent
+a14bdf2f-3694-47c9-8f7f-54895fc0e15f,2026-10-16T10:51:39+00:00,Vale Canada – Sudbury Operations,198.51.100.223,analyst_1020,Suspicious API Call,High,Escalated
+5e9231b0-1fd1-44c3-91b9-5ccb8b32e31a,2026-10-16T15:23:49+00:00,Sudbury Community Health Centre,10.1.118.114,guest_1542,Privilege Escalation,Critical,Alert Sent
+c52b4ba8-747d-41a8-a9f4-786e38994c30,2026-10-16T22:13:51+00:00,KGHM International – Sudbury,172.17.24.203,dev_328,Port Scan Detected,High,Alert Sent
+a3c92fd2-9fe4-4706-8d04-c5c863c18df7,2026-10-17T00:06:06+00:00,Northern Ontario School of Medicine,10.0.145.222,user_8238,Ransomware Indicator,Critical,Alert Sent
+655472b5-4780-4f1c-ad00-c7222f7a0d89,2026-10-17T03:05:18+00:00,Glencore Sudbury Integrated Nickel Operations,192.168.50.248,student_3624,Firewall Rule Violation,Low,Logged
+b7e4ab9c-27b2-45f5-96fe-64d771d4c5ae,2026-10-17T03:26:46+00:00,Sudbury Credit Union,10.1.239.145,student_9803,Successful Admin Login,Medium,Logged
+461c4a67-97e8-4a95-92d1-7bbcd1ca768d,2026-10-17T08:26:37+00:00,Cambrian Financial Services,172.17.172.244,dev_9722,Insider Threat Alert,High,Escalated
+e2856530-61ed-4e94-a24d-637a5613baf9,2026-10-17T09:44:49+00:00,Lasalle Secondary School,172.17.227.98,analyst_3156,Brute Force Login,High,Alert Sent
+d53a3822-ce74-4bf7-8451-e22a275abb4d,2026-10-17T10:52:08+00:00,Manitoulin Health Centre,172.16.186.219,svc_vpn,Brute Force Login,High,Blocked
+649f5c4c-995c-4de0-9097-7cb15d5e56a7,2026-10-17T13:02:55+00:00,Vale Canada – Sudbury Operations,10.1.61.98,analyst_9517,SQL Injection Attempt,High,Alert Sent
+3181c172-83d0-4cd4-b76a-7c6ea152003d,2026-10-17T13:55:17+00:00,KGHM International – Sudbury,198.51.100.168,guest_6803,Firewall Rule Violation,Low,Logged
+8ff9fb2a-52bd-4cbf-aaea-8c40c66c2eea,2026-10-17T15:33:08+00:00,City of Greater Sudbury – IT Services,10.10.128.234,svc_erp,Brute Force Login,High,Alert Sent
+9783d77c-8d3c-4ca7-8559-6140ecafdc5e,2026-10-17T18:25:55+00:00,Sudbury Secondary School,203.0.113.76,student_1304,Failed MFA Verification,Medium,Logged
+0d1df7bf-1585-496c-ba7e-1e4bf2742217,2026-10-17T18:42:12+00:00,Sudbury Hydro IT Division,10.10.128.141,analyst_4316,Suspicious API Call,Medium,Alert Sent
+3f2a926a-45ee-4d6e-80d5-c00f7cec4c83,2026-10-17T18:48:25+00:00,Sudbury Credit Union,203.0.113.8,svc_backup,Firewall Rule Violation,Low,Logged
+ddfe243c-abde-4656-96d8-e06d3fb406d0,2026-10-17T19:30:45+00:00,Lasalle Secondary School,203.0.113.146,nurse_6753,Malware Detected,High,Escalated
+4b1dc907-1754-4cb0-9dfb-39d55ca25a82,2026-10-17T19:32:05+00:00,Northern Ontario School of Medicine,192.168.1.65,admin_infra,Phishing Email Reported,High,Blocked
+6baa5277-1dbc-402e-a37c-8a3bea92fbbf,2026-10-17T19:42:47+00:00,Laurentian University,192.168.1.68,guest_4773,Insider Threat Alert,Medium,Alert Sent
+d1c7f937-7010-4887-8952-024c770cb337,2026-10-17T21:46:02+00:00,Cambrian Financial Services,172.17.223.49,student_9468,Privilege Escalation,Critical,Alert Sent
+d6acff3d-eaf0-45ad-bc1c-493400d05289,2026-10-17T21:46:51+00:00,Collège Boréal,192.168.1.72,nurse_2231,Ransomware Indicator,Critical,Blocked
+83a8776c-125b-401f-8081-3387cb7c3483,2026-10-18T01:09:23+00:00,Lo-Ellen Park Secondary School,192.168.50.18,admin_net,Phishing Email Reported,High,Blocked
+5eaf4135-5a8d-4ce9-aa90-7ef9a6fdfab7,2026-10-18T02:10:56+00:00,Cambrian Financial Services,198.51.100.116,admin_hr,Ransomware Indicator,Critical,Blocked
+0f5c696f-17db-4e2f-b4b0-78acda5580b8,2026-10-18T02:19:12+00:00,Northern Ontario School of Medicine,10.0.92.202,admin_ops,Unauthorized Access Attempt,High,Blocked
+b9ae5b0e-1ef1-4f60-8e8f-62e941596cc3,2026-10-18T03:05:01+00:00,Lo-Ellen Park Secondary School,198.51.100.16,analyst_2102,Data Exfiltration Attempt,High,Alert Sent
+9f9612a6-d5e0-4c21-9746-3bf5190b7807,2026-10-18T03:49:18+00:00,Cambrian Financial Services,10.1.147.36,analyst_6621,Firewall Rule Violation,High,Alert Sent
+1e4cad19-39b4-4d27-baf8-d2b3b3de190a,2026-10-18T04:45:19+00:00,KGHM International – Sudbury,10.1.183.217,admin_fin,Unauthorized Access Attempt,High,Blocked
+71dd71d8-f0a9-46f0-bd1f-de23d8333d8e,2026-10-18T05:30:09+00:00,Sudbury Secondary School,198.51.100.166,analyst_307,Privilege Escalation,Critical,Alert Sent
+6d1cfe81-fe00-4eec-be42-07c68c3f5422,2026-10-18T07:27:17+00:00,Lasalle Secondary School,203.0.113.156,admin_db,Ransomware Indicator,Critical,Alert Sent
+c90143e0-8576-4653-97db-5aa89d94a885,2026-10-18T07:38:18+00:00,Manitoulin Health Centre,10.1.166.222,admin_dev,Firewall Rule Violation,Low,Logged
+82009a9a-9e05-4b13-ab67-d9918e46d599,2026-10-18T07:48:55+00:00,Northern Ontario School of Medicine,203.0.113.98,analyst_1875,Privilege Escalation,High,Escalated
+bc0f9900-9d9d-46fb-a685-3bf52dc01de5,2026-10-18T09:15:31+00:00,Glencore Sudbury Integrated Nickel Operations,172.16.206.22,dev_1393,Firewall Rule Violation,Medium,Alert Sent
+ea538af1-67d0-4a05-816d-d8b01e0ad277,2026-10-18T10:26:43+00:00,Sudbury Credit Union,192.168.1.244,user_2613,Brute Force Login,High,Escalated
+b97fb6c2-3535-4f2a-9ba2-c45af8692862,2026-10-18T11:05:13+00:00,Northern Savings Bank,172.17.12.103,user_9443,Malware Detected,Critical,Escalated
+906184a9-24c2-4f82-a8c7-ebfaa043c934,2026-10-18T12:07:17+00:00,Sudbury Secondary School,172.17.181.242,dev_9701,SQL Injection Attempt,Critical,Blocked
+fcb2fb2c-6c99-4514-a0da-a1a9f8552017,2026-10-18T12:11:18+00:00,Lasalle Secondary School,172.17.91.54,nurse_1269,Firewall Rule Violation,Medium,Logged
+5c9d2d0f-0ed2-46b7-9b29-147822974814,2026-10-18T15:29:32+00:00,Sudbury Community Health Centre,10.2.131.127,admin_sec,Insider Threat Alert,High,Blocked
+e4832954-327c-4194-8aa1-129ff206bdd5,2026-10-18T15:39:35+00:00,Sudbury Secondary School,192.168.1.217,admin_hr,Firewall Rule Violation,High,Alert Sent
+fd940c30-0445-4ba5-8aae-b872b58e9819,2026-10-18T17:06:54+00:00,Sudbury Secondary School,198.51.100.140,user_6497,Brute Force Login,High,Alert Sent
+d0bba29b-d662-474d-b110-48940183b439,2026-10-18T19:21:12+00:00,Cambrian Financial Services,10.1.158.223,student_9295,Port Scan Detected,Medium,Alert Sent
+37456e20-0393-4dd1-a48b-5bb5c0bee8b1,2026-10-18T19:21:48+00:00,Collège Boréal,192.168.1.71,student_2101,Insider Threat Alert,Critical,Alert Sent
+e9d6a2bd-6cf5-4e54-820c-b0341a1bd9b2,2026-10-18T19:34:10+00:00,Glencore Sudbury Integrated Nickel Operations,172.16.217.44,svc_vpn,Port Scan Detected,Medium,Logged
+8bd012ae-0f3c-4854-b9b9-496493f3ce2b,2026-10-18T19:48:49+00:00,Health Sciences North,192.168.50.79,guest_4441,Data Exfiltration Attempt,High,Blocked
+320d080d-f75b-4ce5-825c-9e2e9b44da97,2026-10-18T22:46:42+00:00,Northern Savings Bank,198.51.100.13,nurse_4362,Ransomware Indicator,Critical,Blocked
+ac2a8929-bef7-44fb-b422-ffe3889424a8,2026-10-18T23:50:52+00:00,Northern Ontario School of Medicine,172.17.72.226,nurse_9206,Malware Detected,Critical,Blocked
+0a7697a5-3036-48d9-b43c-c49b87ed8db0,2026-10-19T00:17:42+00:00,Northern Ontario School of Medicine,192.168.1.21,analyst_6752,Anomalous Network Traffic,Medium,Alert Sent
+4f1ea541-2fdf-4a10-8aa6-fd199560ea9c,2026-10-19T00:54:31+00:00,KGHM International – Sudbury,10.1.153.154,analyst_6411,Brute Force Login,Medium,Logged
+3f451409-05c8-4fb7-ae4d-efc9ef305f0c,2026-10-19T02:11:18+00:00,Sudbury Community Health Centre,203.0.113.107,svc_api_gw,Data Exfiltration Attempt,High,Escalated
+0033550c-85e6-4b0e-ab9a-00f955ceb734,2026-10-19T02:29:15+00:00,City of Greater Sudbury – IT Services,192.168.1.71,user_1329,Ransomware Indicator,Critical,Escalated
+be992c7d-5c10-4844-82ad-39d30017083d,2026-10-19T02:51:43+00:00,KGHM International – Sudbury,192.168.50.150,dev_8847,Ransomware Indicator,Critical,Alert Sent
+26aa03ea-8836-4e6d-a87d-47a162f352e4,2026-10-19T03:25:12+00:00,Manitoulin Health Centre,192.168.1.219,dev_8918,Firewall Rule Violation,Low,Logged
+b54d9db7-7166-4f4a-a623-576a3ab6b565,2026-10-19T05:30:55+00:00,Sudbury Community Health Centre,10.1.200.246,user_608,Ransomware Indicator,Critical,Blocked
+8eb59a2e-8b35-40be-8bd0-12d1f541b7fe,2026-10-19T05:40:41+00:00,Manitoulin Health Centre,192.168.1.34,admin_fin,Anomalous Network Traffic,High,Escalated
+527d51fb-651e-4a10-b2ec-2b429ebba44f,2026-10-19T06:37:26+00:00,Sudbury Secondary School,10.10.95.73,svc_backup,Privilege Escalation,High,Escalated
+13769866-b28f-4ece-a7b0-89863330e23c,2026-10-19T09:11:08+00:00,Sudbury District Nurse Practitioner Clinics,10.2.163.227,admin_ops,Ransomware Indicator,Critical,Alert Sent
+7a7a3ebf-5237-4976-8736-6aa9873cf99d,2026-10-19T10:38:08+00:00,Sudbury Hydro IT Division,172.16.164.247,dev_4197,Brute Force Login,High,Alert Sent
+d17b4dbe-3efb-4a18-9e77-c3ab7b707915,2026-10-19T12:30:41+00:00,City of Greater Sudbury – IT Services,172.16.207.12,guest_8885,Data Exfiltration Attempt,High,Blocked
+960a12f5-491f-46e6-92a6-92faede72bfe,2026-10-19T16:17:51+00:00,Lasalle Secondary School,10.0.65.241,guest_1969,Firewall Rule Violation,Medium,Logged
+4b90a1e2-c613-4a69-a772-8796a0f14d32,2026-10-19T17:55:57+00:00,Cambrian College,10.10.50.49,guest_2396,Unauthorized Access Attempt,High,Alert Sent
+e1cfda5e-bc78-4ee2-be9f-4be9821d5afa,2026-10-19T18:21:53+00:00,Cambrian Financial Services,192.168.1.107,admin_ops,Insider Threat Alert,Medium,Alert Sent
+625ac2fb-046f-472f-b6fc-6816c13b60a8,2026-10-19T18:47:47+00:00,City of Greater Sudbury – IT Services,192.168.1.167,admin_ops,Port Scan Detected,High,Escalated
+6ddfb90a-7361-4e46-a9d3-1262533b0354,2026-10-20T01:13:42+00:00,Vale Canada – Sudbury Operations,198.51.100.117,svc_monitor,Unauthorized Access Attempt,Medium,Logged
+afd613ab-8ff0-4e69-8235-625337c5ae34,2026-10-20T02:13:29+00:00,Greater Sudbury Municipal Finance,10.10.69.41,admin_dev,Malware Detected,Critical,Blocked
+e7014130-2422-4e07-9abe-a789eec6810e,2026-10-20T06:32:45+00:00,Lo-Ellen Park Secondary School,198.51.100.24,dev_8431,Data Exfiltration Attempt,Critical,Alert Sent
+ae81bdda-1052-4269-b88c-2781db7afbe1,2026-10-20T06:47:45+00:00,Northern Ontario School of Medicine,10.1.248.198,nurse_5853,Failed MFA Verification,Low,Logged
+f659392c-f170-44f9-96d2-367bea057b70,2026-10-20T09:08:17+00:00,Sudbury District Nurse Practitioner Clinics,192.168.50.70,student_1323,Ransomware Indicator,Critical,Blocked
+acee9213-3488-4f24-b428-cbc045a373d9,2026-10-20T10:32:19+00:00,Vale Canada – Sudbury Operations,198.51.100.97,analyst_2937,Privilege Escalation,High,Alert Sent
+e8eeddab-8c71-47e7-91ec-48758c60af1a,2026-10-20T11:34:46+00:00,Vale Canada – Sudbury Operations,10.0.29.238,analyst_5138,Insider Threat Alert,Medium,Logged
+abbf22aa-7c44-429a-93ef-1162750c179b,2026-10-20T12:41:02+00:00,Dynamic Earth – Science North,172.17.39.113,admin_infra,Failed MFA Verification,High,Alert Sent
+06c9e1a2-ed00-4f56-bcf6-1e230bd687d0,2026-10-20T13:19:18+00:00,Sudbury Community Health Centre,172.17.243.241,nurse_1392,Successful Admin Login,Low,Logged
+19fc32d2-1fc9-40d3-886d-f52fbc51f493,2026-10-20T15:38:49+00:00,Sudbury Community Health Centre,172.16.225.37,student_6875,Anomalous Network Traffic,Medium,Alert Sent
+ec58291a-9075-475d-8abb-e67bd0d3b61b,2026-10-20T15:41:00+00:00,Sudbury Community Health Centre,172.17.249.72,user_8405,Brute Force Login,Critical,Blocked
+9a2a3bdd-0909-45b8-9546-52d53754ac2c,2026-10-20T16:29:50+00:00,Northern Ontario School of Medicine,10.1.147.96,admin_sec,Suspicious API Call,Medium,Logged
+374e6089-36b5-41d4-9cc1-6dfed88262ec,2026-10-20T17:13:05+00:00,Sudbury Credit Union,192.168.1.34,analyst_8537,Anomalous Network Traffic,Low,Logged
+8e46f9d5-21a5-40d7-8952-4bc0e903285f,2026-10-20T17:25:35+00:00,Manitoulin Health Centre,192.168.50.248,student_5439,Malware Detected,Critical,Alert Sent
+b58fe158-7898-4dd1-bbee-10f160cff94c,2026-10-20T18:08:04+00:00,Lasalle Secondary School,192.168.1.254,nurse_9827,Phishing Email Reported,Critical,Alert Sent
+751680e9-d137-413c-8a18-8a30ef16f8d2,2026-10-20T18:44:49+00:00,Sudbury Credit Union,203.0.113.8,analyst_9400,Malware Detected,High,Escalated
+fdc5142b-d64a-433c-923a-3650adc2a20c,2026-10-20T18:54:58+00:00,Glencore Sudbury Integrated Nickel Operations,10.10.245.48,admin_db,Privilege Escalation,High,Alert Sent
+780f44d8-b828-4e54-a49e-57fbdd97292b,2026-10-20T20:18:42+00:00,Dynamic Earth – Science North,192.168.50.224,user_1221,SQL Injection Attempt,Critical,Blocked
+d9e61d76-f799-4cc4-9b9b-e62b2dd48724,2026-10-20T20:52:32+00:00,Sudbury Secondary School,10.0.118.160,admin_net,Failed MFA Verification,Low,Logged
+1d09f514-8685-4bab-8dec-19ad4536bf60,2026-10-20T21:43:10+00:00,Northern Savings Bank,172.16.17.55,analyst_3583,Suspicious API Call,High,Escalated
+7e593b06-3c21-4479-92eb-d7bec58f977e,2026-10-20T23:52:22+00:00,Collège Boréal,10.0.150.123,svc_portal,Ransomware Indicator,Critical,Escalated
+194fd851-3a45-4486-a9ef-67c02f608227,2026-10-21T00:54:34+00:00,Health Sciences North,10.2.128.132,guest_8271,Insider Threat Alert,High,Alert Sent
+7d9aca18-5fc7-4606-bce7-92e8c5cc87d8,2026-10-21T01:47:32+00:00,Sudbury Hydro IT Division,192.168.1.102,student_1345,Brute Force Login,High,Escalated
+c065b919-202f-458d-9eef-5edb987a2f78,2026-10-21T02:09:54+00:00,Sudbury District Nurse Practitioner Clinics,203.0.113.153,admin_sec,Phishing Email Reported,Medium,Logged
+beb68cdb-6fc5-450a-84f4-5defe4b9c127,2026-10-21T02:45:51+00:00,Glencore Sudbury Integrated Nickel Operations,192.168.1.35,user_2946,Port Scan Detected,Low,Logged
+911acb7f-dac9-4a91-aa1a-30bde87e26a8,2026-10-21T02:55:59+00:00,Cambrian College,172.16.95.158,student_3690,Privilege Escalation,Critical,Blocked
+35af52e4-679f-4d46-8aad-2957edd2dd57,2026-10-21T05:15:20+00:00,Sudbury District Nurse Practitioner Clinics,172.17.2.47,svc_monitor,Malware Detected,High,Escalated
+1a5acd1b-ec73-434b-b992-d398ed845c47,2026-10-21T05:54:39+00:00,Northern Ontario School of Medicine,172.17.132.226,guest_7735,Privilege Escalation,Critical,Blocked
+c7a03a0f-b63a-4451-aeef-de417e1e4cea,2026-10-21T06:58:22+00:00,Cambrian College,10.10.136.252,student_6978,Port Scan Detected,Medium,Alert Sent
+354ad1cc-68d3-49e5-a11c-be893565a033,2026-10-21T07:28:07+00:00,Greater Sudbury Municipal Finance,172.17.96.67,nurse_7698,Phishing Email Reported,Medium,Logged
+7fbff234-02ba-491e-9fbf-d70c5aeca2c1,2026-10-21T09:21:45+00:00,Dynamic Earth – Science North,172.16.109.230,dev_5813,Anomalous Network Traffic,High,Alert Sent
+b288b209-94da-4b97-9295-ca184a2c8be9,2026-10-21T10:17:47+00:00,Laurentian University,192.168.1.86,dev_5499,Firewall Rule Violation,Low,Logged
+b23323bb-c02c-4cde-bbf6-d53c897d52a8,2026-10-21T10:48:45+00:00,City of Greater Sudbury – IT Services,10.0.56.214,analyst_2530,Brute Force Login,Medium,Logged
+ea58845c-9a4d-4beb-b683-26933ef4c8fb,2026-10-21T12:00:33+00:00,Laurentian University,10.10.240.49,admin_infra,SQL Injection Attempt,Critical,Blocked
+79b09915-c8ee-4c93-bfed-3c1c9a41e294,2026-10-21T12:09:51+00:00,Manitoulin Health Centre,172.16.216.126,admin_hr,Phishing Email Reported,Critical,Blocked
+b3ff2214-ad03-4da0-8648-3f4857610b86,2026-10-21T12:25:23+00:00,Sudbury Community Health Centre,172.16.169.40,dev_6276,Failed MFA Verification,Medium,Logged
+3a0c9dab-7568-4943-90d3-a8d5d46a3b37,2026-10-21T13:04:53+00:00,Laurentian University,198.51.100.33,nurse_845,Suspicious API Call,Medium,Logged
+865d11aa-39b9-4fce-8924-b2324d37635b,2026-10-21T13:13:27+00:00,Glencore Sudbury Integrated Nickel Operations,203.0.113.102,admin_sec,Successful Admin Login,Low,Logged
+c1d1a9cc-7b76-44cd-a957-1697f9b7465d,2026-10-21T13:33:00+00:00,Lasalle Secondary School,172.16.24.168,analyst_4202,Insider Threat Alert,Medium,Logged
+0819f98f-3afe-42f8-bf34-8b98eea4b13b,2026-10-21T14:24:19+00:00,Northern Ontario School of Medicine,192.168.50.38,admin_db,Malware Detected,High,Alert Sent
+00774ac3-9fee-4ff6-a861-4c04c2b48a06,2026-10-21T18:30:10+00:00,Manitoulin Health Centre,10.10.177.181,guest_5294,Privilege Escalation,High,Alert Sent
+1af4403c-bb4c-4d50-b49d-e442b20d66d1,2026-10-21T18:42:01+00:00,City of Greater Sudbury – IT Services,203.0.113.22,svc_vpn,Anomalous Network Traffic,Low,Logged
+83b41b60-bd57-4b34-9924-860963727283,2026-10-21T18:48:26+00:00,Sudbury Hydro IT Division,192.168.1.79,user_1725,Firewall Rule Violation,High,Blocked
+d76bf6a5-7d77-4f0d-856b-58a3f11e48a4,2026-10-21T20:37:34+00:00,Cambrian College,198.51.100.198,user_5617,Malware Detected,High,Escalated
+fdf60f44-4cae-4b8b-966b-d9edea4cba61,2026-10-21T21:25:35+00:00,Vale Canada – Sudbury Operations,192.168.1.226,guest_1099,Anomalous Network Traffic,High,Blocked
+fd73084b-029b-4e2a-ba4e-e115c755b8af,2026-10-21T21:31:14+00:00,Sudbury Hydro IT Division,10.10.45.157,dev_7107,Ransomware Indicator,Critical,Escalated
+bf8afadb-df3a-4d91-aab0-a7fb3c7bfedc,2026-10-22T00:18:17+00:00,Manitoulin Health Centre,203.0.113.69,admin_db,Phishing Email Reported,Critical,Alert Sent
+d7b6ad7a-2c15-4f31-b9ef-cc6df6303dee,2026-10-22T02:41:57+00:00,Sudbury Credit Union,10.2.252.182,svc_monitor,Suspicious API Call,Medium,Alert Sent
+231f6bbd-e41d-40f4-8b51-1f2992a9e2f8,2026-10-22T02:50:49+00:00,Collège Boréal,172.16.245.183,admin_ops,Port Scan Detected,Medium,Alert Sent
+616bf3b9-1ae1-485f-9aa5-b53b9ba839b2,2026-10-22T02:57:08+00:00,Manitoulin Health Centre,10.2.183.182,svc_ldap,Brute Force Login,High,Alert Sent
+ec64169b-7fbf-4380-8184-42c88fa54849,2026-10-22T03:45:25+00:00,Dynamic Earth – Science North,172.16.124.63,dev_4973,Insider Threat Alert,High,Alert Sent
+ea3f924f-0c11-4e52-a86f-05ddb64a662a,2026-10-22T05:00:12+00:00,Sudbury Secondary School,192.168.1.130,guest_9108,Suspicious API Call,Medium,Alert Sent
+eb556503-fa6d-4978-8b1f-03633dfe9019,2026-10-22T05:40:14+00:00,Cambrian Financial Services,192.168.50.32,user_4020,Privilege Escalation,High,Escalated
+98b9c26b-c587-416e-8681-42f2042ea233,2026-10-22T06:07:32+00:00,Collège Boréal,192.168.1.100,dev_5222,Suspicious API Call,Medium,Logged
+19709a6e-1db0-41b8-8c29-6e97702d3f23,2026-10-22T06:25:41+00:00,Sudbury Community Health Centre,10.1.112.251,admin_net,Failed MFA Verification,Medium,Alert Sent
+0630b130-c0d2-493d-928a-f6f4d4233829,2026-10-22T06:58:12+00:00,Health Sciences North,192.168.1.202,analyst_7718,SQL Injection Attempt,High,Alert Sent
+47d72aed-d0e8-4cfd-8814-1cd32ac2f6fb,2026-10-22T08:21:05+00:00,Sudbury Community Health Centre,172.16.86.82,admin_db,Firewall Rule Violation,Low,Logged
+e5be6d9b-6271-46d5-9a06-f060ee1957fc,2026-10-22T11:43:45+00:00,Laurentian University,198.51.100.211,analyst_8526,Data Exfiltration Attempt,High,Escalated
+237201bb-b202-4ddd-be12-9a5d953856d5,2026-10-22T17:30:19+00:00,Lo-Ellen Park Secondary School,10.10.246.196,analyst_1774,Ransomware Indicator,Critical,Blocked
+a36a23a3-c4a4-4334-a0c5-4becc6c46533,2026-10-22T18:08:36+00:00,Dynamic Earth – Science North,10.2.180.222,svc_erp,Insider Threat Alert,Medium,Logged
+d0eb1be6-07bf-4f7c-9560-dcdd6b6c491c,2026-10-22T18:39:16+00:00,Northern Ontario School of Medicine,172.16.49.39,student_1030,Successful Admin Login,Low,Logged
+e01ed8ac-ee74-43f0-90a6-e9d158b25806,2026-10-22T20:22:05+00:00,Northern Savings Bank,10.2.159.156,dev_735,Firewall Rule Violation,Low,Logged
+e52ad77a-8ae7-41f5-8f81-a49daae34e5f,2026-10-22T20:48:59+00:00,Sudbury Community Health Centre,10.10.36.189,admin_net,Failed MFA Verification,Low,Logged
+90a3aa26-0b8e-45fe-92b0-67869aa04a7c,2026-10-22T21:13:51+00:00,Sudbury Hydro IT Division,10.0.91.130,admin_fin,Failed MFA Verification,Medium,Alert Sent
+9825198a-abf7-413a-beed-ef872e59b899,2026-10-22T22:38:51+00:00,Manitoulin Health Centre,10.1.147.174,dev_6564,Phishing Email Reported,High,Alert Sent
+5abb375c-f615-44a0-9546-dc78b3336ea2,2026-10-23T00:22:06+00:00,Glencore Sudbury Integrated Nickel Operations,10.1.68.183,admin_infra,Phishing Email Reported,Critical,Alert Sent
+aeeb8950-c60e-42d6-8a8e-aedaf6adb0c3,2026-10-23T00:32:25+00:00,Northern Savings Bank,192.168.50.205,dev_2832,Data Exfiltration Attempt,Critical,Blocked
+3961096a-68e1-4da4-83ad-bf95eaf7f56c,2026-10-23T02:34:48+00:00,City of Greater Sudbury – IT Services,198.51.100.199,guest_7716,Ransomware Indicator,Critical,Alert Sent
+085d8c5c-f324-4ecd-acd6-7dd4bed17342,2026-10-23T02:56:53+00:00,Cambrian College,10.2.23.48,dev_7453,Firewall Rule Violation,Medium,Alert Sent
+3cb92e1d-b029-41c6-b808-b3171c591c30,2026-10-23T04:32:43+00:00,Sudbury District Nurse Practitioner Clinics,10.10.213.240,admin_fin,SQL Injection Attempt,Critical,Alert Sent
+cf3d4d11-76ab-40a1-bb20-cfbd987e771d,2026-10-23T04:38:44+00:00,Sudbury Secondary School,172.17.209.88,svc_portal,Insider Threat Alert,High,Alert Sent
+e1263f85-d3e4-4fdf-a168-91bcce5eee94,2026-10-23T06:10:40+00:00,Sudbury District Nurse Practitioner Clinics,172.16.150.186,user_4385,Data Exfiltration Attempt,High,Escalated
+17d7eea1-2da3-4907-998a-e7b8602d4a5c,2026-10-23T08:54:08+00:00,Dynamic Earth – Science North,10.10.197.147,dev_596,Failed MFA Verification,Medium,Alert Sent
+977abf4c-84d7-4620-9f2e-7fd2c0dc3077,2026-10-23T09:41:07+00:00,Glencore Sudbury Integrated Nickel Operations,192.168.50.65,user_1612,Failed MFA Verification,Medium,Alert Sent
+14effe9f-7b58-4a1a-ba75-00957b60e104,2026-10-23T13:26:05+00:00,Health Sciences North,172.17.62.68,dev_2244,Privilege Escalation,High,Escalated
+76d10e7e-aff4-428e-b594-7805a8c209aa,2026-10-23T15:12:15+00:00,Lasalle Secondary School,172.17.33.192,nurse_2034,Phishing Email Reported,High,Blocked
+e0699cda-6820-434f-841e-19467106cf47,2026-10-23T15:53:51+00:00,KGHM International – Sudbury,10.2.243.175,analyst_1563,Firewall Rule Violation,Low,Logged
+77f7e372-de10-492a-a573-840ccaacd76f,2026-10-23T16:47:22+00:00,Sudbury District Nurse Practitioner Clinics,10.1.23.100,dev_9144,Malware Detected,Critical,Alert Sent
+f047a011-99e0-47c4-bef2-a9786e5e0bab,2026-10-23T19:46:18+00:00,Laurentian University,192.168.50.231,nurse_9055,Failed MFA Verification,Low,Logged
+3d51b267-b50d-4b09-8c3d-849d69237815,2026-10-24T01:32:56+00:00,Laurentian University,10.1.59.247,user_4515,Ransomware Indicator,Critical,Escalated
+3ee2a909-d4b8-40de-a82f-f5190ebd4b02,2026-10-24T02:12:11+00:00,Sudbury Secondary School,192.168.50.207,admin_sec,Malware Detected,High,Escalated
+7a9cbe67-dd77-4eb8-9d8a-aec4ea5f78d2,2026-10-24T02:30:45+00:00,Sudbury Secondary School,172.17.66.202,admin_sec,Unauthorized Access Attempt,Medium,Logged
+76903154-8135-4457-a616-17cf7681e71a,2026-10-24T03:20:56+00:00,Sudbury Community Health Centre,172.17.80.34,admin_dev,Unauthorized Access Attempt,High,Escalated
+2bae8134-b81e-4b5a-b398-ff64dc8a847a,2026-10-24T04:01:47+00:00,Northern Ontario School of Medicine,192.168.1.247,analyst_4919,Data Exfiltration Attempt,Critical,Alert Sent
+5fe24e6b-7bb9-48d9-bc6b-41ffc7fc30e3,2026-10-24T04:36:23+00:00,Cambrian Financial Services,192.168.50.135,svc_vpn,Failed MFA Verification,Low,Logged
+20546dfc-a674-405d-a33b-58306c68b695,2026-10-24T04:49:36+00:00,Northern Savings Bank,192.168.50.37,nurse_6886,Ransomware Indicator,Critical,Alert Sent
+c1095d3f-30a8-480e-99aa-76fcc1a558e1,2026-10-24T04:51:13+00:00,Manitoulin Health Centre,10.0.116.68,analyst_1525,Data Exfiltration Attempt,High,Alert Sent
+53f1ea39-8964-4914-a502-9de5eb23ae20,2026-10-24T05:11:37+00:00,Dynamic Earth – Science North,172.16.197.200,guest_4019,Firewall Rule Violation,Low,Logged
+e9b645ca-c3b1-4101-93d5-0b18feb4f437,2026-10-24T10:18:31+00:00,Cambrian College,172.16.218.176,admin_sec,Ransomware Indicator,Critical,Alert Sent
+f276eb5e-a129-4eab-a882-7efd13c5ed07,2026-10-24T11:04:09+00:00,Collège Boréal,203.0.113.243,admin_hr,Malware Detected,Critical,Blocked
+555bea00-fa5f-41fb-8b8f-01d4f5604eaa,2026-10-24T16:26:56+00:00,Collège Boréal,192.168.50.236,nurse_6202,Insider Threat Alert,Critical,Blocked
+259932ee-996f-41ab-9d3e-5304d1e8fe26,2026-10-24T16:30:22+00:00,Cambrian Financial Services,203.0.113.73,guest_3933,Unauthorized Access Attempt,High,Escalated
+7f777440-6f72-4828-9e30-f10b4c198e42,2026-10-24T17:11:12+00:00,Health Sciences North,203.0.113.177,analyst_7115,SQL Injection Attempt,Critical,Blocked
+1b52eb41-029d-453b-b9f0-7e1fb30ebb7c,2026-10-24T19:36:25+00:00,Manitoulin Health Centre,10.10.207.51,svc_portal,Brute Force Login,Critical,Blocked
+43a4de9f-afb3-46fd-8773-4e3716b2b27f,2026-10-24T21:17:25+00:00,Northern Ontario School of Medicine,203.0.113.170,student_7065,SQL Injection Attempt,High,Blocked
+bdb0d0de-38b7-46ce-965f-6406cb19efe0,2026-10-24T21:47:12+00:00,KGHM International – Sudbury,172.17.163.215,user_5588,Insider Threat Alert,High,Blocked
+a5f85bd3-27e4-4746-be60-f9d44d5c06ea,2026-10-24T23:36:33+00:00,Sudbury Secondary School,10.2.3.56,guest_6214,Data Exfiltration Attempt,High,Blocked
+90e2e12a-a3aa-405a-93e7-4cee7f4c43fd,2026-10-25T00:39:09+00:00,Cambrian College,10.10.81.31,svc_erp,Successful Admin Login,Low,Logged
+eb8c03b6-4d9b-40d9-b63c-a578a0940095,2026-10-25T03:08:18+00:00,Glencore Sudbury Integrated Nickel Operations,10.0.12.220,user_4106,Failed MFA Verification,Medium,Logged
+107345b9-f254-42f4-abe3-42792197d0de,2026-10-25T03:43:41+00:00,Manitoulin Health Centre,10.1.219.60,admin_dev,Ransomware Indicator,Critical,Alert Sent
+d0746eb7-0f6c-4400-96eb-2a776be1b874,2026-10-25T06:06:22+00:00,Manitoulin Health Centre,10.1.168.254,user_1631,Anomalous Network Traffic,Medium,Alert Sent
+4e764ec8-85f9-4111-bf4d-9c8455b9a2a9,2026-10-25T09:31:49+00:00,Cambrian Financial Services,172.17.144.197,guest_6052,Phishing Email Reported,Critical,Escalated
+f8b0ed8d-6563-4483-b993-fb81a4aa92c8,2026-10-25T10:35:55+00:00,Glencore Sudbury Integrated Nickel Operations,198.51.100.143,student_7403,Unauthorized Access Attempt,Medium,Alert Sent
+592f7753-01c9-4b9f-b829-e270d0a79eb8,2026-10-25T10:53:41+00:00,Laurentian University,172.17.91.213,nurse_9073,Firewall Rule Violation,Low,Logged
+493a265e-bef7-45cc-bf47-0a3818f979fb,2026-10-25T11:21:22+00:00,Dynamic Earth – Science North,10.10.174.53,nurse_6809,Port Scan Detected,High,Escalated
+ed2d65b6-0ddb-40e8-8231-b6399e2d9769,2026-10-25T14:31:01+00:00,Sudbury Community Health Centre,198.51.100.155,user_9295,Unauthorized Access Attempt,Medium,Logged
+59047b14-a0bb-489c-8e00-a2bce955ed72,2026-10-25T18:05:34+00:00,Glencore Sudbury Integrated Nickel Operations,10.1.89.111,admin_fin,Firewall Rule Violation,Medium,Alert Sent
+04a7df99-2e1e-4ad0-b623-eac128d4bc43,2026-10-25T18:59:35+00:00,Health Sciences North,172.16.193.181,admin_net,Data Exfiltration Attempt,High,Escalated
+7b76d7c8-7f64-47ed-a78b-681c48887c40,2026-10-25T22:25:26+00:00,Vale Canada – Sudbury Operations,172.16.83.213,nurse_5633,Suspicious API Call,High,Escalated
+c29ad43b-6e0d-4918-a20d-72d48ba7d5fb,2026-10-26T04:31:10+00:00,Health Sciences North,10.0.146.90,nurse_9878,Anomalous Network Traffic,Low,Logged
+dd76ac43-54a4-4093-a0a5-b356cd72c0ee,2026-10-26T05:49:47+00:00,Dynamic Earth – Science North,10.0.78.108,admin_fin,Firewall Rule Violation,Medium,Logged
+267e0387-aa2e-45e7-aba1-f9431bf4b2b4,2026-10-26T06:58:25+00:00,Northern Savings Bank,10.10.142.83,nurse_6336,Ransomware Indicator,Critical,Alert Sent
+f67fd623-8e50-44a6-a029-bbb0bb6f04cb,2026-10-26T08:38:06+00:00,City of Greater Sudbury – IT Services,192.168.50.213,student_6125,Unauthorized Access Attempt,High,Escalated
+b573f7c5-d549-45d9-a085-a6b531da1342,2026-10-26T11:05:23+00:00,Lo-Ellen Park Secondary School,10.10.203.127,user_6012,Privilege Escalation,High,Escalated
+226cae43-f105-4a19-bc45-6c7f6def9910,2026-10-26T12:31:26+00:00,Northern Ontario School of Medicine,198.51.100.250,student_5964,Firewall Rule Violation,Low,Logged
+f89508a8-4415-46b9-903c-c6fb0aba4430,2026-10-26T12:43:46+00:00,Cambrian Financial Services,172.17.79.211,student_3752,SQL Injection Attempt,High,Blocked
+2954b581-ea5e-4544-b423-5d74330d188f,2026-10-26T12:50:58+00:00,Collège Boréal,172.17.239.80,dev_8997,Successful Admin Login,Low,Logged
+8b792ea1-e109-4e35-a94f-80fb03f418d6,2026-10-26T15:38:26+00:00,Cambrian Financial Services,10.1.68.172,guest_8746,Malware Detected,High,Escalated
+40af782a-f5f1-44c1-8cfe-1cbeb2b20ad6,2026-10-26T15:41:10+00:00,Sudbury Credit Union,192.168.1.18,analyst_5243,Failed MFA Verification,Medium,Logged
+3cc56df8-5112-4e8f-8e22-662827d2a60d,2026-10-26T16:20:44+00:00,Health Sciences North,172.16.115.46,admin_db,Privilege Escalation,Critical,Blocked
+072906e9-ba3f-48bd-b8b2-47924490934d,2026-10-26T20:42:24+00:00,Lo-Ellen Park Secondary School,10.0.109.21,dev_3408,Malware Detected,Critical,Escalated
+1b0da90f-e4dc-4605-aba0-df344952eeb0,2026-10-26T22:35:50+00:00,Manitoulin Health Centre,172.17.221.200,user_5538,Successful Admin Login,Low,Logged
+e215371d-044d-4ab5-afbd-a907c9d9dedb,2026-10-26T23:47:27+00:00,Northern Ontario School of Medicine,10.0.182.112,user_8618,Data Exfiltration Attempt,Critical,Escalated
+65b167ad-7dea-48b3-8150-a8913121e6c1,2026-10-27T01:56:26+00:00,Vale Canada – Sudbury Operations,198.51.100.80,svc_backup,Malware Detected,Critical,Blocked
+0b629514-6fe3-454e-869b-d58b379284f0,2026-10-27T03:12:07+00:00,Northern Ontario School of Medicine,172.16.115.227,svc_portal,Malware Detected,High,Escalated
+ad87c3fc-511d-44d8-ad94-8c033f70a73a,2026-10-27T03:15:47+00:00,Sudbury District Nurse Practitioner Clinics,192.168.50.159,user_5982,Firewall Rule Violation,Low,Logged
+d909dcae-c261-48df-ae4d-2bbb1170a55f,2026-10-27T04:49:48+00:00,Vale Canada – Sudbury Operations,198.51.100.178,svc_monitor,Anomalous Network Traffic,Medium,Logged
+78a54a2d-9d0f-4d6f-bafd-7cd59b844a2f,2026-10-27T06:49:03+00:00,KGHM International – Sudbury,10.0.135.9,admin_sec,Ransomware Indicator,Critical,Blocked
+63006f9d-fa69-4b2c-a860-2efd3116f407,2026-10-27T07:59:11+00:00,Sudbury Credit Union,10.2.131.100,dev_9871,Suspicious API Call,Medium,Logged
+2a09fa28-f09e-443f-acc8-2383ba8548db,2026-10-27T09:31:09+00:00,Collège Boréal,172.16.98.84,student_7549,Malware Detected,Critical,Alert Sent
+e56f8497-ee97-48ac-8919-6542ddaff5f3,2026-10-27T11:00:06+00:00,KGHM International – Sudbury,172.16.83.27,admin_ops,Anomalous Network Traffic,Critical,Escalated
+8925a66e-78a6-4fe2-a71c-fcb5a266bc8a,2026-10-27T11:13:38+00:00,Health Sciences North,172.17.243.197,guest_3245,Unauthorized Access Attempt,High,Blocked
+7e014626-fab3-4e44-9eb0-b4af86475a26,2026-10-27T12:17:08+00:00,Sudbury District Nurse Practitioner Clinics,10.0.247.54,svc_ldap,Anomalous Network Traffic,High,Escalated
+c1c27ebd-b9c0-4937-aa97-58c74fecc968,2026-10-27T14:29:35+00:00,Sudbury District Nurse Practitioner Clinics,10.0.6.38,svc_ldap,Port Scan Detected,Low,Logged
+18a3630b-4c5b-45cc-bec8-869e1f918b37,2026-10-27T15:14:01+00:00,Sudbury District Nurse Practitioner Clinics,10.0.2.116,nurse_3530,Firewall Rule Violation,Medium,Logged
+ad1c8d2b-d777-4792-bc31-d2aca28464ca,2026-10-27T16:36:23+00:00,Cambrian College,10.0.182.36,user_2784,Ransomware Indicator,Critical,Alert Sent
+e5f483eb-d21a-41d4-95df-b87c7e6421df,2026-10-27T17:08:12+00:00,Vale Canada – Sudbury Operations,198.51.100.167,guest_4657,Unauthorized Access Attempt,High,Blocked
+572d4e48-1a18-46b9-80ae-caee13523be2,2026-10-27T17:42:23+00:00,Collège Boréal,172.16.93.206,analyst_7079,Unauthorized Access Attempt,Medium,Logged
+9358eb5d-de4d-4153-b02a-bb604ef9a023,2026-10-28T04:23:53+00:00,Collège Boréal,192.168.1.161,nurse_3936,Phishing Email Reported,High,Alert Sent
+4673acc2-082f-44ad-a679-c6914b1500b8,2026-10-28T05:59:38+00:00,Vale Canada – Sudbury Operations,10.2.211.184,dev_1852,Ransomware Indicator,Critical,Alert Sent
+0a414556-3d67-4b01-ac09-4c3353a1e9c3,2026-10-28T06:52:16+00:00,Cambrian Financial Services,192.168.1.70,student_5413,Privilege Escalation,Critical,Blocked
+48dc6448-1c4b-4240-a6f2-96397401a36e,2026-10-28T09:44:44+00:00,Manitoulin Health Centre,172.16.38.215,user_4935,Unauthorized Access Attempt,Medium,Logged
+0dbb6cd4-d921-475e-aa1b-379b9bde500b,2026-10-28T09:52:27+00:00,Sudbury District Nurse Practitioner Clinics,192.168.1.178,guest_4822,Failed MFA Verification,Low,Logged
+b4a49f35-98c8-4d0d-a04f-399767914c94,2026-10-28T10:40:38+00:00,Sudbury District Nurse Practitioner Clinics,198.51.100.110,guest_3898,Privilege Escalation,High,Alert Sent
+50aa25a0-e661-4ef4-b244-5db1fb027a5b,2026-10-28T13:04:18+00:00,Cambrian Financial Services,192.168.1.124,guest_3442,Brute Force Login,High,Alert Sent
+50eba990-2d5f-4444-90aa-57eeeb985c4e,2026-10-28T17:10:52+00:00,Sudbury Community Health Centre,10.2.250.205,svc_backup,Insider Threat Alert,Critical,Blocked
+7043e31d-f288-402c-8ae9-480c2f9f49f5,2026-10-28T17:30:11+00:00,Northern Savings Bank,172.17.93.28,admin_sec,Successful Admin Login,Low,Logged
+92a7b87d-fa40-4f93-8a93-b9e49985e476,2026-10-28T17:31:53+00:00,Lasalle Secondary School,10.2.213.178,svc_api_gw,Malware Detected,Critical,Alert Sent
+b7d5ff0f-3e70-49b7-8cd3-dd2ba43fa8f5,2026-10-28T17:51:34+00:00,Vale Canada – Sudbury Operations,172.16.131.181,nurse_6907,Brute Force Login,High,Alert Sent
+05167a96-2829-4573-a3b9-952376e83317,2026-10-28T19:13:04+00:00,Health Sciences North,10.1.107.105,analyst_8990,Suspicious API Call,Medium,Alert Sent
+ca4019bd-be4f-43db-bf5f-1c7bfb4fad7d,2026-10-28T19:21:47+00:00,Northern Ontario School of Medicine,10.1.80.21,student_2645,Privilege Escalation,Critical,Escalated
+6b7a4c39-054c-4839-9f55-073e835349d2,2026-10-28T19:42:38+00:00,Sudbury Community Health Centre,10.2.122.172,admin_hr,Suspicious API Call,High,Alert Sent
+d03d07d3-6f7f-41f9-bec5-4a7fbf8c0ee6,2026-10-28T20:02:00+00:00,Vale Canada – Sudbury Operations,10.0.33.129,analyst_1744,Port Scan Detected,Medium,Alert Sent
+fc56dbb3-75b2-499a-863f-fc2c9e112f34,2026-10-28T20:49:07+00:00,Greater Sudbury Municipal Finance,10.10.106.129,guest_1120,Firewall Rule Violation,Medium,Logged
+00712585-205a-4818-baa7-91aa286035b9,2026-10-28T20:53:06+00:00,Greater Sudbury Municipal Finance,203.0.113.176,guest_3659,Phishing Email Reported,High,Blocked
+5bd8c76d-41a7-459c-a49b-7da9b2f7abd5,2026-10-28T22:23:15+00:00,Lasalle Secondary School,10.0.142.206,dev_3778,Firewall Rule Violation,Medium,Alert Sent
+be1c498e-75fa-45b2-9533-9842aae9a310,2026-10-28T23:02:45+00:00,KGHM International – Sudbury,203.0.113.136,dev_1921,Successful Admin Login,Low,Logged
+0dc82955-b523-463e-a417-00e533733225,2026-10-28T23:39:49+00:00,Northern Ontario School of Medicine,10.2.19.16,svc_ldap,Privilege Escalation,High,Alert Sent
+409b2b99-1fe4-450a-af33-cb7ea8560352,2026-10-29T01:10:39+00:00,Sudbury Community Health Centre,10.1.38.66,student_2942,SQL Injection Attempt,Critical,Escalated
+ecfa0ccb-0e71-4ccb-bcc6-c470e9ca54d2,2026-10-29T03:14:11+00:00,Laurentian University,172.16.142.240,dev_4936,SQL Injection Attempt,High,Blocked
+d16235a3-fe9a-4a29-a3a4-b79546e3d934,2026-10-29T05:09:54+00:00,Health Sciences North,203.0.113.131,dev_8293,Privilege Escalation,Critical,Blocked
+0c7faca6-14b4-4c0a-96d0-089f629b50c2,2026-10-29T07:22:18+00:00,Northern Ontario School of Medicine,10.1.12.236,student_8615,Unauthorized Access Attempt,Critical,Alert Sent
+020c964c-1a69-4dd6-ad97-bf908263ad05,2026-10-29T10:11:40+00:00,Sudbury Secondary School,198.51.100.191,analyst_979,Data Exfiltration Attempt,Critical,Blocked
+50203444-08ca-4230-b990-8f6cf57581ce,2026-10-29T10:13:09+00:00,Laurentian University,192.168.50.76,nurse_6957,Failed MFA Verification,Medium,Alert Sent
+1826dc08-6479-4fed-b9b4-0b81166beeed,2026-10-29T10:23:48+00:00,Collège Boréal,10.0.78.127,admin_net,Failed MFA Verification,Medium,Logged
+09fac29a-2c4f-49d3-8845-37402619aa2c,2026-10-29T13:21:31+00:00,Northern Ontario School of Medicine,172.16.84.31,user_8249,Successful Admin Login,Medium,Alert Sent
+a6b81ba8-6f3d-4243-b8af-c675af04d341,2026-10-29T14:16:16+00:00,Lasalle Secondary School,192.168.1.203,guest_5298,Phishing Email Reported,Medium,Logged
+08022096-cf04-41e9-bd3c-35b1c3b8cbc9,2026-10-29T17:22:22+00:00,Sudbury District Nurse Practitioner Clinics,192.168.50.92,student_2801,Data Exfiltration Attempt,Critical,Alert Sent
+f3d4f72c-c58a-4b8e-8949-7ae0c67211af,2026-10-29T18:07:20+00:00,Dynamic Earth – Science North,10.2.18.136,user_2788,Port Scan Detected,Medium,Alert Sent
+e2fbd108-2803-417c-8024-104621bc31b8,2026-10-29T19:41:13+00:00,Laurentian University,172.17.203.202,student_9747,Failed MFA Verification,High,Alert Sent
+43243d50-a38d-4e70-90de-e9507efa858e,2026-10-29T20:22:59+00:00,Health Sciences North,10.0.151.130,svc_portal,Unauthorized Access Attempt,Medium,Alert Sent
+504daee0-eb5e-453e-a56d-966edcc1adaa,2026-10-29T22:54:52+00:00,Greater Sudbury Municipal Finance,198.51.100.234,user_2134,Failed MFA Verification,Medium,Logged
+42dff39d-99f1-44d7-b70e-f5f04b59235a,2026-10-29T23:40:23+00:00,Cambrian College,192.168.1.169,analyst_8359,Malware Detected,Critical,Alert Sent
+80544523-eff2-4319-ab61-43ea609f158d,2026-10-30T00:52:38+00:00,Lasalle Secondary School,10.0.243.180,dev_9397,Ransomware Indicator,Critical,Blocked
+fa2b5737-4420-42be-ad8c-538c6606ef00,2026-10-30T02:07:21+00:00,Dynamic Earth – Science North,192.168.50.27,user_9505,Privilege Escalation,High,Alert Sent
+aa75d921-a040-4e72-911a-0c01dbfe6a98,2026-10-30T05:45:37+00:00,Sudbury Hydro IT Division,192.168.1.90,dev_5252,Insider Threat Alert,Medium,Logged
+c78ca11e-ff0f-4eb4-b79c-6b4717f83f2c,2026-10-30T06:30:01+00:00,Northern Ontario School of Medicine,192.168.50.64,svc_portal,Phishing Email Reported,Medium,Logged
+051531f4-40b3-412a-8f2b-7fe959fd4288,2026-10-30T07:44:44+00:00,Laurentian University,10.0.213.200,student_2241,Port Scan Detected,Medium,Logged
+547af24e-bb17-4eee-b19e-d8b98af190ec,2026-10-30T08:34:11+00:00,Northern Savings Bank,10.10.118.212,student_5636,Anomalous Network Traffic,Low,Logged
+0702cc44-6772-4b1f-85a5-21e997a9b7de,2026-10-30T13:49:10+00:00,Health Sciences North,203.0.113.126,admin_infra,SQL Injection Attempt,Critical,Blocked
+573345ed-9484-42b6-b3cf-6f4acecfded7,2026-10-30T14:06:53+00:00,Cambrian Financial Services,203.0.113.156,user_5167,Brute Force Login,Critical,Escalated
+79a4563f-81d0-4d38-9d8f-e1ade508aa69,2026-10-30T15:09:53+00:00,Laurentian University,172.17.166.28,svc_api_gw,Successful Admin Login,Low,Logged
+0fae7b1d-2bb2-4de2-b9cc-5cfbd821adec,2026-10-30T15:56:48+00:00,Dynamic Earth – Science North,198.51.100.185,student_7146,Brute Force Login,Critical,Alert Sent
+d24032fa-1855-4012-b8c8-fd17ad58cfd8,2026-10-30T16:23:53+00:00,Glencore Sudbury Integrated Nickel Operations,198.51.100.50,analyst_5852,Brute Force Login,High,Escalated
+1b14cd47-88c0-49c3-86b5-b86184c7205d,2026-10-30T17:04:18+00:00,Laurentian University,10.2.128.133,dev_9302,Failed MFA Verification,Low,Logged
+6c4d485a-5656-4ba1-bddb-6bfa1c828425,2026-10-30T18:00:21+00:00,Sudbury District Nurse Practitioner Clinics,10.2.188.118,nurse_3150,Successful Admin Login,Low,Logged
+722fb289-5a55-47fd-9857-3df277297afa,2026-10-31T00:14:04+00:00,Sudbury District Nurse Practitioner Clinics,172.16.117.254,guest_2298,Successful Admin Login,Low,Logged
+f4fda38c-6ecd-4ceb-ad2a-432c657ecacd,2026-10-31T03:00:53+00:00,Glencore Sudbury Integrated Nickel Operations,203.0.113.31,nurse_1967,Data Exfiltration Attempt,Critical,Blocked
+7dde7b1f-3d2e-4362-bf33-7a973109650c,2026-10-31T03:14:07+00:00,Sudbury Secondary School,172.17.44.228,dev_2736,Unauthorized Access Attempt,High,Escalated
+4d0158f8-04a9-455c-bd1f-d7b8a6807e55,2026-10-31T04:28:18+00:00,Sudbury Hydro IT Division,172.17.35.12,analyst_9045,Ransomware Indicator,Critical,Alert Sent
+dbb60533-c12a-4576-bf6e-dd747913cce4,2026-10-31T07:14:12+00:00,Northern Ontario School of Medicine,10.10.117.254,nurse_4427,Port Scan Detected,Medium,Alert Sent
+f14f8371-1968-49fc-a16f-be5d39c79195,2026-10-31T14:07:01+00:00,Lasalle Secondary School,10.2.123.83,student_211,Phishing Email Reported,Medium,Alert Sent
+cb6eae5f-4638-4a44-89f3-082901115333,2026-10-31T14:17:01+00:00,Greater Sudbury Municipal Finance,10.10.124.89,dev_2535,Ransomware Indicator,Critical,Escalated
+e61c6b41-2539-4907-abcd-9c8ff44c365e,2026-10-31T14:21:06+00:00,Laurentian University,10.10.123.20,svc_monitor,Failed MFA Verification,Low,Logged
+c1a97215-4dd0-4330-8066-0c9e37d89318,2026-10-31T16:35:23+00:00,Sudbury Community Health Centre,10.2.105.125,guest_3602,Privilege Escalation,Critical,Alert Sent
+c35ad595-f4b6-4b2e-8a63-e8cccb881b5d,2026-10-31T16:46:26+00:00,Sudbury District Nurse Practitioner Clinics,203.0.113.253,guest_607,Brute Force Login,High,Alert Sent
+7c57de59-9bae-4ad4-b63e-fbd6ee299539,2026-10-31T16:47:08+00:00,Northern Savings Bank,198.51.100.192,nurse_6146,Firewall Rule Violation,Low,Logged
+3590def5-52e4-4d6a-af6e-b55f4a0e2870,2026-10-31T18:07:28+00:00,Sudbury Credit Union,10.10.227.55,analyst_5524,Privilege Escalation,Critical,Alert Sent
+357ea74e-0eb2-4e63-bfe9-e60c536c16e8,2026-10-31T19:56:04+00:00,Manitoulin Health Centre,10.0.99.13,svc_ldap,Ransomware Indicator,Critical,Escalated
+6b4c4d7d-38c5-4e4a-b087-93a2cb65f4e5,2026-10-31T21:01:10+00:00,Dynamic Earth – Science North,203.0.113.60,user_2968,Failed MFA Verification,Low,Logged
+118844f6-25a3-4256-9d8b-2cf33eabfd4b,2026-10-31T21:10:14+00:00,Cambrian College,10.1.81.95,nurse_2346,Brute Force Login,High,Alert Sent
+d2d222f9-ce7b-43a2-8ea8-e9bfcc567025,2026-10-31T21:33:11+00:00,Cambrian College,203.0.113.172,guest_2543,Unauthorized Access Attempt,Medium,Logged
+667ea251-590f-42fc-9eb5-ca3b881ea1f3,2026-11-01T01:13:14+00:00,Cambrian College,10.2.90.80,analyst_7560,Data Exfiltration Attempt,Critical,Blocked
+67b98382-30fc-4bd2-a0f3-ce73dc08c48f,2026-11-01T01:30:09+00:00,Sudbury Community Health Centre,192.168.1.126,student_7900,Privilege Escalation,Critical,Escalated
+e87d6363-dcc4-4727-a1ea-8bf1496b66d7,2026-11-01T02:34:00+00:00,KGHM International – Sudbury,10.10.147.134,svc_api_gw,Successful Admin Login,Low,Logged
+1ac6a79b-92fb-4fcd-ba85-7febe3e434f9,2026-11-01T03:05:31+00:00,Sudbury Community Health Centre,198.51.100.154,nurse_539,Suspicious API Call,Medium,Alert Sent
+62fcbaab-ae7c-42b3-86db-b04ff9e27039,2026-11-01T03:20:09+00:00,Sudbury Hydro IT Division,203.0.113.67,admin_sec,SQL Injection Attempt,High,Blocked
+634d2e61-a513-4653-bef0-fe38979628d4,2026-11-01T06:39:31+00:00,Lasalle Secondary School,10.10.45.142,admin_db,Failed MFA Verification,Low,Logged
+8093426e-949e-4ba7-a65a-c5e3deb2e317,2026-11-01T09:07:30+00:00,Cambrian Financial Services,172.17.24.138,student_944,Successful Admin Login,Low,Logged
+e45e2d19-7e24-4762-b672-995e54211a05,2026-11-01T09:37:06+00:00,Northern Savings Bank,172.16.191.87,student_5556,Anomalous Network Traffic,Medium,Logged
+7be71828-0af5-41cf-b251-2e73b94e5c47,2026-11-01T11:36:36+00:00,Manitoulin Health Centre,10.2.145.62,dev_8956,SQL Injection Attempt,High,Alert Sent
+76a0bc57-a2d5-4fc3-9ccc-c08b9eacf020,2026-11-01T12:40:52+00:00,Sudbury District Nurse Practitioner Clinics,203.0.113.197,dev_5447,Data Exfiltration Attempt,High,Blocked
+34c00893-89cc-445a-ab26-e6648362f0e0,2026-11-01T13:27:21+00:00,Lasalle Secondary School,192.168.50.119,guest_9348,Malware Detected,Critical,Escalated
+d5bde4e6-b317-4998-b51b-ee0d8b954076,2026-11-01T14:50:25+00:00,Cambrian Financial Services,192.168.50.175,analyst_2202,Malware Detected,Critical,Escalated
+38f85de7-5124-4316-a6dc-446249b82857,2026-11-01T21:24:56+00:00,City of Greater Sudbury – IT Services,10.1.173.221,student_6715,Brute Force Login,Critical,Blocked
+09fbd7c0-c10f-4b7b-944a-58e5e40a0422,2026-11-01T22:43:18+00:00,Collège Boréal,172.17.19.132,student_4662,Failed MFA Verification,Low,Logged
+7120e24d-bd70-4ef8-b429-96033f061b7a,2026-11-02T00:13:09+00:00,Manitoulin Health Centre,192.168.1.187,student_1048,Phishing Email Reported,Medium,Logged
+300cc6d1-67f1-462a-86f1-ee4a76628bc2,2026-11-02T01:11:02+00:00,Collège Boréal,172.16.243.75,guest_8624,Anomalous Network Traffic,Medium,Alert Sent
+bda329ce-0a5c-40a6-8442-2ee5da9da6bc,2026-11-02T04:41:02+00:00,Greater Sudbury Municipal Finance,10.2.61.75,nurse_5261,Brute Force Login,High,Alert Sent
+2c7a6d69-81c9-4b4c-b952-b24a137b9c80,2026-11-02T04:52:07+00:00,Cambrian College,192.168.50.79,svc_backup,Phishing Email Reported,High,Escalated
+be8b0e5b-e4cd-4ce2-900d-b17d4fcdf669,2026-11-02T05:09:38+00:00,Cambrian Financial Services,10.1.208.231,analyst_1481,Privilege Escalation,High,Escalated
+186571cd-871c-4518-9cf0-ee40fb5805bf,2026-11-02T07:02:45+00:00,Sudbury Secondary School,192.168.50.9,nurse_6798,Ransomware Indicator,Critical,Blocked
+2dc69772-a75b-4532-8322-f8b8b289d732,2026-11-02T08:55:15+00:00,Lasalle Secondary School,10.1.107.234,guest_9421,Malware Detected,Critical,Escalated
+5527d779-86ea-4501-a7bc-8e63f651b5dd,2026-11-02T10:06:28+00:00,Sudbury Community Health Centre,10.0.117.13,analyst_3362,Insider Threat Alert,Critical,Alert Sent
+fce658b9-860d-472f-bbab-44eeb5161124,2026-11-02T11:29:12+00:00,Lo-Ellen Park Secondary School,198.51.100.75,student_9538,Port Scan Detected,Medium,Alert Sent
+eed916f1-60f6-43b1-8fcb-dfd71d7ddf90,2026-11-02T12:06:38+00:00,Sudbury Community Health Centre,203.0.113.217,dev_5913,SQL Injection Attempt,Critical,Blocked
+104e41dc-fd1e-4b07-8f46-7e32a8e3211b,2026-11-02T13:40:29+00:00,Laurentian University,10.2.130.218,guest_8223,Insider Threat Alert,Critical,Blocked
+f6bd4b35-dfbe-4102-857f-bc0250b1c32e,2026-11-02T16:11:58+00:00,Lo-Ellen Park Secondary School,192.168.1.135,admin_net,Unauthorized Access Attempt,Medium,Alert Sent
+ded6ac3b-fe9c-4cc8-befc-bda67e111027,2026-11-02T17:59:52+00:00,Dynamic Earth – Science North,203.0.113.216,nurse_8137,Insider Threat Alert,High,Escalated
+ca258b0e-32a5-4850-9089-7c6777ccc871,2026-11-02T19:16:16+00:00,Sudbury Secondary School,172.16.114.170,dev_8057,Malware Detected,Critical,Escalated
+bc139ca6-946a-48bb-97f7-5fd541c9160b,2026-11-02T20:32:12+00:00,Sudbury Community Health Centre,10.0.103.113,student_8943,Failed MFA Verification,Medium,Logged
+44281bc7-3895-402b-b7eb-4ea1fa1ce621,2026-11-02T21:37:00+00:00,Sudbury Community Health Centre,192.168.1.164,guest_1129,Suspicious API Call,Medium,Logged
+8bfca7ea-ab60-4731-9731-541078d36072,2026-11-02T23:44:17+00:00,Northern Savings Bank,10.1.225.120,nurse_5190,Suspicious API Call,High,Alert Sent
+13709921-172c-498a-ab6e-b16578772624,2026-11-02T23:47:03+00:00,Laurentian University,10.2.170.166,svc_vpn,Brute Force Login,Critical,Alert Sent
+e03f75dc-c787-4569-b3e8-2edbe2c26999,2026-11-03T00:20:01+00:00,Sudbury Community Health Centre,192.168.1.253,user_225,Privilege Escalation,Critical,Blocked
+c968ea93-d931-4316-8711-c963f04c8741,2026-11-03T05:27:14+00:00,Cambrian Financial Services,203.0.113.167,student_5367,Anomalous Network Traffic,Medium,Alert Sent
+6f627cd8-351c-474c-ab42-28d305e070a1,2026-11-03T06:46:04+00:00,Sudbury Credit Union,10.10.175.64,admin_ops,Insider Threat Alert,Critical,Escalated
+b5970c0e-d4b3-4f7f-aaa6-e95bdb7bf3b6,2026-11-03T07:19:05+00:00,Manitoulin Health Centre,192.168.50.9,analyst_2253,Insider Threat Alert,High,Blocked
+5cb1af08-e488-4df0-b5a9-5d84e081f6d7,2026-11-03T09:17:44+00:00,KGHM International – Sudbury,10.10.188.96,user_5379,Firewall Rule Violation,Medium,Logged
+7f213b45-e361-4801-9158-d256c6eedba8,2026-11-03T09:43:02+00:00,Northern Savings Bank,172.16.198.137,user_9830,Ransomware Indicator,Critical,Blocked
+26577918-a0aa-4c16-9f7b-4cbbc023655d,2026-11-03T10:29:37+00:00,Cambrian Financial Services,10.1.81.65,analyst_1999,SQL Injection Attempt,Critical,Alert Sent
+971e6c60-643d-4ea0-8674-84719533187b,2026-11-03T10:54:35+00:00,Northern Savings Bank,192.168.50.48,nurse_713,Insider Threat Alert,Critical,Blocked
+c8696848-9634-44f7-9a02-18b6fd55fa75,2026-11-03T16:57:20+00:00,Collège Boréal,192.168.50.217,dev_7084,Firewall Rule Violation,Medium,Logged
+dd90cd2b-95a3-415c-b9ba-83d4e15d2680,2026-11-03T17:31:50+00:00,Sudbury Secondary School,198.51.100.56,dev_6978,Data Exfiltration Attempt,High,Alert Sent
+190e6ba7-46db-4163-89db-abc5338a1262,2026-11-03T19:31:22+00:00,Collège Boréal,172.17.204.15,nurse_5973,Malware Detected,Critical,Alert Sent
+50f42f35-3695-4ba1-b9bc-3c7937e2c23f,2026-11-03T20:24:28+00:00,Sudbury District Nurse Practitioner Clinics,10.1.215.183,analyst_2492,Brute Force Login,High,Blocked
+98c3be45-9c3e-43e6-94e2-036cd0d0b7d5,2026-11-03T21:53:21+00:00,Cambrian Financial Services,10.10.113.205,nurse_1233,Failed MFA Verification,Medium,Alert Sent
+766dbba2-6330-4e6c-877d-8610c8ef218d,2026-11-03T22:10:33+00:00,Greater Sudbury Municipal Finance,10.0.102.129,analyst_3962,Insider Threat Alert,High,Alert Sent
+cc837b43-31b9-4285-92bc-7c661c5da08d,2026-11-04T06:14:53+00:00,Collège Boréal,10.1.107.114,dev_2124,Failed MFA Verification,Low,Logged
+e7d60d4a-8600-4e2f-9f8f-cb150cc7cbc3,2026-11-04T09:09:32+00:00,Sudbury Secondary School,172.16.57.104,student_5116,Ransomware Indicator,Critical,Escalated
+f2acccf8-a8f1-43ee-b904-b096d78dc5b1,2026-11-04T11:01:12+00:00,Sudbury Community Health Centre,10.10.18.26,user_7414,Data Exfiltration Attempt,Critical,Escalated
+9c51fb00-68aa-4835-9b70-35286a9c6ffb,2026-11-04T13:19:01+00:00,KGHM International – Sudbury,192.168.1.24,student_1958,Malware Detected,High,Alert Sent
+8e35ef38-c196-4165-b492-c2a1758d32af,2026-11-04T14:22:12+00:00,Glencore Sudbury Integrated Nickel Operations,10.1.7.98,svc_portal,Insider Threat Alert,Critical,Escalated
+e4faded2-cf1a-42f2-bd1f-cde60e953400,2026-11-04T15:52:21+00:00,Cambrian College,198.51.100.193,nurse_5673,Privilege Escalation,Critical,Blocked
+e2ffc491-d3f7-4847-9f43-499025b59f8e,2026-11-04T18:25:43+00:00,Laurentian University,172.17.210.31,dev_2265,Privilege Escalation,Critical,Alert Sent
+b74b05b7-3422-441e-a2fc-e90044cb204b,2026-11-04T18:52:55+00:00,Vale Canada – Sudbury Operations,10.2.166.45,user_3766,Unauthorized Access Attempt,Critical,Alert Sent
+04ecb89d-fa5e-489c-bf86-8fa0ac5df1a7,2026-11-04T19:57:50+00:00,Sudbury Credit Union,10.10.75.145,nurse_4074,Brute Force Login,High,Alert Sent
+5017c218-771a-4e25-83c3-33a1673e8ec8,2026-11-04T22:40:18+00:00,Sudbury District Nurse Practitioner Clinics,192.168.50.182,svc_portal,Anomalous Network Traffic,High,Blocked
+08b18f35-2d49-43ec-8cda-474731263288,2026-11-04T22:47:19+00:00,Cambrian College,192.168.1.57,svc_ldap,Data Exfiltration Attempt,High,Escalated
+21aa9913-8ddd-4177-b2ef-28af39ac5f4a,2026-11-05T01:07:04+00:00,Sudbury District Nurse Practitioner Clinics,10.2.164.251,nurse_2747,SQL Injection Attempt,High,Escalated
+f09126a2-74fc-41a5-89c4-9c5d736db787,2026-11-05T01:12:07+00:00,Laurentian University,172.16.119.173,dev_8815,Ransomware Indicator,Critical,Alert Sent
+94119f7f-2ff4-411a-9e65-5d98196aecb2,2026-11-05T01:44:08+00:00,Health Sciences North,203.0.113.19,user_7041,Data Exfiltration Attempt,High,Alert Sent
+cb2a6ede-cf6e-431c-9521-d1818c02eafa,2026-11-05T01:56:42+00:00,Northern Ontario School of Medicine,10.2.253.34,nurse_2958,Port Scan Detected,High,Blocked
+20f69c58-1652-4e4c-b876-7a53dd64a5b7,2026-11-05T02:22:03+00:00,Sudbury Secondary School,192.168.50.163,analyst_1137,Firewall Rule Violation,Medium,Alert Sent
+a9cad493-7c1a-4fe4-ad70-0da2b21e6972,2026-11-05T03:54:28+00:00,KGHM International – Sudbury,192.168.50.106,user_3173,SQL Injection Attempt,Critical,Escalated

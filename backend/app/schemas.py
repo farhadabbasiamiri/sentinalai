@@ -1,3 +1,4 @@
+from datetime import datetime
 from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator
@@ -40,3 +41,13 @@ class ProposalRequest(BaseModel):
 class DecisionRequest(BaseModel):
     reviewer: str = Field(min_length=2, max_length=120)
     confirmation: bool = False
+
+
+class CyberLogCreate(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    organization_name: str = Field(min_length=2, max_length=120)
+    source_ip: str = Field(min_length=7, max_length=45)
+    user_id: str = Field(min_length=2, max_length=64)
+    event_type: str = Field(min_length=2, max_length=80)
+    severity: Literal["Low", "Medium", "High", "Critical"] = "Medium"
+    action_taken: Literal["Logged", "Blocked", "Alert Sent", "Escalated"] = "Logged"
