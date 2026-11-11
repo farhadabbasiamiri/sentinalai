@@ -1,7 +1,7 @@
 [
   {
-    "log_id": "7e53c453-b2f6-43cc-a89e-6e5320689eff",
-    "timestamp": "2026-10-06T06:57:06+00:00",
+    "log_id": "fbcde3cc-62f1-4bdf-a56b-c4fe7a2ee8b3",
+    "timestamp": "2026-10-12T02:24:19+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "192.168.50.5",
     "user_id": "user_8819",
@@ -10,8 +10,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "c9925f5a-cd42-480d-abaf-fa46fe976bac",
-    "timestamp": "2026-10-06T08:16:55+00:00",
+    "log_id": "9ded03d0-2df6-44b6-b4a9-20da434481af",
+    "timestamp": "2026-10-12T03:44:08+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "10.10.247.222",
     "user_id": "svc_ldap",
@@ -20,8 +20,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "58fbf45d-9cf5-451b-ab1f-f0897a018e64",
-    "timestamp": "2026-10-06T10:13:33+00:00",
+    "log_id": "646bca4a-0605-4f43-ae6e-67a8368d491b",
+    "timestamp": "2026-10-12T05:40:46+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "10.10.171.151",
     "user_id": "svc_backup",
@@ -30,8 +30,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "4f65f8de-d4d7-49bb-a53b-cad85c4c21c2",
-    "timestamp": "2026-10-06T10:14:07+00:00",
+    "log_id": "c9d023f8-0e8c-463a-8dad-1943b4c1e21e",
+    "timestamp": "2026-10-12T05:41:20+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "10.10.246.11",
     "user_id": "analyst_6348",
@@ -40,8 +40,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "3784a395-5a42-4cde-9aa4-9739b5cc4c1d",
-    "timestamp": "2026-10-06T12:56:17+00:00",
+    "log_id": "6a05642f-4820-43ad-add9-858d3b288f90",
+    "timestamp": "2026-10-12T08:23:30+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "203.0.113.27",
     "user_id": "guest_2404",
@@ -50,8 +50,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "83b3ef25-81f8-44ae-86b5-097373dff469",
-    "timestamp": "2026-10-06T13:01:22+00:00",
+    "log_id": "e2da2aa7-62f5-4a44-9178-6aa565e35c8a",
+    "timestamp": "2026-10-12T08:28:35+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "203.0.113.30",
     "user_id": "analyst_5866",
@@ -60,8 +60,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "cf84a66c-5425-4cf9-9304-0cc69ed41658",
-    "timestamp": "2026-10-06T13:03:47+00:00",
+    "log_id": "6e672932-61cb-4e2b-bec4-a0508e32307f",
+    "timestamp": "2026-10-12T08:31:00+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "192.168.50.107",
     "user_id": "student_6391",
@@ -70,8 +70,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "dcaeeec1-ee1d-4e67-bce8-cde10d45626f",
-    "timestamp": "2026-10-06T13:19:55+00:00",
+    "log_id": "d17e7786-dbc3-4ba6-913b-160a3a063e68",
+    "timestamp": "2026-10-12T08:47:08+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "10.2.250.25",
     "user_id": "dev_6214",
@@ -80,8 +80,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "8727fdec-b441-49fb-919c-21b22d435d55",
-    "timestamp": "2026-10-06T15:39:14+00:00",
+    "log_id": "e8a44b65-09cd-4a6f-8c33-983d0874daca",
+    "timestamp": "2026-10-12T11:06:27+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "172.16.176.28",
     "user_id": "guest_1145",
@@ -90,8 +90,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "ff70ee7a-332f-488e-a8a0-2ea6d956511b",
-    "timestamp": "2026-10-06T17:58:00+00:00",
+    "log_id": "10aed5b6-00d9-4f1e-bdee-eb20c380824a",
+    "timestamp": "2026-10-12T13:25:13+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "10.10.163.49",
     "user_id": "nurse_2340",
@@ -100,8 +100,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "8901a8b1-26dd-44eb-b20a-977cac5d8bb1",
-    "timestamp": "2026-10-06T19:30:42+00:00",
+    "log_id": "430a2048-1a9a-4eb0-815e-2cc90b4290d6",
+    "timestamp": "2026-10-12T14:57:55+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "192.168.1.180",
     "user_id": "guest_8906",
@@ -110,8 +110,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "88b816d2-291d-47ff-ba49-c0ce3775cb0a",
-    "timestamp": "2026-10-06T20:12:39+00:00",
+    "log_id": "2b8962ea-ca9e-4f31-82d4-777f42c9f68b",
+    "timestamp": "2026-10-12T15:39:52+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "203.0.113.11",
     "user_id": "user_1430",
@@ -120,8 +120,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "a165929b-e92b-4010-b027-98d5450bbc80",
-    "timestamp": "2026-10-06T21:18:03+00:00",
+    "log_id": "08edb969-0059-4746-91da-5a4d60888354",
+    "timestamp": "2026-10-12T16:45:16+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "172.16.228.131",
     "user_id": "student_7574",
@@ -130,8 +130,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "e58e8ad6-cd9f-4c03-a7a8-ed95ac965b9d",
-    "timestamp": "2026-10-06T22:47:37+00:00",
+    "log_id": "59933ab5-b630-46b5-b2eb-cc51f78d58ba",
+    "timestamp": "2026-10-12T18:14:50+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "10.1.49.206",
     "user_id": "student_7954",
@@ -140,8 +140,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "ad7db0a9-5527-4111-8047-ee16213ec613",
-    "timestamp": "2026-10-06T23:08:37+00:00",
+    "log_id": "fa152bcd-c3ff-48ab-a96c-a425530ee15e",
+    "timestamp": "2026-10-12T18:35:50+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "10.2.177.114",
     "user_id": "analyst_7425",
@@ -150,8 +150,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "071ccf0d-aac7-45a9-a7a4-8b787467528f",
-    "timestamp": "2026-10-07T00:15:39+00:00",
+    "log_id": "b37dc9e1-f9a9-466a-ab4d-9f293ab6eb37",
+    "timestamp": "2026-10-12T19:42:52+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.0.135.123",
     "user_id": "user_5535",
@@ -160,8 +160,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "347e2a36-f243-44e1-bac3-d43335a77678",
-    "timestamp": "2026-10-07T01:56:49+00:00",
+    "log_id": "02a20455-e7a8-4359-a056-f5869f244aa4",
+    "timestamp": "2026-10-12T21:24:02+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.10.25.7",
     "user_id": "student_2898",
@@ -170,8 +170,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "f70a60e4-1955-4715-9df6-34d93fe45c10",
-    "timestamp": "2026-10-07T05:31:24+00:00",
+    "log_id": "5c05b5fe-0eaf-4d86-be27-e1ff034f4263",
+    "timestamp": "2026-10-13T00:58:37+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "10.0.202.86",
     "user_id": "student_2163",
@@ -180,8 +180,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "1ceb7391-dfb2-46ef-a801-e95562f37a5b",
-    "timestamp": "2026-10-07T05:33:28+00:00",
+    "log_id": "c331ca8a-d5cb-4d73-becb-6c270c7ce1bd",
+    "timestamp": "2026-10-13T01:00:41+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.0.230.208",
     "user_id": "nurse_1059",
@@ -190,8 +190,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "26de2a63-da68-4d9e-ae76-756abbf4c185",
-    "timestamp": "2026-10-07T05:59:51+00:00",
+    "log_id": "974affe3-45ad-4da7-aefa-4b2a143e18d3",
+    "timestamp": "2026-10-13T01:27:04+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "10.0.162.132",
     "user_id": "student_2452",
@@ -200,8 +200,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "1bc7d339-6a0d-41f7-8b3c-7ebefc71ccb7",
-    "timestamp": "2026-10-07T06:11:34+00:00",
+    "log_id": "1b245fca-907c-4c7c-a8d2-6c0d16beac3d",
+    "timestamp": "2026-10-13T01:38:47+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "172.17.187.202",
     "user_id": "analyst_7249",
@@ -210,8 +210,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "a6e3c3b1-bd76-45bf-8ef8-2fc8bd309b51",
-    "timestamp": "2026-10-07T07:04:29+00:00",
+    "log_id": "22713901-0603-49b4-ac6c-3229b00b20a8",
+    "timestamp": "2026-10-13T02:31:42+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "198.51.100.115",
     "user_id": "analyst_1379",
@@ -220,8 +220,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "68519d5e-073a-41a2-89e4-fd872f51eb27",
-    "timestamp": "2026-10-07T08:43:51+00:00",
+    "log_id": "d5c34ee8-1a33-4695-a4d5-3d46d81debe4",
+    "timestamp": "2026-10-13T04:11:04+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "172.16.83.155",
     "user_id": "student_7948",
@@ -230,8 +230,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "ddee9cfb-4200-46b7-988a-c061215b7b3c",
-    "timestamp": "2026-10-07T09:24:31+00:00",
+    "log_id": "88966c96-85aa-454a-bece-ecd3f26aff84",
+    "timestamp": "2026-10-13T04:51:44+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "172.16.9.60",
     "user_id": "nurse_4732",
@@ -240,8 +240,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "ef7ba8ae-4059-42be-a305-72d10a32452d",
-    "timestamp": "2026-10-07T11:54:24+00:00",
+    "log_id": "16950525-8e30-4a28-89c2-2e2e0cfddad0",
+    "timestamp": "2026-10-13T07:21:37+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "192.168.1.143",
     "user_id": "guest_868",
@@ -250,8 +250,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "ec5f8ec2-794a-45a4-afbe-b64a8d7e132a",
-    "timestamp": "2026-10-07T14:19:49+00:00",
+    "log_id": "2b5e24f7-3a39-406f-914b-9112e5901a98",
+    "timestamp": "2026-10-13T09:47:02+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "203.0.113.73",
     "user_id": "admin_hr",
@@ -260,8 +260,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "f7d0c86e-7e14-4c05-b440-7a02a356d302",
-    "timestamp": "2026-10-07T15:14:03+00:00",
+    "log_id": "5b941654-9849-455c-a545-e3fab13d17a2",
+    "timestamp": "2026-10-13T10:41:16+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "192.168.50.118",
     "user_id": "svc_backup",
@@ -270,8 +270,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "3c1468d4-631a-4c9d-8b4d-b3805ff9f222",
-    "timestamp": "2026-10-07T15:29:30+00:00",
+    "log_id": "4116831f-9659-48a4-9a86-11cd79f69e64",
+    "timestamp": "2026-10-13T10:56:43+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "10.2.89.7",
     "user_id": "guest_1812",
@@ -280,8 +280,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "f633b022-9b71-40fa-9bf1-7152c467b8a9",
-    "timestamp": "2026-10-07T15:49:10+00:00",
+    "log_id": "9797ac0c-ba27-453d-b82a-11012238a8a1",
+    "timestamp": "2026-10-13T11:16:23+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "10.10.151.57",
     "user_id": "user_1263",
@@ -290,8 +290,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "8501079c-0124-434e-967c-0ee7dbf653ea",
-    "timestamp": "2026-10-07T16:15:21+00:00",
+    "log_id": "54d4205b-4b3b-43ff-a36a-fa5da3209637",
+    "timestamp": "2026-10-13T11:42:34+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "10.1.237.28",
     "user_id": "admin_fin",
@@ -300,8 +300,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "cad45e21-54b7-4fee-a760-3666bc0082c4",
-    "timestamp": "2026-10-07T16:55:14+00:00",
+    "log_id": "4c11f875-6a4d-43ab-904e-7b2b212f4d85",
+    "timestamp": "2026-10-13T12:22:27+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "10.0.68.56",
     "user_id": "user_1090",
@@ -310,8 +310,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "00be125d-f470-4a4a-9777-1758571364af",
-    "timestamp": "2026-10-07T17:32:30+00:00",
+    "log_id": "13cb24ce-c8c9-43a9-98a4-c952e04804fa",
+    "timestamp": "2026-10-13T12:59:43+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.10.13.172",
     "user_id": "student_3914",
@@ -320,8 +320,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "0c9b151f-2578-48ad-a7bc-87b250320ed8",
-    "timestamp": "2026-10-07T19:14:58+00:00",
+    "log_id": "6e095df1-31e7-4fe7-9aa5-e29dc0308143",
+    "timestamp": "2026-10-13T14:42:11+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "172.17.98.153",
     "user_id": "nurse_7533",
@@ -330,8 +330,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "c469abec-043e-45f1-b876-b2089d979f7f",
-    "timestamp": "2026-10-07T20:00:52+00:00",
+    "log_id": "ba07f109-1abf-49a9-95eb-e972cd03b0d5",
+    "timestamp": "2026-10-13T15:28:05+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "10.2.28.43",
     "user_id": "guest_7735",
@@ -340,8 +340,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "92970763-5e72-4bf5-bc70-04363485f7f4",
-    "timestamp": "2026-10-07T20:51:08+00:00",
+    "log_id": "6f2d4d15-b4b6-4fad-a371-333dbca09f27",
+    "timestamp": "2026-10-13T16:18:21+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.2.26.64",
     "user_id": "student_4466",
@@ -350,8 +350,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "f6d3eefd-4bf1-443e-b15f-9596a8507df4",
-    "timestamp": "2026-10-07T21:20:06+00:00",
+    "log_id": "a3876577-612d-4065-acbc-39813d0043ee",
+    "timestamp": "2026-10-13T16:47:19+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "203.0.113.19",
     "user_id": "guest_3287",
@@ -360,8 +360,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "bd076ac9-7f55-4d54-8c5d-fb4f44ad9948",
-    "timestamp": "2026-10-07T21:58:37+00:00",
+    "log_id": "6db020bb-0396-4816-88ec-3cd02e51c603",
+    "timestamp": "2026-10-13T17:25:50+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "10.10.88.186",
     "user_id": "student_8859",
@@ -370,8 +370,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "1bb57823-d33a-4678-87d7-417d7fcc6c22",
-    "timestamp": "2026-10-08T02:45:33+00:00",
+    "log_id": "c217bd31-84ab-4723-80a7-00ff25914548",
+    "timestamp": "2026-10-13T22:12:46+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "10.0.159.21",
     "user_id": "dev_9662",
@@ -380,8 +380,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "8f782375-5637-4d3c-9926-9727e47d836e",
-    "timestamp": "2026-10-08T03:16:38+00:00",
+    "log_id": "4934c8ec-7c30-4fbc-9b2d-905ec8dd3db5",
+    "timestamp": "2026-10-13T22:43:51+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "10.10.185.14",
     "user_id": "guest_2893",
@@ -390,8 +390,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "d61cbf31-6a9e-4f64-ba4a-80e153b75110",
-    "timestamp": "2026-10-08T04:58:13+00:00",
+    "log_id": "8e46e87b-ead3-4e17-8f2a-75a555559ab6",
+    "timestamp": "2026-10-14T00:25:26+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "10.0.39.39",
     "user_id": "nurse_1495",
@@ -400,8 +400,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "6ddd49f9-e976-440d-af81-4dc1e17138ec",
-    "timestamp": "2026-10-08T05:24:14+00:00",
+    "log_id": "e9ce0873-03bd-41be-910d-5a645f0afc5d",
+    "timestamp": "2026-10-14T00:51:27+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "10.10.251.245",
     "user_id": "analyst_8604",
@@ -410,8 +410,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "dea2dc8b-499a-4775-b12b-0e065262cbcd",
-    "timestamp": "2026-10-08T08:37:31+00:00",
+    "log_id": "12fa1d92-ae8d-422f-89db-9e1ce0177bdc",
+    "timestamp": "2026-10-14T04:04:44+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "192.168.1.128",
     "user_id": "user_6370",
@@ -420,8 +420,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "a273cda8-93a2-4036-aae0-bd141621a846",
-    "timestamp": "2026-10-08T11:56:07+00:00",
+    "log_id": "f4058405-0835-4303-ba05-dd76bb9e90b2",
+    "timestamp": "2026-10-14T07:23:20+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "192.168.50.63",
     "user_id": "guest_6769",
@@ -430,8 +430,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "334d7a9b-19d7-4a7b-b008-f9746146cc1d",
-    "timestamp": "2026-10-08T13:19:33+00:00",
+    "log_id": "e9481302-202c-48f6-8409-54ddd62a9e7b",
+    "timestamp": "2026-10-14T08:46:46+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "192.168.1.87",
     "user_id": "user_8198",
@@ -440,8 +440,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "cda05b5b-361e-456f-9427-c323bac8b933",
-    "timestamp": "2026-10-08T13:50:44+00:00",
+    "log_id": "481e775b-e40f-45d1-b315-e110c8035c59",
+    "timestamp": "2026-10-14T09:17:57+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "10.2.81.221",
     "user_id": "svc_ldap",
@@ -450,8 +450,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "c4d5ce1b-94e6-465c-b377-9b637590efe3",
-    "timestamp": "2026-10-08T14:04:28+00:00",
+    "log_id": "d963f027-ee83-4848-adf3-acd5de17eb30",
+    "timestamp": "2026-10-14T09:31:41+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "192.168.50.32",
     "user_id": "guest_5082",
@@ -460,8 +460,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "ecf3f876-c16b-4c1f-99fb-77dc9c36923e",
-    "timestamp": "2026-10-08T15:02:15+00:00",
+    "log_id": "26978cd9-5f92-4007-8aec-ad26ebada793",
+    "timestamp": "2026-10-14T10:29:28+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "172.17.140.175",
     "user_id": "svc_ldap",
@@ -470,8 +470,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "8f84f06f-749c-43f8-88b8-a970561c6966",
-    "timestamp": "2026-10-08T16:13:48+00:00",
+    "log_id": "e10b9819-2a37-4041-9d00-c54270779d05",
+    "timestamp": "2026-10-14T11:41:01+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "10.1.188.125",
     "user_id": "admin_db",
@@ -480,8 +480,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "75863ac2-19f0-461f-a602-c60e723c4df9",
-    "timestamp": "2026-10-08T16:53:50+00:00",
+    "log_id": "5ba29eba-6950-49d7-8462-00b57bbed18d",
+    "timestamp": "2026-10-14T12:21:03+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "172.16.12.237",
     "user_id": "admin_fin",
@@ -490,8 +490,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "8324da26-a9f9-4ec7-8653-3735f1ab36b6",
-    "timestamp": "2026-10-08T17:58:41+00:00",
+    "log_id": "ee9dd9aa-2837-4a5a-8437-c418dc339723",
+    "timestamp": "2026-10-14T13:25:54+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "198.51.100.236",
     "user_id": "user_3864",
@@ -500,8 +500,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "ce168585-c574-40c5-aca1-798a89cec1e5",
-    "timestamp": "2026-10-08T21:02:58+00:00",
+    "log_id": "03cdd85d-7241-4096-bf08-334422f6130c",
+    "timestamp": "2026-10-14T16:30:11+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "192.168.1.248",
     "user_id": "analyst_7152",
@@ -510,8 +510,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "30c87d31-fe85-4ed0-8e1b-a20136fc1c56",
-    "timestamp": "2026-10-08T23:09:42+00:00",
+    "log_id": "de583e97-f61a-4b57-a4f5-8d837b89ee02",
+    "timestamp": "2026-10-14T18:36:55+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "203.0.113.57",
     "user_id": "admin_infra",
@@ -520,8 +520,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "3cd40977-c007-4f06-a493-77b71f5e6ef9",
-    "timestamp": "2026-10-09T03:49:26+00:00",
+    "log_id": "5a62f684-49b5-48d0-a71d-a934ec3e94b2",
+    "timestamp": "2026-10-14T23:16:39+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.1.117.35",
     "user_id": "guest_8802",
@@ -530,8 +530,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "635d5ed1-d679-4aa3-8956-f69002510730",
-    "timestamp": "2026-10-09T05:43:54+00:00",
+    "log_id": "00d0f304-9825-4e1c-864d-847810e9338b",
+    "timestamp": "2026-10-15T01:11:07+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.2.49.76",
     "user_id": "student_1058",
@@ -540,8 +540,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "d936e156-b5bd-44a5-bfc2-b5122be2ce71",
-    "timestamp": "2026-10-09T07:33:00+00:00",
+    "log_id": "c642983e-a36b-4612-8b1c-6017c56492ea",
+    "timestamp": "2026-10-15T03:00:13+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "203.0.113.56",
     "user_id": "student_5483",
@@ -550,8 +550,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "75505dea-1c0b-453e-9328-3e30df07c032",
-    "timestamp": "2026-10-09T08:24:22+00:00",
+    "log_id": "4a053080-ce1b-4972-ac72-53bd9d3eb4c5",
+    "timestamp": "2026-10-15T03:51:35+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "172.17.109.191",
     "user_id": "analyst_5864",
@@ -560,8 +560,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "9706b7f6-2cf6-4993-99b5-97b4f24f31ea",
-    "timestamp": "2026-10-09T08:41:36+00:00",
+    "log_id": "c8bd0b9e-86af-4895-a369-7efa2f2b7a69",
+    "timestamp": "2026-10-15T04:08:49+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "203.0.113.124",
     "user_id": "svc_api_gw",
@@ -570,8 +570,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "6f18ba21-c82a-484e-bd0d-5a1ded5523b8",
-    "timestamp": "2026-10-09T08:41:47+00:00",
+    "log_id": "3326ffd5-62e5-4b8e-9c6b-1d7c4e65951c",
+    "timestamp": "2026-10-15T04:09:00+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "172.16.73.155",
     "user_id": "student_5717",
@@ -580,8 +580,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "93b45a02-b40b-4c0b-a6ec-34444dffa984",
-    "timestamp": "2026-10-09T09:30:37+00:00",
+    "log_id": "9f1074f3-cffd-49e8-9cc0-f4f655a38146",
+    "timestamp": "2026-10-15T04:57:50+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "192.168.1.33",
     "user_id": "user_5150",
@@ -590,8 +590,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "4484c3e6-d508-4ace-a5a5-b65e5a50fc38",
-    "timestamp": "2026-10-09T10:04:29+00:00",
+    "log_id": "896f3aa8-73f8-4b6b-9181-d28efb52f381",
+    "timestamp": "2026-10-15T05:31:42+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "203.0.113.227",
     "user_id": "analyst_9559",
@@ -600,8 +600,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "31c4dc6b-f961-4efc-89a3-99edffd58701",
-    "timestamp": "2026-10-09T10:32:01+00:00",
+    "log_id": "2d67416c-fae7-4e2e-afae-15490e6b5336",
+    "timestamp": "2026-10-15T05:59:14+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "203.0.113.227",
     "user_id": "admin_net",
@@ -610,8 +610,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "240e9664-0ca6-4e9d-8a81-60bb65a2c0c3",
-    "timestamp": "2026-10-09T10:58:42+00:00",
+    "log_id": "d05ad0de-964a-43ed-a177-3fd382296348",
+    "timestamp": "2026-10-15T06:25:55+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "192.168.1.49",
     "user_id": "svc_ldap",
@@ -620,8 +620,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "e8c72c53-fa5c-4509-9a13-efa549fbad27",
-    "timestamp": "2026-10-09T11:28:19+00:00",
+    "log_id": "2c8e95af-8d23-44a1-b604-c0ad6660e09f",
+    "timestamp": "2026-10-15T06:55:32+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "10.2.161.78",
     "user_id": "admin_db",
@@ -630,8 +630,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "c6a3ccc5-2f0b-4d82-9c5a-a368278e8fe1",
-    "timestamp": "2026-10-09T12:40:52+00:00",
+    "log_id": "56e68503-408c-459b-9427-93536548a0ad",
+    "timestamp": "2026-10-15T08:08:05+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "172.16.136.224",
     "user_id": "dev_3570",
@@ -640,8 +640,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "c3150d17-e6b5-42ac-87c5-59f5f1fe3c21",
-    "timestamp": "2026-10-09T14:37:15+00:00",
+    "log_id": "c14ffef4-b0e3-4739-b368-c796d48951ea",
+    "timestamp": "2026-10-15T10:04:28+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.10.177.239",
     "user_id": "guest_5516",
@@ -650,8 +650,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "7e93f2fd-fadd-4f99-be0a-fc7133305798",
-    "timestamp": "2026-10-09T16:47:40+00:00",
+    "log_id": "77884079-8b43-4fc2-bac4-1e5e871a97e3",
+    "timestamp": "2026-10-15T12:14:53+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "172.16.157.124",
     "user_id": "student_4138",
@@ -660,8 +660,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "dac9e33c-878d-49ff-995d-f6b5dd4162c2",
-    "timestamp": "2026-10-09T18:20:45+00:00",
+    "log_id": "54e83448-ab14-43a5-9cac-2407ce41719c",
+    "timestamp": "2026-10-15T13:47:58+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "10.10.115.151",
     "user_id": "nurse_206",
@@ -670,8 +670,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "bed88d79-dc69-4ea2-bf49-b540fdc96ac8",
-    "timestamp": "2026-10-09T20:29:03+00:00",
+    "log_id": "38f247de-429a-44ca-9d46-d7cc119d444d",
+    "timestamp": "2026-10-15T15:56:16+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "198.51.100.211",
     "user_id": "user_7331",
@@ -680,8 +680,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "1db51067-8509-4b6c-81bb-2d1cbd506832",
-    "timestamp": "2026-10-09T22:24:54+00:00",
+    "log_id": "dc2bc4dd-e6ed-4b61-813d-4aa8f85c6fc1",
+    "timestamp": "2026-10-15T17:52:07+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "203.0.113.59",
     "user_id": "user_6442",
@@ -690,8 +690,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "1c5035b2-30dd-437d-adb5-d6500be5493c",
-    "timestamp": "2026-10-09T23:57:25+00:00",
+    "log_id": "f39cb9a9-4c6e-4b0c-aeb9-636a04d85f65",
+    "timestamp": "2026-10-15T19:24:38+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "172.16.77.61",
     "user_id": "admin_sec",
@@ -700,8 +700,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "3f412fc0-1c13-43c0-a78a-92e07c4f7c71",
-    "timestamp": "2026-10-10T00:55:06+00:00",
+    "log_id": "ff969685-8b3a-439c-a1a1-6dc620737cf5",
+    "timestamp": "2026-10-15T20:22:19+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "172.17.31.46",
     "user_id": "dev_8764",
@@ -710,8 +710,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "2ad0bceb-c998-4613-a21c-078888034a95",
-    "timestamp": "2026-10-10T02:53:22+00:00",
+    "log_id": "829fdab0-3c6c-4fc3-8865-8b429dbd489f",
+    "timestamp": "2026-10-15T22:20:35+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "10.2.200.118",
     "user_id": "guest_9106",
@@ -720,8 +720,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "6f9e1b5b-5ba5-44d9-a7fe-c3eec415e51f",
-    "timestamp": "2026-10-10T03:42:29+00:00",
+    "log_id": "c46444d1-e474-4727-a98d-a4aa4e7d0656",
+    "timestamp": "2026-10-15T23:09:42+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "10.1.28.197",
     "user_id": "student_5916",
@@ -730,8 +730,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "9f2d377f-2547-4f5a-9ed5-e9a2677da297",
-    "timestamp": "2026-10-10T04:30:44+00:00",
+    "log_id": "e7858488-61b4-4cd4-aa6a-6213b6ce8169",
+    "timestamp": "2026-10-15T23:57:57+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "10.0.30.225",
     "user_id": "nurse_3025",
@@ -740,8 +740,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "11bd7f33-81e1-49f4-85f5-25c7e39fce69",
-    "timestamp": "2026-10-10T06:56:59+00:00",
+    "log_id": "6b9d797d-aba5-4311-b83e-258f8d19726e",
+    "timestamp": "2026-10-16T02:24:12+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "192.168.1.152",
     "user_id": "user_1475",
@@ -750,8 +750,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "c0441591-c129-4e32-926e-ecdedfb1e40a",
-    "timestamp": "2026-10-10T08:44:43+00:00",
+    "log_id": "dd09c4e1-7e2e-4745-b1b6-4583c7b30ca7",
+    "timestamp": "2026-10-16T04:11:56+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "198.51.100.144",
     "user_id": "analyst_1280",
@@ -760,8 +760,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "8f25391c-fc69-4800-9050-a9f73b40666e",
-    "timestamp": "2026-10-10T09:01:40+00:00",
+    "log_id": "bf9c101b-b90c-4666-b9b5-7173db284d2c",
+    "timestamp": "2026-10-16T04:28:53+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "203.0.113.77",
     "user_id": "guest_372",
@@ -770,8 +770,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "0c8e1fe5-a558-4dfd-9983-566c2cd2641e",
-    "timestamp": "2026-10-10T10:23:42+00:00",
+    "log_id": "c2165728-9b48-454e-905c-ff7e34cc453b",
+    "timestamp": "2026-10-16T05:50:55+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "203.0.113.175",
     "user_id": "svc_erp",
@@ -780,8 +780,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "66f985c0-4db0-4c5e-abc6-1d34eb719f5a",
-    "timestamp": "2026-10-10T11:10:22+00:00",
+    "log_id": "ffe5872f-31f2-4128-8445-8bf9aa03dc7c",
+    "timestamp": "2026-10-16T06:37:35+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "198.51.100.211",
     "user_id": "user_1979",
@@ -790,8 +790,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "33118aee-824d-4534-8b2f-23e91679f189",
-    "timestamp": "2026-10-10T11:56:32+00:00",
+    "log_id": "8b5ff25c-420d-4311-b6bb-8f035abec6ca",
+    "timestamp": "2026-10-16T07:23:45+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "192.168.1.14",
     "user_id": "svc_erp",
@@ -800,8 +800,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "a85b224b-52ea-468b-bc91-56a5acb90b13",
-    "timestamp": "2026-10-10T12:25:57+00:00",
+    "log_id": "c76af2a1-f8e9-4e4b-a16f-aa8619038424",
+    "timestamp": "2026-10-16T07:53:10+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "198.51.100.251",
     "user_id": "nurse_380",
@@ -810,8 +810,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "bfc1d897-f9bd-4322-97d1-9871244d7cb2",
-    "timestamp": "2026-10-10T12:59:17+00:00",
+    "log_id": "b14785b4-b368-43bc-a7f5-6351717690d7",
+    "timestamp": "2026-10-16T08:26:30+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "198.51.100.77",
     "user_id": "admin_db",
@@ -820,8 +820,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "98d8e547-fb0b-4a7a-bdef-a3fc308810a3",
-    "timestamp": "2026-10-10T14:42:49+00:00",
+    "log_id": "7ac74838-49f6-4439-a240-51f43450e114",
+    "timestamp": "2026-10-16T10:10:02+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "10.2.210.52",
     "user_id": "svc_ldap",
@@ -830,8 +830,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "693fc1ea-8791-4aca-8dbd-8ace90719de9",
-    "timestamp": "2026-10-10T18:12:18+00:00",
+    "log_id": "33104a75-67fa-4227-9d08-0b6eefceac43",
+    "timestamp": "2026-10-16T13:39:31+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "192.168.1.105",
     "user_id": "svc_vpn",
@@ -840,8 +840,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "4606240a-acd5-43e1-88b6-d810a94b6705",
-    "timestamp": "2026-10-11T03:06:46+00:00",
+    "log_id": "3a130c53-fee4-4bd2-b75d-0304d74bb40b",
+    "timestamp": "2026-10-16T22:33:59+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "203.0.113.38",
     "user_id": "admin_infra",
@@ -850,8 +850,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "0e6611c1-41c6-4c13-8f84-c1d8bde54102",
-    "timestamp": "2026-10-11T07:16:59+00:00",
+    "log_id": "60f7417a-2a72-4b63-b1e7-f4d1e3f06d02",
+    "timestamp": "2026-10-17T02:44:12+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "10.1.116.129",
     "user_id": "student_810",
@@ -860,8 +860,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "439f4a1d-1aa7-421b-9c27-35954e802d0b",
-    "timestamp": "2026-10-11T07:27:37+00:00",
+    "log_id": "f873d26f-a20e-4f2d-bd7f-74f1ec18432a",
+    "timestamp": "2026-10-17T02:54:50+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "10.0.37.218",
     "user_id": "guest_670",
@@ -870,8 +870,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "b8c67898-c642-4d68-82e5-7990a1cbfa23",
-    "timestamp": "2026-10-11T09:41:16+00:00",
+    "log_id": "aa044e5a-7b8d-4478-889b-cd6128ca11d1",
+    "timestamp": "2026-10-17T05:08:29+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.2.169.22",
     "user_id": "nurse_8545",
@@ -880,8 +880,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "8c026424-9310-40ce-b6b8-78abd7e0b1ef",
-    "timestamp": "2026-10-11T11:36:43+00:00",
+    "log_id": "7cbbde10-5bfb-4f76-83b0-bb164bf5e74b",
+    "timestamp": "2026-10-17T07:03:56+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "192.168.1.76",
     "user_id": "user_4021",
@@ -890,8 +890,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "0773ea2d-b79a-4e75-8aba-efd40876a94a",
-    "timestamp": "2026-10-11T13:46:43+00:00",
+    "log_id": "99ece3e3-dfef-4da3-974a-b792421ef549",
+    "timestamp": "2026-10-17T09:13:56+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "10.10.40.96",
     "user_id": "svc_monitor",
@@ -900,8 +900,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "7df0dfb5-be2c-4402-92fd-eb6a32ef2c44",
-    "timestamp": "2026-10-11T14:24:30+00:00",
+    "log_id": "c59c74a3-b5eb-48b2-beb4-c43d05d37db2",
+    "timestamp": "2026-10-17T09:51:43+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "192.168.1.84",
     "user_id": "dev_4944",
@@ -910,8 +910,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "0b81a7c1-0b46-4a1d-b864-eea22956d360",
-    "timestamp": "2026-10-11T16:18:49+00:00",
+    "log_id": "e596dafe-4c75-427a-a96f-f6323f76c93c",
+    "timestamp": "2026-10-17T11:46:02+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "203.0.113.138",
     "user_id": "svc_erp",
@@ -920,8 +920,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "a09c6015-bdad-45e9-a0d0-3799b7c8d065",
-    "timestamp": "2026-10-11T16:44:02+00:00",
+    "log_id": "1cea9be5-ae86-45a2-ae82-d91702249a1d",
+    "timestamp": "2026-10-17T12:11:15+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "10.1.175.8",
     "user_id": "student_6202",
@@ -930,8 +930,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "6004c864-174e-4743-98e9-6ded1c7d17f4",
-    "timestamp": "2026-10-11T21:29:04+00:00",
+    "log_id": "f09fbffd-dae1-48d8-99a5-4966c42e8392",
+    "timestamp": "2026-10-17T16:56:17+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "192.168.1.180",
     "user_id": "dev_1450",
@@ -940,8 +940,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "8fdfe8fe-9ea0-4055-a693-bc6e34702f38",
-    "timestamp": "2026-10-11T22:09:23+00:00",
+    "log_id": "7b500eb8-2e5a-4367-88b7-9b11c3dafee5",
+    "timestamp": "2026-10-17T17:36:36+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "192.168.50.113",
     "user_id": "admin_sec",
@@ -950,8 +950,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "4ae7a0d2-5f90-4633-a2fc-786a904a3fdd",
-    "timestamp": "2026-10-11T23:09:39+00:00",
+    "log_id": "8537b224-7aec-4ded-aece-edbcf7f4eafd",
+    "timestamp": "2026-10-17T18:36:52+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "10.2.95.41",
     "user_id": "nurse_1785",
@@ -960,8 +960,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "ace66f36-7647-444b-848c-3dc6595c0e12",
-    "timestamp": "2026-10-11T23:11:34+00:00",
+    "log_id": "880b5dc5-bcc0-4d37-b50b-59521e6a56d8",
+    "timestamp": "2026-10-17T18:38:47+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "203.0.113.19",
     "user_id": "user_6016",
@@ -970,8 +970,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "98fac80d-b36e-4598-b0ca-fcfc15001654",
-    "timestamp": "2026-10-12T00:27:44+00:00",
+    "log_id": "3e85b916-622f-4878-a0d7-f1dfb18fee9c",
+    "timestamp": "2026-10-17T19:54:57+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "192.168.50.195",
     "user_id": "user_3435",
@@ -980,8 +980,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "8e2eccf0-5cde-484e-b4aa-f0f44f016e1f",
-    "timestamp": "2026-10-12T01:46:00+00:00",
+    "log_id": "5fd704d5-5658-4c83-b899-79699124e957",
+    "timestamp": "2026-10-17T21:13:13+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "10.0.27.104",
     "user_id": "dev_687",
@@ -990,8 +990,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "33f24ee2-a582-48d6-9487-6f4a5a768b71",
-    "timestamp": "2026-10-12T04:39:19+00:00",
+    "log_id": "177e0f00-a916-4c70-8c2b-f24d9a309429",
+    "timestamp": "2026-10-18T00:06:32+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "192.168.50.74",
     "user_id": "user_1861",
@@ -1000,8 +1000,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "cc5260a1-adb1-485a-b6bd-b7ca5e8202b3",
-    "timestamp": "2026-10-12T06:26:31+00:00",
+    "log_id": "b43d5e1b-5a8b-4368-b290-b01b7f53e8ad",
+    "timestamp": "2026-10-18T01:53:44+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "198.51.100.195",
     "user_id": "student_2566",
@@ -1010,8 +1010,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "b607c143-a154-4f08-b4b7-bc8f986cbb49",
-    "timestamp": "2026-10-12T08:20:48+00:00",
+    "log_id": "34be4d82-eb08-49fb-9e27-94d9edaaf738",
+    "timestamp": "2026-10-18T03:48:01+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "192.168.50.90",
     "user_id": "dev_5560",
@@ -1020,8 +1020,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "07bbcbf8-c1df-4ad6-9e65-1d262cf31744",
-    "timestamp": "2026-10-12T09:15:09+00:00",
+    "log_id": "4bdbadcc-4adc-48f6-a680-43df3eeb5813",
+    "timestamp": "2026-10-18T04:42:22+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "10.0.93.1",
     "user_id": "dev_1535",
@@ -1030,8 +1030,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "f1d07193-c0b6-4214-bd8d-d8cd472407eb",
-    "timestamp": "2026-10-12T09:39:48+00:00",
+    "log_id": "84afc770-0784-41df-8f2a-f983337b960d",
+    "timestamp": "2026-10-18T05:07:01+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "10.2.188.204",
     "user_id": "analyst_2873",
@@ -1040,8 +1040,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "c9f94dfb-46c5-4a4b-8588-da81a8ce7df8",
-    "timestamp": "2026-10-12T10:46:35+00:00",
+    "log_id": "204f8604-1a8b-4295-97c6-02bac35b8f94",
+    "timestamp": "2026-10-18T06:13:48+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "192.168.50.138",
     "user_id": "guest_5754",
@@ -1050,8 +1050,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "e74c0b24-8255-420f-9eea-8014c3258f52",
-    "timestamp": "2026-10-12T10:51:00+00:00",
+    "log_id": "3234ebd7-d967-4f3f-8ab7-d6b2bef669ca",
+    "timestamp": "2026-10-18T06:18:13+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "10.2.158.112",
     "user_id": "dev_6709",
@@ -1060,8 +1060,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "98485708-54f5-4728-acc6-1643ed593e40",
-    "timestamp": "2026-10-12T15:47:21+00:00",
+    "log_id": "2aaebed7-d0ad-437e-a593-9b1249410fbb",
+    "timestamp": "2026-10-18T11:14:34+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "10.0.12.26",
     "user_id": "guest_366",
@@ -1070,8 +1070,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "e476f580-e806-4e92-a969-1c74ef9793e8",
-    "timestamp": "2026-10-12T16:33:22+00:00",
+    "log_id": "0fe0a2d9-30ad-4df8-ab59-9e66f0cfb589",
+    "timestamp": "2026-10-18T12:00:35+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "203.0.113.129",
     "user_id": "analyst_6463",
@@ -1080,8 +1080,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "c95c3130-2980-4568-971d-017e768a71b3",
-    "timestamp": "2026-10-12T17:04:42+00:00",
+    "log_id": "0d48186b-37ea-4c67-9a13-14cf7fa9ce7b",
+    "timestamp": "2026-10-18T12:31:55+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "172.17.65.242",
     "user_id": "student_8223",
@@ -1090,8 +1090,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "060f92e1-ccc2-4d96-8772-5009c0bdc53c",
-    "timestamp": "2026-10-12T19:27:27+00:00",
+    "log_id": "2c9b6875-510e-4181-b3f9-5bba9bc1e364",
+    "timestamp": "2026-10-18T14:54:40+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.1.90.217",
     "user_id": "analyst_1982",
@@ -1100,8 +1100,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "236f9f46-046c-4b7b-a2eb-8d3abb960221",
-    "timestamp": "2026-10-12T19:51:19+00:00",
+    "log_id": "6d6b180d-b8d2-41e5-9dfa-b51c657eb8af",
+    "timestamp": "2026-10-18T15:18:32+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "172.17.206.30",
     "user_id": "guest_1333",
@@ -1110,8 +1110,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "70b0e33a-5c9c-45cb-a788-ce0b1bd56f6c",
-    "timestamp": "2026-10-12T22:36:12+00:00",
+    "log_id": "a48d5fc6-184f-4341-a3c6-53bf4e9d01b7",
+    "timestamp": "2026-10-18T18:03:25+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "10.10.42.116",
     "user_id": "admin_sec",
@@ -1120,8 +1120,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "6873ac0d-1af0-42ab-a733-ba2267fe7612",
-    "timestamp": "2026-10-12T22:53:59+00:00",
+    "log_id": "c52a7bf5-66e2-4d06-b472-d951628a6db5",
+    "timestamp": "2026-10-18T18:21:12+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "192.168.1.137",
     "user_id": "dev_9007",
@@ -1130,8 +1130,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "e8f0ac7b-6843-41d2-b176-7d6ed3383a53",
-    "timestamp": "2026-10-12T23:04:51+00:00",
+    "log_id": "e19ed7ee-665c-4cc6-87a6-a587ae6d6111",
+    "timestamp": "2026-10-18T18:32:04+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "10.10.212.138",
     "user_id": "nurse_9308",
@@ -1140,8 +1140,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "36b2dc53-0188-4448-87ba-6cc721c4b498",
-    "timestamp": "2026-10-12T23:33:49+00:00",
+    "log_id": "61341c9f-254b-4920-9023-24921d4f854f",
+    "timestamp": "2026-10-18T19:01:02+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "192.168.1.197",
     "user_id": "dev_9519",
@@ -1150,8 +1150,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "4df3dfb2-1208-447f-ad76-e28d2c19ddca",
-    "timestamp": "2026-10-13T02:28:45+00:00",
+    "log_id": "ec43ea7d-4eb5-42cb-b7b4-480a57a8b47f",
+    "timestamp": "2026-10-18T21:55:58+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "192.168.50.185",
     "user_id": "guest_5325",
@@ -1160,8 +1160,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "4c272363-2a17-4d68-b49b-640f315f8979",
-    "timestamp": "2026-10-13T02:39:45+00:00",
+    "log_id": "89130baa-449c-4d23-8a1c-d922f13af0c5",
+    "timestamp": "2026-10-18T22:06:58+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "10.0.180.44",
     "user_id": "admin_infra",
@@ -1170,8 +1170,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "ecda94c5-133b-42f5-8b4e-e4688b018a54",
-    "timestamp": "2026-10-13T03:01:07+00:00",
+    "log_id": "33df1f03-2c1a-4e1f-b772-e02b9be5f17d",
+    "timestamp": "2026-10-18T22:28:20+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.10.194.247",
     "user_id": "nurse_5362",
@@ -1180,8 +1180,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "7e59a319-9321-4ed7-88f4-8ed13d282c16",
-    "timestamp": "2026-10-13T04:02:18+00:00",
+    "log_id": "925d7e24-1f38-49c9-bcea-4fba48440c49",
+    "timestamp": "2026-10-18T23:29:31+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "10.10.122.77",
     "user_id": "admin_dev",
@@ -1190,8 +1190,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "b49513e8-ad97-4e97-9c02-8460b3a7ab2e",
-    "timestamp": "2026-10-13T04:19:13+00:00",
+    "log_id": "b6579a19-dc00-4555-85c6-7cf56c70960a",
+    "timestamp": "2026-10-18T23:46:26+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "198.51.100.90",
     "user_id": "analyst_2779",
@@ -1200,8 +1200,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "80d3ec41-7e86-4207-8dc3-784ac5402098",
-    "timestamp": "2026-10-13T05:29:56+00:00",
+    "log_id": "119d3a25-4074-4da7-a7b5-4cd4bf5945d9",
+    "timestamp": "2026-10-19T00:57:09+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "172.16.201.102",
     "user_id": "guest_8113",
@@ -1210,8 +1210,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "80a23b86-c3e5-4771-9f46-7d3c41e3dd6b",
-    "timestamp": "2026-10-13T05:33:34+00:00",
+    "log_id": "94415d2a-61a2-4c39-8f8e-0aae64054931",
+    "timestamp": "2026-10-19T01:00:47+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.10.77.220",
     "user_id": "svc_ldap",
@@ -1220,8 +1220,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "b0932518-867e-4ddb-b1c7-8f3f619130d0",
-    "timestamp": "2026-10-13T06:47:56+00:00",
+    "log_id": "3597eb01-021a-4ee8-b87f-431034764d0b",
+    "timestamp": "2026-10-19T02:15:09+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "192.168.50.115",
     "user_id": "user_1398",
@@ -1230,8 +1230,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "c66ae9af-fdc0-47e4-9c1a-c744521dbb60",
-    "timestamp": "2026-10-13T06:51:30+00:00",
+    "log_id": "ac553af8-1123-46d2-a6ac-f907d1d880a2",
+    "timestamp": "2026-10-19T02:18:43+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "10.2.2.247",
     "user_id": "svc_backup",
@@ -1240,8 +1240,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "e3b2438d-b362-415e-9f0a-b9d57c0fa104",
-    "timestamp": "2026-10-13T10:15:10+00:00",
+    "log_id": "ca2f5e5b-c164-4d55-a77f-6f4bc6fde6b0",
+    "timestamp": "2026-10-19T05:42:23+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "10.10.95.81",
     "user_id": "dev_849",
@@ -1250,8 +1250,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "852bb8a1-787c-4e05-83a1-a8ff82fd3bc2",
-    "timestamp": "2026-10-13T10:48:21+00:00",
+    "log_id": "a9bf1d03-d85a-4b51-ac75-2bd0c0a7e46b",
+    "timestamp": "2026-10-19T06:15:34+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "172.17.174.243",
     "user_id": "guest_7664",
@@ -1260,8 +1260,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "dce0a2bb-3071-46dc-9538-ee06bbae2b0d",
-    "timestamp": "2026-10-13T15:25:01+00:00",
+    "log_id": "d03b04c8-4945-4998-a30b-324ba59b9530",
+    "timestamp": "2026-10-19T10:52:14+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "10.10.215.69",
     "user_id": "user_2576",
@@ -1270,8 +1270,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "36f99cd3-f928-4eb5-8848-0d2382d2b296",
-    "timestamp": "2026-10-13T15:55:26+00:00",
+    "log_id": "23f86ce1-adec-461d-b9db-0bf8a8cdf2b2",
+    "timestamp": "2026-10-19T11:22:39+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.2.208.35",
     "user_id": "admin_infra",
@@ -1280,8 +1280,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "40e39aac-c10e-4ba6-b24e-3388615f4538",
-    "timestamp": "2026-10-13T20:34:53+00:00",
+    "log_id": "bc24c15d-5654-4833-b184-a7631f29cfc5",
+    "timestamp": "2026-10-19T16:02:06+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "10.2.71.49",
     "user_id": "admin_sec",
@@ -1290,8 +1290,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "43cec96f-acad-4870-8ebe-e9819a14d8db",
-    "timestamp": "2026-10-13T22:38:51+00:00",
+    "log_id": "0a56e773-aace-45ea-b1f6-af37874d36e4",
+    "timestamp": "2026-10-19T18:06:04+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "172.16.36.64",
     "user_id": "nurse_9677",
@@ -1300,8 +1300,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "845301b7-dd87-43f1-9146-dc866aa273c8",
-    "timestamp": "2026-10-13T23:06:23+00:00",
+    "log_id": "89621466-954d-473d-aee1-b1f450b1bee2",
+    "timestamp": "2026-10-19T18:33:36+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "203.0.113.25",
     "user_id": "svc_api_gw",
@@ -1310,8 +1310,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "0b9bd03a-b835-476a-b903-251eaf4bff46",
-    "timestamp": "2026-10-13T23:27:25+00:00",
+    "log_id": "2f6d9705-5b2b-4550-ae81-bcb128946cd5",
+    "timestamp": "2026-10-19T18:54:38+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "203.0.113.151",
     "user_id": "dev_1943",
@@ -1320,8 +1320,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "07398356-fb48-4e35-a312-f288d2d64b0d",
-    "timestamp": "2026-10-14T00:53:20+00:00",
+    "log_id": "0bec8fdd-b42e-4275-93a2-026fb70dbfea",
+    "timestamp": "2026-10-19T20:20:33+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "10.2.105.223",
     "user_id": "svc_portal",
@@ -1330,8 +1330,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "c66fbcbe-1e00-4553-8887-003521439aaa",
-    "timestamp": "2026-10-14T04:37:20+00:00",
+    "log_id": "27153a76-64a8-4cf4-a81d-e6e44ca656e2",
+    "timestamp": "2026-10-20T00:04:33+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "172.16.249.129",
     "user_id": "svc_monitor",
@@ -1340,8 +1340,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "1ac30ecc-e693-43c2-9ec4-8e1dbc591e11",
-    "timestamp": "2026-10-14T06:23:46+00:00",
+    "log_id": "3c5b4495-4b69-4d0e-b144-17cc089e876d",
+    "timestamp": "2026-10-20T01:50:59+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "198.51.100.64",
     "user_id": "admin_infra",
@@ -1350,8 +1350,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "db6db7db-9f53-4c2c-920c-5cb64d877df5",
-    "timestamp": "2026-10-14T06:34:51+00:00",
+    "log_id": "05bc4aff-21dd-476a-a2a1-2c0f362ac46b",
+    "timestamp": "2026-10-20T02:02:04+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "192.168.50.23",
     "user_id": "analyst_5792",
@@ -1360,8 +1360,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "8795278f-b744-4599-ba57-7e1ea1cd76c7",
-    "timestamp": "2026-10-14T08:19:11+00:00",
+    "log_id": "7e28bc0a-4970-48f8-866c-4c7ae0123140",
+    "timestamp": "2026-10-20T03:46:24+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.10.92.142",
     "user_id": "dev_7175",
@@ -1370,8 +1370,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "ac925f16-421c-4ecb-b3a2-0792b436a802",
-    "timestamp": "2026-10-14T09:45:14+00:00",
+    "log_id": "db96b96a-602c-459b-a38a-9355fa77b66d",
+    "timestamp": "2026-10-20T05:12:27+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "10.2.213.112",
     "user_id": "admin_hr",
@@ -1380,8 +1380,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "68e75990-ac2c-4c5a-86d5-2ddc8057459e",
-    "timestamp": "2026-10-14T13:18:10+00:00",
+    "log_id": "f0a383dd-b22d-4339-91fd-ebd13d3e0f19",
+    "timestamp": "2026-10-20T08:45:23+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "203.0.113.74",
     "user_id": "guest_3379",
@@ -1390,8 +1390,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "7079d12a-de70-4880-8278-b1cc1275c9c2",
-    "timestamp": "2026-10-14T16:07:26+00:00",
+    "log_id": "4422e33f-198b-4b93-9256-1280ee98d58b",
+    "timestamp": "2026-10-20T11:34:39+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.2.22.145",
     "user_id": "user_3713",
@@ -1400,8 +1400,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "693ff987-e84f-4db2-a111-708ec4ea4376",
-    "timestamp": "2026-10-14T16:27:40+00:00",
+    "log_id": "9f95bda1-d0cc-4269-a05f-c89578528f8b",
+    "timestamp": "2026-10-20T11:54:53+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "10.1.83.156",
     "user_id": "svc_portal",
@@ -1410,8 +1410,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "fe6de562-6ebb-404a-8c81-9c4eadf28818",
-    "timestamp": "2026-10-14T16:36:50+00:00",
+    "log_id": "09d2f243-6bc6-448e-b3b1-b02bf09d24a1",
+    "timestamp": "2026-10-20T12:04:03+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "10.1.232.217",
     "user_id": "analyst_2107",
@@ -1420,8 +1420,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "d135c87d-b79f-42b5-8397-57d94046df92",
-    "timestamp": "2026-10-14T16:40:12+00:00",
+    "log_id": "f1faac80-983c-4686-bcb9-87ba07918d03",
+    "timestamp": "2026-10-20T12:07:25+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "10.10.219.93",
     "user_id": "admin_ops",
@@ -1430,8 +1430,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "9bab6adc-743a-4319-897d-c85176cb1a7e",
-    "timestamp": "2026-10-14T16:59:15+00:00",
+    "log_id": "7c7c47bd-ecf4-4415-ab27-06cf60c1105d",
+    "timestamp": "2026-10-20T12:26:28+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "172.16.187.107",
     "user_id": "admin_hr",
@@ -1440,8 +1440,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "0d19bf00-bd20-485a-ace0-12c3a5eecefb",
-    "timestamp": "2026-10-14T17:36:48+00:00",
+    "log_id": "6f3c7214-b554-437e-ba96-44d933a93162",
+    "timestamp": "2026-10-20T13:04:01+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "198.51.100.110",
     "user_id": "guest_2707",
@@ -1450,8 +1450,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "b33f5aba-d949-4412-9fe1-36ae509d6b0b",
-    "timestamp": "2026-10-14T19:06:48+00:00",
+    "log_id": "fd07e52d-996f-4ebc-be8c-ddf238c0784c",
+    "timestamp": "2026-10-20T14:34:01+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "10.0.254.246",
     "user_id": "dev_3414",
@@ -1460,8 +1460,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "c5fc09be-9294-4750-b21e-303f1738ea7a",
-    "timestamp": "2026-10-14T19:48:37+00:00",
+    "log_id": "16c686e8-e7e8-420b-b194-ac1c5eaabdf7",
+    "timestamp": "2026-10-20T15:15:50+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "10.1.67.168",
     "user_id": "analyst_302",
@@ -1470,8 +1470,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "ed4df056-ae20-438d-8027-6b6f73fce9f2",
-    "timestamp": "2026-10-15T00:09:49+00:00",
+    "log_id": "a8c4d10a-3232-424f-86cc-ac9e43c20eac",
+    "timestamp": "2026-10-20T19:37:02+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "192.168.50.230",
     "user_id": "dev_5654",
@@ -1480,8 +1480,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "594d076f-5179-46be-9251-f0935b473d2f",
-    "timestamp": "2026-10-15T01:00:58+00:00",
+    "log_id": "a8ac9106-2ed8-43b0-8c8f-0fbe4f57bfad",
+    "timestamp": "2026-10-20T20:28:11+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "192.168.50.236",
     "user_id": "admin_ops",
@@ -1490,8 +1490,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "ccf4e862-0d64-4942-b67e-820c5e29e2bf",
-    "timestamp": "2026-10-15T01:27:47+00:00",
+    "log_id": "a0a6e7a4-3416-45d7-acd1-964866d35f0d",
+    "timestamp": "2026-10-20T20:55:00+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.0.100.87",
     "user_id": "dev_2804",
@@ -1500,8 +1500,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "17500fbb-6f15-4391-9728-5a0ca9065148",
-    "timestamp": "2026-10-15T03:22:07+00:00",
+    "log_id": "85422e63-1dc1-4f55-a10a-e3d3cffadafd",
+    "timestamp": "2026-10-20T22:49:20+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "10.0.26.85",
     "user_id": "student_3212",
@@ -1510,8 +1510,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "838f8698-e313-4774-9fd7-b678a906a6e1",
-    "timestamp": "2026-10-15T04:09:27+00:00",
+    "log_id": "a433a767-d614-44b0-8ddd-19853c3c1c74",
+    "timestamp": "2026-10-20T23:36:40+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "192.168.50.182",
     "user_id": "svc_backup",
@@ -1520,8 +1520,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "dde2abd5-8662-4114-bd15-ac10cfcde89c",
-    "timestamp": "2026-10-15T05:46:32+00:00",
+    "log_id": "45c3cfb1-9b0f-46a7-91c4-2b98a9bdda62",
+    "timestamp": "2026-10-21T01:13:45+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "10.0.189.158",
     "user_id": "student_7465",
@@ -1530,8 +1530,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "53ca88dc-1a61-4811-866c-9189d88012bf",
-    "timestamp": "2026-10-15T07:02:16+00:00",
+    "log_id": "1b09c2d2-069d-4000-9887-ba04b3405cc1",
+    "timestamp": "2026-10-21T02:29:29+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "192.168.1.106",
     "user_id": "guest_987",
@@ -1540,8 +1540,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "79c10e08-cd04-4a83-8306-44515feb45c2",
-    "timestamp": "2026-10-15T07:35:41+00:00",
+    "log_id": "b4701a91-cf5c-4768-9054-763f528f81d2",
+    "timestamp": "2026-10-21T03:02:54+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "10.1.236.25",
     "user_id": "svc_erp",
@@ -1550,8 +1550,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "f960a6c9-915d-4eff-880d-53210367e5de",
-    "timestamp": "2026-10-15T09:17:48+00:00",
+    "log_id": "3f99b0ac-2aa9-4314-ae08-4e325737fbea",
+    "timestamp": "2026-10-21T04:45:01+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "203.0.113.158",
     "user_id": "user_4481",
@@ -1560,8 +1560,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "efa6acd6-2c8f-4870-a66b-c1c239805d52",
-    "timestamp": "2026-10-15T10:57:27+00:00",
+    "log_id": "0933df96-beec-452f-8bd1-0e491e7141dc",
+    "timestamp": "2026-10-21T06:24:40+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "10.0.29.20",
     "user_id": "svc_monitor",
@@ -1570,8 +1570,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "db05e3aa-a1f2-4c7d-810e-b1baca613776",
-    "timestamp": "2026-10-15T16:29:30+00:00",
+    "log_id": "b186bc55-4762-4efb-823a-0b9d44268947",
+    "timestamp": "2026-10-21T11:56:43+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "172.16.154.80",
     "user_id": "analyst_1797",
@@ -1580,8 +1580,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "e3079c32-cf6a-4fbf-934e-9e68ea77df87",
-    "timestamp": "2026-10-15T17:23:48+00:00",
+    "log_id": "9d3704d2-580d-43cb-b0e4-2b2d088078f3",
+    "timestamp": "2026-10-21T12:51:01+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "10.1.99.98",
     "user_id": "guest_8769",
@@ -1590,8 +1590,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "a2d8a0d3-1137-4118-acd9-6b458df67324",
-    "timestamp": "2026-10-15T19:29:30+00:00",
+    "log_id": "058a2356-b390-4db5-94f8-cef2dd49ebb0",
+    "timestamp": "2026-10-21T14:56:43+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "192.168.1.115",
     "user_id": "dev_6254",
@@ -1600,8 +1600,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "fa53546f-7869-4032-8a8f-d687c08cd8d2",
-    "timestamp": "2026-10-15T19:44:46+00:00",
+    "log_id": "1141de85-7e69-4985-9ac4-2d163e2a3a16",
+    "timestamp": "2026-10-21T15:11:59+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "203.0.113.243",
     "user_id": "user_9532",
@@ -1610,8 +1610,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "b347ec35-16c3-45ab-a12b-e3f9ff24d993",
-    "timestamp": "2026-10-15T20:19:02+00:00",
+    "log_id": "1d549c48-e209-4667-9169-645bb3f9c9c6",
+    "timestamp": "2026-10-21T15:46:15+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "192.168.1.127",
     "user_id": "dev_5854",
@@ -1620,8 +1620,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "1a063a63-6e94-49c1-931d-2cdc157ea8dd",
-    "timestamp": "2026-10-15T20:48:17+00:00",
+    "log_id": "4f98c5eb-f9f5-4c49-ab4c-44753981a031",
+    "timestamp": "2026-10-21T16:15:30+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "198.51.100.64",
     "user_id": "user_6366",
@@ -1630,8 +1630,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "807c5034-e14e-46dd-8554-909531186995",
-    "timestamp": "2026-10-15T22:36:00+00:00",
+    "log_id": "f9b867bf-1cb2-46cb-9cb6-78e67cfbf116",
+    "timestamp": "2026-10-21T18:03:13+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "10.1.104.6",
     "user_id": "analyst_2915",
@@ -1640,8 +1640,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "52cfe576-c259-4f5a-9a93-d64b74daece3",
-    "timestamp": "2026-10-15T23:56:39+00:00",
+    "log_id": "686b2263-9ca4-46d5-882a-d9af83dbdfd6",
+    "timestamp": "2026-10-21T19:23:52+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "172.16.204.231",
     "user_id": "user_9879",
@@ -1650,8 +1650,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "e421ab1d-ee81-47ec-8630-f2735914a4da",
-    "timestamp": "2026-10-16T00:22:15+00:00",
+    "log_id": "717cfada-163f-498a-958d-5a6f97c1b6e2",
+    "timestamp": "2026-10-21T19:49:28+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "203.0.113.203",
     "user_id": "student_8661",
@@ -1660,8 +1660,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "870bc26d-4eef-41fc-94b5-d6ca2d4029b4",
-    "timestamp": "2026-10-16T01:09:09+00:00",
+    "log_id": "ee2b26e9-37b7-4f49-a055-7cc3f5d6ffe7",
+    "timestamp": "2026-10-21T20:36:22+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "10.10.34.202",
     "user_id": "analyst_8797",
@@ -1670,8 +1670,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "6126d7c5-1a0e-404d-93a9-d28fd64a8a28",
-    "timestamp": "2026-10-16T01:14:39+00:00",
+    "log_id": "f84aa2ef-e79c-4cda-aaa0-902a7982cea8",
+    "timestamp": "2026-10-21T20:41:52+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "203.0.113.15",
     "user_id": "guest_5149",
@@ -1680,8 +1680,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "53280d6b-88e1-44ff-98b9-c0fa435fd904",
-    "timestamp": "2026-10-16T01:48:21+00:00",
+    "log_id": "2c3c6747-f12a-4947-ba28-cf68f2f00b07",
+    "timestamp": "2026-10-21T21:15:34+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "198.51.100.69",
     "user_id": "user_4734",
@@ -1690,8 +1690,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "e3e1815e-970f-4245-9125-482f23b3fb42",
-    "timestamp": "2026-10-16T01:52:24+00:00",
+    "log_id": "c01ea8f6-a1a5-4348-8155-8b00326a6840",
+    "timestamp": "2026-10-21T21:19:37+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "10.1.214.126",
     "user_id": "dev_4683",
@@ -1700,8 +1700,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "ea8f734f-87ef-4082-8dcf-cd1b48dd3dbf",
-    "timestamp": "2026-10-16T04:21:56+00:00",
+    "log_id": "9c91c3eb-9a67-4f4e-9ed8-41855225cf60",
+    "timestamp": "2026-10-21T23:49:09+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "198.51.100.77",
     "user_id": "analyst_9169",
@@ -1710,8 +1710,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "19d4f7f9-bced-49c9-a8a7-9fd4ae95ff3b",
-    "timestamp": "2026-10-16T04:26:41+00:00",
+    "log_id": "18bc2876-22f8-43a3-b6e6-a9bc9dd8b73c",
+    "timestamp": "2026-10-21T23:53:54+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "198.51.100.136",
     "user_id": "svc_backup",
@@ -1720,8 +1720,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "df058efa-db89-4e45-a87d-1fd0eab1801e",
-    "timestamp": "2026-10-16T06:31:38+00:00",
+    "log_id": "dd9b2850-9835-4f37-8f8a-a3c1b160d468",
+    "timestamp": "2026-10-22T01:58:51+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "192.168.1.168",
     "user_id": "guest_9472",
@@ -1730,8 +1730,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "68eab805-2e98-4c96-9600-80fdd1fd1cf1",
-    "timestamp": "2026-10-16T06:39:40+00:00",
+    "log_id": "e68db45c-4149-46c7-b3c8-06823f82dab4",
+    "timestamp": "2026-10-22T02:06:53+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "172.17.191.122",
     "user_id": "dev_6425",
@@ -1740,8 +1740,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "1614a69e-1c3c-41ae-b703-3c5db31973b8",
-    "timestamp": "2026-10-16T08:59:52+00:00",
+    "log_id": "6723c311-c7b7-411d-a7fe-8b5af9902d7e",
+    "timestamp": "2026-10-22T04:27:05+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "203.0.113.14",
     "user_id": "analyst_1179",
@@ -1750,8 +1750,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "a14bdf2f-3694-47c9-8f7f-54895fc0e15f",
-    "timestamp": "2026-10-16T10:51:39+00:00",
+    "log_id": "fec4b82b-fb32-4969-892c-9f4cfc371db4",
+    "timestamp": "2026-10-22T06:18:52+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "198.51.100.223",
     "user_id": "analyst_1020",
@@ -1760,8 +1760,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "5e9231b0-1fd1-44c3-91b9-5ccb8b32e31a",
-    "timestamp": "2026-10-16T15:23:49+00:00",
+    "log_id": "8baa514a-091e-4bdc-b983-939071c4f202",
+    "timestamp": "2026-10-22T10:51:02+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.1.118.114",
     "user_id": "guest_1542",
@@ -1770,8 +1770,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "c52b4ba8-747d-41a8-a9f4-786e38994c30",
-    "timestamp": "2026-10-16T22:13:51+00:00",
+    "log_id": "47ad3ff7-f95c-4df7-93ae-c99bf3a9e44a",
+    "timestamp": "2026-10-22T17:41:04+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "172.17.24.203",
     "user_id": "dev_328",
@@ -1780,8 +1780,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "a3c92fd2-9fe4-4706-8d04-c5c863c18df7",
-    "timestamp": "2026-10-17T00:06:06+00:00",
+    "log_id": "0b5d6d01-a2bd-42c8-b469-189f0f2f7b5a",
+    "timestamp": "2026-10-22T19:33:19+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "10.0.145.222",
     "user_id": "user_8238",
@@ -1790,8 +1790,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "655472b5-4780-4f1c-ad00-c7222f7a0d89",
-    "timestamp": "2026-10-17T03:05:18+00:00",
+    "log_id": "2c0a70a2-cdff-4711-bb9e-885add44fa2e",
+    "timestamp": "2026-10-22T22:32:31+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "192.168.50.248",
     "user_id": "student_3624",
@@ -1800,8 +1800,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "b7e4ab9c-27b2-45f5-96fe-64d771d4c5ae",
-    "timestamp": "2026-10-17T03:26:46+00:00",
+    "log_id": "2e219025-d971-4168-a5d0-19b24506c622",
+    "timestamp": "2026-10-22T22:53:59+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "10.1.239.145",
     "user_id": "student_9803",
@@ -1810,8 +1810,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "461c4a67-97e8-4a95-92d1-7bbcd1ca768d",
-    "timestamp": "2026-10-17T08:26:37+00:00",
+    "log_id": "2453718a-8072-4240-abf8-6820b5aea438",
+    "timestamp": "2026-10-23T03:53:50+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "172.17.172.244",
     "user_id": "dev_9722",
@@ -1820,8 +1820,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "e2856530-61ed-4e94-a24d-637a5613baf9",
-    "timestamp": "2026-10-17T09:44:49+00:00",
+    "log_id": "9c799b5b-9ae7-426e-a513-03021c28db05",
+    "timestamp": "2026-10-23T05:12:02+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "172.17.227.98",
     "user_id": "analyst_3156",
@@ -1830,8 +1830,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "d53a3822-ce74-4bf7-8451-e22a275abb4d",
-    "timestamp": "2026-10-17T10:52:08+00:00",
+    "log_id": "7097ed50-63ad-4d04-a6d0-5871a95ab1d6",
+    "timestamp": "2026-10-23T06:19:21+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "172.16.186.219",
     "user_id": "svc_vpn",
@@ -1840,8 +1840,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "649f5c4c-995c-4de0-9097-7cb15d5e56a7",
-    "timestamp": "2026-10-17T13:02:55+00:00",
+    "log_id": "7785b15a-3dfb-45d6-b2f4-a1f474f5e64b",
+    "timestamp": "2026-10-23T08:30:08+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.1.61.98",
     "user_id": "analyst_9517",
@@ -1850,8 +1850,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "3181c172-83d0-4cd4-b76a-7c6ea152003d",
-    "timestamp": "2026-10-17T13:55:17+00:00",
+    "log_id": "ae17d8a7-ef6b-4dce-ad90-c0110ee70417",
+    "timestamp": "2026-10-23T09:22:30+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "198.51.100.168",
     "user_id": "guest_6803",
@@ -1860,8 +1860,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "8ff9fb2a-52bd-4cbf-aaea-8c40c66c2eea",
-    "timestamp": "2026-10-17T15:33:08+00:00",
+    "log_id": "16c9df39-6085-4a6f-a506-07f3b5f4d890",
+    "timestamp": "2026-10-23T11:00:21+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "10.10.128.234",
     "user_id": "svc_erp",
@@ -1870,8 +1870,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "9783d77c-8d3c-4ca7-8559-6140ecafdc5e",
-    "timestamp": "2026-10-17T18:25:55+00:00",
+    "log_id": "91b54727-ff85-4f6e-ae90-4fe646e00698",
+    "timestamp": "2026-10-23T13:53:08+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "203.0.113.76",
     "user_id": "student_1304",
@@ -1880,8 +1880,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "0d1df7bf-1585-496c-ba7e-1e4bf2742217",
-    "timestamp": "2026-10-17T18:42:12+00:00",
+    "log_id": "4e9ebe21-e7e1-46f1-8d49-a4af25bf9927",
+    "timestamp": "2026-10-23T14:09:25+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "10.10.128.141",
     "user_id": "analyst_4316",
@@ -1890,8 +1890,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "3f2a926a-45ee-4d6e-80d5-c00f7cec4c83",
-    "timestamp": "2026-10-17T18:48:25+00:00",
+    "log_id": "ecfb0eaa-d653-48c6-be45-7fb87f14feb7",
+    "timestamp": "2026-10-23T14:15:38+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "203.0.113.8",
     "user_id": "svc_backup",
@@ -1900,8 +1900,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "ddfe243c-abde-4656-96d8-e06d3fb406d0",
-    "timestamp": "2026-10-17T19:30:45+00:00",
+    "log_id": "412712d4-f02c-49be-8f75-65fe6c588ecb",
+    "timestamp": "2026-10-23T14:57:58+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "203.0.113.146",
     "user_id": "nurse_6753",
@@ -1910,8 +1910,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "4b1dc907-1754-4cb0-9dfb-39d55ca25a82",
-    "timestamp": "2026-10-17T19:32:05+00:00",
+    "log_id": "92857ce4-4f20-4347-99e3-490f0bde2e24",
+    "timestamp": "2026-10-23T14:59:18+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "192.168.1.65",
     "user_id": "admin_infra",
@@ -1920,8 +1920,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "6baa5277-1dbc-402e-a37c-8a3bea92fbbf",
-    "timestamp": "2026-10-17T19:42:47+00:00",
+    "log_id": "f427b7f1-5474-44ce-8715-999c32880b98",
+    "timestamp": "2026-10-23T15:10:00+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "192.168.1.68",
     "user_id": "guest_4773",
@@ -1930,8 +1930,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "d1c7f937-7010-4887-8952-024c770cb337",
-    "timestamp": "2026-10-17T21:46:02+00:00",
+    "log_id": "26ea58bf-2fc4-4396-ab94-cfae4f29d2eb",
+    "timestamp": "2026-10-23T17:13:15+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "172.17.223.49",
     "user_id": "student_9468",
@@ -1940,8 +1940,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "d6acff3d-eaf0-45ad-bc1c-493400d05289",
-    "timestamp": "2026-10-17T21:46:51+00:00",
+    "log_id": "8e263077-4ddf-431d-9666-4523669ec684",
+    "timestamp": "2026-10-23T17:14:04+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "192.168.1.72",
     "user_id": "nurse_2231",
@@ -1950,8 +1950,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "83a8776c-125b-401f-8081-3387cb7c3483",
-    "timestamp": "2026-10-18T01:09:23+00:00",
+    "log_id": "57ff9790-56fd-4082-b916-450b012e782e",
+    "timestamp": "2026-10-23T20:36:36+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "192.168.50.18",
     "user_id": "admin_net",
@@ -1960,8 +1960,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "5eaf4135-5a8d-4ce9-aa90-7ef9a6fdfab7",
-    "timestamp": "2026-10-18T02:10:56+00:00",
+    "log_id": "ee93d263-5e38-42cb-8b50-142ec6561b1b",
+    "timestamp": "2026-10-23T21:38:09+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "198.51.100.116",
     "user_id": "admin_hr",
@@ -1970,8 +1970,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "0f5c696f-17db-4e2f-b4b0-78acda5580b8",
-    "timestamp": "2026-10-18T02:19:12+00:00",
+    "log_id": "de4e47c0-4364-4c6f-849b-2cd06300fd2a",
+    "timestamp": "2026-10-23T21:46:25+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "10.0.92.202",
     "user_id": "admin_ops",
@@ -1980,8 +1980,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "b9ae5b0e-1ef1-4f60-8e8f-62e941596cc3",
-    "timestamp": "2026-10-18T03:05:01+00:00",
+    "log_id": "ef861064-566d-43e3-83f9-a54c54c047bb",
+    "timestamp": "2026-10-23T22:32:14+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "198.51.100.16",
     "user_id": "analyst_2102",
@@ -1990,8 +1990,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "9f9612a6-d5e0-4c21-9746-3bf5190b7807",
-    "timestamp": "2026-10-18T03:49:18+00:00",
+    "log_id": "896e4010-f503-449e-934f-025557179e85",
+    "timestamp": "2026-10-23T23:16:31+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "10.1.147.36",
     "user_id": "analyst_6621",
@@ -2000,8 +2000,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "1e4cad19-39b4-4d27-baf8-d2b3b3de190a",
-    "timestamp": "2026-10-18T04:45:19+00:00",
+    "log_id": "9ff13360-5e24-47fc-aaed-25ce59be102e",
+    "timestamp": "2026-10-24T00:12:32+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "10.1.183.217",
     "user_id": "admin_fin",
@@ -2010,8 +2010,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "71dd71d8-f0a9-46f0-bd1f-de23d8333d8e",
-    "timestamp": "2026-10-18T05:30:09+00:00",
+    "log_id": "ed0a3ffa-8274-4437-91bf-be16d06319d5",
+    "timestamp": "2026-10-24T00:57:22+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "198.51.100.166",
     "user_id": "analyst_307",
@@ -2020,8 +2020,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "6d1cfe81-fe00-4eec-be42-07c68c3f5422",
-    "timestamp": "2026-10-18T07:27:17+00:00",
+    "log_id": "82f7270d-a474-4460-a7a2-85c1e35e76d8",
+    "timestamp": "2026-10-24T02:54:30+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "203.0.113.156",
     "user_id": "admin_db",
@@ -2030,8 +2030,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "c90143e0-8576-4653-97db-5aa89d94a885",
-    "timestamp": "2026-10-18T07:38:18+00:00",
+    "log_id": "8809aab5-8f4a-4c38-85f8-8d52b5e62505",
+    "timestamp": "2026-10-24T03:05:31+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "10.1.166.222",
     "user_id": "admin_dev",
@@ -2040,8 +2040,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "82009a9a-9e05-4b13-ab67-d9918e46d599",
-    "timestamp": "2026-10-18T07:48:55+00:00",
+    "log_id": "38a1abd9-c1a2-41ed-8955-c70e664a1884",
+    "timestamp": "2026-10-24T03:16:08+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "203.0.113.98",
     "user_id": "analyst_1875",
@@ -2050,8 +2050,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "bc0f9900-9d9d-46fb-a685-3bf52dc01de5",
-    "timestamp": "2026-10-18T09:15:31+00:00",
+    "log_id": "27bb8a18-aa51-4de9-a699-f02be983052f",
+    "timestamp": "2026-10-24T04:42:44+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "172.16.206.22",
     "user_id": "dev_1393",
@@ -2060,8 +2060,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "ea538af1-67d0-4a05-816d-d8b01e0ad277",
-    "timestamp": "2026-10-18T10:26:43+00:00",
+    "log_id": "228a4a47-9c82-4d75-a34d-9ee1b7ab4085",
+    "timestamp": "2026-10-24T05:53:56+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "192.168.1.244",
     "user_id": "user_2613",
@@ -2070,8 +2070,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "b97fb6c2-3535-4f2a-9ba2-c45af8692862",
-    "timestamp": "2026-10-18T11:05:13+00:00",
+    "log_id": "c95f6777-b258-4ca7-8799-611c00fb02f7",
+    "timestamp": "2026-10-24T06:32:26+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "172.17.12.103",
     "user_id": "user_9443",
@@ -2080,8 +2080,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "906184a9-24c2-4f82-a8c7-ebfaa043c934",
-    "timestamp": "2026-10-18T12:07:17+00:00",
+    "log_id": "c60fbaa4-114c-42c0-9e7f-3bed12a8fc8c",
+    "timestamp": "2026-10-24T07:34:30+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "172.17.181.242",
     "user_id": "dev_9701",
@@ -2090,8 +2090,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "fcb2fb2c-6c99-4514-a0da-a1a9f8552017",
-    "timestamp": "2026-10-18T12:11:18+00:00",
+    "log_id": "c89fe68e-4f74-4a06-9f9b-2b87f27e4a2e",
+    "timestamp": "2026-10-24T07:38:31+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "172.17.91.54",
     "user_id": "nurse_1269",
@@ -2100,8 +2100,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "5c9d2d0f-0ed2-46b7-9b29-147822974814",
-    "timestamp": "2026-10-18T15:29:32+00:00",
+    "log_id": "1ccaf318-88ff-4f3a-8703-819d47cf2b66",
+    "timestamp": "2026-10-24T10:56:45+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.2.131.127",
     "user_id": "admin_sec",
@@ -2110,8 +2110,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "e4832954-327c-4194-8aa1-129ff206bdd5",
-    "timestamp": "2026-10-18T15:39:35+00:00",
+    "log_id": "f5356bd0-5d1d-4f62-8c47-edb4680bdc99",
+    "timestamp": "2026-10-24T11:06:48+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "192.168.1.217",
     "user_id": "admin_hr",
@@ -2120,8 +2120,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "fd940c30-0445-4ba5-8aae-b872b58e9819",
-    "timestamp": "2026-10-18T17:06:54+00:00",
+    "log_id": "127cbc8e-ae00-41f3-abdc-a273b9a1059c",
+    "timestamp": "2026-10-24T12:34:07+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "198.51.100.140",
     "user_id": "user_6497",
@@ -2130,8 +2130,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "d0bba29b-d662-474d-b110-48940183b439",
-    "timestamp": "2026-10-18T19:21:12+00:00",
+    "log_id": "93bbbc21-7d8d-4b50-a3df-7410d3a5ea69",
+    "timestamp": "2026-10-24T14:48:25+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "10.1.158.223",
     "user_id": "student_9295",
@@ -2140,8 +2140,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "37456e20-0393-4dd1-a48b-5bb5c0bee8b1",
-    "timestamp": "2026-10-18T19:21:48+00:00",
+    "log_id": "63542d8b-c6af-4cb3-b3fa-31065aeb00bc",
+    "timestamp": "2026-10-24T14:49:01+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "192.168.1.71",
     "user_id": "student_2101",
@@ -2150,8 +2150,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "e9d6a2bd-6cf5-4e54-820c-b0341a1bd9b2",
-    "timestamp": "2026-10-18T19:34:10+00:00",
+    "log_id": "ff7d76af-af39-46fd-adab-8a8a3094d621",
+    "timestamp": "2026-10-24T15:01:23+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "172.16.217.44",
     "user_id": "svc_vpn",
@@ -2160,8 +2160,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "8bd012ae-0f3c-4854-b9b9-496493f3ce2b",
-    "timestamp": "2026-10-18T19:48:49+00:00",
+    "log_id": "1ed23c04-b2a4-40b8-b19c-2b85192a5ce7",
+    "timestamp": "2026-10-24T15:16:02+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "192.168.50.79",
     "user_id": "guest_4441",
@@ -2170,8 +2170,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "320d080d-f75b-4ce5-825c-9e2e9b44da97",
-    "timestamp": "2026-10-18T22:46:42+00:00",
+    "log_id": "05ecbeca-8fe2-4d19-823d-3e47a089a4b3",
+    "timestamp": "2026-10-24T18:13:55+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "198.51.100.13",
     "user_id": "nurse_4362",
@@ -2180,8 +2180,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "ac2a8929-bef7-44fb-b422-ffe3889424a8",
-    "timestamp": "2026-10-18T23:50:52+00:00",
+    "log_id": "86ad2c48-1244-44db-a81f-b7f17328d54f",
+    "timestamp": "2026-10-24T19:18:05+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "172.17.72.226",
     "user_id": "nurse_9206",
@@ -2190,8 +2190,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "0a7697a5-3036-48d9-b43c-c49b87ed8db0",
-    "timestamp": "2026-10-19T00:17:42+00:00",
+    "log_id": "15decb9d-3c44-449a-b858-6b207cd85593",
+    "timestamp": "2026-10-24T19:44:55+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "192.168.1.21",
     "user_id": "analyst_6752",
@@ -2200,8 +2200,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "4f1ea541-2fdf-4a10-8aa6-fd199560ea9c",
-    "timestamp": "2026-10-19T00:54:31+00:00",
+    "log_id": "1c6ec29b-aca3-4265-bcff-ef715f19fd1a",
+    "timestamp": "2026-10-24T20:21:44+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "10.1.153.154",
     "user_id": "analyst_6411",
@@ -2210,8 +2210,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "3f451409-05c8-4fb7-ae4d-efc9ef305f0c",
-    "timestamp": "2026-10-19T02:11:18+00:00",
+    "log_id": "f32e9117-d8b1-4001-82bc-50d734485336",
+    "timestamp": "2026-10-24T21:38:31+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "203.0.113.107",
     "user_id": "svc_api_gw",
@@ -2220,8 +2220,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "0033550c-85e6-4b0e-ab9a-00f955ceb734",
-    "timestamp": "2026-10-19T02:29:15+00:00",
+    "log_id": "a7693967-e2cf-4c44-b152-454be077bee8",
+    "timestamp": "2026-10-24T21:56:28+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "192.168.1.71",
     "user_id": "user_1329",
@@ -2230,8 +2230,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "be992c7d-5c10-4844-82ad-39d30017083d",
-    "timestamp": "2026-10-19T02:51:43+00:00",
+    "log_id": "d9c2a4d8-786b-4770-a56c-d6b5a14f8426",
+    "timestamp": "2026-10-24T22:18:56+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "192.168.50.150",
     "user_id": "dev_8847",
@@ -2240,8 +2240,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "26aa03ea-8836-4e6d-a87d-47a162f352e4",
-    "timestamp": "2026-10-19T03:25:12+00:00",
+    "log_id": "46b68a32-ae1e-44ed-9854-db15005ed540",
+    "timestamp": "2026-10-24T22:52:25+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "192.168.1.219",
     "user_id": "dev_8918",
@@ -2250,8 +2250,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "b54d9db7-7166-4f4a-a623-576a3ab6b565",
-    "timestamp": "2026-10-19T05:30:55+00:00",
+    "log_id": "02456739-03c5-4e30-8270-1db9a24c0c01",
+    "timestamp": "2026-10-25T00:58:08+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.1.200.246",
     "user_id": "user_608",
@@ -2260,8 +2260,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "8eb59a2e-8b35-40be-8bd0-12d1f541b7fe",
-    "timestamp": "2026-10-19T05:40:41+00:00",
+    "log_id": "43ea7398-7201-41de-90a5-a013bf8394c3",
+    "timestamp": "2026-10-25T01:07:54+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "192.168.1.34",
     "user_id": "admin_fin",
@@ -2270,8 +2270,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "527d51fb-651e-4a10-b2ec-2b429ebba44f",
-    "timestamp": "2026-10-19T06:37:26+00:00",
+    "log_id": "a96da561-0889-4dd3-889b-d6d4bc11f956",
+    "timestamp": "2026-10-25T02:04:39+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "10.10.95.73",
     "user_id": "svc_backup",
@@ -2280,8 +2280,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "13769866-b28f-4ece-a7b0-89863330e23c",
-    "timestamp": "2026-10-19T09:11:08+00:00",
+    "log_id": "64e4821e-8d23-4831-a8e9-58a7547d92b5",
+    "timestamp": "2026-10-25T04:38:21+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "10.2.163.227",
     "user_id": "admin_ops",
@@ -2290,8 +2290,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "7a7a3ebf-5237-4976-8736-6aa9873cf99d",
-    "timestamp": "2026-10-19T10:38:08+00:00",
+    "log_id": "bea41328-2507-4032-a7f9-5dd5da0f0d59",
+    "timestamp": "2026-10-25T06:05:21+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "172.16.164.247",
     "user_id": "dev_4197",
@@ -2300,8 +2300,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "d17b4dbe-3efb-4a18-9e77-c3ab7b707915",
-    "timestamp": "2026-10-19T12:30:41+00:00",
+    "log_id": "71c3f900-5d0a-4d90-ba71-b6540bb5d4d0",
+    "timestamp": "2026-10-25T07:57:54+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "172.16.207.12",
     "user_id": "guest_8885",
@@ -2310,8 +2310,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "960a12f5-491f-46e6-92a6-92faede72bfe",
-    "timestamp": "2026-10-19T16:17:51+00:00",
+    "log_id": "ec96b1c1-021c-408e-a70d-c3bdf474be54",
+    "timestamp": "2026-10-25T11:45:04+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "10.0.65.241",
     "user_id": "guest_1969",
@@ -2320,8 +2320,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "4b90a1e2-c613-4a69-a772-8796a0f14d32",
-    "timestamp": "2026-10-19T17:55:57+00:00",
+    "log_id": "a86e7df9-9611-4bd2-829c-0865c69d380d",
+    "timestamp": "2026-10-25T13:23:10+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "10.10.50.49",
     "user_id": "guest_2396",
@@ -2330,8 +2330,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "e1cfda5e-bc78-4ee2-be9f-4be9821d5afa",
-    "timestamp": "2026-10-19T18:21:53+00:00",
+    "log_id": "7436e78f-9daa-4433-92c0-42abd92f8b63",
+    "timestamp": "2026-10-25T13:49:06+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "192.168.1.107",
     "user_id": "admin_ops",
@@ -2340,8 +2340,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "625ac2fb-046f-472f-b6fc-6816c13b60a8",
-    "timestamp": "2026-10-19T18:47:47+00:00",
+    "log_id": "75a2fc36-102b-4e58-ac09-59af44799e0c",
+    "timestamp": "2026-10-25T14:15:00+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "192.168.1.167",
     "user_id": "admin_ops",
@@ -2350,8 +2350,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "6ddfb90a-7361-4e46-a9d3-1262533b0354",
-    "timestamp": "2026-10-20T01:13:42+00:00",
+    "log_id": "21acab0b-f06e-49fe-aaf9-3906ff236343",
+    "timestamp": "2026-10-25T20:40:55+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "198.51.100.117",
     "user_id": "svc_monitor",
@@ -2360,8 +2360,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "afd613ab-8ff0-4e69-8235-625337c5ae34",
-    "timestamp": "2026-10-20T02:13:29+00:00",
+    "log_id": "2a20eced-2d4c-44b1-a126-42d155971c71",
+    "timestamp": "2026-10-25T21:40:42+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "10.10.69.41",
     "user_id": "admin_dev",
@@ -2370,8 +2370,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "e7014130-2422-4e07-9abe-a789eec6810e",
-    "timestamp": "2026-10-20T06:32:45+00:00",
+    "log_id": "8d252503-b853-4e9f-88d2-5039076e803d",
+    "timestamp": "2026-10-26T01:59:58+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "198.51.100.24",
     "user_id": "dev_8431",
@@ -2380,8 +2380,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "ae81bdda-1052-4269-b88c-2781db7afbe1",
-    "timestamp": "2026-10-20T06:47:45+00:00",
+    "log_id": "e2037e4f-04f3-43f3-b405-0049701c67dc",
+    "timestamp": "2026-10-26T02:14:58+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "10.1.248.198",
     "user_id": "nurse_5853",
@@ -2390,8 +2390,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "f659392c-f170-44f9-96d2-367bea057b70",
-    "timestamp": "2026-10-20T09:08:17+00:00",
+    "log_id": "1f5be1ea-105b-41ee-b08a-075a2823a45a",
+    "timestamp": "2026-10-26T04:35:30+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "192.168.50.70",
     "user_id": "student_1323",
@@ -2400,8 +2400,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "acee9213-3488-4f24-b428-cbc045a373d9",
-    "timestamp": "2026-10-20T10:32:19+00:00",
+    "log_id": "bc547830-4288-4efa-a0ab-f583881efe77",
+    "timestamp": "2026-10-26T05:59:32+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "198.51.100.97",
     "user_id": "analyst_2937",
@@ -2410,8 +2410,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "e8eeddab-8c71-47e7-91ec-48758c60af1a",
-    "timestamp": "2026-10-20T11:34:46+00:00",
+    "log_id": "2e523e03-3d86-4259-89d9-1d9972eefdc6",
+    "timestamp": "2026-10-26T07:01:59+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.0.29.238",
     "user_id": "analyst_5138",
@@ -2420,8 +2420,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "abbf22aa-7c44-429a-93ef-1162750c179b",
-    "timestamp": "2026-10-20T12:41:02+00:00",
+    "log_id": "48e5d290-bde2-43ff-8fa7-5ef4b0e2844c",
+    "timestamp": "2026-10-26T08:08:15+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "172.17.39.113",
     "user_id": "admin_infra",
@@ -2430,8 +2430,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "06c9e1a2-ed00-4f56-bcf6-1e230bd687d0",
-    "timestamp": "2026-10-20T13:19:18+00:00",
+    "log_id": "e5e813f5-0182-4b9c-85ac-bc4721a8d4b9",
+    "timestamp": "2026-10-26T08:46:31+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "172.17.243.241",
     "user_id": "nurse_1392",
@@ -2440,8 +2440,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "19fc32d2-1fc9-40d3-886d-f52fbc51f493",
-    "timestamp": "2026-10-20T15:38:49+00:00",
+    "log_id": "c4ba39df-7102-4425-8004-de302f586e67",
+    "timestamp": "2026-10-26T11:06:02+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "172.16.225.37",
     "user_id": "student_6875",
@@ -2450,8 +2450,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "ec58291a-9075-475d-8abb-e67bd0d3b61b",
-    "timestamp": "2026-10-20T15:41:00+00:00",
+    "log_id": "24aacc09-04b7-425c-be15-7237aaee842e",
+    "timestamp": "2026-10-26T11:08:13+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "172.17.249.72",
     "user_id": "user_8405",
@@ -2460,8 +2460,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "9a2a3bdd-0909-45b8-9546-52d53754ac2c",
-    "timestamp": "2026-10-20T16:29:50+00:00",
+    "log_id": "42af9b51-feda-429d-9c28-6576c6075d21",
+    "timestamp": "2026-10-26T11:57:03+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "10.1.147.96",
     "user_id": "admin_sec",
@@ -2470,8 +2470,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "374e6089-36b5-41d4-9cc1-6dfed88262ec",
-    "timestamp": "2026-10-20T17:13:05+00:00",
+    "log_id": "064f275b-2629-430a-9102-b2d66339228b",
+    "timestamp": "2026-10-26T12:40:18+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "192.168.1.34",
     "user_id": "analyst_8537",
@@ -2480,8 +2480,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "8e46f9d5-21a5-40d7-8952-4bc0e903285f",
-    "timestamp": "2026-10-20T17:25:35+00:00",
+    "log_id": "fe0b7fbf-2459-4ace-afef-d589399fdfad",
+    "timestamp": "2026-10-26T12:52:48+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "192.168.50.248",
     "user_id": "student_5439",
@@ -2490,8 +2490,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "b58fe158-7898-4dd1-bbee-10f160cff94c",
-    "timestamp": "2026-10-20T18:08:04+00:00",
+    "log_id": "19ddd116-4e11-4754-9d57-e053f343c3ab",
+    "timestamp": "2026-10-26T13:35:17+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "192.168.1.254",
     "user_id": "nurse_9827",
@@ -2500,8 +2500,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "751680e9-d137-413c-8a18-8a30ef16f8d2",
-    "timestamp": "2026-10-20T18:44:49+00:00",
+    "log_id": "7d28156f-bc3f-494a-8145-6371a42c5e85",
+    "timestamp": "2026-10-26T14:12:02+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "203.0.113.8",
     "user_id": "analyst_9400",
@@ -2510,8 +2510,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "fdc5142b-d64a-433c-923a-3650adc2a20c",
-    "timestamp": "2026-10-20T18:54:58+00:00",
+    "log_id": "3fc36c9a-b51c-4500-a962-64332d6895e9",
+    "timestamp": "2026-10-26T14:22:11+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "10.10.245.48",
     "user_id": "admin_db",
@@ -2520,8 +2520,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "780f44d8-b828-4e54-a49e-57fbdd97292b",
-    "timestamp": "2026-10-20T20:18:42+00:00",
+    "log_id": "04d38cbc-80bb-4312-bf52-ed008d56700e",
+    "timestamp": "2026-10-26T15:45:55+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "192.168.50.224",
     "user_id": "user_1221",
@@ -2530,8 +2530,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "d9e61d76-f799-4cc4-9b9b-e62b2dd48724",
-    "timestamp": "2026-10-20T20:52:32+00:00",
+    "log_id": "d80c948b-958d-4b88-8be7-54854395d351",
+    "timestamp": "2026-10-26T16:19:45+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "10.0.118.160",
     "user_id": "admin_net",
@@ -2540,8 +2540,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "1d09f514-8685-4bab-8dec-19ad4536bf60",
-    "timestamp": "2026-10-20T21:43:10+00:00",
+    "log_id": "0995fd08-4ddd-4cbe-b0ce-c0e03212e795",
+    "timestamp": "2026-10-26T17:10:23+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "172.16.17.55",
     "user_id": "analyst_3583",
@@ -2550,8 +2550,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "7e593b06-3c21-4479-92eb-d7bec58f977e",
-    "timestamp": "2026-10-20T23:52:22+00:00",
+    "log_id": "d74947d2-a160-4015-b37c-2878319c8a88",
+    "timestamp": "2026-10-26T19:19:35+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "10.0.150.123",
     "user_id": "svc_portal",
@@ -2560,8 +2560,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "194fd851-3a45-4486-a9ef-67c02f608227",
-    "timestamp": "2026-10-21T00:54:34+00:00",
+    "log_id": "5f33c17f-c6d5-4373-b423-1c212e91ba74",
+    "timestamp": "2026-10-26T20:21:47+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "10.2.128.132",
     "user_id": "guest_8271",
@@ -2570,8 +2570,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "7d9aca18-5fc7-4606-bce7-92e8c5cc87d8",
-    "timestamp": "2026-10-21T01:47:32+00:00",
+    "log_id": "72d4142e-f2e6-407c-92ae-51027932b492",
+    "timestamp": "2026-10-26T21:14:45+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "192.168.1.102",
     "user_id": "student_1345",
@@ -2580,8 +2580,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "c065b919-202f-458d-9eef-5edb987a2f78",
-    "timestamp": "2026-10-21T02:09:54+00:00",
+    "log_id": "e64eac63-2d92-4f84-abd0-3490b2ea95e9",
+    "timestamp": "2026-10-26T21:37:07+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "203.0.113.153",
     "user_id": "admin_sec",
@@ -2590,8 +2590,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "beb68cdb-6fc5-450a-84f4-5defe4b9c127",
-    "timestamp": "2026-10-21T02:45:51+00:00",
+    "log_id": "10eebf9a-7999-4199-b525-d4e713bf5249",
+    "timestamp": "2026-10-26T22:13:04+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "192.168.1.35",
     "user_id": "user_2946",
@@ -2600,8 +2600,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "911acb7f-dac9-4a91-aa1a-30bde87e26a8",
-    "timestamp": "2026-10-21T02:55:59+00:00",
+    "log_id": "8eb6eff6-85b5-4eda-8006-95a1ed224e11",
+    "timestamp": "2026-10-26T22:23:12+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "172.16.95.158",
     "user_id": "student_3690",
@@ -2610,8 +2610,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "35af52e4-679f-4d46-8aad-2957edd2dd57",
-    "timestamp": "2026-10-21T05:15:20+00:00",
+    "log_id": "ac263285-2286-45d7-a214-89fc4a2ce6bd",
+    "timestamp": "2026-10-27T00:42:33+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "172.17.2.47",
     "user_id": "svc_monitor",
@@ -2620,8 +2620,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "1a5acd1b-ec73-434b-b992-d398ed845c47",
-    "timestamp": "2026-10-21T05:54:39+00:00",
+    "log_id": "6e72eb19-f9cd-402d-9210-83281a0a6c38",
+    "timestamp": "2026-10-27T01:21:52+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "172.17.132.226",
     "user_id": "guest_7735",
@@ -2630,8 +2630,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "c7a03a0f-b63a-4451-aeef-de417e1e4cea",
-    "timestamp": "2026-10-21T06:58:22+00:00",
+    "log_id": "cd0284fb-5cfb-4ce2-8c3b-cb5566d5d474",
+    "timestamp": "2026-10-27T02:25:35+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "10.10.136.252",
     "user_id": "student_6978",
@@ -2640,8 +2640,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "354ad1cc-68d3-49e5-a11c-be893565a033",
-    "timestamp": "2026-10-21T07:28:07+00:00",
+    "log_id": "2fa41585-80a2-4abe-b48a-19283de2ef44",
+    "timestamp": "2026-10-27T02:55:20+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "172.17.96.67",
     "user_id": "nurse_7698",
@@ -2650,8 +2650,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "7fbff234-02ba-491e-9fbf-d70c5aeca2c1",
-    "timestamp": "2026-10-21T09:21:45+00:00",
+    "log_id": "61dc1a67-b4eb-4ddb-a896-226dc5f916fc",
+    "timestamp": "2026-10-27T04:48:58+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "172.16.109.230",
     "user_id": "dev_5813",
@@ -2660,8 +2660,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "b288b209-94da-4b97-9295-ca184a2c8be9",
-    "timestamp": "2026-10-21T10:17:47+00:00",
+    "log_id": "394d176e-23aa-4b1b-9c44-3a2989256803",
+    "timestamp": "2026-10-27T05:45:00+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "192.168.1.86",
     "user_id": "dev_5499",
@@ -2670,8 +2670,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "b23323bb-c02c-4cde-bbf6-d53c897d52a8",
-    "timestamp": "2026-10-21T10:48:45+00:00",
+    "log_id": "cd441e1b-4e85-4690-b23e-24093968d0c9",
+    "timestamp": "2026-10-27T06:15:58+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "10.0.56.214",
     "user_id": "analyst_2530",
@@ -2680,8 +2680,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "ea58845c-9a4d-4beb-b683-26933ef4c8fb",
-    "timestamp": "2026-10-21T12:00:33+00:00",
+    "log_id": "719c62fb-54e3-4dfd-b620-d5541df20427",
+    "timestamp": "2026-10-27T07:27:46+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "10.10.240.49",
     "user_id": "admin_infra",
@@ -2690,8 +2690,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "79b09915-c8ee-4c93-bfed-3c1c9a41e294",
-    "timestamp": "2026-10-21T12:09:51+00:00",
+    "log_id": "40e6171f-eb8c-445f-8644-cde782004cbc",
+    "timestamp": "2026-10-27T07:37:04+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "172.16.216.126",
     "user_id": "admin_hr",
@@ -2700,8 +2700,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "b3ff2214-ad03-4da0-8648-3f4857610b86",
-    "timestamp": "2026-10-21T12:25:23+00:00",
+    "log_id": "8aad6f32-64f6-4d2d-8ced-be42a848a3cb",
+    "timestamp": "2026-10-27T07:52:36+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "172.16.169.40",
     "user_id": "dev_6276",
@@ -2710,8 +2710,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "3a0c9dab-7568-4943-90d3-a8d5d46a3b37",
-    "timestamp": "2026-10-21T13:04:53+00:00",
+    "log_id": "93a44b6d-634d-46ce-9c36-e7867c897497",
+    "timestamp": "2026-10-27T08:32:06+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "198.51.100.33",
     "user_id": "nurse_845",
@@ -2720,8 +2720,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "865d11aa-39b9-4fce-8924-b2324d37635b",
-    "timestamp": "2026-10-21T13:13:27+00:00",
+    "log_id": "0c1fd297-72c8-4f3b-96cb-a2679030ed22",
+    "timestamp": "2026-10-27T08:40:40+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "203.0.113.102",
     "user_id": "admin_sec",
@@ -2730,8 +2730,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "c1d1a9cc-7b76-44cd-a957-1697f9b7465d",
-    "timestamp": "2026-10-21T13:33:00+00:00",
+    "log_id": "6e5b5d7b-16a2-4f32-b258-758db42e0127",
+    "timestamp": "2026-10-27T09:00:13+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "172.16.24.168",
     "user_id": "analyst_4202",
@@ -2740,8 +2740,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "0819f98f-3afe-42f8-bf34-8b98eea4b13b",
-    "timestamp": "2026-10-21T14:24:19+00:00",
+    "log_id": "d19d1222-aab1-4ff3-bf9a-ec24dc7f9519",
+    "timestamp": "2026-10-27T09:51:32+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "192.168.50.38",
     "user_id": "admin_db",
@@ -2750,8 +2750,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "00774ac3-9fee-4ff6-a861-4c04c2b48a06",
-    "timestamp": "2026-10-21T18:30:10+00:00",
+    "log_id": "7e492e0f-533b-4493-88a2-fd56c2608d97",
+    "timestamp": "2026-10-27T13:57:23+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "10.10.177.181",
     "user_id": "guest_5294",
@@ -2760,8 +2760,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "1af4403c-bb4c-4d50-b49d-e442b20d66d1",
-    "timestamp": "2026-10-21T18:42:01+00:00",
+    "log_id": "fbf0a218-410d-43bd-9e67-7046fc879452",
+    "timestamp": "2026-10-27T14:09:14+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "203.0.113.22",
     "user_id": "svc_vpn",
@@ -2770,8 +2770,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "83b41b60-bd57-4b34-9924-860963727283",
-    "timestamp": "2026-10-21T18:48:26+00:00",
+    "log_id": "14734824-cd86-4dfb-ab1c-cd9ccba09769",
+    "timestamp": "2026-10-27T14:15:39+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "192.168.1.79",
     "user_id": "user_1725",
@@ -2780,8 +2780,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "d76bf6a5-7d77-4f0d-856b-58a3f11e48a4",
-    "timestamp": "2026-10-21T20:37:34+00:00",
+    "log_id": "f7f03eda-8772-42df-ae34-5b1e00b29982",
+    "timestamp": "2026-10-27T16:04:47+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "198.51.100.198",
     "user_id": "user_5617",
@@ -2790,8 +2790,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "fdf60f44-4cae-4b8b-966b-d9edea4cba61",
-    "timestamp": "2026-10-21T21:25:35+00:00",
+    "log_id": "768ac58b-f60c-4b06-a5b4-6d492536b0c5",
+    "timestamp": "2026-10-27T16:52:48+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "192.168.1.226",
     "user_id": "guest_1099",
@@ -2800,8 +2800,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "fd73084b-029b-4e2a-ba4e-e115c755b8af",
-    "timestamp": "2026-10-21T21:31:14+00:00",
+    "log_id": "2621ad03-5f6f-4d12-8de7-8715d402535b",
+    "timestamp": "2026-10-27T16:58:27+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "10.10.45.157",
     "user_id": "dev_7107",
@@ -2810,8 +2810,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "bf8afadb-df3a-4d91-aab0-a7fb3c7bfedc",
-    "timestamp": "2026-10-22T00:18:17+00:00",
+    "log_id": "18448f0d-b814-4f55-8d1e-d51da170baab",
+    "timestamp": "2026-10-27T19:45:30+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "203.0.113.69",
     "user_id": "admin_db",
@@ -2820,8 +2820,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "d7b6ad7a-2c15-4f31-b9ef-cc6df6303dee",
-    "timestamp": "2026-10-22T02:41:57+00:00",
+    "log_id": "2fac09b5-9b05-4de4-9a5b-35c15742f9af",
+    "timestamp": "2026-10-27T22:09:10+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "10.2.252.182",
     "user_id": "svc_monitor",
@@ -2830,8 +2830,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "231f6bbd-e41d-40f4-8b51-1f2992a9e2f8",
-    "timestamp": "2026-10-22T02:50:49+00:00",
+    "log_id": "09281d6b-e215-4386-8af1-1abc7a2e17bd",
+    "timestamp": "2026-10-27T22:18:02+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "172.16.245.183",
     "user_id": "admin_ops",
@@ -2840,8 +2840,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "616bf3b9-1ae1-485f-9aa5-b53b9ba839b2",
-    "timestamp": "2026-10-22T02:57:08+00:00",
+    "log_id": "f3b5c834-0a5f-4c7e-b3a6-fdb12160441f",
+    "timestamp": "2026-10-27T22:24:21+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "10.2.183.182",
     "user_id": "svc_ldap",
@@ -2850,8 +2850,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "ec64169b-7fbf-4380-8184-42c88fa54849",
-    "timestamp": "2026-10-22T03:45:25+00:00",
+    "log_id": "8fbd61da-fb39-46ea-9ecc-4fd7574ca04d",
+    "timestamp": "2026-10-27T23:12:38+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "172.16.124.63",
     "user_id": "dev_4973",
@@ -2860,8 +2860,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "ea3f924f-0c11-4e52-a86f-05ddb64a662a",
-    "timestamp": "2026-10-22T05:00:12+00:00",
+    "log_id": "43fdf1d6-9bd3-4921-9e58-b82807601c3c",
+    "timestamp": "2026-10-28T00:27:25+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "192.168.1.130",
     "user_id": "guest_9108",
@@ -2870,8 +2870,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "eb556503-fa6d-4978-8b1f-03633dfe9019",
-    "timestamp": "2026-10-22T05:40:14+00:00",
+    "log_id": "0da00d3e-61c0-4726-b81a-445ab6f6556d",
+    "timestamp": "2026-10-28T01:07:27+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "192.168.50.32",
     "user_id": "user_4020",
@@ -2880,8 +2880,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "98b9c26b-c587-416e-8681-42f2042ea233",
-    "timestamp": "2026-10-22T06:07:32+00:00",
+    "log_id": "c72fc0b2-f650-430b-87a7-e8fda0e6b7ac",
+    "timestamp": "2026-10-28T01:34:45+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "192.168.1.100",
     "user_id": "dev_5222",
@@ -2890,8 +2890,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "19709a6e-1db0-41b8-8c29-6e97702d3f23",
-    "timestamp": "2026-10-22T06:25:41+00:00",
+    "log_id": "5ff88459-4aef-4a9c-8525-f384d19feae2",
+    "timestamp": "2026-10-28T01:52:54+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.1.112.251",
     "user_id": "admin_net",
@@ -2900,8 +2900,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "0630b130-c0d2-493d-928a-f6f4d4233829",
-    "timestamp": "2026-10-22T06:58:12+00:00",
+    "log_id": "0c7a5fd1-74fb-4461-b47e-3b894d2ed6ab",
+    "timestamp": "2026-10-28T02:25:25+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "192.168.1.202",
     "user_id": "analyst_7718",
@@ -2910,8 +2910,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "47d72aed-d0e8-4cfd-8814-1cd32ac2f6fb",
-    "timestamp": "2026-10-22T08:21:05+00:00",
+    "log_id": "0ff470cf-0215-4f8a-9d34-75ff78b0a3e2",
+    "timestamp": "2026-10-28T03:48:18+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "172.16.86.82",
     "user_id": "admin_db",
@@ -2920,8 +2920,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "e5be6d9b-6271-46d5-9a06-f060ee1957fc",
-    "timestamp": "2026-10-22T11:43:45+00:00",
+    "log_id": "3eb16114-356a-410a-9efd-4c9a6737aa04",
+    "timestamp": "2026-10-28T07:10:58+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "198.51.100.211",
     "user_id": "analyst_8526",
@@ -2930,8 +2930,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "237201bb-b202-4ddd-be12-9a5d953856d5",
-    "timestamp": "2026-10-22T17:30:19+00:00",
+    "log_id": "b1be471c-60ed-4f90-8c3a-ab735b9e2c9f",
+    "timestamp": "2026-10-28T12:57:32+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "10.10.246.196",
     "user_id": "analyst_1774",
@@ -2940,8 +2940,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "a36a23a3-c4a4-4334-a0c5-4becc6c46533",
-    "timestamp": "2026-10-22T18:08:36+00:00",
+    "log_id": "440397c3-b2c9-4206-8d18-eb154a5553dc",
+    "timestamp": "2026-10-28T13:35:49+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "10.2.180.222",
     "user_id": "svc_erp",
@@ -2950,8 +2950,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "d0eb1be6-07bf-4f7c-9560-dcdd6b6c491c",
-    "timestamp": "2026-10-22T18:39:16+00:00",
+    "log_id": "7f766dcc-35dc-4698-9e14-cbdebe000ab1",
+    "timestamp": "2026-10-28T14:06:29+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "172.16.49.39",
     "user_id": "student_1030",
@@ -2960,8 +2960,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "e01ed8ac-ee74-43f0-90a6-e9d158b25806",
-    "timestamp": "2026-10-22T20:22:05+00:00",
+    "log_id": "a4c56fb4-3191-48ee-b7c6-4c4b7c6a3dba",
+    "timestamp": "2026-10-28T15:49:18+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "10.2.159.156",
     "user_id": "dev_735",
@@ -2970,8 +2970,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "e52ad77a-8ae7-41f5-8f81-a49daae34e5f",
-    "timestamp": "2026-10-22T20:48:59+00:00",
+    "log_id": "d84d809a-5bb9-4eaf-9417-95d7e71cefd6",
+    "timestamp": "2026-10-28T16:16:12+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.10.36.189",
     "user_id": "admin_net",
@@ -2980,8 +2980,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "90a3aa26-0b8e-45fe-92b0-67869aa04a7c",
-    "timestamp": "2026-10-22T21:13:51+00:00",
+    "log_id": "cec07987-874f-4728-bb0c-9692881d9523",
+    "timestamp": "2026-10-28T16:41:04+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "10.0.91.130",
     "user_id": "admin_fin",
@@ -2990,8 +2990,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "9825198a-abf7-413a-beed-ef872e59b899",
-    "timestamp": "2026-10-22T22:38:51+00:00",
+    "log_id": "395f302b-3a61-4514-871e-55d00bff509f",
+    "timestamp": "2026-10-28T18:06:04+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "10.1.147.174",
     "user_id": "dev_6564",
@@ -3000,8 +3000,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "5abb375c-f615-44a0-9546-dc78b3336ea2",
-    "timestamp": "2026-10-23T00:22:06+00:00",
+    "log_id": "ce2f52c5-9003-485d-823f-3991bdea9cfe",
+    "timestamp": "2026-10-28T19:49:19+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "10.1.68.183",
     "user_id": "admin_infra",
@@ -3010,8 +3010,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "aeeb8950-c60e-42d6-8a8e-aedaf6adb0c3",
-    "timestamp": "2026-10-23T00:32:25+00:00",
+    "log_id": "afea207b-3b69-4f0c-a708-5dd916f080da",
+    "timestamp": "2026-10-28T19:59:38+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "192.168.50.205",
     "user_id": "dev_2832",
@@ -3020,8 +3020,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "3961096a-68e1-4da4-83ad-bf95eaf7f56c",
-    "timestamp": "2026-10-23T02:34:48+00:00",
+    "log_id": "7f959e42-bda0-4c96-a2cd-9a3d177b8e4f",
+    "timestamp": "2026-10-28T22:02:01+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "198.51.100.199",
     "user_id": "guest_7716",
@@ -3030,8 +3030,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "085d8c5c-f324-4ecd-acd6-7dd4bed17342",
-    "timestamp": "2026-10-23T02:56:53+00:00",
+    "log_id": "adba1f5f-204a-4e60-9fad-f090c71a09a7",
+    "timestamp": "2026-10-28T22:24:06+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "10.2.23.48",
     "user_id": "dev_7453",
@@ -3040,8 +3040,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "3cb92e1d-b029-41c6-b808-b3171c591c30",
-    "timestamp": "2026-10-23T04:32:43+00:00",
+    "log_id": "4f39a6e8-826d-4f11-a595-198c849096d0",
+    "timestamp": "2026-10-28T23:59:56+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "10.10.213.240",
     "user_id": "admin_fin",
@@ -3050,8 +3050,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "cf3d4d11-76ab-40a1-bb20-cfbd987e771d",
-    "timestamp": "2026-10-23T04:38:44+00:00",
+    "log_id": "ad12f913-0c13-4b9b-8f38-8fe6cc2704f6",
+    "timestamp": "2026-10-29T00:05:57+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "172.17.209.88",
     "user_id": "svc_portal",
@@ -3060,8 +3060,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "e1263f85-d3e4-4fdf-a168-91bcce5eee94",
-    "timestamp": "2026-10-23T06:10:40+00:00",
+    "log_id": "31df696e-f326-4964-8938-53f081129d29",
+    "timestamp": "2026-10-29T01:37:53+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "172.16.150.186",
     "user_id": "user_4385",
@@ -3070,8 +3070,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "17d7eea1-2da3-4907-998a-e7b8602d4a5c",
-    "timestamp": "2026-10-23T08:54:08+00:00",
+    "log_id": "146475cd-1d18-4882-a4e5-fcd1798e90df",
+    "timestamp": "2026-10-29T04:21:21+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "10.10.197.147",
     "user_id": "dev_596",
@@ -3080,8 +3080,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "977abf4c-84d7-4620-9f2e-7fd2c0dc3077",
-    "timestamp": "2026-10-23T09:41:07+00:00",
+    "log_id": "b477402a-800e-47b0-9963-2efeb8a8a278",
+    "timestamp": "2026-10-29T05:08:20+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "192.168.50.65",
     "user_id": "user_1612",
@@ -3090,8 +3090,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "14effe9f-7b58-4a1a-ba75-00957b60e104",
-    "timestamp": "2026-10-23T13:26:05+00:00",
+    "log_id": "606a31fa-6bd3-412b-8e12-4256743dd465",
+    "timestamp": "2026-10-29T08:53:18+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "172.17.62.68",
     "user_id": "dev_2244",
@@ -3100,8 +3100,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "76d10e7e-aff4-428e-b594-7805a8c209aa",
-    "timestamp": "2026-10-23T15:12:15+00:00",
+    "log_id": "e56b98e2-016a-43d8-906a-4777c868c00a",
+    "timestamp": "2026-10-29T10:39:28+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "172.17.33.192",
     "user_id": "nurse_2034",
@@ -3110,8 +3110,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "e0699cda-6820-434f-841e-19467106cf47",
-    "timestamp": "2026-10-23T15:53:51+00:00",
+    "log_id": "7e2f9832-4800-4caf-a342-fe4df81f882a",
+    "timestamp": "2026-10-29T11:21:04+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "10.2.243.175",
     "user_id": "analyst_1563",
@@ -3120,8 +3120,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "77f7e372-de10-492a-a573-840ccaacd76f",
-    "timestamp": "2026-10-23T16:47:22+00:00",
+    "log_id": "2a7d33b5-4e01-43f9-b469-ccf4ce95f8f5",
+    "timestamp": "2026-10-29T12:14:35+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "10.1.23.100",
     "user_id": "dev_9144",
@@ -3130,8 +3130,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "f047a011-99e0-47c4-bef2-a9786e5e0bab",
-    "timestamp": "2026-10-23T19:46:18+00:00",
+    "log_id": "18e371df-0b94-4a0c-b7ee-1d75f7ab6b09",
+    "timestamp": "2026-10-29T15:13:31+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "192.168.50.231",
     "user_id": "nurse_9055",
@@ -3140,8 +3140,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "3d51b267-b50d-4b09-8c3d-849d69237815",
-    "timestamp": "2026-10-24T01:32:56+00:00",
+    "log_id": "b83a1a39-f678-4a5c-acca-5581b9a81938",
+    "timestamp": "2026-10-29T21:00:09+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "10.1.59.247",
     "user_id": "user_4515",
@@ -3150,8 +3150,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "3ee2a909-d4b8-40de-a82f-f5190ebd4b02",
-    "timestamp": "2026-10-24T02:12:11+00:00",
+    "log_id": "c1750903-d9d0-4804-8c7e-9b4f49fc790a",
+    "timestamp": "2026-10-29T21:39:24+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "192.168.50.207",
     "user_id": "admin_sec",
@@ -3160,8 +3160,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "7a9cbe67-dd77-4eb8-9d8a-aec4ea5f78d2",
-    "timestamp": "2026-10-24T02:30:45+00:00",
+    "log_id": "b3dca4d5-e618-44d4-a81e-14e800a7e3ee",
+    "timestamp": "2026-10-29T21:57:58+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "172.17.66.202",
     "user_id": "admin_sec",
@@ -3170,8 +3170,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "76903154-8135-4457-a616-17cf7681e71a",
-    "timestamp": "2026-10-24T03:20:56+00:00",
+    "log_id": "0fdd6250-2205-476d-8e5f-fc1260e6716f",
+    "timestamp": "2026-10-29T22:48:09+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "172.17.80.34",
     "user_id": "admin_dev",
@@ -3180,8 +3180,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "2bae8134-b81e-4b5a-b398-ff64dc8a847a",
-    "timestamp": "2026-10-24T04:01:47+00:00",
+    "log_id": "df23e177-1bbc-4b72-b5c3-2a3ef60a6676",
+    "timestamp": "2026-10-29T23:29:00+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "192.168.1.247",
     "user_id": "analyst_4919",
@@ -3190,8 +3190,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "5fe24e6b-7bb9-48d9-bc6b-41ffc7fc30e3",
-    "timestamp": "2026-10-24T04:36:23+00:00",
+    "log_id": "6459c897-c3ef-4174-96e1-809120a6e530",
+    "timestamp": "2026-10-30T00:03:36+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "192.168.50.135",
     "user_id": "svc_vpn",
@@ -3200,8 +3200,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "20546dfc-a674-405d-a33b-58306c68b695",
-    "timestamp": "2026-10-24T04:49:36+00:00",
+    "log_id": "1f4cb5f9-f2fc-4f1f-bcb2-fc786d5dd3a3",
+    "timestamp": "2026-10-30T00:16:49+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "192.168.50.37",
     "user_id": "nurse_6886",
@@ -3210,8 +3210,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "c1095d3f-30a8-480e-99aa-76fcc1a558e1",
-    "timestamp": "2026-10-24T04:51:13+00:00",
+    "log_id": "c094c428-90b1-4dd9-9309-0b6b5e2791b1",
+    "timestamp": "2026-10-30T00:18:26+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "10.0.116.68",
     "user_id": "analyst_1525",
@@ -3220,8 +3220,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "53f1ea39-8964-4914-a502-9de5eb23ae20",
-    "timestamp": "2026-10-24T05:11:37+00:00",
+    "log_id": "e1e7ad49-6b05-4759-9b39-785318565eee",
+    "timestamp": "2026-10-30T00:38:50+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "172.16.197.200",
     "user_id": "guest_4019",
@@ -3230,8 +3230,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "e9b645ca-c3b1-4101-93d5-0b18feb4f437",
-    "timestamp": "2026-10-24T10:18:31+00:00",
+    "log_id": "0284582c-f5c4-4ced-b2e2-24be5dfd96a7",
+    "timestamp": "2026-10-30T05:45:44+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "172.16.218.176",
     "user_id": "admin_sec",
@@ -3240,8 +3240,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "f276eb5e-a129-4eab-a882-7efd13c5ed07",
-    "timestamp": "2026-10-24T11:04:09+00:00",
+    "log_id": "61538907-a33b-4dd0-a0e2-d33ad8cf4b49",
+    "timestamp": "2026-10-30T06:31:22+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "203.0.113.243",
     "user_id": "admin_hr",
@@ -3250,8 +3250,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "555bea00-fa5f-41fb-8b8f-01d4f5604eaa",
-    "timestamp": "2026-10-24T16:26:56+00:00",
+    "log_id": "e54b017b-ed30-4594-907b-fd3bb3bd9acc",
+    "timestamp": "2026-10-30T11:54:09+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "192.168.50.236",
     "user_id": "nurse_6202",
@@ -3260,8 +3260,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "259932ee-996f-41ab-9d3e-5304d1e8fe26",
-    "timestamp": "2026-10-24T16:30:22+00:00",
+    "log_id": "bd033095-b321-4f4a-94f5-47238415dc60",
+    "timestamp": "2026-10-30T11:57:35+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "203.0.113.73",
     "user_id": "guest_3933",
@@ -3270,8 +3270,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "7f777440-6f72-4828-9e30-f10b4c198e42",
-    "timestamp": "2026-10-24T17:11:12+00:00",
+    "log_id": "abcdcc6d-0949-4e6c-ba51-8c77a130f8a8",
+    "timestamp": "2026-10-30T12:38:25+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "203.0.113.177",
     "user_id": "analyst_7115",
@@ -3280,8 +3280,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "1b52eb41-029d-453b-b9f0-7e1fb30ebb7c",
-    "timestamp": "2026-10-24T19:36:25+00:00",
+    "log_id": "f6d273b2-8f3c-4cfe-b17c-c113eac1e02d",
+    "timestamp": "2026-10-30T15:03:38+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "10.10.207.51",
     "user_id": "svc_portal",
@@ -3290,8 +3290,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "43a4de9f-afb3-46fd-8773-4e3716b2b27f",
-    "timestamp": "2026-10-24T21:17:25+00:00",
+    "log_id": "9b00be9f-c8e4-404b-be14-1f575fabfa1e",
+    "timestamp": "2026-10-30T16:44:38+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "203.0.113.170",
     "user_id": "student_7065",
@@ -3300,8 +3300,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "bdb0d0de-38b7-46ce-965f-6406cb19efe0",
-    "timestamp": "2026-10-24T21:47:12+00:00",
+    "log_id": "eef8d518-fddc-4d4b-8779-8a301a6e85d9",
+    "timestamp": "2026-10-30T17:14:25+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "172.17.163.215",
     "user_id": "user_5588",
@@ -3310,8 +3310,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "a5f85bd3-27e4-4746-be60-f9d44d5c06ea",
-    "timestamp": "2026-10-24T23:36:33+00:00",
+    "log_id": "e9f0b287-4157-4187-93ea-2b6fcc440274",
+    "timestamp": "2026-10-30T19:03:46+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "10.2.3.56",
     "user_id": "guest_6214",
@@ -3320,8 +3320,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "90e2e12a-a3aa-405a-93e7-4cee7f4c43fd",
-    "timestamp": "2026-10-25T00:39:09+00:00",
+    "log_id": "b25fd49c-be88-4fb0-a6b8-36357510c35c",
+    "timestamp": "2026-10-30T20:06:22+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "10.10.81.31",
     "user_id": "svc_erp",
@@ -3330,8 +3330,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "eb8c03b6-4d9b-40d9-b63c-a578a0940095",
-    "timestamp": "2026-10-25T03:08:18+00:00",
+    "log_id": "f1291242-f9f5-4edb-851e-ef9afb10c8a6",
+    "timestamp": "2026-10-30T22:35:31+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "10.0.12.220",
     "user_id": "user_4106",
@@ -3340,8 +3340,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "107345b9-f254-42f4-abe3-42792197d0de",
-    "timestamp": "2026-10-25T03:43:41+00:00",
+    "log_id": "a5169060-4475-4b20-85be-51220e2564e5",
+    "timestamp": "2026-10-30T23:10:54+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "10.1.219.60",
     "user_id": "admin_dev",
@@ -3350,8 +3350,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "d0746eb7-0f6c-4400-96eb-2a776be1b874",
-    "timestamp": "2026-10-25T06:06:22+00:00",
+    "log_id": "dcc05171-c638-4543-9f59-0e335ca27adf",
+    "timestamp": "2026-10-31T01:33:35+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "10.1.168.254",
     "user_id": "user_1631",
@@ -3360,8 +3360,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "4e764ec8-85f9-4111-bf4d-9c8455b9a2a9",
-    "timestamp": "2026-10-25T09:31:49+00:00",
+    "log_id": "879f4030-04bc-4703-93e8-a8a9daa9a147",
+    "timestamp": "2026-10-31T04:59:02+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "172.17.144.197",
     "user_id": "guest_6052",
@@ -3370,8 +3370,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "f8b0ed8d-6563-4483-b993-fb81a4aa92c8",
-    "timestamp": "2026-10-25T10:35:55+00:00",
+    "log_id": "9b284eb5-f4ea-433c-b61a-2fbfb818691a",
+    "timestamp": "2026-10-31T06:03:08+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "198.51.100.143",
     "user_id": "student_7403",
@@ -3380,8 +3380,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "592f7753-01c9-4b9f-b829-e270d0a79eb8",
-    "timestamp": "2026-10-25T10:53:41+00:00",
+    "log_id": "60889b21-c995-4e0a-9b40-264b1fe74b03",
+    "timestamp": "2026-10-31T06:20:54+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "172.17.91.213",
     "user_id": "nurse_9073",
@@ -3390,8 +3390,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "493a265e-bef7-45cc-bf47-0a3818f979fb",
-    "timestamp": "2026-10-25T11:21:22+00:00",
+    "log_id": "2f447ab2-f7e1-4d19-9f78-9af595fdabb5",
+    "timestamp": "2026-10-31T06:48:35+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "10.10.174.53",
     "user_id": "nurse_6809",
@@ -3400,8 +3400,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "ed2d65b6-0ddb-40e8-8231-b6399e2d9769",
-    "timestamp": "2026-10-25T14:31:01+00:00",
+    "log_id": "969d0af9-f706-4c9a-9dae-c06563047704",
+    "timestamp": "2026-10-31T09:58:14+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "198.51.100.155",
     "user_id": "user_9295",
@@ -3410,8 +3410,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "59047b14-a0bb-489c-8e00-a2bce955ed72",
-    "timestamp": "2026-10-25T18:05:34+00:00",
+    "log_id": "064a625c-5bdd-491b-b847-4bd0499b4be3",
+    "timestamp": "2026-10-31T13:32:47+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "10.1.89.111",
     "user_id": "admin_fin",
@@ -3420,8 +3420,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "04a7df99-2e1e-4ad0-b623-eac128d4bc43",
-    "timestamp": "2026-10-25T18:59:35+00:00",
+    "log_id": "982cf5af-49de-41dd-b7e4-778da55c3105",
+    "timestamp": "2026-10-31T14:26:48+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "172.16.193.181",
     "user_id": "admin_net",
@@ -3430,8 +3430,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "7b76d7c8-7f64-47ed-a78b-681c48887c40",
-    "timestamp": "2026-10-25T22:25:26+00:00",
+    "log_id": "aa13ffac-3e1a-44a8-97a2-98477cf9c9fa",
+    "timestamp": "2026-10-31T17:52:39+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "172.16.83.213",
     "user_id": "nurse_5633",
@@ -3440,8 +3440,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "c29ad43b-6e0d-4918-a20d-72d48ba7d5fb",
-    "timestamp": "2026-10-26T04:31:10+00:00",
+    "log_id": "ffab8074-8523-4861-8f70-d72b7efc675b",
+    "timestamp": "2026-10-31T23:58:23+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "10.0.146.90",
     "user_id": "nurse_9878",
@@ -3450,8 +3450,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "dd76ac43-54a4-4093-a0a5-b356cd72c0ee",
-    "timestamp": "2026-10-26T05:49:47+00:00",
+    "log_id": "bef4da13-9131-4728-8c27-16c2bd67185c",
+    "timestamp": "2026-11-01T01:17:00+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "10.0.78.108",
     "user_id": "admin_fin",
@@ -3460,8 +3460,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "267e0387-aa2e-45e7-aba1-f9431bf4b2b4",
-    "timestamp": "2026-10-26T06:58:25+00:00",
+    "log_id": "1c22eb88-71d3-4e4b-9b2e-506dbf8ae5a9",
+    "timestamp": "2026-11-01T02:25:38+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "10.10.142.83",
     "user_id": "nurse_6336",
@@ -3470,8 +3470,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "f67fd623-8e50-44a6-a029-bbb0bb6f04cb",
-    "timestamp": "2026-10-26T08:38:06+00:00",
+    "log_id": "01e46ad3-a0ea-49ba-ab2a-49f445319985",
+    "timestamp": "2026-11-01T04:05:19+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "192.168.50.213",
     "user_id": "student_6125",
@@ -3480,8 +3480,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "b573f7c5-d549-45d9-a085-a6b531da1342",
-    "timestamp": "2026-10-26T11:05:23+00:00",
+    "log_id": "36dec48e-c58f-425f-be0c-d8eaff026010",
+    "timestamp": "2026-11-01T06:32:36+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "10.10.203.127",
     "user_id": "user_6012",
@@ -3490,8 +3490,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "226cae43-f105-4a19-bc45-6c7f6def9910",
-    "timestamp": "2026-10-26T12:31:26+00:00",
+    "log_id": "6b89bb4e-329d-4710-86f8-f3582c9ebf69",
+    "timestamp": "2026-11-01T07:58:39+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "198.51.100.250",
     "user_id": "student_5964",
@@ -3500,8 +3500,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "f89508a8-4415-46b9-903c-c6fb0aba4430",
-    "timestamp": "2026-10-26T12:43:46+00:00",
+    "log_id": "86f21b1a-8094-4899-a5ed-a7361cc6ccbb",
+    "timestamp": "2026-11-01T08:10:59+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "172.17.79.211",
     "user_id": "student_3752",
@@ -3510,8 +3510,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "2954b581-ea5e-4544-b423-5d74330d188f",
-    "timestamp": "2026-10-26T12:50:58+00:00",
+    "log_id": "fce87541-814a-4e10-8103-6c6b983f925e",
+    "timestamp": "2026-11-01T08:18:11+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "172.17.239.80",
     "user_id": "dev_8997",
@@ -3520,8 +3520,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "8b792ea1-e109-4e35-a94f-80fb03f418d6",
-    "timestamp": "2026-10-26T15:38:26+00:00",
+    "log_id": "7cfd6bb4-3336-4a02-afcc-b1aeb03c5d36",
+    "timestamp": "2026-11-01T11:05:39+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "10.1.68.172",
     "user_id": "guest_8746",
@@ -3530,8 +3530,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "40af782a-f5f1-44c1-8cfe-1cbeb2b20ad6",
-    "timestamp": "2026-10-26T15:41:10+00:00",
+    "log_id": "0065ef3d-3ca8-4cfa-9f17-380c7a8f8a7f",
+    "timestamp": "2026-11-01T11:08:23+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "192.168.1.18",
     "user_id": "analyst_5243",
@@ -3540,8 +3540,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "3cc56df8-5112-4e8f-8e22-662827d2a60d",
-    "timestamp": "2026-10-26T16:20:44+00:00",
+    "log_id": "ede9cf76-8c4e-4d32-988f-7e1a3e8c61d2",
+    "timestamp": "2026-11-01T11:47:57+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "172.16.115.46",
     "user_id": "admin_db",
@@ -3550,8 +3550,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "072906e9-ba3f-48bd-b8b2-47924490934d",
-    "timestamp": "2026-10-26T20:42:24+00:00",
+    "log_id": "605a7e5c-d1ac-4233-bd33-48bd51a6ceb3",
+    "timestamp": "2026-11-01T16:09:37+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "10.0.109.21",
     "user_id": "dev_3408",
@@ -3560,8 +3560,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "1b0da90f-e4dc-4605-aba0-df344952eeb0",
-    "timestamp": "2026-10-26T22:35:50+00:00",
+    "log_id": "74469b25-c8cc-4f0a-9a92-12d45cde3325",
+    "timestamp": "2026-11-01T18:03:03+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "172.17.221.200",
     "user_id": "user_5538",
@@ -3570,8 +3570,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "e215371d-044d-4ab5-afbd-a907c9d9dedb",
-    "timestamp": "2026-10-26T23:47:27+00:00",
+    "log_id": "fbad8c06-0531-41ed-bac5-c3cd08fbb522",
+    "timestamp": "2026-11-01T19:14:40+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "10.0.182.112",
     "user_id": "user_8618",
@@ -3580,8 +3580,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "65b167ad-7dea-48b3-8150-a8913121e6c1",
-    "timestamp": "2026-10-27T01:56:26+00:00",
+    "log_id": "5066d3f4-5819-45f8-bf5f-69fd68892e43",
+    "timestamp": "2026-11-01T21:23:39+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "198.51.100.80",
     "user_id": "svc_backup",
@@ -3590,8 +3590,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "0b629514-6fe3-454e-869b-d58b379284f0",
-    "timestamp": "2026-10-27T03:12:07+00:00",
+    "log_id": "65c82ded-943c-45ab-95b9-194d018984b1",
+    "timestamp": "2026-11-01T22:39:20+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "172.16.115.227",
     "user_id": "svc_portal",
@@ -3600,8 +3600,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "ad87c3fc-511d-44d8-ad94-8c033f70a73a",
-    "timestamp": "2026-10-27T03:15:47+00:00",
+    "log_id": "e5db8af4-9bc8-4130-870f-fa27bbb64e0b",
+    "timestamp": "2026-11-01T22:43:00+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "192.168.50.159",
     "user_id": "user_5982",
@@ -3610,8 +3610,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "d909dcae-c261-48df-ae4d-2bbb1170a55f",
-    "timestamp": "2026-10-27T04:49:48+00:00",
+    "log_id": "bb66ce27-4f9b-4d7c-92eb-f0d5739530ed",
+    "timestamp": "2026-11-02T00:17:01+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "198.51.100.178",
     "user_id": "svc_monitor",
@@ -3620,8 +3620,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "78a54a2d-9d0f-4d6f-bafd-7cd59b844a2f",
-    "timestamp": "2026-10-27T06:49:03+00:00",
+    "log_id": "c2fa26c5-1596-4058-85c6-ecbd7bb5ce55",
+    "timestamp": "2026-11-02T02:16:16+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "10.0.135.9",
     "user_id": "admin_sec",
@@ -3630,8 +3630,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "63006f9d-fa69-4b2c-a860-2efd3116f407",
-    "timestamp": "2026-10-27T07:59:11+00:00",
+    "log_id": "bd0177c2-5303-4a87-8018-ef2e58e9bda5",
+    "timestamp": "2026-11-02T03:26:24+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "10.2.131.100",
     "user_id": "dev_9871",
@@ -3640,8 +3640,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "2a09fa28-f09e-443f-acc8-2383ba8548db",
-    "timestamp": "2026-10-27T09:31:09+00:00",
+    "log_id": "e61581e6-3745-4944-8b83-5b1685482a0c",
+    "timestamp": "2026-11-02T04:58:22+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "172.16.98.84",
     "user_id": "student_7549",
@@ -3650,8 +3650,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "e56f8497-ee97-48ac-8919-6542ddaff5f3",
-    "timestamp": "2026-10-27T11:00:06+00:00",
+    "log_id": "7dc58858-8ca0-429e-94a1-e4696783d7dd",
+    "timestamp": "2026-11-02T06:27:19+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "172.16.83.27",
     "user_id": "admin_ops",
@@ -3660,8 +3660,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "8925a66e-78a6-4fe2-a71c-fcb5a266bc8a",
-    "timestamp": "2026-10-27T11:13:38+00:00",
+    "log_id": "2243ac28-a829-40cf-b92c-a7769bba1842",
+    "timestamp": "2026-11-02T06:40:51+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "172.17.243.197",
     "user_id": "guest_3245",
@@ -3670,8 +3670,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "7e014626-fab3-4e44-9eb0-b4af86475a26",
-    "timestamp": "2026-10-27T12:17:08+00:00",
+    "log_id": "59cc6098-aabc-4901-b088-9259ba40d2b0",
+    "timestamp": "2026-11-02T07:44:21+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "10.0.247.54",
     "user_id": "svc_ldap",
@@ -3680,8 +3680,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "c1c27ebd-b9c0-4937-aa97-58c74fecc968",
-    "timestamp": "2026-10-27T14:29:35+00:00",
+    "log_id": "807ac7cd-0dc9-41cd-9880-5d7cde4f004c",
+    "timestamp": "2026-11-02T09:56:48+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "10.0.6.38",
     "user_id": "svc_ldap",
@@ -3690,8 +3690,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "18a3630b-4c5b-45cc-bec8-869e1f918b37",
-    "timestamp": "2026-10-27T15:14:01+00:00",
+    "log_id": "6be34569-13b2-4f89-bfb4-a2641a5b90fd",
+    "timestamp": "2026-11-02T10:41:14+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "10.0.2.116",
     "user_id": "nurse_3530",
@@ -3700,8 +3700,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "ad1c8d2b-d777-4792-bc31-d2aca28464ca",
-    "timestamp": "2026-10-27T16:36:23+00:00",
+    "log_id": "df0569d6-220b-44d3-8c63-e3d5b7111404",
+    "timestamp": "2026-11-02T12:03:36+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "10.0.182.36",
     "user_id": "user_2784",
@@ -3710,8 +3710,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "e5f483eb-d21a-41d4-95df-b87c7e6421df",
-    "timestamp": "2026-10-27T17:08:12+00:00",
+    "log_id": "690c6ce1-ca6a-40a7-a9c3-71b9f6342533",
+    "timestamp": "2026-11-02T12:35:25+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "198.51.100.167",
     "user_id": "guest_4657",
@@ -3720,8 +3720,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "572d4e48-1a18-46b9-80ae-caee13523be2",
-    "timestamp": "2026-10-27T17:42:23+00:00",
+    "log_id": "c3be9d0d-aad9-4908-80a4-26c06fb7f335",
+    "timestamp": "2026-11-02T13:09:36+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "172.16.93.206",
     "user_id": "analyst_7079",
@@ -3730,8 +3730,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "9358eb5d-de4d-4153-b02a-bb604ef9a023",
-    "timestamp": "2026-10-28T04:23:53+00:00",
+    "log_id": "206b2012-b2f3-4867-b133-5b823c05d5d4",
+    "timestamp": "2026-11-02T23:51:06+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "192.168.1.161",
     "user_id": "nurse_3936",
@@ -3740,8 +3740,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "4673acc2-082f-44ad-a679-c6914b1500b8",
-    "timestamp": "2026-10-28T05:59:38+00:00",
+    "log_id": "2016719b-ac03-4d5a-9ca7-2c8c6685b66e",
+    "timestamp": "2026-11-03T01:26:51+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.2.211.184",
     "user_id": "dev_1852",
@@ -3750,8 +3750,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "0a414556-3d67-4b01-ac09-4c3353a1e9c3",
-    "timestamp": "2026-10-28T06:52:16+00:00",
+    "log_id": "ed34753b-4c71-4d65-a353-23d8ff227178",
+    "timestamp": "2026-11-03T02:19:29+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "192.168.1.70",
     "user_id": "student_5413",
@@ -3760,8 +3760,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "48dc6448-1c4b-4240-a6f2-96397401a36e",
-    "timestamp": "2026-10-28T09:44:44+00:00",
+    "log_id": "7a5eda55-8f7a-4ebd-82ba-b4774433a2ff",
+    "timestamp": "2026-11-03T05:11:57+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "172.16.38.215",
     "user_id": "user_4935",
@@ -3770,8 +3770,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "0dbb6cd4-d921-475e-aa1b-379b9bde500b",
-    "timestamp": "2026-10-28T09:52:27+00:00",
+    "log_id": "f74db992-c0d2-411b-b32a-4edc67dcdd63",
+    "timestamp": "2026-11-03T05:19:40+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "192.168.1.178",
     "user_id": "guest_4822",
@@ -3780,8 +3780,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "b4a49f35-98c8-4d0d-a04f-399767914c94",
-    "timestamp": "2026-10-28T10:40:38+00:00",
+    "log_id": "e9803410-30c3-4466-b435-3bb8a9918721",
+    "timestamp": "2026-11-03T06:07:51+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "198.51.100.110",
     "user_id": "guest_3898",
@@ -3790,8 +3790,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "50aa25a0-e661-4ef4-b244-5db1fb027a5b",
-    "timestamp": "2026-10-28T13:04:18+00:00",
+    "log_id": "7dbc6d12-f9c2-48a9-9f7e-575dc997abc3",
+    "timestamp": "2026-11-03T08:31:31+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "192.168.1.124",
     "user_id": "guest_3442",
@@ -3800,8 +3800,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "50eba990-2d5f-4444-90aa-57eeeb985c4e",
-    "timestamp": "2026-10-28T17:10:52+00:00",
+    "log_id": "a5d6c071-89d2-46a6-9afe-6425ed781957",
+    "timestamp": "2026-11-03T12:38:05+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.2.250.205",
     "user_id": "svc_backup",
@@ -3810,8 +3810,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "7043e31d-f288-402c-8ae9-480c2f9f49f5",
-    "timestamp": "2026-10-28T17:30:11+00:00",
+    "log_id": "701fbb84-04d2-43eb-badc-0e1b097f15fa",
+    "timestamp": "2026-11-03T12:57:24+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "172.17.93.28",
     "user_id": "admin_sec",
@@ -3820,8 +3820,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "92a7b87d-fa40-4f93-8a93-b9e49985e476",
-    "timestamp": "2026-10-28T17:31:53+00:00",
+    "log_id": "7133964c-0095-47bf-a03e-99c218613ece",
+    "timestamp": "2026-11-03T12:59:06+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "10.2.213.178",
     "user_id": "svc_api_gw",
@@ -3830,8 +3830,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "b7d5ff0f-3e70-49b7-8cd3-dd2ba43fa8f5",
-    "timestamp": "2026-10-28T17:51:34+00:00",
+    "log_id": "4a84ba67-531e-4f26-abdf-29150e35339c",
+    "timestamp": "2026-11-03T13:18:47+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "172.16.131.181",
     "user_id": "nurse_6907",
@@ -3840,8 +3840,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "05167a96-2829-4573-a3b9-952376e83317",
-    "timestamp": "2026-10-28T19:13:04+00:00",
+    "log_id": "ae0fb24c-3a19-4b87-8f99-e6c0a162c19e",
+    "timestamp": "2026-11-03T14:40:17+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "10.1.107.105",
     "user_id": "analyst_8990",
@@ -3850,8 +3850,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "ca4019bd-be4f-43db-bf5f-1c7bfb4fad7d",
-    "timestamp": "2026-10-28T19:21:47+00:00",
+    "log_id": "7316c70a-068c-45ef-b9d6-16bbe3d40b0e",
+    "timestamp": "2026-11-03T14:49:00+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "10.1.80.21",
     "user_id": "student_2645",
@@ -3860,8 +3860,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "6b7a4c39-054c-4839-9f55-073e835349d2",
-    "timestamp": "2026-10-28T19:42:38+00:00",
+    "log_id": "38424e4f-7ac4-4c10-94a3-7f39a9002df7",
+    "timestamp": "2026-11-03T15:09:51+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.2.122.172",
     "user_id": "admin_hr",
@@ -3870,8 +3870,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "d03d07d3-6f7f-41f9-bec5-4a7fbf8c0ee6",
-    "timestamp": "2026-10-28T20:02:00+00:00",
+    "log_id": "62062311-0b9a-40fe-8ac9-a120ae822287",
+    "timestamp": "2026-11-03T15:29:13+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.0.33.129",
     "user_id": "analyst_1744",
@@ -3880,8 +3880,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "fc56dbb3-75b2-499a-863f-fc2c9e112f34",
-    "timestamp": "2026-10-28T20:49:07+00:00",
+    "log_id": "03bc93ec-89bd-46bd-89fa-32f3b84c81ce",
+    "timestamp": "2026-11-03T16:16:20+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "10.10.106.129",
     "user_id": "guest_1120",
@@ -3890,8 +3890,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "00712585-205a-4818-baa7-91aa286035b9",
-    "timestamp": "2026-10-28T20:53:06+00:00",
+    "log_id": "b96ded88-c707-4132-8868-1b88e3690f6d",
+    "timestamp": "2026-11-03T16:20:19+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "203.0.113.176",
     "user_id": "guest_3659",
@@ -3900,8 +3900,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "5bd8c76d-41a7-459c-a49b-7da9b2f7abd5",
-    "timestamp": "2026-10-28T22:23:15+00:00",
+    "log_id": "e737a8ee-732d-490d-b175-2250126bd8e4",
+    "timestamp": "2026-11-03T17:50:28+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "10.0.142.206",
     "user_id": "dev_3778",
@@ -3910,8 +3910,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "be1c498e-75fa-45b2-9533-9842aae9a310",
-    "timestamp": "2026-10-28T23:02:45+00:00",
+    "log_id": "6387880b-e615-4a6e-ad8c-5ff74858a934",
+    "timestamp": "2026-11-03T18:29:58+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "203.0.113.136",
     "user_id": "dev_1921",
@@ -3920,8 +3920,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "0dc82955-b523-463e-a417-00e533733225",
-    "timestamp": "2026-10-28T23:39:49+00:00",
+    "log_id": "c14f2d8a-a4f5-4c43-940f-a7fcc3168f48",
+    "timestamp": "2026-11-03T19:07:02+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "10.2.19.16",
     "user_id": "svc_ldap",
@@ -3930,8 +3930,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "409b2b99-1fe4-450a-af33-cb7ea8560352",
-    "timestamp": "2026-10-29T01:10:39+00:00",
+    "log_id": "98505a42-d7b2-4aea-bd5d-c1a37ca4fa2c",
+    "timestamp": "2026-11-03T20:37:52+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.1.38.66",
     "user_id": "student_2942",
@@ -3940,8 +3940,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "ecfa0ccb-0e71-4ccb-bcc6-c470e9ca54d2",
-    "timestamp": "2026-10-29T03:14:11+00:00",
+    "log_id": "7da0b228-e0f4-483b-9b2f-802a79c2cc4a",
+    "timestamp": "2026-11-03T22:41:24+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "172.16.142.240",
     "user_id": "dev_4936",
@@ -3950,8 +3950,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "d16235a3-fe9a-4a29-a3a4-b79546e3d934",
-    "timestamp": "2026-10-29T05:09:54+00:00",
+    "log_id": "42287de2-1738-4d85-a78b-795ef599fcc4",
+    "timestamp": "2026-11-04T00:37:07+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "203.0.113.131",
     "user_id": "dev_8293",
@@ -3960,8 +3960,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "0c7faca6-14b4-4c0a-96d0-089f629b50c2",
-    "timestamp": "2026-10-29T07:22:18+00:00",
+    "log_id": "51af6b49-a2e2-4a49-b3c9-620ce346920b",
+    "timestamp": "2026-11-04T02:49:31+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "10.1.12.236",
     "user_id": "student_8615",
@@ -3970,8 +3970,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "020c964c-1a69-4dd6-ad97-bf908263ad05",
-    "timestamp": "2026-10-29T10:11:40+00:00",
+    "log_id": "e7b9cf0b-b4e6-4348-85a1-4ef6e76ee95c",
+    "timestamp": "2026-11-04T05:38:53+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "198.51.100.191",
     "user_id": "analyst_979",
@@ -3980,8 +3980,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "50203444-08ca-4230-b990-8f6cf57581ce",
-    "timestamp": "2026-10-29T10:13:09+00:00",
+    "log_id": "5f14d787-0440-447c-a49b-aaa3fe5abb00",
+    "timestamp": "2026-11-04T05:40:22+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "192.168.50.76",
     "user_id": "nurse_6957",
@@ -3990,8 +3990,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "1826dc08-6479-4fed-b9b4-0b81166beeed",
-    "timestamp": "2026-10-29T10:23:48+00:00",
+    "log_id": "6406ca35-5371-495a-a457-91bc546b5066",
+    "timestamp": "2026-11-04T05:51:01+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "10.0.78.127",
     "user_id": "admin_net",
@@ -4000,8 +4000,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "09fac29a-2c4f-49d3-8845-37402619aa2c",
-    "timestamp": "2026-10-29T13:21:31+00:00",
+    "log_id": "42f7932a-9dad-4e25-a351-82acc830e38d",
+    "timestamp": "2026-11-04T08:48:44+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "172.16.84.31",
     "user_id": "user_8249",
@@ -4010,8 +4010,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "a6b81ba8-6f3d-4243-b8af-c675af04d341",
-    "timestamp": "2026-10-29T14:16:16+00:00",
+    "log_id": "b3682cbe-49af-49e6-97d4-6eaaa792d1a0",
+    "timestamp": "2026-11-04T09:43:29+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "192.168.1.203",
     "user_id": "guest_5298",
@@ -4020,8 +4020,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "08022096-cf04-41e9-bd3c-35b1c3b8cbc9",
-    "timestamp": "2026-10-29T17:22:22+00:00",
+    "log_id": "92e541eb-43ba-4f65-8edb-7f96b1e99080",
+    "timestamp": "2026-11-04T12:49:35+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "192.168.50.92",
     "user_id": "student_2801",
@@ -4030,8 +4030,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "f3d4f72c-c58a-4b8e-8949-7ae0c67211af",
-    "timestamp": "2026-10-29T18:07:20+00:00",
+    "log_id": "8efe9a2c-9b6f-4a96-99cf-6f7918e9045a",
+    "timestamp": "2026-11-04T13:34:33+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "10.2.18.136",
     "user_id": "user_2788",
@@ -4040,8 +4040,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "e2fbd108-2803-417c-8024-104621bc31b8",
-    "timestamp": "2026-10-29T19:41:13+00:00",
+    "log_id": "3d5caeca-7ba5-495a-8b72-72de0a023ab7",
+    "timestamp": "2026-11-04T15:08:26+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "172.17.203.202",
     "user_id": "student_9747",
@@ -4050,8 +4050,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "43243d50-a38d-4e70-90de-e9507efa858e",
-    "timestamp": "2026-10-29T20:22:59+00:00",
+    "log_id": "4466744b-f127-406d-baa4-34964aff6c1f",
+    "timestamp": "2026-11-04T15:50:12+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "10.0.151.130",
     "user_id": "svc_portal",
@@ -4060,8 +4060,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "504daee0-eb5e-453e-a56d-966edcc1adaa",
-    "timestamp": "2026-10-29T22:54:52+00:00",
+    "log_id": "7aa69f4d-a27f-4531-926a-5aecfa834704",
+    "timestamp": "2026-11-04T18:22:05+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "198.51.100.234",
     "user_id": "user_2134",
@@ -4070,8 +4070,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "42dff39d-99f1-44d7-b70e-f5f04b59235a",
-    "timestamp": "2026-10-29T23:40:23+00:00",
+    "log_id": "8da9b24f-4667-4b7d-ad36-1959a02342b5",
+    "timestamp": "2026-11-04T19:07:36+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "192.168.1.169",
     "user_id": "analyst_8359",
@@ -4080,8 +4080,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "80544523-eff2-4319-ab61-43ea609f158d",
-    "timestamp": "2026-10-30T00:52:38+00:00",
+    "log_id": "ac5ce50e-c854-4dec-82e1-9f711fd3a09f",
+    "timestamp": "2026-11-04T20:19:51+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "10.0.243.180",
     "user_id": "dev_9397",
@@ -4090,8 +4090,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "fa2b5737-4420-42be-ad8c-538c6606ef00",
-    "timestamp": "2026-10-30T02:07:21+00:00",
+    "log_id": "09ad1a0e-47df-4b0b-9d62-f2c44ced2517",
+    "timestamp": "2026-11-04T21:34:34+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "192.168.50.27",
     "user_id": "user_9505",
@@ -4100,8 +4100,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "aa75d921-a040-4e72-911a-0c01dbfe6a98",
-    "timestamp": "2026-10-30T05:45:37+00:00",
+    "log_id": "42f22601-b9a4-4db2-84a8-58af6c918c80",
+    "timestamp": "2026-11-05T01:12:50+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "192.168.1.90",
     "user_id": "dev_5252",
@@ -4110,8 +4110,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "c78ca11e-ff0f-4eb4-b79c-6b4717f83f2c",
-    "timestamp": "2026-10-30T06:30:01+00:00",
+    "log_id": "823ca75b-3402-4146-b305-19481b8ca87e",
+    "timestamp": "2026-11-05T01:57:14+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "192.168.50.64",
     "user_id": "svc_portal",
@@ -4120,8 +4120,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "051531f4-40b3-412a-8f2b-7fe959fd4288",
-    "timestamp": "2026-10-30T07:44:44+00:00",
+    "log_id": "c8114c6a-c024-4e8d-8ca3-08fb31d04a91",
+    "timestamp": "2026-11-05T03:11:57+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "10.0.213.200",
     "user_id": "student_2241",
@@ -4130,8 +4130,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "547af24e-bb17-4eee-b19e-d8b98af190ec",
-    "timestamp": "2026-10-30T08:34:11+00:00",
+    "log_id": "c00f0ad2-06e1-499a-8399-50a50eca8963",
+    "timestamp": "2026-11-05T04:01:24+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "10.10.118.212",
     "user_id": "student_5636",
@@ -4140,8 +4140,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "0702cc44-6772-4b1f-85a5-21e997a9b7de",
-    "timestamp": "2026-10-30T13:49:10+00:00",
+    "log_id": "1e26d286-c9fb-4648-b606-799073aacacc",
+    "timestamp": "2026-11-05T09:16:23+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "203.0.113.126",
     "user_id": "admin_infra",
@@ -4150,8 +4150,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "573345ed-9484-42b6-b3cf-6f4acecfded7",
-    "timestamp": "2026-10-30T14:06:53+00:00",
+    "log_id": "a14f49d7-b187-475f-9624-8a470a0ca261",
+    "timestamp": "2026-11-05T09:34:06+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "203.0.113.156",
     "user_id": "user_5167",
@@ -4160,8 +4160,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "79a4563f-81d0-4d38-9d8f-e1ade508aa69",
-    "timestamp": "2026-10-30T15:09:53+00:00",
+    "log_id": "ac6e9d4c-cc67-4f27-8e8b-6f97e7a67b0f",
+    "timestamp": "2026-11-05T10:37:06+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "172.17.166.28",
     "user_id": "svc_api_gw",
@@ -4170,8 +4170,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "0fae7b1d-2bb2-4de2-b9cc-5cfbd821adec",
-    "timestamp": "2026-10-30T15:56:48+00:00",
+    "log_id": "834a3a6c-26a0-4c4a-b410-d64a3d4c8aee",
+    "timestamp": "2026-11-05T11:24:01+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "198.51.100.185",
     "user_id": "student_7146",
@@ -4180,8 +4180,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "d24032fa-1855-4012-b8c8-fd17ad58cfd8",
-    "timestamp": "2026-10-30T16:23:53+00:00",
+    "log_id": "0d897962-7e91-4d86-85e5-9e3c26c877d6",
+    "timestamp": "2026-11-05T11:51:06+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "198.51.100.50",
     "user_id": "analyst_5852",
@@ -4190,8 +4190,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "1b14cd47-88c0-49c3-86b5-b86184c7205d",
-    "timestamp": "2026-10-30T17:04:18+00:00",
+    "log_id": "fe6a3adf-a4ac-4542-8430-5a2825e0c06b",
+    "timestamp": "2026-11-05T12:31:31+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "10.2.128.133",
     "user_id": "dev_9302",
@@ -4200,8 +4200,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "6c4d485a-5656-4ba1-bddb-6bfa1c828425",
-    "timestamp": "2026-10-30T18:00:21+00:00",
+    "log_id": "b01aede3-c3be-48a8-a2f2-b64234c77448",
+    "timestamp": "2026-11-05T13:27:34+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "10.2.188.118",
     "user_id": "nurse_3150",
@@ -4210,8 +4210,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "722fb289-5a55-47fd-9857-3df277297afa",
-    "timestamp": "2026-10-31T00:14:04+00:00",
+    "log_id": "5826c5ce-ffd9-4ea2-a15c-d16951d32fb9",
+    "timestamp": "2026-11-05T19:41:17+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "172.16.117.254",
     "user_id": "guest_2298",
@@ -4220,8 +4220,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "f4fda38c-6ecd-4ceb-ad2a-432c657ecacd",
-    "timestamp": "2026-10-31T03:00:53+00:00",
+    "log_id": "9de5b363-e593-45c9-a4dc-3d0090031c21",
+    "timestamp": "2026-11-05T22:28:06+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "203.0.113.31",
     "user_id": "nurse_1967",
@@ -4230,8 +4230,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "7dde7b1f-3d2e-4362-bf33-7a973109650c",
-    "timestamp": "2026-10-31T03:14:07+00:00",
+    "log_id": "81997d5e-e10a-43f0-9845-5c0c743b07e6",
+    "timestamp": "2026-11-05T22:41:20+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "172.17.44.228",
     "user_id": "dev_2736",
@@ -4240,8 +4240,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "4d0158f8-04a9-455c-bd1f-d7b8a6807e55",
-    "timestamp": "2026-10-31T04:28:18+00:00",
+    "log_id": "0d47b159-a054-4da0-8e2e-19ca0072d4f4",
+    "timestamp": "2026-11-05T23:55:31+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "172.17.35.12",
     "user_id": "analyst_9045",
@@ -4250,8 +4250,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "dbb60533-c12a-4576-bf6e-dd747913cce4",
-    "timestamp": "2026-10-31T07:14:12+00:00",
+    "log_id": "94fb0955-0455-473f-ac4c-3e29502b5896",
+    "timestamp": "2026-11-06T02:41:25+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "10.10.117.254",
     "user_id": "nurse_4427",
@@ -4260,8 +4260,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "f14f8371-1968-49fc-a16f-be5d39c79195",
-    "timestamp": "2026-10-31T14:07:01+00:00",
+    "log_id": "15119781-e8d8-4ccf-ba1d-7da699550b0a",
+    "timestamp": "2026-11-06T09:34:14+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "10.2.123.83",
     "user_id": "student_211",
@@ -4270,8 +4270,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "cb6eae5f-4638-4a44-89f3-082901115333",
-    "timestamp": "2026-10-31T14:17:01+00:00",
+    "log_id": "f2550a71-a7ca-4d0f-9584-bc915f134240",
+    "timestamp": "2026-11-06T09:44:14+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "10.10.124.89",
     "user_id": "dev_2535",
@@ -4280,8 +4280,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "e61c6b41-2539-4907-abcd-9c8ff44c365e",
-    "timestamp": "2026-10-31T14:21:06+00:00",
+    "log_id": "8fd55072-d14b-4330-bb04-2ee5196b59f8",
+    "timestamp": "2026-11-06T09:48:19+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "10.10.123.20",
     "user_id": "svc_monitor",
@@ -4290,8 +4290,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "c1a97215-4dd0-4330-8066-0c9e37d89318",
-    "timestamp": "2026-10-31T16:35:23+00:00",
+    "log_id": "82ecf561-3964-461f-a188-ada50fb5846e",
+    "timestamp": "2026-11-06T12:02:36+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.2.105.125",
     "user_id": "guest_3602",
@@ -4300,8 +4300,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "c35ad595-f4b6-4b2e-8a63-e8cccb881b5d",
-    "timestamp": "2026-10-31T16:46:26+00:00",
+    "log_id": "bcd9b284-a120-4aef-b64b-58a99abe5dc7",
+    "timestamp": "2026-11-06T12:13:39+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "203.0.113.253",
     "user_id": "guest_607",
@@ -4310,8 +4310,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "7c57de59-9bae-4ad4-b63e-fbd6ee299539",
-    "timestamp": "2026-10-31T16:47:08+00:00",
+    "log_id": "f90a05dc-8f90-4fb5-8d38-2d1bb03512b3",
+    "timestamp": "2026-11-06T12:14:21+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "198.51.100.192",
     "user_id": "nurse_6146",
@@ -4320,8 +4320,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "3590def5-52e4-4d6a-af6e-b55f4a0e2870",
-    "timestamp": "2026-10-31T18:07:28+00:00",
+    "log_id": "ab3aedc1-e13d-4e51-91a5-7e83b168a5cc",
+    "timestamp": "2026-11-06T13:34:41+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "10.10.227.55",
     "user_id": "analyst_5524",
@@ -4330,8 +4330,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "357ea74e-0eb2-4e63-bfe9-e60c536c16e8",
-    "timestamp": "2026-10-31T19:56:04+00:00",
+    "log_id": "af97bbd1-207d-48b2-9cce-e57db4975b8b",
+    "timestamp": "2026-11-06T15:23:17+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "10.0.99.13",
     "user_id": "svc_ldap",
@@ -4340,8 +4340,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "6b4c4d7d-38c5-4e4a-b087-93a2cb65f4e5",
-    "timestamp": "2026-10-31T21:01:10+00:00",
+    "log_id": "3aa4be72-da3e-41ac-82eb-544991a86dbf",
+    "timestamp": "2026-11-06T16:28:23+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "203.0.113.60",
     "user_id": "user_2968",
@@ -4350,8 +4350,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "118844f6-25a3-4256-9d8b-2cf33eabfd4b",
-    "timestamp": "2026-10-31T21:10:14+00:00",
+    "log_id": "1d617adf-5ad1-4113-99b5-44b2a977ae4a",
+    "timestamp": "2026-11-06T16:37:27+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "10.1.81.95",
     "user_id": "nurse_2346",
@@ -4360,8 +4360,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "d2d222f9-ce7b-43a2-8ea8-e9bfcc567025",
-    "timestamp": "2026-10-31T21:33:11+00:00",
+    "log_id": "f2b14285-0bb5-4d8f-be0a-cc62c3539cf0",
+    "timestamp": "2026-11-06T17:00:24+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "203.0.113.172",
     "user_id": "guest_2543",
@@ -4370,8 +4370,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "667ea251-590f-42fc-9eb5-ca3b881ea1f3",
-    "timestamp": "2026-11-01T01:13:14+00:00",
+    "log_id": "a869e4fd-fb34-481c-982b-75d28176bf17",
+    "timestamp": "2026-11-06T20:40:27+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "10.2.90.80",
     "user_id": "analyst_7560",
@@ -4380,8 +4380,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "67b98382-30fc-4bd2-a0f3-ce73dc08c48f",
-    "timestamp": "2026-11-01T01:30:09+00:00",
+    "log_id": "14a4ae3d-ca43-4526-b613-cb938c01c452",
+    "timestamp": "2026-11-06T20:57:22+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "192.168.1.126",
     "user_id": "student_7900",
@@ -4390,8 +4390,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "e87d6363-dcc4-4727-a1ea-8bf1496b66d7",
-    "timestamp": "2026-11-01T02:34:00+00:00",
+    "log_id": "f9bc2a61-d9a2-4a96-b3cf-6af282e42835",
+    "timestamp": "2026-11-06T22:01:13+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "10.10.147.134",
     "user_id": "svc_api_gw",
@@ -4400,8 +4400,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "1ac6a79b-92fb-4fcd-ba85-7febe3e434f9",
-    "timestamp": "2026-11-01T03:05:31+00:00",
+    "log_id": "b43fb7a0-a8b8-414e-af46-2f15aefcfb7c",
+    "timestamp": "2026-11-06T22:32:44+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "198.51.100.154",
     "user_id": "nurse_539",
@@ -4410,8 +4410,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "62fcbaab-ae7c-42b3-86db-b04ff9e27039",
-    "timestamp": "2026-11-01T03:20:09+00:00",
+    "log_id": "7ac240f2-9961-4d20-bd8f-19e74f55cdb4",
+    "timestamp": "2026-11-06T22:47:22+00:00",
     "organization_name": "Sudbury Hydro IT Division",
     "source_ip": "203.0.113.67",
     "user_id": "admin_sec",
@@ -4420,8 +4420,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "634d2e61-a513-4653-bef0-fe38979628d4",
-    "timestamp": "2026-11-01T06:39:31+00:00",
+    "log_id": "681a5302-5954-4b10-8f88-985a9f6d3a0c",
+    "timestamp": "2026-11-07T02:06:44+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "10.10.45.142",
     "user_id": "admin_db",
@@ -4430,8 +4430,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "8093426e-949e-4ba7-a65a-c5e3deb2e317",
-    "timestamp": "2026-11-01T09:07:30+00:00",
+    "log_id": "efb8a071-3f60-4cdd-b14f-2d073018ad07",
+    "timestamp": "2026-11-07T04:34:43+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "172.17.24.138",
     "user_id": "student_944",
@@ -4440,8 +4440,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "e45e2d19-7e24-4762-b672-995e54211a05",
-    "timestamp": "2026-11-01T09:37:06+00:00",
+    "log_id": "5d4c7316-771d-4ae0-9000-784e33c8b288",
+    "timestamp": "2026-11-07T05:04:19+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "172.16.191.87",
     "user_id": "student_5556",
@@ -4450,8 +4450,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "7be71828-0af5-41cf-b251-2e73b94e5c47",
-    "timestamp": "2026-11-01T11:36:36+00:00",
+    "log_id": "781b542b-3a71-49e3-b850-41315f0dc242",
+    "timestamp": "2026-11-07T07:03:49+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "10.2.145.62",
     "user_id": "dev_8956",
@@ -4460,8 +4460,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "76a0bc57-a2d5-4fc3-9ccc-c08b9eacf020",
-    "timestamp": "2026-11-01T12:40:52+00:00",
+    "log_id": "86b2ee37-d5d9-4035-8097-fffc74da11c0",
+    "timestamp": "2026-11-07T08:08:05+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "203.0.113.197",
     "user_id": "dev_5447",
@@ -4470,8 +4470,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "34c00893-89cc-445a-ab26-e6648362f0e0",
-    "timestamp": "2026-11-01T13:27:21+00:00",
+    "log_id": "037793a8-1adf-4bb8-9997-0cb152385d12",
+    "timestamp": "2026-11-07T08:54:34+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "192.168.50.119",
     "user_id": "guest_9348",
@@ -4480,8 +4480,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "d5bde4e6-b317-4998-b51b-ee0d8b954076",
-    "timestamp": "2026-11-01T14:50:25+00:00",
+    "log_id": "8b9f9e15-e4d5-4255-88ca-7c12d067443a",
+    "timestamp": "2026-11-07T10:17:38+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "192.168.50.175",
     "user_id": "analyst_2202",
@@ -4490,8 +4490,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "38f85de7-5124-4316-a6dc-446249b82857",
-    "timestamp": "2026-11-01T21:24:56+00:00",
+    "log_id": "11ddde53-b02d-47dd-8885-5bb70aea5790",
+    "timestamp": "2026-11-07T16:52:09+00:00",
     "organization_name": "City of Greater Sudbury – IT Services",
     "source_ip": "10.1.173.221",
     "user_id": "student_6715",
@@ -4500,8 +4500,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "09fbd7c0-c10f-4b7b-944a-58e5e40a0422",
-    "timestamp": "2026-11-01T22:43:18+00:00",
+    "log_id": "6e42d93b-eee7-4352-ae04-402230e0c02d",
+    "timestamp": "2026-11-07T18:10:31+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "172.17.19.132",
     "user_id": "student_4662",
@@ -4510,8 +4510,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "7120e24d-bd70-4ef8-b429-96033f061b7a",
-    "timestamp": "2026-11-02T00:13:09+00:00",
+    "log_id": "577bf0ce-6b19-4141-b4d5-1ec079aaf98f",
+    "timestamp": "2026-11-07T19:40:22+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "192.168.1.187",
     "user_id": "student_1048",
@@ -4520,8 +4520,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "300cc6d1-67f1-462a-86f1-ee4a76628bc2",
-    "timestamp": "2026-11-02T01:11:02+00:00",
+    "log_id": "d81f222a-acd3-4557-816f-751178f8274f",
+    "timestamp": "2026-11-07T20:38:15+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "172.16.243.75",
     "user_id": "guest_8624",
@@ -4530,8 +4530,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "bda329ce-0a5c-40a6-8442-2ee5da9da6bc",
-    "timestamp": "2026-11-02T04:41:02+00:00",
+    "log_id": "5834bcfe-8ffe-48f4-b026-853b1f12acdd",
+    "timestamp": "2026-11-08T00:08:15+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "10.2.61.75",
     "user_id": "nurse_5261",
@@ -4540,8 +4540,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "2c7a6d69-81c9-4b4c-b952-b24a137b9c80",
-    "timestamp": "2026-11-02T04:52:07+00:00",
+    "log_id": "12e493a4-f7e0-4b74-beff-a7443b98842d",
+    "timestamp": "2026-11-08T00:19:20+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "192.168.50.79",
     "user_id": "svc_backup",
@@ -4550,8 +4550,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "be8b0e5b-e4cd-4ce2-900d-b17d4fcdf669",
-    "timestamp": "2026-11-02T05:09:38+00:00",
+    "log_id": "f2b8b2e9-9569-4182-b2d3-7f495709e488",
+    "timestamp": "2026-11-08T00:36:51+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "10.1.208.231",
     "user_id": "analyst_1481",
@@ -4560,8 +4560,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "186571cd-871c-4518-9cf0-ee40fb5805bf",
-    "timestamp": "2026-11-02T07:02:45+00:00",
+    "log_id": "516c360a-c5bb-4ade-b76f-18c9bdd54b89",
+    "timestamp": "2026-11-08T02:29:58+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "192.168.50.9",
     "user_id": "nurse_6798",
@@ -4570,8 +4570,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "2dc69772-a75b-4532-8322-f8b8b289d732",
-    "timestamp": "2026-11-02T08:55:15+00:00",
+    "log_id": "7c5f17c1-2d49-4258-9d42-71fb9418a02b",
+    "timestamp": "2026-11-08T04:22:28+00:00",
     "organization_name": "Lasalle Secondary School",
     "source_ip": "10.1.107.234",
     "user_id": "guest_9421",
@@ -4580,8 +4580,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "5527d779-86ea-4501-a7bc-8e63f651b5dd",
-    "timestamp": "2026-11-02T10:06:28+00:00",
+    "log_id": "57502e83-9961-4b7a-aa49-cad05ef8099c",
+    "timestamp": "2026-11-08T05:33:41+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.0.117.13",
     "user_id": "analyst_3362",
@@ -4590,8 +4590,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "fce658b9-860d-472f-bbab-44eeb5161124",
-    "timestamp": "2026-11-02T11:29:12+00:00",
+    "log_id": "6defd773-dac6-4636-8d0e-9cffbabdfcbc",
+    "timestamp": "2026-11-08T06:56:25+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "198.51.100.75",
     "user_id": "student_9538",
@@ -4600,8 +4600,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "eed916f1-60f6-43b1-8fcb-dfd71d7ddf90",
-    "timestamp": "2026-11-02T12:06:38+00:00",
+    "log_id": "7f67879f-79ca-4e7a-ab3f-f214f56023da",
+    "timestamp": "2026-11-08T07:33:51+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "203.0.113.217",
     "user_id": "dev_5913",
@@ -4610,8 +4610,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "104e41dc-fd1e-4b07-8f46-7e32a8e3211b",
-    "timestamp": "2026-11-02T13:40:29+00:00",
+    "log_id": "d8131c21-6c9e-4498-ab9a-1e1461c6e54d",
+    "timestamp": "2026-11-08T09:07:42+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "10.2.130.218",
     "user_id": "guest_8223",
@@ -4620,8 +4620,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "f6bd4b35-dfbe-4102-857f-bc0250b1c32e",
-    "timestamp": "2026-11-02T16:11:58+00:00",
+    "log_id": "003fa4a3-2703-4023-bdc7-69b613094a46",
+    "timestamp": "2026-11-08T11:39:11+00:00",
     "organization_name": "Lo-Ellen Park Secondary School",
     "source_ip": "192.168.1.135",
     "user_id": "admin_net",
@@ -4630,8 +4630,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "ded6ac3b-fe9c-4cc8-befc-bda67e111027",
-    "timestamp": "2026-11-02T17:59:52+00:00",
+    "log_id": "445b4d9a-8f97-4257-86a9-7e24e6a190ef",
+    "timestamp": "2026-11-08T13:27:05+00:00",
     "organization_name": "Dynamic Earth – Science North",
     "source_ip": "203.0.113.216",
     "user_id": "nurse_8137",
@@ -4640,8 +4640,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "ca258b0e-32a5-4850-9089-7c6777ccc871",
-    "timestamp": "2026-11-02T19:16:16+00:00",
+    "log_id": "a9218b93-bbca-4f22-a87c-2941db5ccdd4",
+    "timestamp": "2026-11-08T14:43:29+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "172.16.114.170",
     "user_id": "dev_8057",
@@ -4650,8 +4650,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "bc139ca6-946a-48bb-97f7-5fd541c9160b",
-    "timestamp": "2026-11-02T20:32:12+00:00",
+    "log_id": "e17c03ce-a0ea-43b3-a512-7836af4e15b1",
+    "timestamp": "2026-11-08T15:59:25+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.0.103.113",
     "user_id": "student_8943",
@@ -4660,8 +4660,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "44281bc7-3895-402b-b7eb-4ea1fa1ce621",
-    "timestamp": "2026-11-02T21:37:00+00:00",
+    "log_id": "e30fd0bb-7806-4c32-9372-7aa6d5df910a",
+    "timestamp": "2026-11-08T17:04:13+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "192.168.1.164",
     "user_id": "guest_1129",
@@ -4670,8 +4670,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "8bfca7ea-ab60-4731-9731-541078d36072",
-    "timestamp": "2026-11-02T23:44:17+00:00",
+    "log_id": "21c57d97-f589-4932-be12-296ab87dd99a",
+    "timestamp": "2026-11-08T19:11:30+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "10.1.225.120",
     "user_id": "nurse_5190",
@@ -4680,8 +4680,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "13709921-172c-498a-ab6e-b16578772624",
-    "timestamp": "2026-11-02T23:47:03+00:00",
+    "log_id": "3d8897d5-bf3b-480b-9b4e-9650bf029340",
+    "timestamp": "2026-11-08T19:14:16+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "10.2.170.166",
     "user_id": "svc_vpn",
@@ -4690,8 +4690,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "e03f75dc-c787-4569-b3e8-2edbe2c26999",
-    "timestamp": "2026-11-03T00:20:01+00:00",
+    "log_id": "16004c72-971c-401e-8690-aa003b887d9f",
+    "timestamp": "2026-11-08T19:47:14+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "192.168.1.253",
     "user_id": "user_225",
@@ -4700,8 +4700,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "c968ea93-d931-4316-8711-c963f04c8741",
-    "timestamp": "2026-11-03T05:27:14+00:00",
+    "log_id": "123674e0-792f-4f7f-9a80-45790fa8ad03",
+    "timestamp": "2026-11-09T00:54:27+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "203.0.113.167",
     "user_id": "student_5367",
@@ -4710,8 +4710,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "6f627cd8-351c-474c-ab42-28d305e070a1",
-    "timestamp": "2026-11-03T06:46:04+00:00",
+    "log_id": "6bd4c806-7460-4c12-87b2-d01a55214d5d",
+    "timestamp": "2026-11-09T02:13:17+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "10.10.175.64",
     "user_id": "admin_ops",
@@ -4720,8 +4720,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "b5970c0e-d4b3-4f7f-aaa6-e95bdb7bf3b6",
-    "timestamp": "2026-11-03T07:19:05+00:00",
+    "log_id": "a73fb381-a3e8-4eda-a41e-1b06c658d585",
+    "timestamp": "2026-11-09T02:46:18+00:00",
     "organization_name": "Manitoulin Health Centre",
     "source_ip": "192.168.50.9",
     "user_id": "analyst_2253",
@@ -4730,8 +4730,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "5cb1af08-e488-4df0-b5a9-5d84e081f6d7",
-    "timestamp": "2026-11-03T09:17:44+00:00",
+    "log_id": "987a4574-02d1-4702-9059-d8e7d8e86699",
+    "timestamp": "2026-11-09T04:44:57+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "10.10.188.96",
     "user_id": "user_5379",
@@ -4740,8 +4740,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "7f213b45-e361-4801-9158-d256c6eedba8",
-    "timestamp": "2026-11-03T09:43:02+00:00",
+    "log_id": "0e8405ed-73e3-4d09-91de-a04e0fd33aad",
+    "timestamp": "2026-11-09T05:10:15+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "172.16.198.137",
     "user_id": "user_9830",
@@ -4750,8 +4750,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "26577918-a0aa-4c16-9f7b-4cbbc023655d",
-    "timestamp": "2026-11-03T10:29:37+00:00",
+    "log_id": "7e4c2f4e-cff4-4bf3-bd22-8bbfbd4b70b8",
+    "timestamp": "2026-11-09T05:56:50+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "10.1.81.65",
     "user_id": "analyst_1999",
@@ -4760,8 +4760,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "971e6c60-643d-4ea0-8674-84719533187b",
-    "timestamp": "2026-11-03T10:54:35+00:00",
+    "log_id": "75e220c6-fbb8-4f6b-8914-61e162f33a8f",
+    "timestamp": "2026-11-09T06:21:48+00:00",
     "organization_name": "Northern Savings Bank",
     "source_ip": "192.168.50.48",
     "user_id": "nurse_713",
@@ -4770,8 +4770,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "c8696848-9634-44f7-9a02-18b6fd55fa75",
-    "timestamp": "2026-11-03T16:57:20+00:00",
+    "log_id": "f9f956d8-e8a7-4a58-ae31-6fabc3d9d1b3",
+    "timestamp": "2026-11-09T12:24:33+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "192.168.50.217",
     "user_id": "dev_7084",
@@ -4780,8 +4780,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "dd90cd2b-95a3-415c-b9ba-83d4e15d2680",
-    "timestamp": "2026-11-03T17:31:50+00:00",
+    "log_id": "4fe55ed0-caa6-47a2-85d0-c54547ce2261",
+    "timestamp": "2026-11-09T12:59:03+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "198.51.100.56",
     "user_id": "dev_6978",
@@ -4790,8 +4790,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "190e6ba7-46db-4163-89db-abc5338a1262",
-    "timestamp": "2026-11-03T19:31:22+00:00",
+    "log_id": "5e1ac2c4-0bf2-4a9a-aa9b-10770fcbe2a7",
+    "timestamp": "2026-11-09T14:58:35+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "172.17.204.15",
     "user_id": "nurse_5973",
@@ -4800,8 +4800,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "50f42f35-3695-4ba1-b9bc-3c7937e2c23f",
-    "timestamp": "2026-11-03T20:24:28+00:00",
+    "log_id": "76bd8d21-2e44-4eac-b42e-b5a56d8ff75b",
+    "timestamp": "2026-11-09T15:51:41+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "10.1.215.183",
     "user_id": "analyst_2492",
@@ -4810,8 +4810,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "98c3be45-9c3e-43e6-94e2-036cd0d0b7d5",
-    "timestamp": "2026-11-03T21:53:21+00:00",
+    "log_id": "a4d868ab-929a-4f86-8661-2934c2a8fa13",
+    "timestamp": "2026-11-09T17:20:34+00:00",
     "organization_name": "Cambrian Financial Services",
     "source_ip": "10.10.113.205",
     "user_id": "nurse_1233",
@@ -4820,8 +4820,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "766dbba2-6330-4e6c-877d-8610c8ef218d",
-    "timestamp": "2026-11-03T22:10:33+00:00",
+    "log_id": "bd545c26-457d-4b2a-8838-8cb01477471a",
+    "timestamp": "2026-11-09T17:37:46+00:00",
     "organization_name": "Greater Sudbury Municipal Finance",
     "source_ip": "10.0.102.129",
     "user_id": "analyst_3962",
@@ -4830,8 +4830,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "cc837b43-31b9-4285-92bc-7c661c5da08d",
-    "timestamp": "2026-11-04T06:14:53+00:00",
+    "log_id": "8d966349-bfe6-472a-9cdc-43a117a7a50d",
+    "timestamp": "2026-11-10T01:42:06+00:00",
     "organization_name": "Collège Boréal",
     "source_ip": "10.1.107.114",
     "user_id": "dev_2124",
@@ -4840,8 +4840,8 @@
     "action_taken": "Logged"
   },
   {
-    "log_id": "e7d60d4a-8600-4e2f-9f8f-cb150cc7cbc3",
-    "timestamp": "2026-11-04T09:09:32+00:00",
+    "log_id": "2744dfba-f634-4533-9524-c49fc1a6d2b6",
+    "timestamp": "2026-11-10T04:36:45+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "172.16.57.104",
     "user_id": "student_5116",
@@ -4850,8 +4850,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "f2acccf8-a8f1-43ee-b904-b096d78dc5b1",
-    "timestamp": "2026-11-04T11:01:12+00:00",
+    "log_id": "19327237-662e-4021-a96a-424df6b7b805",
+    "timestamp": "2026-11-10T06:28:25+00:00",
     "organization_name": "Sudbury Community Health Centre",
     "source_ip": "10.10.18.26",
     "user_id": "user_7414",
@@ -4860,8 +4860,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "9c51fb00-68aa-4835-9b70-35286a9c6ffb",
-    "timestamp": "2026-11-04T13:19:01+00:00",
+    "log_id": "c8f655a7-02ec-4c8e-a420-6d5ce4f0c805",
+    "timestamp": "2026-11-10T08:46:14+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "192.168.1.24",
     "user_id": "student_1958",
@@ -4870,8 +4870,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "8e35ef38-c196-4165-b492-c2a1758d32af",
-    "timestamp": "2026-11-04T14:22:12+00:00",
+    "log_id": "9c054755-e24e-40d3-918b-8c879dd65090",
+    "timestamp": "2026-11-10T09:49:25+00:00",
     "organization_name": "Glencore Sudbury Integrated Nickel Operations",
     "source_ip": "10.1.7.98",
     "user_id": "svc_portal",
@@ -4880,8 +4880,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "e4faded2-cf1a-42f2-bd1f-cde60e953400",
-    "timestamp": "2026-11-04T15:52:21+00:00",
+    "log_id": "d039ee8b-11bd-4e8c-af34-079df8ecf497",
+    "timestamp": "2026-11-10T11:19:34+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "198.51.100.193",
     "user_id": "nurse_5673",
@@ -4890,8 +4890,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "e2ffc491-d3f7-4847-9f43-499025b59f8e",
-    "timestamp": "2026-11-04T18:25:43+00:00",
+    "log_id": "e2d82157-aed8-4c08-abba-17c5e55566c3",
+    "timestamp": "2026-11-10T13:52:56+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "172.17.210.31",
     "user_id": "dev_2265",
@@ -4900,8 +4900,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "b74b05b7-3422-441e-a2fc-e90044cb204b",
-    "timestamp": "2026-11-04T18:52:55+00:00",
+    "log_id": "bdb4e837-8dd7-4e70-b08c-ecad9ed8640c",
+    "timestamp": "2026-11-10T14:20:08+00:00",
     "organization_name": "Vale Canada – Sudbury Operations",
     "source_ip": "10.2.166.45",
     "user_id": "user_3766",
@@ -4910,8 +4910,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "04ecb89d-fa5e-489c-bf86-8fa0ac5df1a7",
-    "timestamp": "2026-11-04T19:57:50+00:00",
+    "log_id": "d6564ac1-5c19-4ec5-bd87-8740db6c0a4f",
+    "timestamp": "2026-11-10T15:25:03+00:00",
     "organization_name": "Sudbury Credit Union",
     "source_ip": "10.10.75.145",
     "user_id": "nurse_4074",
@@ -4920,8 +4920,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "5017c218-771a-4e25-83c3-33a1673e8ec8",
-    "timestamp": "2026-11-04T22:40:18+00:00",
+    "log_id": "72cad2a7-fb47-451f-9962-b67f12b18e26",
+    "timestamp": "2026-11-10T18:07:31+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "192.168.50.182",
     "user_id": "svc_portal",
@@ -4930,8 +4930,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "08b18f35-2d49-43ec-8cda-474731263288",
-    "timestamp": "2026-11-04T22:47:19+00:00",
+    "log_id": "e1b34e23-669e-47eb-af08-772b64e351a2",
+    "timestamp": "2026-11-10T18:14:32+00:00",
     "organization_name": "Cambrian College",
     "source_ip": "192.168.1.57",
     "user_id": "svc_ldap",
@@ -4940,8 +4940,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "21aa9913-8ddd-4177-b2ef-28af39ac5f4a",
-    "timestamp": "2026-11-05T01:07:04+00:00",
+    "log_id": "6756426e-31cb-4cec-9e6c-f2e9d3837e0e",
+    "timestamp": "2026-11-10T20:34:17+00:00",
     "organization_name": "Sudbury District Nurse Practitioner Clinics",
     "source_ip": "10.2.164.251",
     "user_id": "nurse_2747",
@@ -4950,8 +4950,8 @@
     "action_taken": "Escalated"
   },
   {
-    "log_id": "f09126a2-74fc-41a5-89c4-9c5d736db787",
-    "timestamp": "2026-11-05T01:12:07+00:00",
+    "log_id": "c626d7da-b715-4424-a28d-c5e0004e10ac",
+    "timestamp": "2026-11-10T20:39:20+00:00",
     "organization_name": "Laurentian University",
     "source_ip": "172.16.119.173",
     "user_id": "dev_8815",
@@ -4960,8 +4960,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "94119f7f-2ff4-411a-9e65-5d98196aecb2",
-    "timestamp": "2026-11-05T01:44:08+00:00",
+    "log_id": "0d54f09c-ca71-4385-86b8-69caf0af769e",
+    "timestamp": "2026-11-10T21:11:21+00:00",
     "organization_name": "Health Sciences North",
     "source_ip": "203.0.113.19",
     "user_id": "user_7041",
@@ -4970,8 +4970,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "cb2a6ede-cf6e-431c-9521-d1818c02eafa",
-    "timestamp": "2026-11-05T01:56:42+00:00",
+    "log_id": "621ec52d-9c19-46ff-aed3-453e04a94614",
+    "timestamp": "2026-11-10T21:23:55+00:00",
     "organization_name": "Northern Ontario School of Medicine",
     "source_ip": "10.2.253.34",
     "user_id": "nurse_2958",
@@ -4980,8 +4980,8 @@
     "action_taken": "Blocked"
   },
   {
-    "log_id": "20f69c58-1652-4e4c-b876-7a53dd64a5b7",
-    "timestamp": "2026-11-05T02:22:03+00:00",
+    "log_id": "793bbf0e-7346-4858-b728-b91c3a7ec1f9",
+    "timestamp": "2026-11-10T21:49:16+00:00",
     "organization_name": "Sudbury Secondary School",
     "source_ip": "192.168.50.163",
     "user_id": "analyst_1137",
@@ -4990,8 +4990,8 @@
     "action_taken": "Alert Sent"
   },
   {
-    "log_id": "a9cad493-7c1a-4fe4-ad70-0da2b21e6972",
-    "timestamp": "2026-11-05T03:54:28+00:00",
+    "log_id": "0902d6b3-43b7-4aac-a7fc-4ca862caa645",
+    "timestamp": "2026-11-10T23:21:41+00:00",
     "organization_name": "KGHM International – Sudbury",
     "source_ip": "192.168.50.106",
     "user_id": "user_3173",
