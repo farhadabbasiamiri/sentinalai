@@ -32,12 +32,32 @@ export type Summary = {
   total_agents: number; risk_distribution: Record<string, number>; open_findings: number
   over_privileged_agents: number; pending_approvals: number; sensitive_findings: number
   findings_by_category: Record<string, number>; highest_risk_agents: Agent[]; recent_events: AuditEvent[]
+  total_cyber_logs?: number
 }
 export type Page<T> = { items: T[]; total: number; page: number; page_size: number; pages?: number }
 
+export type CyberLog = {
+  log_id: string
+  timestamp: string
+  organization_name: string
+  source_ip: string
+  user_id: string
+  event_type: string
+  severity: string
+  action_taken: string
+}
+
+export type LogStats = {
+  total_logs: number
+  severity_distribution: Record<string, number>
+  action_distribution: Record<string, number>
+  top_organizations: { name: string; count: number }[]
+  top_events: { name: string; count: number }[]
+}
+
 export const api = {
   health: () => request<{ status: string; version: string; ai_mode: string }>('/health'),
-  ready: () => request<{ ready: boolean; agents: number; database: string }>('/ready'),
+  ready: () => request<{ ready: boolean; agents: number; logs?: number; database: string }>('/ready'),
   summary: () => request<Summary>('/summary'),
   agents: (params: URLSearchParams) => request<Page<Agent>>(`/agents?${params}`),
   agent: (id: string) => request<Agent & { findings: Finding[] }>(`/agents/${id}`),
@@ -53,6 +73,8 @@ export const api = {
   apply: (id: string, reviewer: string) => request<Record<string, unknown>>(`/approvals/${id}/apply`, { method: 'POST', body: JSON.stringify({ reviewer, confirmation: true }) }),
   audit: (params: URLSearchParams) => request<Page<AuditEvent>>(`/audit?${params}`),
   evaluation: () => request<Record<string, any>>('/evaluation'),
+  logs: (params: URLSearchParams) => request<Page<CyberLog>>(`/logs?${params}`),
+  logStats: () => request<LogStats>('/logs/stats'),
 }
 
 export function download(path: string) { window.open(`${BASE}${path}`, '_blank', 'noopener,noreferrer') }

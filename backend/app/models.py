@@ -71,3 +71,15 @@ class AuditEvent(Base):
     object_id: Mapped[str | None] = mapped_column(String(36), nullable=True)
     details: Mapped[dict] = mapped_column(JSON, default=dict)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow, index=True)
+
+
+class CyberLog(Base):
+    __tablename__ = "cyber_logs"
+    log_id: Mapped[str] = mapped_column(String(36), primary_key=True)
+    timestamp: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow, index=True)
+    organization_name: Mapped[str] = mapped_column(String(120), index=True)
+    source_ip: Mapped[str] = mapped_column(String(45))
+    user_id: Mapped[str] = mapped_column(String(64), index=True)
+    event_type: Mapped[str] = mapped_column(String(80), index=True)
+    severity: Mapped[str] = mapped_column(String(16), index=True)
+    action_taken: Mapped[str] = mapped_column(String(32), index=True)

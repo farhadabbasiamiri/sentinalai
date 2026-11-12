@@ -14,8 +14,8 @@ from sqlalchemy.orm import Session
 from .agent.review import run_review
 from .core.policy import RULES, evaluate
 from .database import Base, engine, get_db
-from .models import Agent, Approval, AuditEvent, Finding
-from .schemas import AgentCreate, DecisionRequest, ProposalRequest, ReviewRequest
+from .models import Agent, Approval, AuditEvent, Finding, CyberLog
+from .schemas import AgentCreate, DecisionRequest, ProposalRequest, ReviewRequest, CyberLogCreate
 from .seed import seed_database
 
 
@@ -58,6 +58,19 @@ def approval_json(item: Approval):
     return {"approval_id": item.approval_id, "agent_id": item.agent_id, "finding_id": item.finding_id, "change_type": item.change_type, "current_configuration": item.current_configuration, "proposed_change": item.proposed_change, "rationale": item.rationale, "evidence": item.evidence, "status": item.status, "reviewer": item.reviewer, "decision_at": iso(item.decision_at), "applied_at": iso(item.applied_at), "created_at": iso(item.created_at)}
 
 
+def cyber_log_json(log: CyberLog):
+    return {
+        "log_id": log.log_id,
+        "timestamp": iso(log.timestamp),
+        "organization_name": log.organization_name,
+        "source_ip": log.source_ip,
+        "user_id": log.user_id,
+        "event_type": log.event_type,
+        "severity": log.severity,
+        "action_taken": log.action_taken,
+    }
+
+
 def log_event(db: Session, action: str, object_type: str, object_id: str | None, details: dict):
     db.add(AuditEvent(event_id=str(uuid4()), action=action, object_type=object_type, object_id=object_id, details=details))
 
@@ -70,7 +83,12 @@ def health():
 @app.get("/api/ready")
 def ready(db: Session = Depends(get_db)):
     try:
-        return {"ready": True, "agents": db.query(Agent).count(), "database": "sqlite"}
+        return {
+            "ready": True,
+            "agents": db.query(Agent).count(),
+            "logs": db.query(CyberLog).count(),
+            "database": "sqlite"
+        }
     except Exception as exc:
         raise HTTPException(status_code=503, detail="Database is not ready") from exc
 
@@ -84,7 +102,19 @@ def summary(db: Session = Depends(get_db)):
     for finding in findings:
         by_category[finding.rule_id] = by_category.get(finding.rule_id, 0) + 1
     recent = db.query(AuditEvent).order_by(AuditEvent.created_at.desc()).limit(8).all()
-    return {"total_agents": len(agents), "risk_distribution": by_risk, "open_findings": len(findings), "over_privileged_agents": len({f.agent_id for f in findings if f.rule_id in {"GOV-001", "GOV-002", "GOV-007"}}), "pending_approvals": db.query(Approval).filter(Approval.status == "pending").count(), "sensitive_findings": sum(f.rule_id in {"GOV-003", "GOV-010"} for f in findings), "findings_by_category": by_category, "highest_risk_agents": [agent_json(agent) for agent in sorted(agents, key=lambda item: item.risk_score, reverse=True)[:6]], "recent_events": [{"event_id": event.event_id, "action": event.action, "object_type": event.object_type, "object_id": event.object_id, "details": event.details, "created_at": iso(event.created_at)} for event in recent]}
+    total_logs = db.query(CyberLog).count()
+    return {
+        "total_agents": len(agents),
+        "risk_distribution": by_risk,
+        "open_findings": len(findings),
+        "over_privileged_agents": len({f.agent_id for f in findings if f.rule_id in {"GOV-001", "GOV-002", "GOV-007"}}),
+        "pending_approvals": db.query(Approval).filter(Approval.status == "pending").count(),
+        "sensitive_findings": sum(f.rule_id in {"GOV-003", "GOV-010"} for f in findings),
+        "findings_by_category": by_category,
+        "highest_risk_agents": [agent_json(agent) for agent in sorted(agents, key=lambda item: item.risk_score, reverse=True)[:6]],
+        "recent_events": [{"event_id": event.event_id, "action": event.action, "object_type": event.object_type, "object_id": event.object_id, "details": event.details, "created_at": iso(event.created_at)} for event in recent],
+        "total_cyber_logs": total_logs
+    }
 
 
 @app.get("/api/agents")
@@ -304,6 +334,131 @@ def export_audit(db: Session = Depends(get_db)):
     for event in db.query(AuditEvent).order_by(AuditEvent.created_at.desc()).all():
         writer.writerow([csv_safe(iso(event.created_at)), csv_safe(event.action), csv_safe(event.object_type), csv_safe(event.object_id), csv_safe(json.dumps(event.details))])
     return Response(output.getvalue(), media_type="text/csv", headers={"Content-Disposition": "attachment; filename=sentinelai-audit.csv"})
+
+
+# ==============================================================================
+# Cyber Logs API Endpoints
+# ==============================================================================
+
+@app.get("/api/logs")
+def list_logs(
+    q: str = Query(default="", max_length=120),
+    organization: str = Query(default="", max_length=120),
+    severity: str = Query(default="", pattern="^(|Low|Medium|High|Critical|low|medium|high|critical)$"),
+    event_type: str = Query(default="", max_length=80),
+    action_taken: str = Query(default="", max_length=40),
+    sort_by: str = Query(default="timestamp", pattern="^(timestamp|organization_name|severity|event_type|action_taken)$"),
+    order: str = Query(default="desc", pattern="^(asc|desc)$"),
+    page: int = Query(default=1, ge=1),
+    page_size: int = Query(default=20, ge=1, le=100),
+    db: Session = Depends(get_db)
+):
+    query = db.query(CyberLog)
+    if isinstance(q, str) and q.strip():
+        search = f"%{q.strip()}%"
+        query = query.filter(or_(
+            CyberLog.organization_name.ilike(search),
+            CyberLog.user_id.ilike(search),
+            CyberLog.source_ip.ilike(search),
+            CyberLog.event_type.ilike(search)
+        ))
+    if isinstance(organization, str) and organization.strip():
+        query = query.filter(CyberLog.organization_name.ilike(f"%{organization.strip()}%"))
+    if isinstance(severity, str) and severity.strip():
+        query = query.filter(CyberLog.severity.ilike(severity.strip()))
+    if isinstance(event_type, str) and event_type.strip():
+        query = query.filter(CyberLog.event_type.ilike(f"%{event_type.strip()}%"))
+    if isinstance(action_taken, str) and action_taken.strip():
+        query = query.filter(CyberLog.action_taken.ilike(f"%{action_taken.strip()}%"))
+
+    total = query.count()
+    sort_field = sort_by if isinstance(sort_by, str) else "timestamp"
+    sort_order = order if isinstance(order, str) else "desc"
+    col = getattr(CyberLog, sort_field, CyberLog.timestamp)
+    order_clause = col.asc() if sort_order == "asc" else col.desc()
+
+    p = page if isinstance(page, int) and page >= 1 else 1
+    ps = page_size if isinstance(page_size, int) and 1 <= page_size <= 100 else 20
+    items = query.order_by(order_clause).offset((p - 1) * ps).limit(ps).all()
+
+    return {
+        "items": [cyber_log_json(item) for item in items],
+        "total": total,
+        "page": p,
+        "page_size": ps,
+        "pages": (total + ps - 1) // ps if ps else 1
+    }
+
+
+@app.get("/api/logs/stats")
+def log_stats(db: Session = Depends(get_db)):
+    logs = db.query(CyberLog).all()
+    severities = {"Low": 0, "Medium": 0, "High": 0, "Critical": 0}
+    actions = {}
+    orgs = {}
+    events = {}
+    for item in logs:
+        sev = item.severity.capitalize() if item.severity else "Low"
+        severities[sev] = severities.get(sev, 0) + 1
+        actions[item.action_taken] = actions.get(item.action_taken, 0) + 1
+        orgs[item.organization_name] = orgs.get(item.organization_name, 0) + 1
+        events[item.event_type] = events.get(item.event_type, 0) + 1
+
+    top_orgs = sorted([{"name": k, "count": v} for k, v in orgs.items()], key=lambda x: x["count"], reverse=True)[:6]
+    top_events = sorted([{"name": k, "count": v} for k, v in events.items()], key=lambda x: x["count"], reverse=True)[:6]
+
+    return {
+        "total_logs": len(logs),
+        "severity_distribution": severities,
+        "action_distribution": actions,
+        "top_organizations": top_orgs,
+        "top_events": top_events
+    }
+
+
+@app.get("/api/logs/{log_id}")
+def get_log(log_id: str, db: Session = Depends(get_db)):
+    item = db.get(CyberLog, log_id)
+    if not item:
+        raise HTTPException(status_code=404, detail="Cyber log entry not found")
+    return cyber_log_json(item)
+
+
+@app.post("/api/logs", status_code=201)
+def create_log(payload: CyberLogCreate, db: Session = Depends(get_db)):
+    entry = CyberLog(
+        log_id=str(uuid4()),
+        timestamp=datetime.now(timezone.utc),
+        organization_name=payload.organization_name,
+        source_ip=payload.source_ip,
+        user_id=payload.user_id,
+        event_type=payload.event_type,
+        severity=payload.severity,
+        action_taken=payload.action_taken
+    )
+    db.add(entry)
+    log_event(db, "cyber_log_created", "cyber_log", entry.log_id, {"event_type": entry.event_type, "severity": entry.severity})
+    db.commit()
+    return cyber_log_json(entry)
+
+
+@app.get("/api/reports/logs.csv")
+def export_logs_csv(db: Session = Depends(get_db)):
+    output = io.StringIO()
+    writer = csv.writer(output)
+    writer.writerow(["log_id", "timestamp", "organization_name", "source_ip", "user_id", "event_type", "severity", "action_taken"])
+    for item in db.query(CyberLog).order_by(CyberLog.timestamp.desc()).all():
+        writer.writerow([
+            csv_safe(item.log_id),
+            csv_safe(iso(item.timestamp)),
+            csv_safe(item.organization_name),
+            csv_safe(item.source_ip),
+            csv_safe(item.user_id),
+            csv_safe(item.event_type),
+            csv_safe(item.severity),
+            csv_safe(item.action_taken)
+        ])
+    return Response(output.getvalue(), media_type="text/csv", headers={"Content-Disposition": "attachment; filename=sentinelai-cyber-logs.csv"})
 
 
 @app.get("/api/reports/findings.json")
