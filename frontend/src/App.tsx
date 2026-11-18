@@ -2429,11 +2429,21 @@ function CyberLogsView({
                   </td>
                   <td>
                     <span className="mono" style={{ color: "#78aabd" }}>{log.source_ip}</span>
+                    {log.network_zone && (
+                      <div className="muted mono" style={{ fontSize: "0.72rem" }}>{log.network_zone}</div>
+                    )}
                   </td>
                   <td>
                     <span className="mono">{log.user_id}</span>
                   </td>
-                  <td>{log.event_type}</td>
+                  <td>
+                    <div>{log.event_type}</div>
+                    {log.mitre_id && (
+                      <span className="mono" style={{ fontSize: "0.72rem", color: "#a5b4fc", display: "inline-block" }}>
+                        MITRE {log.mitre_id} • {log.threat_category}
+                      </span>
+                    )}
+                  </td>
                   <td>
                     <Badge value={log.severity} />
                   </td>

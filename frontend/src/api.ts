@@ -45,6 +45,9 @@ export type CyberLog = {
   event_type: string
   severity: string
   action_taken: string
+  mitre_id?: string
+  threat_category?: string
+  network_zone?: string
 }
 
 export type LogStats = {
@@ -75,6 +78,7 @@ export const api = {
   evaluation: () => request<Record<string, any>>('/evaluation'),
   logs: (params: URLSearchParams) => request<Page<CyberLog>>(`/logs?${params}`),
   logStats: () => request<LogStats>('/logs/stats'),
+  logSummary: () => request<Record<string, any>>('/logs/summary'),
 }
 
 export function download(path: string) { window.open(`${BASE}${path}`, '_blank', 'noopener,noreferrer') }
