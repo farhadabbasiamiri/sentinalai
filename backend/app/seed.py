@@ -3,6 +3,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from uuid import uuid4
 
+from sqlalchemy import text
 from .database import Base, SessionLocal, engine
 from .models import Agent, AuditEvent, CyberLog, Finding
 from .core.policy import evaluate
@@ -92,6 +93,14 @@ AGENT_TEMPLATES = [
 
 
 def seed_database():
+    # Automatically upgrade cyber_logs table schema if mitre_id column is missing
+    with engine.connect() as conn:
+        result = conn.execute(text("PRAGMA table_info(cyber_logs)")).fetchall()
+        col_names = [r[1] for r in result]
+        if col_names and "mitre_id" not in col_names:
+            conn.execute(text("DROP TABLE cyber_logs"))
+            conn.commit()
+
     Base.metadata.create_all(bind=engine)
     db = SessionLocal()
     try:
@@ -195,8 +204,17 @@ def seed_database():
                 }
             ))
 
-        # Seed cyber logs if table is empty
+        # Seed cyber logs if table is empty or needs refresh
+        reseed_logs = False
         if db.query(CyberLog).count() == 0:
+            reseed_logs = True
+        else:
+            first_log = db.query(CyberLog).first()
+            if first_log and (getattr(first_log, "mitre_id", None) is None or getattr(first_log, "threat_category", None) is None):
+                db.query(CyberLog).delete()
+                reseed_logs = True
+
+        if reseed_logs:
             log_file = ROOT / "data" / "cyber_logs.json"
             if log_file.exists():
                 raw_logs = json.loads(log_file.read_text(encoding="utf-8"))
@@ -217,14 +235,17 @@ def seed_database():
                         user_id=entry.get("user_id", "user_0"),
                         event_type=entry.get("event_type", "General Alert"),
                         severity=entry.get("severity", "Low"),
-                        action_taken=entry.get("action_taken", "Logged")
+                        action_taken=entry.get("action_taken", "Logged"),
+                        mitre_id=entry.get("mitre_id", "T1078"),
+                        threat_category=entry.get("threat_category", "Initial Access"),
+                        network_zone=entry.get("network_zone", "Campus-LAN"),
                     ))
                 db.add(AuditEvent(
                     event_id=str(uuid4()),
                     action="cyber_logs_seed",
                     object_type="system",
                     object_id=None,
-                    details={"logs_created": len(raw_logs), "source": "data/cyber_logs.json"}
+                    details={"logs_created": len(raw_logs), "source": "data/cyber_logs.json", "framework": "MITRE ATT&CK"}
                 ))
 
         db.commit()

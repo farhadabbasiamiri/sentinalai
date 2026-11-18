@@ -18,6 +18,8 @@ from .models import Agent, Approval, AuditEvent, Finding, CyberLog
 from .schemas import AgentCreate, DecisionRequest, ProposalRequest, ReviewRequest, CyberLogCreate
 from .seed import seed_database
 
+ROOT = Path(__file__).resolve().parents[2]
+
 
 @asynccontextmanager
 async def lifespan(_app: FastAPI):
@@ -68,6 +70,9 @@ def cyber_log_json(log: CyberLog):
         "event_type": log.event_type,
         "severity": log.severity,
         "action_taken": log.action_taken,
+        "mitre_id": getattr(log, "mitre_id", "T1078") or "T1078",
+        "threat_category": getattr(log, "threat_category", "Initial Access") or "Initial Access",
+        "network_zone": getattr(log, "network_zone", "Campus-LAN") or "Campus-LAN",
     }
 
 
@@ -424,6 +429,17 @@ def get_log(log_id: str, db: Session = Depends(get_db)):
     return cyber_log_json(item)
 
 
+@app.get("/api/logs/summary")
+def get_log_summary():
+    summary_path = ROOT / "data" / "log_summary.json"
+    if summary_path.exists():
+        try:
+            return json.loads(summary_path.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return {"message": "Log summary not available. Run scripts/generate_synthetic_logs.py"}
+
+
 @app.post("/api/logs", status_code=201)
 def create_log(payload: CyberLogCreate, db: Session = Depends(get_db)):
     entry = CyberLog(
@@ -434,10 +450,13 @@ def create_log(payload: CyberLogCreate, db: Session = Depends(get_db)):
         user_id=payload.user_id,
         event_type=payload.event_type,
         severity=payload.severity,
-        action_taken=payload.action_taken
+        action_taken=payload.action_taken,
+        mitre_id=payload.mitre_id,
+        threat_category=payload.threat_category,
+        network_zone=payload.network_zone,
     )
     db.add(entry)
-    log_event(db, "cyber_log_created", "cyber_log", entry.log_id, {"event_type": entry.event_type, "severity": entry.severity})
+    log_event(db, "cyber_log_created", "cyber_log", entry.log_id, {"event_type": entry.event_type, "severity": entry.severity, "mitre_id": entry.mitre_id})
     db.commit()
     return cyber_log_json(entry)
 
@@ -446,7 +465,7 @@ def create_log(payload: CyberLogCreate, db: Session = Depends(get_db)):
 def export_logs_csv(db: Session = Depends(get_db)):
     output = io.StringIO()
     writer = csv.writer(output)
-    writer.writerow(["log_id", "timestamp", "organization_name", "source_ip", "user_id", "event_type", "severity", "action_taken"])
+    writer.writerow(["log_id", "timestamp", "organization_name", "source_ip", "user_id", "event_type", "severity", "action_taken", "mitre_id", "threat_category", "network_zone"])
     for item in db.query(CyberLog).order_by(CyberLog.timestamp.desc()).all():
         writer.writerow([
             csv_safe(item.log_id),
@@ -456,7 +475,10 @@ def export_logs_csv(db: Session = Depends(get_db)):
             csv_safe(item.user_id),
             csv_safe(item.event_type),
             csv_safe(item.severity),
-            csv_safe(item.action_taken)
+            csv_safe(item.action_taken),
+            csv_safe(getattr(item, "mitre_id", "T1078")),
+            csv_safe(getattr(item, "threat_category", "Initial Access")),
+            csv_safe(getattr(item, "network_zone", "Campus-LAN")),
         ])
     return Response(output.getvalue(), media_type="text/csv", headers={"Content-Disposition": "attachment; filename=sentinelai-cyber-logs.csv"})
 

@@ -83,3 +83,6 @@ class CyberLog(Base):
     event_type: Mapped[str] = mapped_column(String(80), index=True)
     severity: Mapped[str] = mapped_column(String(16), index=True)
     action_taken: Mapped[str] = mapped_column(String(32), index=True)
+    mitre_id: Mapped[str] = mapped_column(String(20), default="T1078", index=True)
+    threat_category: Mapped[str] = mapped_column(String(64), default="Initial Access", index=True)
+    network_zone: Mapped[str] = mapped_column(String(40), default="Campus-LAN", index=True)
