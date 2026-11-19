@@ -1,0 +1,6 @@
+# Optional Gradio demo dashboard (backend/gradio_app.py).
+# Kept separate so the core API and Docker image do not ship Gradio or Pillow.
+# Gradio 6.16+ fixes the advisories in Gradio 4.x/5.x. Gradio still caps Pillow below 13,
+# so pip-audit reports Pillow advisories for this optional, local-only demo (see docs/testing.md).
+-r requirements.txt
+gradio>=6.16,<7.0

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from fastapi.testclient import TestClient
 import pytest
 from sqlalchemy import create_engine
@@ -20,6 +21,9 @@ def client(monkeypatch):
     monkeypatch.setattr(seed, "SessionLocal", test_sessions)
     with TestClient(app) as test_client:
         yield test_client
+=======
+"""API flow tests. The `client` fixture (fresh seeded in-memory database) lives in conftest.py."""
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 
 
 def test_seeded_inventory_and_health(client):

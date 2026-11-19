@@ -44,8 +44,11 @@ import {
   type AuditEvent,
   type Finding,
   type Summary,
+<<<<<<< HEAD
   type CyberLog,
   type LogStats,
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 } from "./api";
 
 type PageName =
@@ -57,7 +60,10 @@ type PageName =
   | "Activity & audit"
   | "Approval queue"
   | "Reports & evaluation"
+<<<<<<< HEAD
   | "Cyber logs"
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
   | "Settings";
 const navigation: { name: PageName; icon: typeof Gauge }[] = [
   { name: "Overview", icon: LayoutDashboard },
@@ -68,7 +74,10 @@ const navigation: { name: PageName; icon: typeof Gauge }[] = [
   { name: "Activity & audit", icon: Activity },
   { name: "Approval queue", icon: ClipboardCheck },
   { name: "Reports & evaluation", icon: ArrowDownToLine },
+<<<<<<< HEAD
   { name: "Cyber logs", icon: Database },
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
   { name: "Settings", icon: Settings },
 ];
 const riskColors: Record<string, string> = {
@@ -159,6 +168,7 @@ export default function App() {
     null,
   );
   const [auditFilter, setAuditFilter] = useState("");
+<<<<<<< HEAD
   const [cyberLogs, setCyberLogs] = useState<CyberLog[]>([]);
   const [logStats, setLogStats] = useState<LogStats | null>(null);
   const [logTotal, setLogTotal] = useState(0);
@@ -167,6 +177,8 @@ export default function App() {
   const [logOrg, setLogOrg] = useState("");
   const [logSeverity, setLogSeverity] = useState("");
   const [logAction, setLogAction] = useState("");
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 
   async function loadBase() {
     setLoading(true);
@@ -196,6 +208,7 @@ export default function App() {
       setFindings(findingPage.items);
       setApprovals(approvalResponse.items);
       setAudits(auditPage.items);
+<<<<<<< HEAD
       try {
         const [logPageRes, statsRes] = await Promise.all([
           api.logs(new URLSearchParams({ page: "1", page_size: "20" })),
@@ -207,6 +220,8 @@ export default function App() {
       } catch {
         // Logs endpoint optional fallback
       }
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     } catch (reason) {
       setError(
         reason instanceof Error
@@ -388,6 +403,7 @@ export default function App() {
       setError(String(reason));
     }
   }
+<<<<<<< HEAD
   async function loadLogs(targetPage = 1) {
     const params = new URLSearchParams({ page: String(targetPage), page_size: "20" });
     if (logQuery) params.set("q", logQuery);
@@ -406,6 +422,8 @@ export default function App() {
       setBusy(false);
     }
   }
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 
   const nav = (
     <div className="nav-list">
@@ -435,8 +453,11 @@ export default function App() {
     "Approval queue": "Review proposed changes before they are simulated.",
     "Reports & evaluation":
       "Export findings and inspect measured evaluation results.",
+<<<<<<< HEAD
     "Cyber logs":
       "Synthetic security telemetry from Sudbury education, healthcare, banking, and industry.",
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     Settings: "Local service health and safe configuration status.",
   };
   const headingAction =
@@ -631,6 +652,7 @@ export default function App() {
                   onDownload={download}
                 />
               )}
+<<<<<<< HEAD
               {page === "Cyber logs" && (
                 <CyberLogsView
                   logs={cyberLogs}
@@ -651,6 +673,8 @@ export default function App() {
                   onDownload={download}
                 />
               )}
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
               {page === "Settings" && <SettingsView />}
             </>
           )}
@@ -2022,6 +2046,7 @@ function ReportsView({
                 className="btn"
                 onClick={() => onDownload("/reports/findings.csv")}
               >
+<<<<<<< HEAD
                 <ArrowDownToLine size={14} /> Findings CSV
               </button>
               <button
@@ -2029,6 +2054,9 @@ function ReportsView({
                 onClick={() => onDownload("/reports/logs.csv")}
               >
                 <ArrowDownToLine size={14} /> Cyber Logs CSV
+=======
+                <ArrowDownToLine size={14} /> Export CSV
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
               </button>
               <button
                 className="btn"
@@ -2211,6 +2239,7 @@ function SettingsView() {
     </div>
   );
 }
+<<<<<<< HEAD
 
 
 function CyberLogsView({
@@ -2490,3 +2519,5 @@ function CyberLogsView({
     </div>
   );
 }
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)

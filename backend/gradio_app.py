@@ -33,11 +33,16 @@ def review_agent(agent_id: str):
 def build_dashboard():
     summary = get_summary()
     if "error" in summary:
+<<<<<<< HEAD
         return {
             "summary": summary,
             "agent": "",
             "results": {"error": summary["error"]},
         }
+=======
+        # One value per output component: (summary JSON, agent ID textbox, result JSON).
+        return summary, "", {"error": summary["error"]}
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 
     agent_id = "SA-1002"
     try:
@@ -45,7 +50,11 @@ def build_dashboard():
     except Exception:
         result = {"error": "Unable to review the default agent."}
 
+<<<<<<< HEAD
     return {"summary": summary, "agent": agent_id, "results": result}
+=======
+    return summary, agent_id, result
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 
 
 with gr.Blocks(title="SentinelAI Governance Demo") as demo:

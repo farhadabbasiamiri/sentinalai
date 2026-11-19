@@ -1,0 +1,5 @@
+# Development and CI tooling: tests with coverage plus security scanners.
+-r requirements.txt
+pytest-cov>=5.0,<8.0
+pip-audit>=2.7,<3.0
+bandit>=1.7.9,<2.0

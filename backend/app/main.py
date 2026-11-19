@@ -14,8 +14,13 @@ from sqlalchemy.orm import Session
 from .agent.review import run_review
 from .core.policy import RULES, evaluate
 from .database import Base, engine, get_db
+<<<<<<< HEAD
 from .models import Agent, Approval, AuditEvent, Finding, CyberLog
 from .schemas import AgentCreate, DecisionRequest, ProposalRequest, ReviewRequest, CyberLogCreate
+=======
+from .models import Agent, Approval, AuditEvent, Finding
+from .schemas import AgentCreate, DecisionRequest, ProposalRequest, ReviewRequest
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 from .seed import seed_database
 
 
@@ -58,6 +63,7 @@ def approval_json(item: Approval):
     return {"approval_id": item.approval_id, "agent_id": item.agent_id, "finding_id": item.finding_id, "change_type": item.change_type, "current_configuration": item.current_configuration, "proposed_change": item.proposed_change, "rationale": item.rationale, "evidence": item.evidence, "status": item.status, "reviewer": item.reviewer, "decision_at": iso(item.decision_at), "applied_at": iso(item.applied_at), "created_at": iso(item.created_at)}
 
 
+<<<<<<< HEAD
 def cyber_log_json(log: CyberLog):
     return {
         "log_id": log.log_id,
@@ -71,6 +77,8 @@ def cyber_log_json(log: CyberLog):
     }
 
 
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 def log_event(db: Session, action: str, object_type: str, object_id: str | None, details: dict):
     db.add(AuditEvent(event_id=str(uuid4()), action=action, object_type=object_type, object_id=object_id, details=details))
 
@@ -83,12 +91,16 @@ def health():
 @app.get("/api/ready")
 def ready(db: Session = Depends(get_db)):
     try:
+<<<<<<< HEAD
         return {
             "ready": True,
             "agents": db.query(Agent).count(),
             "logs": db.query(CyberLog).count(),
             "database": "sqlite"
         }
+=======
+        return {"ready": True, "agents": db.query(Agent).count(), "database": "sqlite"}
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     except Exception as exc:
         raise HTTPException(status_code=503, detail="Database is not ready") from exc
 
@@ -102,6 +114,7 @@ def summary(db: Session = Depends(get_db)):
     for finding in findings:
         by_category[finding.rule_id] = by_category.get(finding.rule_id, 0) + 1
     recent = db.query(AuditEvent).order_by(AuditEvent.created_at.desc()).limit(8).all()
+<<<<<<< HEAD
     total_logs = db.query(CyberLog).count()
     return {
         "total_agents": len(agents),
@@ -115,6 +128,9 @@ def summary(db: Session = Depends(get_db)):
         "recent_events": [{"event_id": event.event_id, "action": event.action, "object_type": event.object_type, "object_id": event.object_id, "details": event.details, "created_at": iso(event.created_at)} for event in recent],
         "total_cyber_logs": total_logs
     }
+=======
+    return {"total_agents": len(agents), "risk_distribution": by_risk, "open_findings": len(findings), "over_privileged_agents": len({f.agent_id for f in findings if f.rule_id in {"GOV-001", "GOV-002", "GOV-007"}}), "pending_approvals": db.query(Approval).filter(Approval.status == "pending").count(), "sensitive_findings": sum(f.rule_id in {"GOV-003", "GOV-010"} for f in findings), "findings_by_category": by_category, "highest_risk_agents": [agent_json(agent) for agent in sorted(agents, key=lambda item: item.risk_score, reverse=True)[:6]], "recent_events": [{"event_id": event.event_id, "action": event.action, "object_type": event.object_type, "object_id": event.object_id, "details": event.details, "created_at": iso(event.created_at)} for event in recent]}
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 
 
 @app.get("/api/agents")
@@ -336,6 +352,7 @@ def export_audit(db: Session = Depends(get_db)):
     return Response(output.getvalue(), media_type="text/csv", headers={"Content-Disposition": "attachment; filename=sentinelai-audit.csv"})
 
 
+<<<<<<< HEAD
 # ==============================================================================
 # Cyber Logs API Endpoints
 # ==============================================================================
@@ -461,6 +478,8 @@ def export_logs_csv(db: Session = Depends(get_db)):
     return Response(output.getvalue(), media_type="text/csv", headers={"Content-Disposition": "attachment; filename=sentinelai-cyber-logs.csv"})
 
 
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 @app.get("/api/reports/findings.json")
 def export_findings_json(db: Session = Depends(get_db)):
     return {"methodology": "Deterministic project-specific policy weights, capped at 100; not proof of compromise.", "limitations": "All records are synthetic. Results do not establish production readiness.", "findings": [finding_json(item) for item in db.query(Finding).order_by(Finding.created_at.desc()).all()]}

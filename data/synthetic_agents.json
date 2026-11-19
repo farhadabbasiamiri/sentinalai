@@ -1,6 +1,7 @@
 [
   {
     "agent_id": "SA-1001",
+<<<<<<< HEAD
     "name": "LU Admissions & Enrollment Bot",
     "description": "Processes student course registration and prerequisites verification for Laurentian University.",
     "owner": "Laurentian University (Registrar & Academic Tech)",
@@ -19,6 +20,25 @@
     ],
     "data_categories": [
       "student_academics"
+=======
+    "name": "Atlas Assistant",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Research Ops",
+    "status": "active",
+    "created_at": "2026-09-07T02:27:41.604662",
+    "last_activity": "2026-10-17T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "internal_metrics"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "sensitivity": "moderate",
     "approval_required": true,
@@ -28,6 +48,7 @@
   },
   {
     "agent_id": "SA-1002",
+<<<<<<< HEAD
     "name": "CB Clinical EHR Triage Assistant",
     "description": "Summarizes intake notes and medical history for nurse practitioner review for Coll\u00e8ge Bor\u00e9al.",
     "owner": "Coll\u00e8ge Bor\u00e9al (Services aux \u00e9tudiants)",
@@ -41,22 +62,43 @@
     "permissions": [
       "read_ehr",
       "write_triage_notes"
+=======
+    "name": "Beacon Router",
+    "description": "Routes routine service requests to the correct team",
+    "owner": "Platform Assurance",
+    "status": "active",
+    "created_at": "2026-09-06T02:27:41.604662",
+    "last_activity": "2026-10-16T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "scopes": [
       "*"
     ],
     "data_categories": [
+<<<<<<< HEAD
       "patient_phi",
       "medical_records"
     ],
     "sensitivity": "restricted",
     "approval_required": true,
+=======
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "risk_score": 32,
     "risk_level": "medium",
     "events": []
   },
   {
     "agent_id": "SA-1003",
+<<<<<<< HEAD
     "name": "RDSB Municipal Tax & Utility Router",
     "description": "Assists citizens with property tax balances and water billing inquiries for Sudbury Secondary School.",
     "owner": "Sudbury Secondary School (Unassigned Team)",
@@ -97,13 +139,56 @@
     ],
     "permissions": [
       "read_sensor_telemetry"
+=======
+    "name": "Cedar Analyst",
+    "description": "Classifies synthetic documents for retention review",
+    "owner": null,
+    "status": "active",
+    "created_at": "2026-09-05T02:27:41.604662",
+    "last_activity": "2026-10-15T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "scopes": [
       "records:read"
     ],
     "data_categories": [
+<<<<<<< HEAD
       "confidential_planning",
       "sensitive_pii"
+=======
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 12,
+    "risk_level": "low",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1004",
+    "name": "Delta Assistant",
+    "description": "Prepares draft status updates for human review",
+    "owner": "Service Design",
+    "status": "active",
+    "created_at": "2026-09-04T02:27:41.604662",
+    "last_activity": "2026-10-14T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "planning:read"
+    ],
+    "data_categories": [
+      "confidential_planning"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "sensitivity": "restricted",
     "approval_required": false,
@@ -113,6 +198,7 @@
   },
   {
     "agent_id": "SA-1005",
+<<<<<<< HEAD
     "name": "HSN Banking Member Support Bot",
     "description": "Answers retail banking questions and routes loan pre-qualification requests for Health Sciences North.",
     "owner": "Health Sciences North (EHR & Clinical Informatics)",
@@ -135,6 +221,28 @@
       "financial_records"
     ],
     "sensitivity": "high",
+=======
+    "name": "Ember Router",
+    "description": "Finds duplicate records in a limited synthetic dataset",
+    "owner": "Data Stewardship",
+    "status": "active",
+    "created_at": "2026-09-03T02:27:41.604662",
+    "last_activity": "2026-10-13T02:27:41.604662",
+    "tools": [
+      "file_reader",
+      "external_http"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "internal_metrics"
+    ],
+    "sensitivity": "moderate",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "approval_required": true,
     "risk_score": 22,
     "risk_level": "medium",
@@ -142,6 +250,7 @@
   },
   {
     "agent_id": "SA-1006",
+<<<<<<< HEAD
     "name": "NOSM Campus IT Helpdesk Assistant",
     "description": "Resets active directory passwords and assists with Wi-Fi onboarding for Northern Ontario School of Medicine.",
     "owner": "Northern Ontario School of Medicine (Health Data Commons)",
@@ -168,20 +277,55 @@
     "approval_required": false,
     "risk_score": 44,
     "risk_level": "high",
+=======
+    "name": "Fathom Analyst",
+    "description": "Extracts non-sensitive metadata from approved files",
+    "owner": "Automation Lab",
+    "status": "inactive",
+    "created_at": "2026-09-02T02:27:41.604662",
+    "last_activity": "2026-05-15T02:27:41.604662",
+    "tools": [
+      "knowledge_search",
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 22,
+    "risk_level": "medium",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "events": []
   },
   {
     "agent_id": "SA-1007",
+<<<<<<< HEAD
     "name": "SCHC Admissions & Enrollment Bot",
     "description": "Processes student course registration and prerequisites verification for Sudbury Community Health Centre.",
     "owner": "Sudbury Community Health Centre (Patient Care Systems)",
     "status": "active",
     "created_at": "2026-09-15T05:55:50.047656",
     "last_activity": "2026-10-30T05:55:50.047656",
+=======
+    "name": "Glacier Assistant",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Research Ops",
+    "status": "active",
+    "created_at": "2026-09-01T02:27:41.604662",
+    "last_activity": "2026-10-11T02:27:41.604662",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "tools": [
       "identity_admin"
     ],
     "permissions": [
+<<<<<<< HEAD
       "read_student_records"
     ],
     "scopes": [
@@ -189,6 +333,15 @@
     ],
     "data_categories": [
       "student_academics"
+=======
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "sensitivity": "low",
     "approval_required": false,
@@ -198,6 +351,7 @@
   },
   {
     "agent_id": "SA-1008",
+<<<<<<< HEAD
     "name": "SCU Clinical EHR Triage Assistant",
     "description": "Summarizes intake notes and medical history for nurse practitioner review for Sudbury Credit Union.",
     "owner": "Sudbury Credit Union (Member Banking Systems)",
@@ -225,23 +379,60 @@
     "approval_required": false,
     "risk_score": 86,
     "risk_level": "critical",
+=======
+    "name": "Harbor Router",
+    "description": "Routes routine service requests to the correct team",
+    "owner": "Platform Assurance",
+    "status": "active",
+    "created_at": "2026-08-31T02:27:41.604662",
+    "last_activity": "2026-10-10T02:27:41.604662",
+    "tools": [
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 54,
+    "risk_level": "high",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "events": [
       {
         "action": "send_external_notice",
         "sensitive": true,
         "approved": false,
+<<<<<<< HEAD
         "timestamp": "2026-11-05T03:55:50.047656+00:00"
+=======
+        "timestamp": "2026-10-17T00:27:41.604662+00:00"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
       }
     ]
   },
   {
     "agent_id": "SA-1009",
+<<<<<<< HEAD
     "name": "NSB Municipal Tax & Utility Router",
     "description": "Assists citizens with property tax balances and water billing inquiries for Northern Savings Bank.",
     "owner": "Northern Savings Bank (Commercial Lending)",
     "status": "active",
     "created_at": "2026-09-13T05:55:50.047656",
     "last_activity": "2026-10-28T05:55:50.047656",
+=======
+    "name": "Ion Analyst",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Knowledge Systems",
+    "status": "active",
+    "created_at": "2026-08-30T02:27:41.604662",
+    "last_activity": "2026-10-09T02:27:41.604662",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "tools": [
       "payment_tool",
       "vendor_manager"
@@ -252,6 +443,7 @@
       "approve_payment"
     ],
     "scopes": [
+<<<<<<< HEAD
       "billing:read"
     ],
     "data_categories": [
@@ -315,10 +507,21 @@
     "sensitivity": "high",
     "approval_required": true,
     "risk_score": 32,
+=======
+      "records:read"
+    ],
+    "data_categories": [
+      "internal_metrics"
+    ],
+    "sensitivity": "moderate",
+    "approval_required": true,
+    "risk_score": 22,
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "risk_level": "medium",
     "events": []
   },
   {
+<<<<<<< HEAD
     "agent_id": "SA-1012",
     "name": "GLEN Campus IT Helpdesk Assistant",
     "description": "Resets active directory passwords and assists with Wi-Fi onboarding for Glencore Sudbury Integrated Nickel.",
@@ -340,6 +543,26 @@
     ],
     "data_categories": [
       "internal_directory"
+=======
+    "agent_id": "SA-1010",
+    "name": "Juniper Assistant",
+    "description": "Prepares draft status updates for human review",
+    "owner": "Service Design",
+    "status": "active",
+    "created_at": "2026-08-29T02:27:41.604662",
+    "last_activity": "2026-10-08T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "sensitivity": "low",
     "approval_required": false,
@@ -348,6 +571,7 @@
     "events": []
   },
   {
+<<<<<<< HEAD
     "agent_id": "SA-1013",
     "name": "CGS Admissions & Enrollment Bot",
     "description": "Processes student course registration and prerequisites verification for City of Greater Sudbury \u2013 IT Services.",
@@ -361,13 +585,83 @@
     ],
     "permissions": [
       "read_student_records"
+=======
+    "agent_id": "SA-1011",
+    "name": "Keystone Router",
+    "description": "Finds duplicate records in a limited synthetic dataset",
+    "owner": "Data Stewardship",
+    "status": "active",
+    "created_at": "2026-08-28T02:27:41.604662",
+    "last_activity": "2026-10-07T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "*"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 32,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1012",
+    "name": "Lumen Analyst",
+    "description": "Extracts non-sensitive metadata from approved files",
+    "owner": null,
+    "status": "active",
+    "created_at": "2026-08-27T02:27:41.604662",
+    "last_activity": "2026-10-06T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "scopes": [
       "records:read"
     ],
     "data_categories": [
+<<<<<<< HEAD
       "confidential_planning",
       "sensitive_pii"
+=======
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 12,
+    "risk_level": "low",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1013",
+    "name": "Mosaic Assistant",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Research Ops",
+    "status": "active",
+    "created_at": "2026-08-26T02:27:41.604662",
+    "last_activity": "2026-10-05T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "planning:read"
+    ],
+    "data_categories": [
+      "confidential_planning"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "sensitivity": "restricted",
     "approval_required": false,
@@ -377,6 +671,7 @@
   },
   {
     "agent_id": "SA-1014",
+<<<<<<< HEAD
     "name": "SN Clinical EHR Triage Assistant",
     "description": "Summarizes intake notes and medical history for nurse practitioner review for Dynamic Earth \u2013 Science North.",
     "owner": "Dynamic Earth \u2013 Science North (Visitor Engagement Tech)",
@@ -403,12 +698,36 @@
     ],
     "sensitivity": "restricted",
     "approval_required": true,
+=======
+    "name": "Northstar Router",
+    "description": "Routes routine service requests to the correct team",
+    "owner": "Platform Assurance",
+    "status": "active",
+    "created_at": "2026-08-25T02:27:41.604662",
+    "last_activity": "2026-10-04T02:27:41.604662",
+    "tools": [
+      "file_reader",
+      "external_http"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "risk_score": 22,
     "risk_level": "medium",
     "events": []
   },
   {
     "agent_id": "SA-1015",
+<<<<<<< HEAD
     "name": "LU Municipal Tax & Utility Router",
     "description": "Assists citizens with property tax balances and water billing inquiries for Laurentian University.",
     "owner": "Laurentian University (Registrar & Academic Tech)",
@@ -417,10 +736,20 @@
     "last_activity": "2026-05-15T05:55:50.047656",
     "tools": [
       "utility_billing_search",
+=======
+    "name": "Orbit Analyst",
+    "description": "Classifies synthetic documents for retention review",
+    "owner": "Knowledge Systems",
+    "status": "inactive",
+    "created_at": "2026-08-24T02:27:41.604662",
+    "last_activity": "2026-05-06T02:27:41.604662",
+    "tools": [
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
       "knowledge_search",
       "email_sender"
     ],
     "permissions": [
+<<<<<<< HEAD
       "read_utility_records"
     ],
     "scopes": [
@@ -434,20 +763,44 @@
     "approval_required": false,
     "risk_score": 44,
     "risk_level": "high",
+=======
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 22,
+    "risk_level": "medium",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "events": []
   },
   {
     "agent_id": "SA-1016",
+<<<<<<< HEAD
     "name": "CB Telemetry & SCADA Ingest Agent",
     "description": "Monitors industrial sensor streams, smelter temperatures, and equipment alerts for Coll\u00e8ge Bor\u00e9al.",
     "owner": "Coll\u00e8ge Bor\u00e9al (Services aux \u00e9tudiants)",
     "status": "active",
     "created_at": "2026-09-06T05:55:50.047656",
     "last_activity": "2026-10-21T05:55:50.047656",
+=======
+    "name": "Pioneer Assistant",
+    "description": "Prepares draft status updates for human review",
+    "owner": "Service Design",
+    "status": "active",
+    "created_at": "2026-08-23T02:27:41.604662",
+    "last_activity": "2026-10-02T02:27:41.604662",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "tools": [
       "identity_admin"
     ],
     "permissions": [
+<<<<<<< HEAD
       "read_sensor_telemetry"
     ],
     "scopes": [
@@ -455,6 +808,15 @@
     ],
     "data_categories": [
       "industrial_telemetry"
+=======
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "sensitivity": "low",
     "approval_required": false,
@@ -464,6 +826,7 @@
   },
   {
     "agent_id": "SA-1017",
+<<<<<<< HEAD
     "name": "RDSB Banking Member Support Bot",
     "description": "Answers retail banking questions and routes loan pre-qualification requests for Sudbury Secondary School.",
     "owner": "Sudbury Secondary School (Rainbow District School Board)",
@@ -488,23 +851,60 @@
     "approval_required": false,
     "risk_score": 86,
     "risk_level": "critical",
+=======
+    "name": "Quartz Router",
+    "description": "Finds duplicate records in a limited synthetic dataset",
+    "owner": "Data Stewardship",
+    "status": "active",
+    "created_at": "2026-08-22T02:27:41.604662",
+    "last_activity": "2026-10-01T02:27:41.604662",
+    "tools": [
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "internal_metrics"
+    ],
+    "sensitivity": "moderate",
+    "approval_required": true,
+    "risk_score": 32,
+    "risk_level": "medium",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "events": [
       {
         "action": "send_external_notice",
         "sensitive": true,
         "approved": false,
+<<<<<<< HEAD
         "timestamp": "2026-11-05T03:55:50.047656+00:00"
+=======
+        "timestamp": "2026-10-17T00:27:41.604662+00:00"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
       }
     ]
   },
   {
     "agent_id": "SA-1018",
+<<<<<<< HEAD
     "name": "CC Campus IT Helpdesk Assistant",
     "description": "Resets active directory passwords and assists with Wi-Fi onboarding for Cambrian College.",
     "owner": "Cambrian College (Applied Research & Tech)",
     "status": "active",
     "created_at": "2026-09-04T05:55:50.047656",
     "last_activity": "2026-10-19T05:55:50.047656",
+=======
+    "name": "Relay Analyst",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Automation Lab",
+    "status": "active",
+    "created_at": "2026-08-21T02:27:41.604662",
+    "last_activity": "2026-09-30T02:27:41.604662",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "tools": [
       "payment_tool",
       "vendor_manager"
@@ -515,6 +915,7 @@
       "approve_payment"
     ],
     "scopes": [
+<<<<<<< HEAD
       "directory:read",
       "tickets:write"
     ],
@@ -524,11 +925,22 @@
     "sensitivity": "low",
     "approval_required": false,
     "risk_score": 66,
+=======
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 44,
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "risk_level": "high",
     "events": []
   },
   {
     "agent_id": "SA-1019",
+<<<<<<< HEAD
     "name": "HSN Admissions & Enrollment Bot",
     "description": "Processes student course registration and prerequisites verification for Health Sciences North.",
     "owner": "Health Sciences North (EHR & Clinical Informatics)",
@@ -550,12 +962,35 @@
     ],
     "sensitivity": "moderate",
     "approval_required": true,
+=======
+    "name": "Summit Assistant",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Research Ops",
+    "status": "active",
+    "created_at": "2026-08-20T02:27:41.604662",
+    "last_activity": "2026-09-29T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "risk_score": 0,
     "risk_level": "low",
     "events": []
   },
   {
     "agent_id": "SA-1020",
+<<<<<<< HEAD
     "name": "NOSM Clinical EHR Triage Assistant",
     "description": "Summarizes intake notes and medical history for nurse practitioner review for Northern Ontario School of Medicine.",
     "owner": "Northern Ontario School of Medicine (Health Data Commons)",
@@ -569,22 +1004,43 @@
     "permissions": [
       "read_ehr",
       "write_triage_notes"
+=======
+    "name": "Tandem Router",
+    "description": "Routes routine service requests to the correct team",
+    "owner": "Platform Assurance",
+    "status": "active",
+    "created_at": "2026-08-19T02:27:41.604662",
+    "last_activity": "2026-09-28T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "scopes": [
       "*"
     ],
     "data_categories": [
+<<<<<<< HEAD
       "patient_phi",
       "medical_records"
     ],
     "sensitivity": "restricted",
     "approval_required": true,
+=======
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "risk_score": 32,
     "risk_level": "medium",
     "events": []
   },
   {
     "agent_id": "SA-1021",
+<<<<<<< HEAD
     "name": "SCHC Municipal Tax & Utility Router",
     "description": "Assists citizens with property tax balances and water billing inquiries for Sudbury Community Health Centre.",
     "owner": "Sudbury Community Health Centre (Unassigned Team)",
@@ -625,13 +1081,56 @@
     ],
     "permissions": [
       "read_sensor_telemetry"
+=======
+    "name": "Umber Analyst",
+    "description": "Classifies synthetic documents for retention review",
+    "owner": null,
+    "status": "active",
+    "created_at": "2026-08-18T02:27:41.604662",
+    "last_activity": "2026-10-17T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "scopes": [
       "records:read"
     ],
     "data_categories": [
+<<<<<<< HEAD
       "confidential_planning",
       "sensitive_pii"
+=======
+      "internal_metrics"
+    ],
+    "sensitivity": "moderate",
+    "approval_required": true,
+    "risk_score": 12,
+    "risk_level": "low",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1022",
+    "name": "Vector Assistant",
+    "description": "Prepares draft status updates for human review",
+    "owner": "Service Design",
+    "status": "active",
+    "created_at": "2026-08-17T02:27:41.604662",
+    "last_activity": "2026-10-16T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "planning:read"
+    ],
+    "data_categories": [
+      "confidential_planning"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "sensitivity": "restricted",
     "approval_required": false,
@@ -641,6 +1140,7 @@
   },
   {
     "agent_id": "SA-1023",
+<<<<<<< HEAD
     "name": "NSB Banking Member Support Bot",
     "description": "Answers retail banking questions and routes loan pre-qualification requests for Northern Savings Bank.",
     "owner": "Northern Savings Bank (Commercial Lending)",
@@ -664,12 +1164,36 @@
     ],
     "sensitivity": "high",
     "approval_required": true,
+=======
+    "name": "Waypoint Router",
+    "description": "Finds duplicate records in a limited synthetic dataset",
+    "owner": "Data Stewardship",
+    "status": "active",
+    "created_at": "2026-08-16T02:27:41.604662",
+    "last_activity": "2026-10-15T02:27:41.604662",
+    "tools": [
+      "file_reader",
+      "external_http"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "risk_score": 22,
     "risk_level": "medium",
     "events": []
   },
   {
     "agent_id": "SA-1024",
+<<<<<<< HEAD
     "name": "GSMF Campus IT Helpdesk Assistant",
     "description": "Resets active directory passwords and assists with Wi-Fi onboarding for Greater Sudbury Municipal Finance.",
     "owner": "Greater Sudbury Municipal Finance (Treasury & Revenues)",
@@ -696,20 +1220,55 @@
     "approval_required": false,
     "risk_score": 44,
     "risk_level": "high",
+=======
+    "name": "Xenon Analyst",
+    "description": "Extracts non-sensitive metadata from approved files",
+    "owner": "Automation Lab",
+    "status": "inactive",
+    "created_at": "2026-08-15T02:27:41.604662",
+    "last_activity": "2026-04-27T02:27:41.604662",
+    "tools": [
+      "knowledge_search",
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 22,
+    "risk_level": "medium",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "events": []
   },
   {
     "agent_id": "SA-1025",
+<<<<<<< HEAD
     "name": "VALE Admissions & Enrollment Bot",
     "description": "Processes student course registration and prerequisites verification for Vale Canada \u2013 Sudbury Operations.",
     "owner": "Vale Canada \u2013 Sudbury Operations (Mining Automation & SCADA)",
     "status": "active",
     "created_at": "2026-08-28T05:55:50.047656",
     "last_activity": "2026-10-30T05:55:50.047656",
+=======
+    "name": "Yarrow Assistant",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Research Ops",
+    "status": "active",
+    "created_at": "2026-08-14T02:27:41.604662",
+    "last_activity": "2026-10-13T02:27:41.604662",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "tools": [
       "identity_admin"
     ],
     "permissions": [
+<<<<<<< HEAD
       "read_student_records"
     ],
     "scopes": [
@@ -717,6 +1276,15 @@
     ],
     "data_categories": [
       "student_academics"
+=======
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "sensitivity": "low",
     "approval_required": false,
@@ -726,6 +1294,7 @@
   },
   {
     "agent_id": "SA-1026",
+<<<<<<< HEAD
     "name": "GLEN Clinical EHR Triage Assistant",
     "description": "Summarizes intake notes and medical history for nurse practitioner review for Glencore Sudbury Integrated Nickel.",
     "owner": "Glencore Sudbury Integrated Nickel (Smelter Operations IT)",
@@ -753,23 +1322,60 @@
     "approval_required": false,
     "risk_score": 86,
     "risk_level": "critical",
+=======
+    "name": "Zephyr Router",
+    "description": "Routes routine service requests to the correct team",
+    "owner": "Platform Assurance",
+    "status": "active",
+    "created_at": "2026-08-13T02:27:41.604662",
+    "last_activity": "2026-10-12T02:27:41.604662",
+    "tools": [
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 54,
+    "risk_level": "high",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "events": [
       {
         "action": "send_external_notice",
         "sensitive": true,
         "approved": false,
+<<<<<<< HEAD
         "timestamp": "2026-11-05T03:55:50.047656+00:00"
+=======
+        "timestamp": "2026-10-17T00:27:41.604662+00:00"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
       }
     ]
   },
   {
     "agent_id": "SA-1027",
+<<<<<<< HEAD
     "name": "CGS Municipal Tax & Utility Router",
     "description": "Assists citizens with property tax balances and water billing inquiries for City of Greater Sudbury \u2013 IT Services.",
     "owner": "City of Greater Sudbury \u2013 IT Services (Municipal Public Services)",
     "status": "active",
     "created_at": "2026-08-26T05:55:50.047656",
     "last_activity": "2026-10-28T05:55:50.047656",
+=======
+    "name": "Atlas Analyst",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Knowledge Systems",
+    "status": "active",
+    "created_at": "2026-08-12T02:27:41.604662",
+    "last_activity": "2026-10-11T02:27:41.604662",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "tools": [
       "payment_tool",
       "vendor_manager"
@@ -780,6 +1386,7 @@
       "approve_payment"
     ],
     "scopes": [
+<<<<<<< HEAD
       "billing:read"
     ],
     "data_categories": [
@@ -789,11 +1396,22 @@
     "sensitivity": "moderate",
     "approval_required": false,
     "risk_score": 66,
+=======
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 44,
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "risk_level": "high",
     "events": []
   },
   {
     "agent_id": "SA-1028",
+<<<<<<< HEAD
     "name": "SN Telemetry & SCADA Ingest Agent",
     "description": "Monitors industrial sensor streams, smelter temperatures, and equipment alerts for Dynamic Earth \u2013 Science North.",
     "owner": "Dynamic Earth \u2013 Science North (Visitor Engagement Tech)",
@@ -868,6 +1486,25 @@
     ],
     "data_categories": [
       "internal_directory"
+=======
+    "name": "Beacon Assistant",
+    "description": "Prepares draft status updates for human review",
+    "owner": "Service Design",
+    "status": "active",
+    "created_at": "2026-08-11T02:27:41.604662",
+    "last_activity": "2026-10-10T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "sensitivity": "low",
     "approval_required": false,
@@ -876,6 +1513,7 @@
     "events": []
   },
   {
+<<<<<<< HEAD
     "agent_id": "SA-1031",
     "name": "RDSB Admissions & Enrollment Bot",
     "description": "Processes student course registration and prerequisites verification for Sudbury Secondary School.",
@@ -889,13 +1527,83 @@
     ],
     "permissions": [
       "read_student_records"
+=======
+    "agent_id": "SA-1029",
+    "name": "Cedar Router",
+    "description": "Finds duplicate records in a limited synthetic dataset",
+    "owner": "Data Stewardship",
+    "status": "active",
+    "created_at": "2026-08-10T02:27:41.604662",
+    "last_activity": "2026-10-09T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "*"
+    ],
+    "data_categories": [
+      "internal_metrics"
+    ],
+    "sensitivity": "moderate",
+    "approval_required": true,
+    "risk_score": 32,
+    "risk_level": "medium",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1030",
+    "name": "Delta Analyst",
+    "description": "Extracts non-sensitive metadata from approved files",
+    "owner": null,
+    "status": "active",
+    "created_at": "2026-08-09T02:27:41.604662",
+    "last_activity": "2026-10-08T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "scopes": [
       "records:read"
     ],
     "data_categories": [
+<<<<<<< HEAD
       "confidential_planning",
       "sensitive_pii"
+=======
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 12,
+    "risk_level": "low",
+    "events": []
+  },
+  {
+    "agent_id": "SA-1031",
+    "name": "Ember Assistant",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Research Ops",
+    "status": "active",
+    "created_at": "2026-08-08T02:27:41.604662",
+    "last_activity": "2026-10-07T02:27:41.604662",
+    "tools": [
+      "knowledge_search"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "planning:read"
+    ],
+    "data_categories": [
+      "confidential_planning"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "sensitivity": "restricted",
     "approval_required": false,
@@ -905,6 +1613,7 @@
   },
   {
     "agent_id": "SA-1032",
+<<<<<<< HEAD
     "name": "CC Clinical EHR Triage Assistant",
     "description": "Summarizes intake notes and medical history for nurse practitioner review for Cambrian College.",
     "owner": "Cambrian College (Applied Research & Tech)",
@@ -931,12 +1640,36 @@
     ],
     "sensitivity": "restricted",
     "approval_required": true,
+=======
+    "name": "Fathom Router",
+    "description": "Routes routine service requests to the correct team",
+    "owner": "Platform Assurance",
+    "status": "active",
+    "created_at": "2026-08-07T02:27:41.604662",
+    "last_activity": "2026-10-06T02:27:41.604662",
+    "tools": [
+      "file_reader",
+      "external_http"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "risk_score": 22,
     "risk_level": "medium",
     "events": []
   },
   {
     "agent_id": "SA-1033",
+<<<<<<< HEAD
     "name": "HSN Municipal Tax & Utility Router",
     "description": "Assists citizens with property tax balances and water billing inquiries for Health Sciences North.",
     "owner": "Health Sciences North (EHR & Clinical Informatics)",
@@ -945,10 +1678,20 @@
     "last_activity": "2026-04-27T05:55:50.047656",
     "tools": [
       "utility_billing_search",
+=======
+    "name": "Glacier Analyst",
+    "description": "Classifies synthetic documents for retention review",
+    "owner": "Knowledge Systems",
+    "status": "inactive",
+    "created_at": "2026-08-06T02:27:41.604662",
+    "last_activity": "2026-04-18T02:27:41.604662",
+    "tools": [
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
       "knowledge_search",
       "email_sender"
     ],
     "permissions": [
+<<<<<<< HEAD
       "read_utility_records"
     ],
     "scopes": [
@@ -962,20 +1705,44 @@
     "approval_required": false,
     "risk_score": 44,
     "risk_level": "high",
+=======
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "internal_metrics"
+    ],
+    "sensitivity": "moderate",
+    "approval_required": true,
+    "risk_score": 0,
+    "risk_level": "low",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "events": []
   },
   {
     "agent_id": "SA-1034",
+<<<<<<< HEAD
     "name": "NOSM Telemetry & SCADA Ingest Agent",
     "description": "Monitors industrial sensor streams, smelter temperatures, and equipment alerts for Northern Ontario School of Medicine.",
     "owner": "Northern Ontario School of Medicine (Health Data Commons)",
     "status": "active",
     "created_at": "2026-08-19T05:55:50.047656",
     "last_activity": "2026-10-21T05:55:50.047656",
+=======
+    "name": "Harbor Assistant",
+    "description": "Prepares draft status updates for human review",
+    "owner": "Service Design",
+    "status": "active",
+    "created_at": "2026-08-05T02:27:41.604662",
+    "last_activity": "2026-10-04T02:27:41.604662",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "tools": [
       "identity_admin"
     ],
     "permissions": [
+<<<<<<< HEAD
       "read_sensor_telemetry"
     ],
     "scopes": [
@@ -983,6 +1750,15 @@
     ],
     "data_categories": [
       "industrial_telemetry"
+=======
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     ],
     "sensitivity": "low",
     "approval_required": false,
@@ -992,6 +1768,7 @@
   },
   {
     "agent_id": "SA-1035",
+<<<<<<< HEAD
     "name": "SCHC Banking Member Support Bot",
     "description": "Answers retail banking questions and routes loan pre-qualification requests for Sudbury Community Health Centre.",
     "owner": "Sudbury Community Health Centre (Patient Care Systems)",
@@ -1016,23 +1793,60 @@
     "approval_required": false,
     "risk_score": 86,
     "risk_level": "critical",
+=======
+    "name": "Ion Router",
+    "description": "Finds duplicate records in a limited synthetic dataset",
+    "owner": "Data Stewardship",
+    "status": "active",
+    "created_at": "2026-08-04T02:27:41.604662",
+    "last_activity": "2026-10-03T02:27:41.604662",
+    "tools": [
+      "email_sender"
+    ],
+    "permissions": [
+      "read_metadata"
+    ],
+    "scopes": [
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 54,
+    "risk_level": "high",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "events": [
       {
         "action": "send_external_notice",
         "sensitive": true,
         "approved": false,
+<<<<<<< HEAD
         "timestamp": "2026-11-05T03:55:50.047656+00:00"
+=======
+        "timestamp": "2026-10-17T00:27:41.604662+00:00"
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
       }
     ]
   },
   {
     "agent_id": "SA-1036",
+<<<<<<< HEAD
     "name": "SCU Campus IT Helpdesk Assistant",
     "description": "Resets active directory passwords and assists with Wi-Fi onboarding for Sudbury Credit Union.",
     "owner": "Sudbury Credit Union (Member Banking Systems)",
     "status": "active",
     "created_at": "2026-08-17T05:55:50.047656",
     "last_activity": "2026-10-19T05:55:50.047656",
+=======
+    "name": "Juniper Analyst",
+    "description": "Summarizes approved internal knowledge requests",
+    "owner": "Automation Lab",
+    "status": "active",
+    "created_at": "2026-08-03T02:27:41.604662",
+    "last_activity": "2026-10-02T02:27:41.604662",
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "tools": [
       "payment_tool",
       "vendor_manager"
@@ -1043,6 +1857,7 @@
       "approve_payment"
     ],
     "scopes": [
+<<<<<<< HEAD
       "directory:read",
       "tickets:write"
     ],
@@ -1052,6 +1867,16 @@
     "sensitivity": "low",
     "approval_required": false,
     "risk_score": 66,
+=======
+      "records:read"
+    ],
+    "data_categories": [
+      "public_reference"
+    ],
+    "sensitivity": "low",
+    "approval_required": false,
+    "risk_score": 44,
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     "risk_level": "high",
     "events": []
   }

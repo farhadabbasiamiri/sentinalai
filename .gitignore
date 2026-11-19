@@ -8,3 +8,15 @@ dist/
 *.tsbuildinfo
 .env
 backend/sentinelai.db
+<<<<<<< HEAD
+=======
+
+# test, coverage and security-scan output
+.coverage
+coverage.xml
+htmlcov/
+pytest-report.xml
+pip-audit*.json
+bandit-report.*
+frontend/test-results/
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)

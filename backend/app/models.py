@@ -71,6 +71,7 @@ class AuditEvent(Base):
     object_id: Mapped[str | None] = mapped_column(String(36), nullable=True)
     details: Mapped[dict] = mapped_column(JSON, default=dict)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow, index=True)
+<<<<<<< HEAD
 
 
 class CyberLog(Base):
@@ -83,3 +84,5 @@ class CyberLog(Base):
     event_type: Mapped[str] = mapped_column(String(80), index=True)
     severity: Mapped[str] = mapped_column(String(16), index=True)
     action_taken: Mapped[str] = mapped_column(String(32), index=True)
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)

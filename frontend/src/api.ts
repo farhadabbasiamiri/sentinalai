@@ -32,6 +32,7 @@ export type Summary = {
   total_agents: number; risk_distribution: Record<string, number>; open_findings: number
   over_privileged_agents: number; pending_approvals: number; sensitive_findings: number
   findings_by_category: Record<string, number>; highest_risk_agents: Agent[]; recent_events: AuditEvent[]
+<<<<<<< HEAD
   total_cyber_logs?: number
 }
 export type Page<T> = { items: T[]; total: number; page: number; page_size: number; pages?: number }
@@ -58,6 +59,14 @@ export type LogStats = {
 export const api = {
   health: () => request<{ status: string; version: string; ai_mode: string }>('/health'),
   ready: () => request<{ ready: boolean; agents: number; logs?: number; database: string }>('/ready'),
+=======
+}
+export type Page<T> = { items: T[]; total: number; page: number; page_size: number; pages?: number }
+
+export const api = {
+  health: () => request<{ status: string; version: string; ai_mode: string }>('/health'),
+  ready: () => request<{ ready: boolean; agents: number; database: string }>('/ready'),
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
   summary: () => request<Summary>('/summary'),
   agents: (params: URLSearchParams) => request<Page<Agent>>(`/agents?${params}`),
   agent: (id: string) => request<Agent & { findings: Finding[] }>(`/agents/${id}`),
@@ -73,8 +82,11 @@ export const api = {
   apply: (id: string, reviewer: string) => request<Record<string, unknown>>(`/approvals/${id}/apply`, { method: 'POST', body: JSON.stringify({ reviewer, confirmation: true }) }),
   audit: (params: URLSearchParams) => request<Page<AuditEvent>>(`/audit?${params}`),
   evaluation: () => request<Record<string, any>>('/evaluation'),
+<<<<<<< HEAD
   logs: (params: URLSearchParams) => request<Page<CyberLog>>(`/logs?${params}`),
   logStats: () => request<LogStats>('/logs/stats'),
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 }
 
 export function download(path: string) { window.open(`${BASE}${path}`, '_blank', 'noopener,noreferrer') }

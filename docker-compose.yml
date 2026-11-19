@@ -1,5 +1,9 @@
 services:
   api:
+<<<<<<< HEAD
+=======
+    image: sentinelai-api:local
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     build:
       context: .
       dockerfile: backend/Dockerfile
@@ -15,6 +19,10 @@ services:
       timeout: 3s
       retries: 5
   frontend:
+<<<<<<< HEAD
+=======
+    image: sentinelai-frontend:local
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
     build:
       context: .
       dockerfile: frontend/Dockerfile

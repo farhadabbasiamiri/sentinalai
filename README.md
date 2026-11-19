@@ -1,5 +1,10 @@
 ﻿# 12 A — SentinelAI: AI Governance and Permission Monitoring System
 
+<<<<<<< HEAD
+=======
+[![CI](https://github.com/farhadabbasiamiri/sentinalai/actions/workflows/ci.yml/badge.svg)](https://github.com/farhadabbasiamiri/sentinalai/actions/workflows/ci.yml)
+
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 SentinelAI is a local-first AI governance and permission monitoring MVP designed for synthetic cybersecurity education and capstone demonstration. The system inventories AI agents, evaluates their permissions against governance rules, exposes audit-ready evidence, and supports a human approval workflow before simulated remediation is applied.
 
 This repository is part of the Laurentian University capstone theme: Agent Governance and Permission Monitoring System. It is intentionally defensive and educational: all records are synthetic, no production credentials are used, and the system does not connect to live cloud accounts or real enterprise systems.
@@ -140,9 +145,17 @@ The evaluation runner executes labeled checks, policy validation, API flow check
 ### Requirements
 
 - Python 3.10+
+<<<<<<< HEAD
 - Node.js 20+
 - Git
 
+=======
+- Node.js 20.19+ or 22+ (required by Vite 8)
+- Git
+
+Check a machine with `python scripts/check_setup.py` after installing the requirements.
+
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 ### Windows PowerShell
 
 ```powershell
@@ -170,7 +183,14 @@ npm run dev
 
 ### Start the optional Gradio dashboard
 
+<<<<<<< HEAD
 ```powershell
+=======
+Gradio is kept out of the core requirements (see [docs/testing.md](docs/testing.md#4-security-review-results)). Install it only if you want this dashboard:
+
+```powershell
+python -m pip install -r requirements-gradio.txt
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 cd backend
 python gradio_app.py
 ```
@@ -216,6 +236,7 @@ cd scripts
 python run_evaluation.py
 ```
 
+<<<<<<< HEAD
 ## Validation and verification
 
 The repository has been validated in the local environment with fresh verification:
@@ -223,6 +244,28 @@ The repository has been validated in the local environment with fresh verificati
 - Backend tests: 10 passed
 - Frontend production build: successful
 - npm dependency audit: 0 vulnerabilities
+=======
+## Testing, security and CI
+
+Every push and pull request runs the GitHub Actions pipeline in `.github/workflows/ci.yml`:
+
+- **Backend tests** on Python 3.10, 3.12 and 3.13: 129 pytest cases with coverage, plus the evaluation pipeline
+- **Frontend build**: TypeScript check and Vite production build
+- **Security scans**: `pip-audit`, `npm audit` and Bandit static analysis
+- **Docker**: image build, API health smoke test, non-root check and a Trivy image scan
+
+Run the same checks locally:
+
+```powershell
+python -m pip install -r requirements-dev.txt
+python scripts/check_setup.py
+python -m pytest backend/tests -q --cov=backend/app
+python scripts/run_evaluation.py
+pip-audit -r requirements.txt
+```
+
+The test strategy, CI jobs and the dependency and container security review are documented in [docs/testing.md](docs/testing.md).
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 
 ## Demo expectations
 

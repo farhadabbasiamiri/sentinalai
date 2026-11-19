@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 from datetime import datetime
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
 from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator
@@ -41,6 +44,7 @@ class ProposalRequest(BaseModel):
 class DecisionRequest(BaseModel):
     reviewer: str = Field(min_length=2, max_length=120)
     confirmation: bool = False
+<<<<<<< HEAD
 
 
 class CyberLogCreate(BaseModel):
@@ -51,3 +55,5 @@ class CyberLogCreate(BaseModel):
     event_type: str = Field(min_length=2, max_length=80)
     severity: Literal["Low", "Medium", "High", "Critical"] = "Medium"
     action_taken: Literal["Logged", "Blocked", "Alert Sent", "Escalated"] = "Logged"
+=======
+>>>>>>> 4f3f30c (feat:Phase 6 -Testing, Security and DevOps)
