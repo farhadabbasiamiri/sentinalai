@@ -51,3 +51,6 @@ class CyberLogCreate(BaseModel):
     event_type: str = Field(min_length=2, max_length=80)
     severity: Literal["Low", "Medium", "High", "Critical"] = "Medium"
     action_taken: Literal["Logged", "Blocked", "Alert Sent", "Escalated"] = "Logged"
+    mitre_id: str = Field(default="T1078", max_length=20)
+    threat_category: str = Field(default="Initial Access", max_length=64)
+    network_zone: str = Field(default="Campus-LAN", max_length=40)
