@@ -1,0 +1,27 @@
+{
+  "name": "ai-ml-project",
+  "version": "1.0.0",
+  "description": "SentinelAI is a local-first AI governance and permission monitoring MVP designed for synthetic cybersecurity education and capstone demonstration. The system inventories AI agents, evaluates their permissions against governance rules, exposes audit-ready evidence, and supports a human approval workflow before simulated remediation is applied.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohithreddythodima/sentinalai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rohithreddythodima/sentinalai/issues"
+  },
+  "homepage": "https://github.com/rohithreddythodima/sentinalai#readme",
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "total_logs_generated": 500,
+  "severity_breakdown": {
+    "Low": 64,
+    "Medium": 131,
+    "High": 157,
+    "Critical": 148
+  },
+  "action_breakdown": {
+    "Logged": 130,
+    "Blocked": 85,
+    "Alert Sent": 170,
+    "Escalated": 115
+  },
+  "top_targeted_organizations": [
+    {
+      "organization_name": "Manitoulin Health Centre",
+      "event_count": 30
+    },
+    {
+      "organization_name": "KGHM International - Sudbury",
+      "event_count": 28
+    },
+    {
+      "organization_name": "Greater Sudbury Municipal Finance",
+      "event_count": 28
+    },
+    {
+      "organization_name": "Cambrian Financial Services",
+      "event_count": 27
+    },
+    {
+      "organization_name": "Northern Ontario School of Medicine",
+      "event_count": 27
+    },
+    {
+      "organization_name": "Sudbury Hydro IT Division",
+      "event_count": 27
+    },
+    {
+      "organization_name": "Health Sciences North",
+      "event_count": 27
+    },
+    {
+      "organization_name": "Sudbury Community Health Centre",
+      "event_count": 26
+    },
+    {
+      "organization_name": "City of Greater Sudbury - IT Services",
+      "event_count": 25
+    },
+    {
+      "organization_name": "Vale Canada - Sudbury Operations",
+      "event_count": 25
+    },
+    {
+      "organization_name": "Sudbury Secondary School",
+      "event_count": 25
+    },
+    {
+      "organization_name": "Dynamic Earth - Science North",
+      "event_count": 24
+    },
+    {
+      "organization_name": "Sudbury District Nurse Practitioner Clinics",
+      "event_count": 23
+    },
+    {
+      "organization_name": "Lo-Ellen Park Secondary School",
+      "event_count": 22
+    },
+    {
+      "organization_name": "Laurentian University",
+      "event_count": 21
+    },
+    {
+      "organization_name": "Northern Savings Bank",
+      "event_count": 20
+    },
+    {
+      "organization_name": "Sudbury Credit Union",
+      "event_count": 20
+    },
+    {
+      "organization_name": "Glencore Sudbury Integrated Nickel Operations",
+      "event_count": 19
+    },
+    {
+      "organization_name": "Lasalle Secondary School",
+      "event_count": 19
+    },
+    {
+      "organization_name": "Cambrian College",
+      "event_count": 19
+    },
+    {
+      "organization_name": "Collège Boréal",
+      "event_count": 18
+    }
+  ],
+  "top_event_types": [
+    {
+      "event_type": "SQL Injection Attempt",
+      "count": 40
+    },
+    {
+      "event_type": "Brute Force Login",
+      "count": 40
+    },
+    {
+      "event_type": "Port Scan Detected",
+      "count": 37
+    },
+    {
+      "event_type": "Insider Threat Alert",
+      "count": 36
+    },
+    {
+      "event_type": "Failed MFA Verification",
+      "count": 36
+    },
+    {
+      "event_type": "Unauthorized Access Attempt",
+      "count": 36
+    },
+    {
+      "event_type": "Firewall Rule Violation",
+      "count": 34
+    },
+    {
+      "event_type": "Data Exfiltration Attempt",
+      "count": 34
+    },
+    {
+      "event_type": "Privilege Escalation",
+      "count": 32
+    },
+    {
+      "event_type": "Phishing Email Reported",
+      "count": 32
+    },
+    {
+      "event_type": "Malware Detected",
+      "count": 30
+    },
+    {
+      "event_type": "Anomalous Network Traffic",
+      "count": 30
+    },
+    {
+      "event_type": "Ransomware Indicator",
+      "count": 28
+    },
+    {
+      "event_type": "Suspicious API Call",
+      "count": 28
+    },
+    {
+      "event_type": "Successful Admin Login",
+      "count": 27
+    }
+  ],
+  "sector_breakdown": [
+    {
+      "sector": "Corporate / Industrial",
+      "event_count": 148
+    },
+    {
+      "sector": "Healthcare",
+      "event_count": 133
+    },
+    {
+      "sector": "Education",
+      "event_count": 124
+    },
+    {
+      "sector": "Financial Services",
+      "event_count": 95
+    }
+  ],
+  "mitre_attack_distribution": [
+    {
+      "mitre_id": "T1190",
+      "count": 40
+    },
+    {
+      "mitre_id": "T1110",
+      "count": 40
+    },
+    {
+      "mitre_id": "T1046",
+      "count": 37
+    },
+    {
+      "mitre_id": "T1087",
+      "count": 36
+    },
+    {
+      "mitre_id": "T1111",
+      "count": 36
+    },
+    {
+      "mitre_id": "T1078",
+      "count": 36
+    },
+    {
+      "mitre_id": "T1562",
+      "count": 34
+    },
+    {
+      "mitre_id": "T1048",
+      "count": 34
+    },
+    {
+      "mitre_id": "T1068",
+      "count": 32
+    },
+    {
+      "mitre_id": "T1566",
+      "count": 32
+    },
+    {
+      "mitre_id": "T1204",
+      "count": 30
+    },
+    {
+      "mitre_id": "T1071",
+      "count": 30
+    },
+    {
+      "mitre_id": "T1486",
+      "count": 28
+    },
+    {
+      "mitre_id": "T1059",
+      "count": 28
+    },
+    {
+      "mitre_id": "T1078.002",
+      "count": 27
+    }
+  ],
+  "threat_category_breakdown": [
+    {
+      "threat_category": "Initial Access",
+      "count": 108
+    },
+    {
+      "threat_category": "Credential Access",
+      "count": 76
+    },
+    {
+      "threat_category": "Discovery",
+      "count": 73
+    },
+    {
+      "threat_category": "Defense Evasion",
+      "count": 61
+    },
+    {
+      "threat_category": "Execution",
+      "count": 58
+    },
+    {
+      "threat_category": "Exfiltration",
+      "count": 34
+    },
+    {
+      "threat_category": "Privilege Escalation",
+      "count": 32
+    },
+    {
+      "threat_category": "Command & Control",
+      "count": 30
+    },
+    {
+      "threat_category": "Impact",
+      "count": 28
+    }
+  ],
+  "network_zone_breakdown": [
+    {
+      "network_zone": "Smelter-Operations-LAN",
+      "count": 45
+    },
+    {
+      "network_zone": "SCADA-Industrial-Net",
+      "count": 40
+    },
+    {
+      "network_zone": "Clinical-EHR-Zone",
+      "count": 35
+    },
+    {
+      "network_zone": "Hospital-Core-LAN",
+      "count": 34
+    },
+    {
+      "network_zone": "Patient-Kiosk-Net",
+      "count": 34
+    },
+    {
+      "network_zone": "Academic-Core-Net",
+      "count": 34
+    },
+    {
+      "network_zone": "Corporate-DMZ",
+      "count": 33
+    },
+    {
+      "network_zone": "Student-Portal-VLAN",
+      "count": 32
+    },
+    {
+      "network_zone": "Mine-Automation-VLAN",
+      "count": 30
+    },
+    {
+      "network_zone": "Research-LAN",
+      "count": 30
+    },
+    {
+      "network_zone": "Telemetry-VLAN",
+      "count": 30
+    },
+    {
+      "network_zone": "Client-Portal-Net",
+      "count": 29
+    },
+    {
+      "network_zone": "Campus-Wi-Fi",
+      "count": 28
+    },
+    {
+      "network_zone": "Core-Banking-Zone",
+      "count": 25
+    },
+    {
+      "network_zone": "Treasury-Secure-LAN",
+      "count": 22
+    },
+    {
+      "network_zone": "ATM-Branch-VLAN",
+      "count": 19
+    }
+  ],
+  "simulated_campaigns": [
+    {
+      "campaign_name": "Cambrian Financial Services Credential & Ransomware Wave",
+      "primary_target": "Cambrian Financial Services",
+      "critical_high_events": 20,
+      "mitre_vectors": [
+        "T1110 (Brute Force)",
+        "T1486 (Ransomware)",
+        "T1048 (Exfiltration)"
+      ],
+      "status": "Contained & Monitored"
+    }
+  ],
+  "unique_source_ips": 486,
+  "unique_user_ids": 395,
+  "unique_organizations": 21,
+  "threat_index": 69.5,
+  "time_range": {
+    "earliest": "2026-10-19T00:50:10+00:00",
+    "latest": "2026-11-17T19:19:19+00:00"
+  },
+  "last_updated": "2026-11-18T00:30:23+00:00",
+  "compliance_standards": [
+    "MITRE ATT&CK v14",
+    "NIST SP 800-53",
+    "NIST AI RMF 1.0"
+  ],
+  "generator": "SentinelAI Area 2 - generate_synthetic_logs.py"
+}
