@@ -1,25 +1,4 @@
-from fastapi.testclient import TestClient
-import pytest
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy.pool import StaticPool
-
-from app import database, main, seed
-from app.main import app
-
-
-
-@pytest.fixture
-def client(monkeypatch):
-    test_engine = create_engine("sqlite://", connect_args={"check_same_thread": False}, poolclass=StaticPool)
-    test_sessions = sessionmaker(bind=test_engine, autoflush=False, autocommit=False)
-    monkeypatch.setattr(database, "engine", test_engine)
-    monkeypatch.setattr(database, "SessionLocal", test_sessions)
-    monkeypatch.setattr(main, "engine", test_engine)
-    monkeypatch.setattr(seed, "engine", test_engine)
-    monkeypatch.setattr(seed, "SessionLocal", test_sessions)
-    with TestClient(app) as test_client:
-        yield test_client
+"""API flow tests. The `client` fixture (fresh seeded in-memory database) lives in conftest.py."""
 
 
 def test_seeded_inventory_and_health(client):

@@ -1,5 +1,7 @@
 ﻿# 12 A — SentinelAI: AI Governance and Permission Monitoring System
 
+[![CI](https://github.com/farhadabbasiamiri/sentinalai/actions/workflows/ci.yml/badge.svg)](https://github.com/farhadabbasiamiri/sentinalai/actions/workflows/ci.yml)
+
 SentinelAI is a local-first AI governance and permission monitoring MVP designed for synthetic cybersecurity education and capstone demonstration. The system inventories AI agents, evaluates their permissions against governance rules, exposes audit-ready evidence, and supports a human approval workflow before simulated remediation is applied.
 
 This repository is part of the Laurentian University capstone theme: Agent Governance and Permission Monitoring System. It is intentionally defensive and educational: all records are synthetic, no production credentials are used, and the system does not connect to live cloud accounts or real enterprise systems.
@@ -140,8 +142,10 @@ The evaluation runner executes labeled checks, policy validation, API flow check
 ### Requirements
 
 - Python 3.10+
-- Node.js 20+
+- Node.js 20.19+ or 22+ (required by Vite 8)
 - Git
+
+Check a machine with `python scripts/check_setup.py` after installing the requirements.
 
 ### Windows PowerShell
 
@@ -170,7 +174,10 @@ npm run dev
 
 ### Start the optional Gradio dashboard
 
+Gradio is kept out of the core requirements (see [docs/testing.md](docs/testing.md#4-security-review-results)). Install it only if you want this dashboard:
+
 ```powershell
+python -m pip install -r requirements-gradio.txt
 cd backend
 python gradio_app.py
 ```
@@ -216,13 +223,26 @@ cd scripts
 python run_evaluation.py
 ```
 
-## Validation and verification
+## Testing, security and CI
 
-The repository has been validated in the local environment with fresh verification:
+Every push and pull request runs the GitHub Actions pipeline in `.github/workflows/ci.yml`:
 
-- Backend tests: 10 passed
-- Frontend production build: successful
-- npm dependency audit: 0 vulnerabilities
+- **Backend tests** on Python 3.10, 3.12 and 3.13: 129 pytest cases with coverage, plus the evaluation pipeline
+- **Frontend build**: TypeScript check and Vite production build
+- **Security scans**: `pip-audit`, `npm audit` and Bandit static analysis
+- **Docker**: image build, API health smoke test, non-root check and a Trivy image scan
+
+Run the same checks locally:
+
+```powershell
+python -m pip install -r requirements-dev.txt
+python scripts/check_setup.py
+python -m pytest backend/tests -q --cov=backend/app
+python scripts/run_evaluation.py
+pip-audit -r requirements.txt
+```
+
+The test strategy, CI jobs and the dependency and container security review are documented in [docs/testing.md](docs/testing.md).
 
 ## Demo expectations
 
